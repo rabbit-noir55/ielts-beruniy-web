@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { register, googleLogin, setAuth } from "../utils/api";
+import { isTelegram } from "../utils/telegram.js";
 
 function Register({ theme = "dark" }) {
   const isDark = theme === "dark";
@@ -119,7 +120,7 @@ function Register({ theme = "dark" }) {
         )}
 
         {/* Google Register Button */}
-        {import.meta.env.VITE_GOOGLE_CLIENT_ID && (
+        {import.meta.env.VITE_GOOGLE_CLIENT_ID && !isTelegram() && (
           <>
             <div className="mb-4">
               <div ref={googleBtnRef} className="flex justify-center"></div>

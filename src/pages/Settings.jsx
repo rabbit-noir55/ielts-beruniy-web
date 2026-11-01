@@ -12,6 +12,7 @@ import {
   setSettings,
   updateProfile,
 } from "../utils/api";
+import { isTelegram } from "../utils/telegram.js";
 
 const THEMES = [
   { id: "graphite", label: "Graphite", emoji: "🪨", swatch: "#17171A", darkSwatch: "#FFFFFF" },
@@ -488,6 +489,25 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
           </p>
         </div>
       </Section>
+
+      {/* Telegram */}
+      {authed && !isTelegram() && (
+        <Section title="Telegram">
+          <Row
+            title="Telegram bot"
+            desc="Bot orqali yangiliklar va eslatmalar"
+          >
+            <a
+              href={import.meta.env.VITE_TELEGRAM_BOT_URL || "https://t.me/ielts_beruniy_bot"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-sm font-bold text-white transition hover:opacity-90"
+            >
+              Ochish
+            </a>
+          </Row>
+        </Section>
+      )}
 
       {authed && (
         <>
