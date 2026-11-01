@@ -1,0 +1,940 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test15.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 39,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "FALSE"
+    ],
+    "2": [
+      "NOT GIVEN"
+    ],
+    "3": [
+      "TRUE"
+    ],
+    "4": [
+      "TRUE"
+    ],
+    "5": [
+      "TRUE"
+    ],
+    "6": [
+      "NOT GIVEN"
+    ],
+    "7": [
+      "FALSE"
+    ],
+    "8": [
+      "regular commuters",
+      "commuters"
+    ],
+    "9": [
+      "visual processing",
+      "research in visual processing"
+    ],
+    "10": [
+      "the secondary images",
+      "secondary images"
+    ],
+    "11": [
+      "the emotional value",
+      "emotional value"
+    ],
+    "12": [
+      "intrusive product placement",
+      "product placement"
+    ],
+    "13": [
+      "the holiday season",
+      "holiday season"
+    ],
+    "14": [
+      "iv"
+    ],
+    "15": [
+      "x"
+    ],
+    "16": [
+      "vii"
+    ],
+    "17": [
+      "ii"
+    ],
+    "18": [
+      "viii"
+    ],
+    "19": [
+      "i"
+    ],
+    "20": [
+      "v"
+    ],
+    "21": [
+      "A",
+      "E"
+    ],
+    "22": [
+      "A",
+      "E"
+    ],
+    "23": [
+      "abscess"
+    ],
+    "24": [
+      "Masai",
+      "the Masai"
+    ],
+    "25": [
+      "sweating",
+      "by sweating"
+    ],
+    "26": [
+      "immature"
+    ],
+    "27": [
+      "D"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "E"
+    ],
+    "32": [
+      "G"
+    ],
+    "33": [
+      "J"
+    ],
+    "34": [
+      "I"
+    ],
+    "35": [
+      "D"
+    ],
+    "36": [
+      "C"
+    ],
+    "37": [
+      "NO"
+    ],
+    "38": [
+      "YES"
+    ],
+    "39": [
+      "NOT GIVEN"
+    ],
+    "40": [
+      "NOT GIVEN"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Advertising needs attention",
+      "passages": [
+        "Jane Raymond, a consumer psychologist at the University of Wales in Bangor, is carefully holding and gazing at a bottle of Chillz mineral water like a baby. Despite being made of clear plastic it looks as if it has been carved from ice. This simple feature means shoppers are drawn to this bottle over the others on the shelf and cannot resist picking it up, Raymond says. She studies the subtle factors that motivate us to buy what we buy, and advises big companies on how powerful an advertisement is, and how it could be designed to stick more firmly in a consumer's memory. Most of all she works out how to attract your attention.",
+        "In today's fast-paced consumer world, attention is in short supply. Whether we are taking our time shopping in a mall, surfing the internet for information, or just watching television as a form of passive entertainment, consumers are surrounded by messages – experiencing one every 15 seconds of our waking lives, according to some estimates. Last year, companies worldwide spent $401 billion on advertising, according to the independent World Advertising Research Centre in the UK. But as the graveyard of failed products shows, they usually get it wrong.",
+        "Nine out of 10 new products meet an early death, says Jamie Rayner, director of research at ID Magasin, a UK consultancy specialising in consumer behaviour. And the reason, he explains, is simple: conventional advertising has ceased to work. Rayner and his colleagues have measured how consumers, in particular regular commuters, react to advertising, and their conclusion should alarm many executives. They used a camera embedded in a pair of glasses to record their gaze as they glanced at advertisements on their journey to and from work. After analysing the recordings and questioning the subjects, they found that most of the advertisements made no impression at all: only about one per cent could be recalled without prompting. It seems that although we may be looking at brands and advertisements all day long, most of the time we're not taking anything in.",
+        "Raymond thinks she knows why. Her move from research in visual processing into consumer psychology began in the early 1990s, when she discovered some strange behaviour in the brain's attentional system. She showed people a stream of letters and numbers on a screen and asked them to look out for a white letter or an X. When she asked her volunteers afterwards what they had seen, she found that if the X appeared up to half a second or so after the white letter, or vice versa, people failed to see it. She concluded that if something catches your attention, your brain is blind to anything else for a short period afterwards. She called this effect the 'attentional blink'. In short, the reason most advertising doesn't work is that we're in a severe state of attentional overload. Unless advertising is presented in a way the brain can absorb, it is simply not seen, Raymond says.",
+        "So what does this mean for advertisers? A typical television advertisement consists of a series of attention-grabbing images interspersed with the product. But unless the scenes in the advertisement are cut to take account of attentional blink, the brain is likely to ignore the information the advertiser wants to get across. The same applies to magazine advertisements, where viewers often register the main image but fail to pick up on the secondary images – the bits advertisers often desperately want us to see. Raymond says advertisers consistently fail to consider how easily the brain misses the point. It's not that they haven't realized that the space and time they have to get their message across has shrunk. But advertisers respond by cramming in ever more complex information. Raymond is opposed to this and her advice is simple: deliver your message in a straightforward manner and do so slowly, gently and concisely.",
+        "After her research on the attentional blink, she wondered whether attention would be linked to other processes in the brain, particularly emotion. Could our attentional state influence whether we like or dislike a brand, for example? Today, companies are hugely interested in the emotional value of their brand as they want their products to make us feel good. It is well known that if something elicits positive emotions then you are more likely to take notice of it. But Raymond's further research also demonstrated that if people are distracted by an image or a brand when performing an intellectually demanding task they tend to instantly dislike the brand, regardless of its emotional value. So for example, if you are reading a web page when a banner advertisement starts flashing, or are watching a film with intrusive product placement, it is probable you will come to dislike the brand whatever it is.",
+        "This contradicts the more-exposure-the-better rule most of the industry follows, says Raymond, and means that advertising can backfire horribly. Advertisers tend to buy as much exposure for a product as they can, through television and radio commercials, billboards, whatever they think will attract their target audience, but again Raymond has found that this doesn't necessarily work in their favour. Perhaps the most dangerous time, says Raymond, is the holiday season when advertisers are madly competing to grab people's attention. 'Marketers don't realize that humans digest information like they do food. Once they are full, if they are shown any more food they're disgusted,' she says."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Choose NO MORE THAN THREE WORDS from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "Jane Raymond stated that Chillz mineral water is packaged in a way that is unattractive to consumers.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "Consumers are still exposed to more advertising through television commercials than through the medium of the internet.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "According to Jamie Rayner, the reason that most products are discontinued is that advertising fails to attract consumers.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "Jamie Rayner shows that people are no longer influenced by traditional advertisements.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "Jamie Rayner believed that commercials should be simpler in their content.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "Advertisements showing unfamiliar brands affect a person's concentration more than ones with familiar brands.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "true_false_not_given",
+          "prompt": "Jane Raymond suggests that a product should be advertised in as many ways as possible.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "What group of consumers were specifically targeted in Jamie Rayner's research?",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "What subject did Jane Raymond use to study before focusing on the behaviour of consumers?",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "According to the writer, what important aspect of an advertisement in print do many people fail to notice?",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "According to the writer, what do companies today want their products to have in order to make consumers feel positive about themselves?",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "What does Jane Raymond say will annoy someone watching a movie?",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "According to Jane Raymond, when do advertisers promote their products most fiercely?",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Homo ergaster",
+      "passages": [
+        "A  A huge debate rages about human origins, but the broad consensus among scientists is that all the different species of human (hominid) that have ever existed were descended from ape-like creatures that walked upright in Africa more than six million years ago. These creatures had many descendants, most of which became extinct, but the first creature we would recognise as human first appeared in Africa almost two million years ago. Homo ergaster, meaning 'working human', evolved during an accelerated period of global cooling and drying that cleared more and more tropical rainforest from Africa, and created desert in the northern half of the continent.",
+        "B  One of the best sources of information about Homo ergaster is a skeleton found in 1984 by Alan Walker and Kamoya Kimeu at Nariokotome in West Turkana, Kenya. The remains turned out to be those of a young boy, who was between 11 and 13 when he died. Around 1.5 million years ago, the boy's body sank into the marsh where he died, and became fossilised. His teeth showed that he had an abscess where his milk teeth fell out, indicating that he may have died from blood poisoning. Nariokotome Boy, as he has been dubbed, was about 160 centimetres (5 feet 3 inches) tall, and would have stood at 185 centimetres (6 feet 1 inch) had he reached adulthood.",
+        "C  He was clearly a strong boy, with a body shape that was perfectly adapted to an active life in the sun. Human populations living on equatorial grasslands today, such as the Masai in Kenya, have the same tall, linear physique. This body shape creates a large surface area over which the body can cool itself more easily, preventing Nariokotome Boy from overheating under the blazing sun. This hominid was probably the first to regulate its temperature through sweating. For creatures that must remain active at midday, in a sunny, dry habitat, sweating is the most effective mechanism for maintaining safe body and brain temperatures. Homo ergaster's body was probably smooth and largely hairless, since heat loss through sweating occurs most efficiently through naked skin. Its skin was almost certainly dark, to protect it from the sun's harmful rays.",
+        "D  Homo ergaster travelled long distances on foot, as it worked hard to scavenge enough meat to feed its body and brain. In order to increase the energy efficiency of muscles involved in upright walking, Homo ergaster developed a narrower pelvis. But its slim hips came at a price. Firstly, the narrowing of the pelvis caused the lower part of the rib cage to narrow. In order to prevent constriction of the lungs, the upper part of Homo ergaster's rib cage expanded, giving its chest a human barrel shape. Secondly, and more importantly, the narrowing of the pelvis constricted the female birth canal. This single anatomical change seems to have had profound consequences for human society.",
+        "E  As brains increased in size, mothers had to push increasingly big-brained infants through an already tight pelvis, and that caused problems. The eventual solution was a trade-off. While chimpanzees are born with their brains almost fully mature, humans are born with a comparatively immature brain. This makes human babies helpless and vulnerable during their first year of life as their brains make vital neural connections. As a result, human mothers need to be well nourished to keep up with the demands of their babies, making them increasingly reliant on the support of their male partner and other members of their group. Many experts regard this shift as the beginning of the nuclear family with its distinctively human pattern of sharing and cooperation between males and females.",
+        "F  Nariokotome Boy had a thick, bony ridge across his eyes. A pair of front teeth stuck out at an angle from a large, projecting mouth below a long, wide nose. His anatomy does not seem developed enough to have given him the control over his breathing needed for complex speech, so Homo ergaster probably communicated using hand movements supplemented by a limited range of sounds. The other relatively small teeth of Nariokotome Boy suggest that Homo ergaster relied more than his ancestors on stone tools for cutting up meat before eating. To begin with, Homo ergaster used primitive implements, which were little more than chipped rocks with sharp edges. But around 1.6 million years ago, Homo ergaster developed symmetrical, heart-shaped handaxes, which gave the hominid greater control over the butchering of meat.",
+        "G  Shortly after Homo ergaster appeared 1.9 million years ago, humans began to leave Africa for the first time and to move onto other continents. Archaeological records show they spread over an area ranging from Turkey into Asia, although the population may not have been very large. This newfound desire to travel may have been dictated by an increasing reliance on meat for food. Carnivores generally need much larger ranges than similar-sized herbivores, because carnivores have fewer total calories, in the form of animal prey, available to them per unit area of their territory."
+      ],
+      "instructions": [
+        "Reading Passage 2 has seven paragraphs, A-G. Choose the correct heading for each paragraph from the list of headings below.",
+        "Choose TWO letters, A-E.",
+        "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "Paragraph A",
+          "context": "List of Headings: i. Assumptions about language and nutrition, ii. A series of developments involving bone structure, iii. Conflicting theories about Homo ergaster's ancestry, iv. The earliest occurrence of a human-like species, v. The beginnings of human migration, vi. Evidence of conflict between populations, vii. Physical features adapted for climate, viii. The social behaviour linked to human reproductive features, ix. Technical advances in the analysis of human remains, x. The valuable discovery of a specimen",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Paragraph B",
+          "context": "List of Headings: i. Assumptions about language and nutrition, ii. A series of developments involving bone structure, iii. Conflicting theories about Homo ergaster's ancestry, iv. The earliest occurrence of a human-like species, v. The beginnings of human migration, vi. Evidence of conflict between populations, vii. Physical features adapted for climate, viii. The social behaviour linked to human reproductive features, ix. Technical advances in the analysis of human remains, x. The valuable discovery of a specimen",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Paragraph C",
+          "context": "List of Headings: i. Assumptions about language and nutrition, ii. A series of developments involving bone structure, iii. Conflicting theories about Homo ergaster's ancestry, iv. The earliest occurrence of a human-like species, v. The beginnings of human migration, vi. Evidence of conflict between populations, vii. Physical features adapted for climate, viii. The social behaviour linked to human reproductive features, ix. Technical advances in the analysis of human remains, x. The valuable discovery of a specimen",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Paragraph D",
+          "context": "List of Headings: i. Assumptions about language and nutrition, ii. A series of developments involving bone structure, iii. Conflicting theories about Homo ergaster's ancestry, iv. The earliest occurrence of a human-like species, v. The beginnings of human migration, vi. Evidence of conflict between populations, vii. Physical features adapted for climate, viii. The social behaviour linked to human reproductive features, ix. Technical advances in the analysis of human remains, x. The valuable discovery of a specimen",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Paragraph E",
+          "context": "List of Headings: i. Assumptions about language and nutrition, ii. A series of developments involving bone structure, iii. Conflicting theories about Homo ergaster's ancestry, iv. The earliest occurrence of a human-like species, v. The beginnings of human migration, vi. Evidence of conflict between populations, vii. Physical features adapted for climate, viii. The social behaviour linked to human reproductive features, ix. Technical advances in the analysis of human remains, x. The valuable discovery of a specimen",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Paragraph F",
+          "context": "List of Headings: i. Assumptions about language and nutrition, ii. A series of developments involving bone structure, iii. Conflicting theories about Homo ergaster's ancestry, iv. The earliest occurrence of a human-like species, v. The beginnings of human migration, vi. Evidence of conflict between populations, vii. Physical features adapted for climate, viii. The social behaviour linked to human reproductive features, ix. Technical advances in the analysis of human remains, x. The valuable discovery of a specimen",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Paragraph G",
+          "context": "List of Headings: i. Assumptions about language and nutrition, ii. A series of developments involving bone structure, iii. Conflicting theories about Homo ergaster's ancestry, iv. The earliest occurrence of a human-like species, v. The beginnings of human migration, vi. Evidence of conflict between populations, vii. Physical features adapted for climate, viii. The social behaviour linked to human reproductive features, ix. Technical advances in the analysis of human remains, x. The valuable discovery of a specimen",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21-22",
+          "number": 21,
+          "type": "multiple_choice",
+          "prompt": "Which TWO physical features did adult Homo ergaster have?",
+          "context": "",
+          "options": [
+            "A two protruding teeth",
+            "B wide hips",
+            "C a small brain",
+            "D short limbs",
+            "E a wide upper rib cage"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "input",
+          "prompt": "Evidence of a large in Nariokotome Boy's jaw indicates a possible cause of death.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q23",
+              "placeholder": "23"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "Nariokotome Boy's body shape was similar to that of the present-day .",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q24",
+              "placeholder": "24"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "Unlike earlier hominids, Homo ergaster was probably able to keep cool by .",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q25",
+              "placeholder": "25"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "Early humans adapted to their narrow pelvis by giving birth to infants whose brain was still .",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q26",
+              "placeholder": "26"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "The Long Road to Artificial Intelligence",
+      "passages": [
+        "In 1950, the computing pioneer Alan Turing published a paper in the journal Mind entitled 'Computing Machinery and Intelligence'. It was the first serious, scholarly treatment of the concept of Artificial Intelligence (AI). Turing predicted that by the year 2000 the majority of people would be able to speak of machines thinking without expecting to be contradicted, envisaging a world very different from the one he lived in.",
+        "Despite Turing's prediction, human-level artificial intelligence had not been achieved by the year 2000. Nevertheless, one significant milestone in artificial intelligence had recently been attained. In 1997 'Deep Blue', a computer developed by IBM, defeated the world chess champion Garry Kasparov. Kasparov had beaten previous computer chess programs, which to him seemed predictable and mechanical, but he allegedly said he sensed an 'alien intelligence' on the other side of the board when he played against Deep Blue.",
+        "It is instructive to stand back and ponder this moment in the history of AI. The field had accomplished something that half a century beforehand might have been considered its crowning achievement. Humanity had been outstripped by a machine. Of course, a car can move faster than the fastest human sprinter, and a crane can carry far more than a champion weight-lifter. But intellectual prowess is what sets human beings apart from the rest of the animals, and chess is a supremely intellectual pursuit.",
+        "Yet somehow we seemed no nearer to human-level AI than in Turing's time. How could this be? The problem with Deep Blue was that it was a specialist. All it could do was play chess. Contrast this with a typical human adult. Take the office worker who has just walked past the window of the café where I am sitting with my laptop. Her day has no doubt been a busy patchwork of activities — making a packed lunch, reviewing the children's homework, driving to work, composing emails, fixing the photocopier, and so on. Each of these activities requires the exercise of multiple sensorimotor skills. Consider the task of making a packed lunch. This involves retrieving utensils and ingredients from various places, opening packets, chopping, cutting, spreading, and so on.",
+        "In short, a human being is a generalist. A human chess champion can do a whole lot more than just play chess. Moreover, a human being is adaptive. Fixing photocopiers is not an innate capability. It is learned. Had the office worker been born in a different century or a different culture, she would have acquired a different set of skills. And if she has the misfortune to lose her present job, she can re-train for another one. The achievements of AI research in a variety of specialist domains (chess being just one among many success stories) contrast starkly with the field's failure to produce a machine with general purpose, adaptive intelligence. So our basic question is, how could we produce artificial general intelligence?",
+        "An essential feature of biological intelligence is embodiment. Unlike Deep Blue, a human being is an animal with a body, and its brain is part of that body. The brain of an animal has evolved to prevent any harm from coming to that body and to perpetuate the genes that it carries. The body has muscles, enabling it to move, and senses, so that its actions can be made to react to the state of the environment, the better to achieve its goal. The brain shapes the animal's actions according to what it perceives. Human intelligence, for all its glorious achievements, is fundamentally an extension of animal intelligence, and the human capacities for language, reason, and creativity all rest on a sensorimotor foundation.",
+        "So while the endeavour to create artificial general intelligence might succeed without much that is essential to biological life, such as metabolism and reproduction, perhaps embodiment is a methodological necessity. Perhaps the need to engage with a messy, dynamic, physical environment full of complex and varied objects, both animate and inanimate, is at the root of intelligence. The only way to form a reliable judgment of the intelligence of an artifact is to observe its behaviour in an environment like our own. And the only way to achieve human-level AI, according to this way of thinking, is through robotics. Our basic question can then be reformulated: How can we endow a robot with general intelligence?",
+        "One possibility is that general intelligence is simply the sum of many specialist sensorimotor skills, and up to now, AI hasn't replicated enough of them. So when robots have been given a certain critical mass of skills, general intelligence will somehow emerge. But even if we gloss over the many engineering questions this proposal begs, it remains unconvincing. The products of such an approach might briefly give the appearance of general intelligence. But nobody would be fooled for very long. The multi-specialist robot is going to get stuck as soon as it has to face a problem that is outside its areas of expertise, an inevitable occurrence in an ever-changing world.",
+        "Perhaps the capacity to learn is enough to plug the gap here. In an unfamiliar situation, a new skill can be learned. Indeed, learning in its various forms is the backdrop to all intelligence. But learning is time-consuming and risky. The hallmark of general intelligence in a robot is therefore the ability to adapt an existing set of behaviours to new challenges, and to do so without recourse to trial and error or to training by a third party. Only when that can be achieved will artificial intelligence truly match human intelligence."
+      ],
+      "instructions": [
+        "Choose the correct letter, A, B, C or D.",
+        "Complete the summary using the list of words, A-J, below.",
+        "Do the following statements agree with the claims of the writer in Reading Passage 3?"
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "single_choice",
+          "prompt": "When playing chess against the computer Deep Blue, Kasparov felt that it",
+          "context": "",
+          "options": [
+            "A had been programmed to predict his moves.",
+            "B was able to see into his own thought processes.",
+            "C used powers that were potentially dangerous to humans.",
+            "D was fundamentally different from others he had encountered."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "single_choice",
+          "prompt": "What is the writer's main idea in the third paragraph?",
+          "context": "",
+          "options": [
+            "A In the last 50 years machines have advanced more quickly than expected.",
+            "B There are certain features of chess that machines cannot replicate.",
+            "C Skill at chess is more significant than other machine achievements.",
+            "D Machines will always be more successful at some tasks than at others."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "single_choice",
+          "prompt": "The writer describes the case of an office worker to illustrate the point that",
+          "context": "",
+          "options": [
+            "A everyday human actions involve a complex combination of skills.",
+            "B some types of mechanical activities require little conscious thought.",
+            "C some people are able to carry out multiple tasks at the same time.",
+            "D certain human tasks are more intellectually demanding than others."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "single_choice",
+          "prompt": "In the fifth paragraph, the writer claims that",
+          "context": "",
+          "options": [
+            "A ideas of what success means vary across cultures.",
+            "B machines are most effective at game-like activities.",
+            "C machines are better at specialization than at adaptation.",
+            "D it may be impossible to isolate different skills involved in an activity."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "Unlike machines, animals (including humans) have a body, including a brain which has evolved to provide for that body and allow its genes to be passed on.",
+          "context": "Word bank: A. results, B. nourishment, C. basis, D. qualities, E. protection, F. evolution, G. surroundings, H. values, I. perception, J. movement",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "An animal's senses provide it with information about its and then through it can react physically to what it senses.",
+          "context": "Word bank: A. results, B. nourishment, C. basis, D. qualities, E. protection, F. evolution, G. surroundings, H. values, I. perception, J. movement",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "An animal's senses provide it with information about its surroundings and then through it can react physically to what it senses.",
+          "context": "Word bank: A. results, B. nourishment, C. basis, D. qualities, E. protection, F. evolution, G. surroundings, H. values, I. perception, J. movement",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "The interaction of the body and brain therefore allows the creation of a link between and action.",
+          "context": "Word bank: A. results, B. nourishment, C. basis, D. qualities, E. protection, F. evolution, G. surroundings, H. values, I. perception, J. movement",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "The which make us human and which distinguish us from animals have their in this link between the brain and the body, and have developed from it.",
+          "context": "Word bank: A. results, B. nourishment, C. basis, D. qualities, E. protection, F. evolution, G. surroundings, H. values, I. perception, J. movement",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "The qualities which make us human and which distinguish us from animals have their in this link between the brain and the body, and have developed from it.",
+          "context": "Word bank: A. results, B. nourishment, C. basis, D. qualities, E. protection, F. evolution, G. surroundings, H. values, I. perception, J. movement",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "true_false_not_given",
+          "prompt": "Any sort of artificial general intelligence must have the capacity for metabolism and reproduction.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "true_false_not_given",
+          "prompt": "Intelligence may depend on the ability to interact with a complex and unpredictable environment.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "true_false_not_given",
+          "prompt": "It is dangerous to rely too much on multi-specialist robots which could develop unfixable faults.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "true_false_not_given",
+          "prompt": "Training by experts is essential for acquiring certain types of skills.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,822 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test7.html",
+    "title": "IELTS Listening Mock Test 7",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/MOCK-LISTENING-7/main/AUDIO.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "weight"
+    ],
+    "2": [
+      "back"
+    ],
+    "3": [
+      "beginners"
+    ],
+    "4": [
+      "mat"
+    ],
+    "5": [
+      "jumps"
+    ],
+    "6": [
+      "competition"
+    ],
+    "7": [
+      "snack"
+    ],
+    "8": [
+      "work"
+    ],
+    "9": [
+      "heart"
+    ],
+    "10": [
+      "reception"
+    ],
+    "11": [
+      "C",
+      "E"
+    ],
+    "12": [
+      "C",
+      "E"
+    ],
+    "13": [
+      "B",
+      "D"
+    ],
+    "14": [
+      "B",
+      "D"
+    ],
+    "15": [
+      "G"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "H"
+    ],
+    "18": [
+      "D"
+    ],
+    "19": [
+      "F"
+    ],
+    "20": [
+      "E"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "D"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "G"
+    ],
+    "26": [
+      "E"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "F"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "D"
+    ],
+    "31": [
+      "army"
+    ],
+    "32": [
+      "safety"
+    ],
+    "33": [
+      "learning"
+    ],
+    "34": [
+      "reasons"
+    ],
+    "35": [
+      "trust"
+    ],
+    "36": [
+      "writing"
+    ],
+    "37": [
+      "open"
+    ],
+    "38": [
+      "leaders"
+    ],
+    "39": [
+      "training"
+    ],
+    "40": [
+      "time"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "‘Modern Yoga’ is good for losing",
+          "context": "Watertown Community Centre Programmes - Yoga",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "‘Yoga and More’ is beneficial for those with aches in their",
+          "context": "Watertown Community Centre Programmes - Yoga",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "‘Original Yoga’ is great for",
+          "context": "Watertown Community Centre Programmes - Yoga",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Participants should bring a",
+          "context": "Watertown Community Centre Programmes - Yoga",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "The Wednesday class focuses on difficult routines and",
+          "context": "Watertown Community Centre Programmes - Ballet",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "The Thursday class is preparing for a",
+          "context": "Watertown Community Centre Programmes - Ballet",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Parents bring a ... to be shared.",
+          "context": "Watertown Community Centre Programmes - Soccer",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "It’s best to go before ... instead of later.",
+          "context": "Watertown Community Centre Programmes - Aerobics",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "High-impact aerobics helps maintain a strong",
+          "context": "Watertown Community Centre Programmes - Aerobics",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Can pay online or at ... in the centre.",
+          "context": "Watertown Community Centre Programmes - Registration procedures",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose TWO letters, A–E.",
+        "Which TWO facts are given about the lake in the Royal Nature Park?",
+        "Which TWO facts are given about the First Nations longhouses in the park?",
+        "Which activity will people do at each of the following events?",
+        "Choose SIX answers from the box and drag the correct letter, A–I, next to questions 15–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "number_range": [
+            11,
+            12
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which TWO facts are given about the lake in the Royal Nature Park?",
+          "context": "Questions 11 and 12",
+          "options": [
+            "A. Aquatic life feeds on plants floating on the lake",
+            "B. Visitors can swim in any part of the lake",
+            "C. There is little life in the deepest parts of the lake",
+            "D. The lake has very low water levels",
+            "E. There is evidence that corn was grown nearby"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "number_range": [
+            11,
+            12
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which TWO facts are given about the lake in the Royal Nature Park?",
+          "context": "Questions 11 and 12",
+          "options": [
+            "A. Aquatic life feeds on plants floating on the lake",
+            "B. Visitors can swim in any part of the lake",
+            "C. There is little life in the deepest parts of the lake",
+            "D. The lake has very low water levels",
+            "E. There is evidence that corn was grown nearby"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "number_range": [
+            13,
+            14
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which TWO facts are given about the First Nations longhouses in the park?",
+          "context": "Questions 13 and 14",
+          "options": [
+            "A. They are built on two levels",
+            "B. Several families might live in one house",
+            "C. Animals were kept inside",
+            "D. Children helped to build them",
+            "E. They were later destroyed by fire"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "number_range": [
+            13,
+            14
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which TWO facts are given about the First Nations longhouses in the park?",
+          "context": "Questions 13 and 14",
+          "options": [
+            "A. They are built on two levels",
+            "B. Several families might live in one house",
+            "C. Animals were kept inside",
+            "D. Children helped to build them",
+            "E. They were later destroyed by fire"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Sweet Water Season",
+          "context": "Which activity will people do at each of the following events?",
+          "options": [
+            "A. enter a competition",
+            "B. pick produce",
+            "C. paint pictures of leaves",
+            "D. take a walk at night",
+            "E. follow winter trails",
+            "F. find carvings of endangered species",
+            "G. learn about production of a traditional food",
+            "H. participate in an animal show",
+            "I. feed the animals"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Season of the Harvest",
+          "context": "Which activity will people do at each of the following events?",
+          "options": [
+            "A. enter a competition",
+            "B. pick produce",
+            "C. paint pictures of leaves",
+            "D. take a walk at night",
+            "E. follow winter trails",
+            "F. find carvings of endangered species",
+            "G. learn about production of a traditional food",
+            "H. participate in an animal show",
+            "I. feed the animals"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Fall into Nature",
+          "context": "Which activity will people do at each of the following events?",
+          "options": [
+            "A. enter a competition",
+            "B. pick produce",
+            "C. paint pictures of leaves",
+            "D. take a walk at night",
+            "E. follow winter trails",
+            "F. find carvings of endangered species",
+            "G. learn about production of a traditional food",
+            "H. participate in an animal show",
+            "I. feed the animals"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Moccasin Time",
+          "context": "Which activity will people do at each of the following events?",
+          "options": [
+            "A. enter a competition",
+            "B. pick produce",
+            "C. paint pictures of leaves",
+            "D. take a walk at night",
+            "E. follow winter trails",
+            "F. find carvings of endangered species",
+            "G. learn about production of a traditional food",
+            "H. participate in an animal show",
+            "I. feed the animals"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Hide and Seek Trail",
+          "context": "Which activity will people do at each of the following events?",
+          "options": [
+            "A. enter a competition",
+            "B. pick produce",
+            "C. paint pictures of leaves",
+            "D. take a walk at night",
+            "E. follow winter trails",
+            "F. find carvings of endangered species",
+            "G. learn about production of a traditional food",
+            "H. participate in an animal show",
+            "I. feed the animals"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Pine Ridge Way",
+          "context": "Which activity will people do at each of the following events?",
+          "options": [
+            "A. enter a competition",
+            "B. pick produce",
+            "C. paint pictures of leaves",
+            "D. take a walk at night",
+            "E. follow winter trails",
+            "F. find carvings of endangered species",
+            "G. learn about production of a traditional food",
+            "H. participate in an animal show",
+            "I. feed the animals"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Complete the flow-chart below.",
+        "Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 21–25.",
+        "What problem do the speakers identify with each of the following types of bee?",
+        "Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 26–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "The mite moves from the bee to ...",
+          "context": "How the Varroa mite attacks",
+          "options": [
+            "A. the blood",
+            "B. a flower",
+            "C. the hive",
+            "D. the honey",
+            "E. a honeycomb cell",
+            "F. the queen bee",
+            "G. a virus"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "matching",
+          "prompt": "The mite travels to ... on a new host.",
+          "context": "How the Varroa mite attacks",
+          "options": [
+            "A. the blood",
+            "B. a flower",
+            "C. the hive",
+            "D. the honey",
+            "E. a honeycomb cell",
+            "F. the queen bee",
+            "G. a virus"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "matching",
+          "prompt": "The mite uses ... to hide its smell.",
+          "context": "How the Varroa mite attacks",
+          "options": [
+            "A. the blood",
+            "B. a flower",
+            "C. the hive",
+            "D. the honey",
+            "E. a honeycomb cell",
+            "F. the queen bee",
+            "G. a virus"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "matching",
+          "prompt": "The mite feeds on ... of the bee larva.",
+          "context": "How the Varroa mite attacks",
+          "options": [
+            "A. the blood",
+            "B. a flower",
+            "C. the hive",
+            "D. the honey",
+            "E. a honeycomb cell",
+            "F. the queen bee",
+            "G. a virus"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "matching",
+          "prompt": "The bee is left weakened and with ...",
+          "context": "How the Varroa mite attacks",
+          "options": [
+            "A. the blood",
+            "B. a flower",
+            "C. the hive",
+            "D. the honey",
+            "E. a honeycomb cell",
+            "F. the queen bee",
+            "G. a virus"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "European Bumblebee",
+          "context": "What problem do the speakers identify with each of the following types of bee?",
+          "options": [
+            "A. could introduce pests",
+            "B. needs a warm climate",
+            "C. not much is known about it",
+            "D. numbers are too few to help farmers",
+            "E. spreads weeds",
+            "F. too aggressive",
+            "G. unable to produce honey"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "Blue Banded Bee",
+          "context": "What problem do the speakers identify with each of the following types of bee?",
+          "options": [
+            "A. could introduce pests",
+            "B. needs a warm climate",
+            "C. not much is known about it",
+            "D. numbers are too few to help farmers",
+            "E. spreads weeds",
+            "F. too aggressive",
+            "G. unable to produce honey"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "Africanized Bee",
+          "context": "What problem do the speakers identify with each of the following types of bee?",
+          "options": [
+            "A. could introduce pests",
+            "B. needs a warm climate",
+            "C. not much is known about it",
+            "D. numbers are too few to help farmers",
+            "E. spreads weeds",
+            "F. too aggressive",
+            "G. unable to produce honey"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Australian Stingless Bee",
+          "context": "What problem do the speakers identify with each of the following types of bee?",
+          "options": [
+            "A. could introduce pests",
+            "B. needs a warm climate",
+            "C. not much is known about it",
+            "D. numbers are too few to help farmers",
+            "E. spreads weeds",
+            "F. too aggressive",
+            "G. unable to produce honey"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "Canadian Leafcutter Bee",
+          "context": "What problem do the speakers identify with each of the following types of bee?",
+          "options": [
+            "A. could introduce pests",
+            "B. needs a warm climate",
+            "C. not much is known about it",
+            "D. numbers are too few to help farmers",
+            "E. spreads weeds",
+            "F. too aggressive",
+            "G. unable to produce honey"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "Developed by the",
+          "context": "After Action Review Process - Background",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "a ... incident",
+          "context": "After Action Review Process - Benefits",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "Develops better team communication because of the emphasis on",
+          "context": "After Action Review Process - Benefits",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "concentrates on results and the ... for them",
+          "context": "After Action Review Process - What is an After Action Review?",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "stresses the need to ... each other",
+          "context": "After Action Review Process - What is an After Action Review?",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "To encourage participation, get the group’s thoughts in",
+          "context": "After Action Review Process - Things to remember when conducting an After Action Review",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Remember to use ... questions",
+          "context": "After Action Review Process - Things to remember when conducting an After Action Review",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Give any recommendations to other team",
+          "context": "After Action Review Process - Things to remember when conducting an After Action Review",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Make sure you follow up on ideas and provide ... for employees",
+          "context": "After Action Review Process - Things to remember when conducting an After Action Review",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Remember to check the ... often",
+          "context": "After Action Review Process - Things to remember when conducting an After Action Review",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

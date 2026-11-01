@@ -1,0 +1,968 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test16.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "FALSE"
+    ],
+    "2": [
+      "TRUE"
+    ],
+    "3": [
+      "NOT GIVEN"
+    ],
+    "4": [
+      "FALSE"
+    ],
+    "5": [
+      "NOT GIVEN"
+    ],
+    "6": [
+      "TRUE"
+    ],
+    "7": [
+      "surfaces"
+    ],
+    "8": [
+      "net"
+    ],
+    "9": [
+      "rubber"
+    ],
+    "10": [
+      "rules"
+    ],
+    "11": [
+      "equipment"
+    ],
+    "12": [
+      "shape"
+    ],
+    "13": [
+      "tournament"
+    ],
+    "14": [
+      "D"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "E"
+    ],
+    "17": [
+      "A"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "C"
+    ],
+    "20": [
+      "E"
+    ],
+    "21": [
+      "D"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "E"
+    ],
+    "24": [
+      "vegetation",
+      "the vegetation"
+    ],
+    "25": [
+      "human hunting",
+      "hunting"
+    ],
+    "26": [
+      "North America",
+      "america"
+    ],
+    "27": [
+      "E"
+    ],
+    "28": [
+      "H"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "semantic equivalence",
+      "equivalence"
+    ],
+    "31": [
+      "purpose",
+      "the purpose"
+    ],
+    "32": [
+      "stylistic"
+    ],
+    "33": [
+      "content"
+    ],
+    "34": [
+      "E"
+    ],
+    "35": [
+      "B"
+    ],
+    "36": [
+      "D"
+    ],
+    "37": [
+      "C"
+    ],
+    "38": [
+      "B",
+      "D",
+      "F"
+    ],
+    "39": [
+      "B",
+      "D",
+      "F"
+    ],
+    "40": [
+      "B",
+      "D",
+      "F"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "The origins of tennis",
+      "passages": [
+        "The game of tennis has a very long history. It is officially still known as 'lawn tennis', partly because it was originally only played on grass, and also to distinguish it from the older game known as 'real tennis', from which the modern game developed. Some people believe that the ancient Egyptians, Greeks, and Romans played various versions of tennis. No drawings or descriptions of any tennis-like games have been discovered, but a couple of Arabic words dating from ancient Egyptian times are cited as evidence. The theory goes that the name 'tennis' is derived from the Egyptian town of Tinnis alongside the Nile, and the word 'racquet' evolved from the Arabic word for the palm of the hand, 'rahat'.\nAside from these two Arabic words, there is no other evidence for any form of tennis prior to the year 1000. Most historians believe the origins of the game date back to 11th- and 12th-century France. It is thought that French monks were the first to play a basic game of handball against their monastery buildings, or over a rope strung across a courtyard. Those who dispute more ancient origins argue that the name 'tennis' is derived from the French 'tenez', which meant something to the effect of 'take this', said as one player would serve to the other.\nThis game took on the name 'jeu de paume', which means 'game of the hand or palm'. But as they found playing with bare hands quite uncomfortable, players began using a simple glove, and later either a glove with webbing between the fingers or a solid paddle, similar to the ones used in table tennis today. Wooden racquets were not invented until much later.\nThe French nobility learned the game from the monks, and some accounts report as many as 1,800 tennis courts in France by the 13th century. The game, which remained exclusive to the upper classes, gained more popularity over the 14th and 15th centuries. As it became increasingly fashionable, outdoor courtyards were modified into indoor courts. The game became such a widespread diversion among the aristocracy that both the pope and the French king tried to ban it. By the 16th century, the game had spread to England, where it became known as 'tennis'. Both kings Henry VII and Henry VIII were avid players who promoted the building of courts, and it also became a very fashionable game among the English upper classes.\nAn example of one of these early 'real tennis' courts can be seen at the royal palace of Hampton Court near London. It was built in 1525 and is still used today. Only a handful of such courts remain. It is a tall, narrow indoor court, bearing more resemblance to a squash court than the type of tennis courts we are familiar with today. 'Real tennis' is a remarkably fast and difficult game as the ball can be bounced off any of the surfaces, some of which are slanted at odd angles. The net is just over 1.5 metres high at each end, but drops to just under a metre in the middle.\nUntil the 19th century, the ball was either constructed from a wad of hair, wool, or cork wrapped in string and cloth or leather. Then a major development took place when Charles Goodyear invented vulcanisation, a process that allows rubber to withstand heat and cold. This led to the development of rubber tennis balls. During the 1850s, players began to experiment with these new balls, which bounced easily on outdoor grass courts.\nIn 1874 a Welshman, Major Walter C. Wingfield, known as 'the father of lawn tennis', had the idea of devising rules, which he published. He also introduced standardised equipment, including racquets, balls, posts, and a net, which he patented and sold in sets. The game quickly became a very popular and sociable open-air pursuit for the English middle classes. People also started playing tennis in countries such as the United States, Russia, India, Canada, and China.\nHowever, not all of Wingfield's ideas ultimately survived. Inspired by his knowledge of Greek, he called his version of tennis 'Sphairistike' – a name which never caught on. Interestingly, his original court had the shape of an hourglass, with the net across its narrowest section.\nA major tennis tournament took place for the first time in Wimbledon, London in 1877, and its organising committee came up with a rectangular court and a modified set of rules that are essentially the same as for the game we know today. The net was still high at the sides, a carryover from the game's indoor ancestor. But by 1882, the specifications for the size of the court, the equipment, and the rules had evolved to their current form."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "There are a few surviving documents which show that a game similar to tennis was played in the ancient world.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "An early form of tennis involved players hitting a ball with just their hand.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "The game of table tennis developed around the same time as tennis.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "Tennis became popular with all sections of French society in the 14th and 15th centuries.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "The indoor courts created in the 14th and 15th centuries were larger than the outdoor courtyards.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "There were attempts to prevent French aristocrats from playing tennis.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "The ball may be hit against the [input] around the court",
+          "context": "The development of tennis in England - 'Real tennis' court at Hampton Court",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "The [input] is lower in the centre",
+          "context": "The development of tennis in England - 'Real tennis' court at Hampton Court",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Balls made out of [input] started to be used",
+          "context": "The development of tennis in England - 1850s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Published written [input] for the game",
+          "context": "The development of tennis in England - 1874: Major Walter C. Wingfield",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "Produced complete sets of tennis [input] for sale",
+          "context": "The development of tennis in England - 1874: Major Walter C. Wingfield",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "Designed an unusual [input] for the court",
+          "context": "The development of tennis in England - 1874: Major Walter C. Wingfield",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "The first large [input] was held",
+          "context": "The development of tennis in England - 1877",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "The discovery of a baby mammoth",
+      "passages": [
+        "A  On a May morning in 2007, on the Yamal Peninsula in northwestern Siberia, a Nenets reindeer herder named Yuri Khudi stood on a sandbar on the Yuribey River, looking carefully at a diminutive corpse. Although he'd never seen such an animal before, Khudi had seen many mammoth tusks, the thick corkscrew shafts that his people found each summer, and this persuaded him the corpse was a baby mammoth. It was eerily well preserved. Apart from its missing hair and toenails, it was perfectly intact. Khudi realised the find might be significant and he knew he couldn't just return home and forget all about it. He therefore decided to travel to the small town of Yar Sale to consult an old friend named Kirill Serotetto. His friend took him to meet the director of the local museum, who persuaded the local authorities to fly Khudi and Serotetto back to the Yuribey River to collect the baby mammoth.\nB  Mammoths became extinct between 14,000 and 10,000 years ago and since the extinctions coincided with the end of the most recent Ice Age, many researchers believe that the primary cause of the great die-off was the sharp rise in temperature, which dramatically altered the vegetation. 'We have strong evidence that the temperature rise played a significant part in their extinction,' says Adrian Lister, a palaeontologist and mammoth expert at London's Natural History Museum. 'In Eurasia, the timing of the two events matches closely.' The extinctions also coincided, however, with the arrival of modern humans. In addition to exploiting mammoths for food, they used their bones and tusks to make weapons, tools, and even dwellings. Some scientists believe humans were as much to blame as the temperature rise for the great die-off. Some say they caused it.\nC  The body of the baby mammoth was eventually sent to the St Petersburg Zoological Museum in Russia. Alexei Tikhonov, the museum's director, was one of the first scientists to view the baby, a female. According to Tikhonov, Khudi had rescued 'the best preserved mammoth to come down to us from the Ice Age', and he gratefully named her Lyuba, after Khudi's wife. Tikhonov knew that no-one would be more excited by the find than Dan Fisher, an American colleague at the University of Michigan who had spent 30 years researching the lives of mammoths. Tikhonov invited Fisher, along with Bernard Buigues, a French mammoth hunter, to come and view the baby mammoth. Fisher and Buigues had examined other specimens together, including infants, but these had been in a relatively poor state. Lyuba was another story entirely. Other than the missing hair and toenails, the only flaw in her pristine appearance was a curious dent above the trunk.\nD  Fisher was particularly excited about one specific part of Lyuba's anatomy: her milk tusks. Through his career, Fisher has taken hundreds of tusk samples. Most of these came from the Great Lakes region of North America, and his research showed that these animals continued to thrive, despite the late Pleistocene temperature change. On the other hand, to Fisher the tusks often revealed telltale evidence of human hunting. His samples frequently came from animals that had died in the autumn, when they should have been at their peak after summer grazing, and less likely to die of natural causes, but also when humans would have been most eager to stockpile meat for the coming winter. He has done limited work in Siberia, but his analysis of tusks from Wrangel Island, off the coast of Siberia, suggests the same conclusion.\nE  In December 2007, Buigues arranged for the specimen to be transported to Japan to undergo a CT scan by Naoki Suzuki of the Jikei University School of Medicine. The test confirmed her skeleton was undamaged, and her internal organs seemed largely intact. It also showed that the end of her trunk, and her throat, mouth, and windpipe were filled with dense sediment. Six months later, in a laboratory in St Petersburg, Fisher, Buigues, Suzuki, Tikhonov and other colleagues began a three-day series of tests on Lyuba. During these, Fisher noted a dense mix of clay and sand in her trunk, mouth and throat, which had been indicated earlier by the scan. In fact, the sediment in Lyuba's trunk was packed so tightly that Fisher saw it as a possible explanation for the dent above her trunk. If she was frantically fighting for breath and inhaled convulsively, perhaps a partial vacuum was created in the base of her trunk, which would have flattened surrounding soft tissue. To Fisher, the circumstances of Lyuba's death were clear: she had asphyxiated. Suzuki, however, proposed a different interpretation, seeing more evidence for drowning than asphyxiation.\nF  Studies are ongoing, but Lyuba has begun to shed the secrets of her short life and some clues to the fate of her kind. Her good general health was shown in the record of her dental development, a confirmation for Fisher that dental research is useful for evaluating health and thus key to investigating the causes of mammoth extinction. Analysis of her well-preserved DNA has revealed that she belonged to a distinct population of Mammuthus primigenius and that, soon after her time, another population migrating to Siberia from North America would take their place. Finally, Lyuba's premolars and tusks revealed that she had been born in late spring and was only a month old when she died."
+      ],
+      "instructions": [
+        "Reading Passage 2 has six paragraphs, A-F. Which paragraph contains the following information?",
+        "Look at the following statements and the list of people below. Match each statement with the correct person, A-G.",
+        "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "similarities between studies of mammoth remains from different parts of the world",
+          "context": "Reading Passage 2 paragraphs A-F",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [
+            {
+              "id": "q14",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "details of the uses to which mammoth body parts were put",
+          "context": "Reading Passage 2 paragraphs A-F",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [
+            {
+              "id": "q15",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "a theory that accounts for the damage to Lyuba's face",
+          "context": "Reading Passage 2 paragraphs A-F",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [
+            {
+              "id": "q16",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "an explanation of how an individual was able to identify a small corpse",
+          "context": "Reading Passage 2 paragraphs A-F",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [
+            {
+              "id": "q17",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "a comparison between Lyuba and other young mammoth corpses",
+          "context": "Reading Passage 2 paragraphs A-F",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [
+            {
+              "id": "q18",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "The indications are that mammoths died as a result of climate change.",
+          "context": "List of People: A. Yuri Khudi, B. Kirill Serotetto, C. Adrian Lister, D. Alexei Tikhonov, E. Dan Fisher, F. Bernard Buigues, G. Naoki Suzuki",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q19",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Teeth analysis is important in discovering why mammoths died out.",
+          "context": "List of People: A. Yuri Khudi, B. Kirill Serotetto, C. Adrian Lister, D. Alexei Tikhonov, E. Dan Fisher, F. Bernard Buigues, G. Naoki Suzuki",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q20",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "The corpse of the baby mammoth is in better condition than any other that has been discovered.",
+          "context": "List of People: A. Yuri Khudi, B. Kirill Serotetto, C. Adrian Lister, D. Alexei Tikhonov, E. Dan Fisher, F. Bernard Buigues, G. Naoki Suzuki",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q21",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "matching",
+          "prompt": "It would be a mistake to ignore the baby mammoth's discovery, because of its potential importance.",
+          "context": "List of People: A. Yuri Khudi, B. Kirill Serotetto, C. Adrian Lister, D. Alexei Tikhonov, E. Dan Fisher, F. Bernard Buigues, G. Naoki Suzuki",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q22",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "matching",
+          "prompt": "Mammoths often died at a time of year when they should have been in good physical condition.",
+          "context": "List of People: A. Yuri Khudi, B. Kirill Serotetto, C. Adrian Lister, D. Alexei Tikhonov, E. Dan Fisher, F. Bernard Buigues, G. Naoki Suzuki",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q23",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "Some researchers say that a marked rise in temperature impacted on mammoths by changing the type of [input] available.",
+          "context": "Complete the sentences below. NO MORE THAN TWO WORDS.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q24",
+              "placeholder": "24"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "Fisher concluded that many of the mammoth tusks he looked at displayed signs of [input].",
+          "context": "Complete the sentences below. NO MORE THAN TWO WORDS.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q25",
+              "placeholder": "25"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "Not long after Lyuba's death, the Mammuthus primigenius group she belonged to was replaced by another group that came from [input].",
+          "context": "Complete the sentences below. NO MORE THAN TWO WORDS.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q26",
+              "placeholder": "26"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Translating: a key to international understanding?",
+      "passages": [
+        "A  The term 'translation' is used for all cases where the meaning of expressions in one language (the 'source' language) is turned into the meaning in another (the target language), whether the medium is spoken, written, or signed. In specific professional contexts, however, a distinction is drawn between work with the spoken or signed language (interpreting), and work with the written language (translating), although certain tasks blur this distinction.\nB  It is sometimes said that there is no task more complex than translation – a claim that can be readily believed when all the variables involved are taken into account. Translators not only need to know their source language well; they must also have a thorough understanding of the field of knowledge covered by the source text, and of any social, cultural, or emotional connotations that need to be specified in the target language if the intended effect is to be conveyed. The same special awareness needs to be present for the target language, so that points of special phrasing, contemporary fashions in expression, local expectations, and so on, can all be taken into account. On the whole, translators work into their mother tongue (or language of habitual use), to ensure a result that sounds as natural as possible – though some translators have argued that, for certain types of text (e.g. scientific material) where translation accuracy is more crucial than naturalness, it makes more sense for the translators to be more fluent in the source language.\nC  The aim of translation is to provide semantic equivalence between source and target languages. This is what makes translation different from other linguistic activities, such as adapting, précis writing, and abstracting. However, there are many problems hidden within this apparently simple statement, all to do with what standards of 'equivalence' should be expected and accepted.\nD  Exact equivalence is of course impossible: no translator could provide a translation that was a perfect parallel to the source text, in such respects as rhythm, puns and cultural allusions. Such a parallel is not even possible when paraphrasing within a single language: there is always some loss of information.\nE  On the other hand, there are many kinds of inexact equivalence, any of which can be successful at a certain level of practical functioning. It therefore follows that there is no such thing as a 'best' translation. The success of translation depends on the purpose for which it was made, which in turn reflects the needs of the people for whom it was made. A rough-and-ready translation of a letter can suffice to inform a firm of the nature of an enquiry. A translation of a scientific article requires careful attention to meaning, but little attention to stylistic features. The provision of a dubbed film script will warrant scrupulous care over the synchronisation of lip movements, often at the expense of content. Literary work requires a sensitive consideration of form as well as content, and may prompt several translations, each of which emphasises a different aspect of the original. It is easy to see that what might be 'best' for one set of circumstances may be entirely unsuitable for another.\nF  Several different kinds of translation have been proposed to allow for this range of possibilities. A pragmatic translation emphasises accuracy and knowledge of the subject, as required for instruction manuals and scientific research. In an aesthetic translation, important for literary material, the focus is on preserving the emotional as well as the cognitive content of the work, and on maintaining some level of stylistic equivalence. Ethnographic or sociolinguistic translations aim to pay full attention to the cultural backgrounds of the authors and the recipients, and take into account differences between source and target languages, and the ways of life in which they are embedded. And there are various kinds of linguistic translation, where the aim is to convey the structural flavour of the original text, often in quite a literal manner, emphasising such features as archaisms, dialectisms, and levels of formality. Most translations, of course, are mixtures of these theoretical types, reflecting the complex reality of language in use.\nG  At another level, in a word-for-word translation each word in the source language is translated by a word in the target language. The result often makes no sense, especially when idiomatic constructions are used. In a literal translation, the linguistic structure of the source text is followed, but is normalised according to the rules of the target language. In a free translation, the linguistic structure of the source language is ignored, and an equivalent is found based on the meaning it conveys.\nH  Translators aim to produce a text that is as faithful to the original as circumstances require or permit, and yet that reads as if it were written originally in the target language. They aim to be 'invisible people' – transferring content without drawing attention to the considerable artistic and technical skills involved in the process. The complexity of the task is apparent, but its importance is often underestimated, and its practitioners' social status and legal rights undervalued. Some countries view translation as a menial, clerical task, and pay their translators accordingly, while others regard it as a major intellectual discipline and pay them on its own right. The question of status is currently much debated, particularly in Europe, where demand for translators is rocketing, especially in relation to the European Union."
+      ],
+      "instructions": [
+        "Reading Passage 3 has eight paragraphs, A-H. Which paragraph contains the following information?",
+        "Complete the summary below. Choose NO MORE THAN TWO WORDS from paragraphs C, D and E for each answer.",
+        "Look at the following features of translating and the types of translation below. Match each feature with the correct type of translation, A-F.",
+        "Choose THREE letters, A-F. Which THREE of the following points are mentioned by the writer of the passage?"
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "the effect that a client's requirements have on the nature of a translation",
+          "context": "Reading Passage 3 paragraphs A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q27",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "contrasting attitudes towards translators",
+          "context": "Reading Passage 3 paragraphs A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q28",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "a list of the areas of knowledge studied by translators",
+          "context": "Reading Passage 3 paragraphs A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q29",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "input",
+          "prompt": "Translation is an attempt to create a text in the target language which displays [input] with a source text.",
+          "context": "The goal of translation (Paragraphs C, D, E)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q30",
+              "placeholder": "30"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "It is inevitable that not all information can be conveyed, however, so translations are best judged according to their [input];",
+          "context": "The goal of translation (Paragraphs C, D, E)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "for example, the translator of a business letter or scientific text does not need to consider its [input] aspects,",
+          "context": "The goal of translation (Paragraphs C, D, E)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "while someone dubbing a film may give a relatively low value to [input].",
+          "context": "The goal of translation (Paragraphs C, D, E)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "matching",
+          "prompt": "focuses on reproducing the content accurately",
+          "context": "Types of Translation: A. aesthetic, B. ethnographic, C. free, D. literal, E. pragmatic, F. word-for-word",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "matching",
+          "prompt": "looks at important cultural aspects of language use",
+          "context": "Types of Translation: A. aesthetic, B. ethnographic, C. free, D. literal, E. pragmatic, F. word-for-word",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "matching",
+          "prompt": "follows the original grammatical structures as required by the target language",
+          "context": "Types of Translation: A. aesthetic, B. ethnographic, C. free, D. literal, E. pragmatic, F. word-for-word",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "matching",
+          "prompt": "focuses on meaning without necessarily using the original grammatical structures",
+          "context": "Types of Translation: A. aesthetic, B. ethnographic, C. free, D. literal, E. pragmatic, F. word-for-word",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": ""
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "multiple_choice",
+          "prompt": "Which THREE of the following points are mentioned by the writer of the passage?",
+          "context": "Choose THREE letters, A-F.",
+          "options": [
+            "A. The objectives of translating are always clearly different from those of interpreting.",
+            "B. A translator may need to consider the culture of the target language.",
+            "C. Translation is an activity which requires professional training.",
+            "D. It is difficult to specify what constitutes a very good translation.",
+            "E. The skill required for translation is increasingly gaining recognition.",
+            "F. A translation should give the impression of being an original work."
+          ],
+          "inputs": [],
+          "constraint": "Choose THREE",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "multiple_choice",
+          "prompt": "Which THREE of the following points are mentioned by the writer of the passage?",
+          "context": "Choose THREE letters, A-F.",
+          "options": [
+            "A. The objectives of translating are always clearly different from those of interpreting.",
+            "B. A translator may need to consider the culture of the target language.",
+            "C. Translation is an activity which requires professional training.",
+            "D. It is difficult to specify what constitutes a very good translation.",
+            "E. The skill required for translation is increasingly gaining recognition.",
+            "F. A translation should give the impression of being an original work."
+          ],
+          "inputs": [],
+          "constraint": "Choose THREE",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "multiple_choice",
+          "prompt": "Which THREE of the following points are mentioned by the writer of the passage?",
+          "context": "Choose THREE letters, A-F.",
+          "options": [
+            "A. The objectives of translating are always clearly different from those of interpreting.",
+            "B. A translator may need to consider the culture of the target language.",
+            "C. Translation is an activity which requires professional training.",
+            "D. It is difficult to specify what constitutes a very good translation.",
+            "E. The skill required for translation is increasingly gaining recognition.",
+            "F. A translation should give the impression of being an original work."
+          ],
+          "inputs": [],
+          "constraint": "Choose THREE",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

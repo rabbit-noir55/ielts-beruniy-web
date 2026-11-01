@@ -1,0 +1,882 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test17.html",
+    "title": "IELTS Listening Mock Test 050604",
+    "part_count": 4,
+    "total_questions": 38,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/audio050604/main/mix_39m35s%2B(audio-joiner.com).mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "Murray Atkins"
+    ],
+    "2": [
+      "53 Green street",
+      "53 Green st"
+    ],
+    "3": [
+      "West lake",
+      "Westlake"
+    ],
+    "4": [
+      "18 September 1978",
+      "18 September,1978",
+      "18th September 1978",
+      "September 18 1978"
+    ],
+    "5": [
+      "94815837"
+    ],
+    "6": [
+      "2000",
+      "2,000",
+      "$2000"
+    ],
+    "7": [
+      "driving licence",
+      "driving license",
+      "licence",
+      "license"
+    ],
+    "8": [
+      "C"
+    ],
+    "9": [
+      "A"
+    ],
+    "10": [
+      "C"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "F"
+    ],
+    "13": [
+      "D"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "E"
+    ],
+    "16": [
+      "F"
+    ],
+    "17": [
+      "G"
+    ],
+    "18": [
+      "E"
+    ],
+    "19": [
+      "C"
+    ],
+    "20": [
+      "A"
+    ],
+    "21": [
+      "C",
+      "D"
+    ],
+    "22": [
+      "C",
+      "D"
+    ],
+    "23": [
+      "C",
+      "D"
+    ],
+    "24": [
+      "C",
+      "D"
+    ],
+    "25": [
+      "E"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "F"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "H"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "weather"
+    ],
+    "32": [
+      "range"
+    ],
+    "33": [
+      "nut",
+      "nuts"
+    ],
+    "34": [
+      "cotton"
+    ],
+    "35": [
+      "brush"
+    ],
+    "36": [
+      "parasite",
+      "parasites"
+    ],
+    "37": [
+      "legs",
+      "leg"
+    ],
+    "38": [
+      "identical"
+    ],
+    "39": [
+      "tests",
+      "test"
+    ],
+    "40": [
+      "pesticide",
+      "pesticides"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 1–10.",
+        "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Name:",
+          "context": "Application Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Address:",
+          "context": "Application Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Town:",
+          "context": "Application Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Date of birth:",
+          "context": "Application Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Work phone no.:",
+          "context": "Application Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Credit limit:",
+          "context": "Application Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Form of I.D.:",
+          "context": "Application Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "single_choice",
+          "prompt": "The $100 fee is for",
+          "context": "",
+          "options": [
+            "one month.",
+            "six months.",
+            "one year."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "single_choice",
+          "prompt": "There is an additional charge for",
+          "context": "",
+          "options": [
+            "cash withdrawals.",
+            "extra statements.",
+            "foreign purchases."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "single_choice",
+          "prompt": "Bonus points appear on the statement",
+          "context": "",
+          "options": [
+            "every month.",
+            "every two months.",
+            "every three months."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 11–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "matching",
+          "prompt": "Dudley Street Market",
+          "context": "Which special feature does each of the following markets offer?",
+          "options": [
+            "A: the largest market in the city",
+            "B: famous for its coffee",
+            "C: offers special classes",
+            "D: has unusual entertainment",
+            "E: sells hand-made items",
+            "F: has an area for board games",
+            "G: located in a historical building"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "matching",
+          "prompt": "King Street Market",
+          "context": "Which special feature does each of the following markets offer?",
+          "options": [
+            "A: the largest market in the city",
+            "B: famous for its coffee",
+            "C: offers special classes",
+            "D: has unusual entertainment",
+            "E: sells hand-made items",
+            "F: has an area for board games",
+            "G: located in a historical building"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "matching",
+          "prompt": "Milton Street Market",
+          "context": "Which special feature does each of the following markets offer?",
+          "options": [
+            "A: the largest market in the city",
+            "B: famous for its coffee",
+            "C: offers special classes",
+            "D: has unusual entertainment",
+            "E: sells hand-made items",
+            "F: has an area for board games",
+            "G: located in a historical building"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "Makepeace Market",
+          "context": "Which special feature does each of the following markets offer?",
+          "options": [
+            "A: the largest market in the city",
+            "B: famous for its coffee",
+            "C: offers special classes",
+            "D: has unusual entertainment",
+            "E: sells hand-made items",
+            "F: has an area for board games",
+            "G: located in a historical building"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Holling Street Market",
+          "context": "Which special feature does each of the following markets offer?",
+          "options": [
+            "A: the largest market in the city",
+            "B: famous for its coffee",
+            "C: offers special classes",
+            "D: has unusual entertainment",
+            "E: sells hand-made items",
+            "F: has an area for board games",
+            "G: located in a historical building"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "Tea",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–H",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "single_choice",
+          "prompt": "Bread",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–H",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "single_choice",
+          "prompt": "Spices",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–H",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "single_choice",
+          "prompt": "Meat and fish",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–H",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "single_choice",
+          "prompt": "Nuts",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–H",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 21–30."
+      ],
+      "questions": [
+        {
+          "id": "q21-22",
+          "number_range": [
+            21,
+            22
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which TWO benefits of cycling for society do the students agree to include in their report?",
+          "context": "",
+          "options": [
+            "It attracts tourists.",
+            "It creates little noise.",
+            "It is better for the environment.",
+            "It helps traffic flow.",
+            "It improves pedestrian safety."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q23-24",
+          "number_range": [
+            23,
+            24
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which TWO aspects of bicycle theft will the students find out more about?",
+          "context": "",
+          "options": [
+            "whether the risk deters people from cycling",
+            "how frequent theft is",
+            "how many victims replace their bike",
+            "what the cost of insurance is",
+            "whether theft affects government policy"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "matching",
+          "prompt": "Handlebar lock",
+          "context": "What positive feature do the speakers identify for each of the following types of bicycle lock?",
+          "options": [
+            "A: It is simple to operate.",
+            "B: It is lightweight.",
+            "C: It does not take up much space.",
+            "D: It is attractive.",
+            "E: It prevents thieves from using the bike.",
+            "F: It makes the thief easy to identify.",
+            "G: It is not expensive.",
+            "H: It protects various parts of a bicycle."
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "Seat lock",
+          "context": "What positive feature do the speakers identify for each of the following types of bicycle lock?",
+          "options": [
+            "A: It is simple to operate.",
+            "B: It is lightweight.",
+            "C: It does not take up much space.",
+            "D: It is attractive.",
+            "E: It prevents thieves from using the bike.",
+            "F: It makes the thief easy to identify.",
+            "G: It is not expensive.",
+            "H: It protects various parts of a bicycle."
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "Smart lock",
+          "context": "What positive feature do the speakers identify for each of the following types of bicycle lock?",
+          "options": [
+            "A: It is simple to operate.",
+            "B: It is lightweight.",
+            "C: It does not take up much space.",
+            "D: It is attractive.",
+            "E: It prevents thieves from using the bike.",
+            "F: It makes the thief easy to identify.",
+            "G: It is not expensive.",
+            "H: It protects various parts of a bicycle."
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "Snake lock",
+          "context": "What positive feature do the speakers identify for each of the following types of bicycle lock?",
+          "options": [
+            "A: It is simple to operate.",
+            "B: It is lightweight.",
+            "C: It does not take up much space.",
+            "D: It is attractive.",
+            "E: It prevents thieves from using the bike.",
+            "F: It makes the thief easy to identify.",
+            "G: It is not expensive.",
+            "H: It protects various parts of a bicycle."
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Pit lock",
+          "context": "What positive feature do the speakers identify for each of the following types of bicycle lock?",
+          "options": [
+            "A: It is simple to operate.",
+            "B: It is lightweight.",
+            "C: It does not take up much space.",
+            "D: It is attractive.",
+            "E: It prevents thieves from using the bike.",
+            "F: It makes the thief easy to identify.",
+            "G: It is not expensive.",
+            "H: It protects various parts of a bicycle."
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "Axa lock",
+          "context": "What positive feature do the speakers identify for each of the following types of bicycle lock?",
+          "options": [
+            "A: It is simple to operate.",
+            "B: It is lightweight.",
+            "C: It does not take up much space.",
+            "D: It is attractive.",
+            "E: It prevents thieves from using the bike.",
+            "F: It makes the thief easy to identify.",
+            "G: It is not expensive.",
+            "H: It protects various parts of a bicycle."
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 31–40.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "This may be due to changes in habitat and [BLANK] or to disease.",
+          "context": "Presentation on a bee disease - Background",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "The decline has affected bee lifespans and the [BLANK] of locations they inhabit.",
+          "context": "Presentation on a bee disease - Background",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "A significant amount of all our food, including fruit and [BLANK], comes from pollinated plants.",
+          "context": "Presentation on a bee disease - Background",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "An example of a pollinated non-food plant is [BLANK]",
+          "context": "Presentation on a bee disease - Background",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Carrying out artificial pollination by hand, using a small [BLANK], is not cost-effective",
+          "context": "Presentation on a bee disease - Background",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "A [BLANK] transfers the virus between bees.",
+          "context": "Deformed Wing Virus (DWV)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "DWV has a harmful effect on bees’ wings and [BLANK]",
+          "context": "Deformed Wing Virus (DWV)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "The virus strain found in both species was [BLANK], but less frequent in bumblebees.",
+          "context": "Research into DWV",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Develop convenient [BLANK] that non-scientists can carry out.",
+          "context": "Suggested solutions",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Cut down on [BLANK], which may affect bees’ immune systems.",
+          "context": "Suggested solutions",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

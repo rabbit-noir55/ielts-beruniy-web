@@ -1,0 +1,878 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test24.html",
+    "title": "IELTS Listening Mock Test 0580604",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/aud050469/main/audio.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "Friday"
+    ],
+    "2": [
+      "International"
+    ],
+    "3": [
+      "14 Mountain Road",
+      "14 Mountain Rd"
+    ],
+    "4": [
+      "Hillman"
+    ],
+    "5": [
+      "North Building"
+    ],
+    "6": [
+      "Park Avenue",
+      "Park Ave"
+    ],
+    "7": [
+      "6 books",
+      "books",
+      "six books"
+    ],
+    "8": [
+      "photographs",
+      "photograph",
+      "photos",
+      "photo"
+    ],
+    "9": [
+      "98",
+      "$98"
+    ],
+    "10": [
+      "an ID code",
+      "ID code",
+      "id code"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "D"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "F"
+    ],
+    "19": [
+      "H"
+    ],
+    "20": [
+      "C"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "G"
+    ],
+    "27": [
+      "D"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "H"
+    ],
+    "30": [
+      "F"
+    ],
+    "31": [
+      "passive"
+    ],
+    "32": [
+      "beaches",
+      "beach"
+    ],
+    "33": [
+      "roots",
+      "root"
+    ],
+    "34": [
+      "light"
+    ],
+    "35": [
+      "signature"
+    ],
+    "36": [
+      "sugar"
+    ],
+    "37": [
+      "potatoes",
+      "potato"
+    ],
+    "38": [
+      "chemicals",
+      "chemical"
+    ],
+    "39": [
+      "circle"
+    ],
+    "40": [
+      "equipment"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the form below.",
+        "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+        "Answer the questions below."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Package to reach destination by:",
+          "context": "Post Office – Package Delivery Form (Country of destination: USA)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Service selected:",
+          "context": "Post Office – Package Delivery Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Address (Sender):",
+          "context": "Post Office – Package Delivery Form (Sender: Peter White, Suburb: Lakeview)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Name (Delivery to):",
+          "context": "Post Office – Package Delivery Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Address (Delivery to - line 1):",
+          "context": "Post Office – Package Delivery Form (Apartment 228)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Address (Delivery to - line 2):",
+          "context": "Post Office – Package Delivery Form (Upper, New York)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Contents (item 1):",
+          "context": "Post Office – Package Delivery Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Contents (item 2):",
+          "context": "Post Office – Package Delivery Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "What is the total cost of sending the package?",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "What is required in order to find a lost package?",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Label the map below. Choose the correct letter, A–H, next to questions 16–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "Rob says the hotel is exceptional because of",
+          "context": "The Montana Resort Hotel",
+          "options": [
+            "its easy access to the airport.",
+            "its unpolluted setting.",
+            "its quiet location."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "What is the price range for a standard room?",
+          "context": "The Montana Resort Hotel",
+          "options": [
+            "$80–$145",
+            "$145–$210",
+            "$210–$285"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "All the bedrooms in the deluxe suites have",
+          "context": "The Montana Resort Hotel",
+          "options": [
+            "windows on two sides.",
+            "mountain views.",
+            "a balcony."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "The hotel encourages families to stay by offering",
+          "context": "The Montana Resort Hotel",
+          "options": [
+            "rooms with connecting doors.",
+            "childcare facilities.",
+            "discounts at certain times of the year."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "What does Rob say visitors can do in the Grill Room?",
+          "context": "The Montana Resort Hotel",
+          "options": [
+            "listen to live music",
+            "have a full meal or a snack",
+            "see their food being cooked"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Barn for horses",
+          "context": "Hotel’s outdoor facilities",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Tennis courts",
+          "context": "Hotel’s outdoor facilities",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Swimming pool",
+          "context": "Hotel’s outdoor facilities",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Golf course",
+          "context": "Hotel’s outdoor facilities",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Outdoor Facilities Manager’s office",
+          "context": "Hotel’s outdoor facilities",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "What problems with the following aspects of the proposed interviews do the speakers identify? Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "What source did Mike use for his definition?",
+          "context": "Oral History",
+          "options": [
+            "a history textbook",
+            "an academic article",
+            "a lecture handout"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "According to Mike and his tutor, what is the most important contribution of the internet to oral history?",
+          "context": "Oral History",
+          "options": [
+            "the permanent preservation of recordings",
+            "an increase in student interest",
+            "wide access to the interviews by the public"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "Mike says he chose his particular topic because",
+          "context": "Oral History",
+          "options": [
+            "he is a football fan.",
+            "his father loves football.",
+            "his friends encouraged him."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "What does Mike say was his best source of information about the team?",
+          "context": "Oral History",
+          "options": [
+            "doing research in the local newspaper archives",
+            "speaking to the team manager",
+            "looking at materials in the local library"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "How did Mike find the former players he has arranged to interview?",
+          "context": "Oral History",
+          "options": [
+            "on the internet",
+            "in the team records",
+            "in the phone book"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "Questions drafted",
+          "context": "Aspects of the proposed interviews",
+          "options": [
+            "A: too unreliable",
+            "B: too short",
+            "C: too noisy",
+            "D: too long",
+            "E: too formal",
+            "F: too factual",
+            "G: too complicated",
+            "H: too vague"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "Time allotted",
+          "context": "Aspects of the proposed interviews",
+          "options": [
+            "A: too unreliable",
+            "B: too short",
+            "C: too noisy",
+            "D: too long",
+            "E: too formal",
+            "F: too factual",
+            "G: too complicated",
+            "H: too vague"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "Recording equipment used",
+          "context": "Aspects of the proposed interviews",
+          "options": [
+            "A: too unreliable",
+            "B: too short",
+            "C: too noisy",
+            "D: too long",
+            "E: too formal",
+            "F: too factual",
+            "G: too complicated",
+            "H: too vague"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Subjects chosen",
+          "context": "Aspects of the proposed interviews",
+          "options": [
+            "A: too unreliable",
+            "B: too short",
+            "C: too noisy",
+            "D: too long",
+            "E: too formal",
+            "F: too factual",
+            "G: too complicated",
+            "H: too vague"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "Proposed report",
+          "context": "Aspects of the proposed interviews",
+          "options": [
+            "A: too unreliable",
+            "B: too short",
+            "C: too noisy",
+            "D: too long",
+            "E: too formal",
+            "F: too factual",
+            "G: too complicated",
+            "H: too vague"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "Scientists once thought of plants as being [...] organisms",
+          "context": "Plant Behaviour - Changing ideas",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "Great Lakes sea rocket found on [...]",
+          "context": "Plant Behaviour - Recent studies",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "When near other plants, it normally produces extra [...] to compete for nutrients.",
+          "context": "Plant Behaviour - Great Lakes sea rocket",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "Recognise surrounding plants by the type of [...] that they reflect",
+          "context": "Plant Behaviour - Sagebrush and thornapple",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Identification is possible because all plants have a particular [...]",
+          "context": "Plant Behaviour - Sagebrush and thornapple",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "Is unable to produce [...]",
+          "context": "Plant Behaviour - Dodder plant",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Affects farmers’ crops, e.g. alfalfa, [...] and citrus",
+          "context": "Plant Behaviour - Dodder plant",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Identifies suitable ‘hosts’ by detecting the [...] they give off",
+          "context": "Plant Behaviour - Dodder plant",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Moves in a [...] to check the environment, then grows towards the most suitable host",
+          "context": "Plant Behaviour - Dodder plant",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Use of modern [...] provides evidence of plant behaviour",
+          "context": "Plant Behaviour - Plant science",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

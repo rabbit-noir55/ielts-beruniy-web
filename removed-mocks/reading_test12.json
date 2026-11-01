@@ -1,0 +1,768 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test12.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 34,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "FALSE"
+    ],
+    "2": [
+      "FALSE"
+    ],
+    "3": [
+      "NOT GIVEN"
+    ],
+    "4": [
+      "TRUE"
+    ],
+    "5": [
+      "FALSE"
+    ],
+    "6": [
+      "TRUE"
+    ],
+    "7": [
+      "ecological release",
+      "a phenomenon called ecological release"
+    ],
+    "8": [
+      "dragons",
+      "dragon"
+    ],
+    "9": [
+      "competitors",
+      "few competitors",
+      "no competitors"
+    ],
+    "10": [
+      "overlooked"
+    ],
+    "11": [
+      "vanished"
+    ],
+    "12": [
+      "tectonic processes",
+      "the tectonic processes"
+    ],
+    "13": [
+      "misdated"
+    ],
+    "14": [
+      "F"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "E"
+    ],
+    "17": [
+      "D"
+    ],
+    "18": [
+      "B"
+    ],
+    "19": [
+      "C"
+    ],
+    "20": [
+      "D"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "archaeological"
+    ],
+    "23": [
+      "Andes",
+      "the Andes"
+    ],
+    "24": [
+      "currant"
+    ],
+    "25": [
+      "mutation"
+    ],
+    "26": [
+      "infections",
+      "infection"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "C"
+    ],
+    "32": [
+      "YES"
+    ],
+    "33": [
+      "NO"
+    ],
+    "34": [
+      "YES"
+    ],
+    "35": [
+      "NOT GIVEN"
+    ],
+    "36": [
+      "NO"
+    ],
+    "37": [
+      "F"
+    ],
+    "38": [
+      "C"
+    ],
+    "39": [
+      "A"
+    ],
+    "40": [
+      "D"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Footprints in the muds of time",
+      "passages": [
+        "Everybody knows that the dinosaurs became extinct as a result of a large asteroid; something big hit the Earth 65 million years ago and, when the dust had fallen, so had the great reptiles. There is thus a nice, if ironic, symmetry in the idea that a similar impact brought about the dinosaurs' rise. That is the thesis proposed by Paul Olsen of Columbia University.\n\nDinosaurs first appear in the fossil record 230 million years ago, during the Triassic period. But they were mostly small, and they shared the Earth with lots of other sorts of reptile. It was in the subsequent Jurassic period, which began 202 million years ago, that they overran the planet and turned into the monsters realistically depicted in modern books and movies. Dr Olsen and his colleagues are not the first to suggest that the dinosaurs inherited the Earth as the result of an asteroid strike. But they are the first to show that the takeover did, indeed, happen in a geological eye blink.\n\nDinosaur skeletons are rare. Dinosaur footprints are, however, surprisingly abundant. And the size of the prints is as good an indication of the size of the beasts as are the skeletons themselves. Dr Olsen and his colleagues therefore concentrated on prints, not bones. The prints in question were made in Eastern North America, a part of the world then full of rift valleys similar to those in East Africa today. Like the modern African rift valleys, the Triassic/Jurassic American ones contained lakes, and these lakes grew and shrank at regular intervals because of climatic changes. Rocks from this place and period can be dated to within a few thousand years. As a bonus, squishy lake-edge sediments are just the things for recording the tracks of passing animals.\n\nBy dividing the labour between them, the research team were able to study such tracks at 80 sites and look at 18 so-called 'ichnotaxa'. These are recognisable types of footprint that cannot be matched precisely within the species of animal that left them. But they can be matched with a general sort of animal, and thus act as an indicator of the fate of that group, even when there are no bones to tell the story.\n\nTheir findings show that five of the ichnotaxa disappear before the end of the Triassic, and four march confidently across the boundary into the Jurassic. Six, however, vanish at the boundary, or only just splutter across it; and three appear from nowhere, almost as soon as the Jurassic begins.\n\nThat boundary itself is suggestive. The first geological indication of the impact that killed the dinosaurs was an unusually high level of iridium in rocks at the end of the Cretaceous period, when the beasts disappear from the fossil record. Iridium is normally rare at the Earth's surface, but it is more abundant in meteorites. When people began to believe the impact theory, they started looking for other Cretaceous-end anomalies. One that turned up was a surprising abundance of fern spores in rocks just above the boundary layer – a phenomenon known as 'fern spike'.\n\nThat matched the theory nicely. Many modern ferns are opportunists. They cannot compete against plants with leaves, but if a piece of land is cleared by, say, a volcanic eruption, they are often the first things to set up shop there. An asteroid strike would have scoured much of the Earth of its vegetable cover, and provided a paradise for ferns. A fern spike in the rocks is thus a good indication that something terrible has happened.\n\nThe surprises are how rapidly the new ichnotaxa appeared and how quickly they increased in size. Dr Olsen and his colleagues suggest that the explanation for this may be a phenomenon called ecological release. This is seen today when reptiles (which in modern times tend to be small creatures) reach islands where they have few competitors. The most spectacular example is on the Indonesian island of Komodo, where dinosaur lizards have grown so large that they are often referred to as dragons. The dinosaurs, in other words, could flourish only when the competition had been knocked out.\n\nThat leaves the question of where the impact happened. No large hole in the Earth's crust seems to be 202 million years old. It may, of course, have been overlooked. Old craters are eroded and buried, and not always easy to find. Alternatively, it may have vanished. Although continental crust is more or less permanent, the ocean floor is constantly recycled by the tectonic processes that bring about continental drift. There is no ocean floor left that is more than 200 million years old, so a crater formed in the ocean would have been swallowed up by now.\n\nThere is a third possibility, however. This is that the crater is known, but has been misdated. The Manicouagan 'structure', a crater in Quebec, is thought to be 214 million years old. It is huge – some 100 kilometres across – and seems to be the largest of between three and five craters that formed within a few hours of each other as the lumps of disintegrated comet hit the Earth one by one. Such an impact would surely have had a perceptible effect on the world, but the rocks from 214 million years ago do not record one. It is possible, therefore, that Manicouagan has been misdated. That will be the next thing to check."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Complete the summary below."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "There is still doubt about the theory that an asteroid strike killed the dinosaurs.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "Books and the cinema have exaggerated the size of dinosaurs.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "Other scientists have rejected Olsen's idea of a sudden dinosaur occupation of the Earth.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "Dinosaur footprints are found more frequently than dinosaur skeletons.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "Ichnotaxa offer an exact identification of a dinosaur species.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "There is evidence that some groups of dinosaurs survived from the Triassic period into the Jurassic period.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "summary",
+          "prompt": "Dr Olsen's group believe that the sudden increase in the size of dinosaurs may have been due to something known as [7]. A current example of this can be found on Komodo Island in Indonesia, where some of the lizards are commonly called [8] because of their size. Apparently, they have grown this big because they have [9]. The asteroid strike that may have cleared the way for dinosaurs to become the dominant group occurred 202 million years ago. According to the writer, there are three possible reasons why we have not found a large hole in the Earth's crust dating back 202 million years. First, it may have been [10] by scientists, because craters are easily covered up. Or, it could have [11]: for example, if the hole had been in the ocean, it would no longer exist because of the [12] that produce continental drift. Thirdly, the hole could itself have been [13].",
+          "context": "Complete the summary below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "number": 7
+            },
+            {
+              "id": "q8",
+              "number": 8
+            },
+            {
+              "id": "q9",
+              "number": 9
+            },
+            {
+              "id": "q10",
+              "number": 10
+            },
+            {
+              "id": "q11",
+              "number": 11
+            },
+            {
+              "id": "q12",
+              "number": 12
+            },
+            {
+              "id": "q13",
+              "number": 13
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "7"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "The Constant Evolution of the Humble Tomato",
+      "passages": [
+        "A  Famous for their taste, color and organic appearance, heirloom tomatoes are favorites of gardeners and advocates of locally grown foods. The tomato enthusiast might conclude, given the immense varieties, heirlooms must have a more diverse and superior set of genes than the tomatoes available in grocery stores, those ordinary hybrid varieties such as cherry and plum. However, their seeming diversity is only skin-deep: heirlooms are actually feeble and inbred – the defective product of breeding experiments that began hundreds of years ago, and exploited thanks to enthusiastic backyard gardeners. \"The irony of all this,\" says Steven Tanksley, a geneticist at Cornell University, \"is all that diversity of heirlooms can be accounted for by a handful of genes. There're probably no more than 10 mutant genes that create the diversity of heirlooms you see.\" But rather than simply thinking that the myth about the heirloom's diversity is wrong, Tanksley's deconstruction of the tomato genome, along with work by others, is showing how a small berry-like fruit from the Andes became one of the world's top crops.\n\nB  The cultivated tomato is a member of the nightshade family that includes New World crops such as the potato, which spread around the globe after Christopher Columbus brought them back to Spain in the 15th century. But whereas scientists have uncovered a wealth of archaeological evidence on early farming practices in the New World, the record is blank when it comes to the tomato. The modern tomato seems to have its origins in the Andes in South America, and may have been domesticated in Vera Cruz, Mexico. Primitive varieties still grow throughout the Americas. All told, botanists call as many as 13 species 'tomatoes', and consider an additional four to be closely related.\n\nC  One might assume that one of these known wild species became today's cultivated crop, but that's not the case: the closest relative of the modern tomato is the currant tomato which, based on genetic comparisons, split from today's tomato some 1.4 million years ago. So researchers like Tanksley have to work backward, crossing tomato varieties and species in order to understand how various genes influence shape and size. Once isolated, Tanksley later inserted these genes into other tomato varieties to make his case with a dramatic transformation.\n\nD  Tanksley concludes from his analyses that in their effort to make bigger, tastier and faster-growing fruit, our ancestors ultimately exploited just 30 mutations out of the tomato's 35,000 genes. Most of these genes have only small effects on tomato size and shape, but a genetic map of his colleagues reported that they found a gene that increases fruit size by 50 percent. It was probably the most important event in domestication. The first written record of tomatoes – from Spain in the 1500s – confirms that this mutation, which enlarges tomatoes by producing compartments known as locules, existed back in the same yellow tomatoes that gave Italians the word pomodoro, or golden apple. Besides size, tomato farmers also selected for shape. To discover those genes, Esther van der Knaap, a Tanksley alumnus now at The Ohio State University, got a gene from one heirloom tomato and inserted it into a wild relative. She observed that, as a result, the tiny fruits became shaped like pears.\n\nE  The selection of these traits has, however, affected the heirloom's hardiness. They often suffer from infections that cause the fruit to crack, split and otherwise rot quickly. Wild plants must continuously evolve to fend off such infections, points out Roger Chetelat of the Tomato Genetics Resource Center at the University of California. But in their quest for size, shape and flavor, humans have inadvertently eliminated defensive genes. As a result, most possess only a single disease-resistant gene. Chetelat elaborates that heirlooms may have less to do with their genes than with the productivity of the plant and the growing environment. Any plant that produces only two fruits, as heirlooms sometimes do, is highly likely to produce juicier, sweeter and more flavorful fruit than varieties that produce 100, as commercial types do. In addition, heirlooms are sold ripened on the vine, a certain way to get tasteless tomatoes than allowing them to mature on the shelf. This means breeders feel confident that getting germ-beating genes back into heirlooms won't harm the desirable aspects of the fruit. Modern breeding has resuscitated grocery store tomatoes with an influx of wild genes; in the past 50 years, as many as 40 disease-resistant genes have been bred back into commercial crops.\n\nF  In 1996 a tomato breeder and former Tanksley student named Doug Heath began a favorite project. After 12 years of traditional breeding with the help of molecular markers, he created a new multi-colored tomato less prone to cracking and also endowed with 12 disease-resistant genes. The original heirloom plant, Heath explains, had defects, which is one reason why it produced only two fruits compared with the 30 he gets from his new variety. He claims he is also able to maintain a comparable flavor and sugar profile even on productive plants. The heirloom's defects are, after all, just an accident of a narrow breeding strategy left over from the very beginning of genetic modification."
+      ],
+      "instructions": [
+        "Which paragraph contains the following information?",
+        "Match each statement with the correct researcher, A, B, C or D.",
+        "Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "an explanation of research aimed at restoring the health of the heirloom tomato",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "a reference to a false belief about the heirloom tomato",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "a description of the flavour of the heirloom tomato",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "a reference to a single gene that significantly improves the cultivation of tomatoes",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "The transplanting of certain genes into tomatoes can change their shape.",
+          "context": "List of Researchers: A. Steven Tanksley, B. Esther van der Knaap, C. Roger Chetelat, D. Doug Heath",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "The flavour of the heirloom tomato is largely dependent on actual yield and cultivation.",
+          "context": "List of Researchers: A. Steven Tanksley, B. Esther van der Knaap, C. Roger Chetelat, D. Doug Heath",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "A new type of tomato can be produced that is stronger than the original heirloom tomato yet equally sweet and flavoursome.",
+          "context": "List of Researchers: A. Steven Tanksley, B. Esther van der Knaap, C. Roger Chetelat, D. Doug Heath",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "The wide variety of heirloom tomatoes is due to only a small number of genes.",
+          "context": "List of Researchers: A. Steven Tanksley, B. Esther van der Knaap, C. Roger Chetelat, D. Doug Heath",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "input",
+          "prompt": "There is little information on the origin of the tomato despite the existence of [22] data on the growing of other New World crops.",
+          "context": "Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q22",
+              "number": 22
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "input",
+          "prompt": "Although it is uncertain, the tomato is thought to have first grown in the [23].",
+          "context": "Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q23",
+              "number": 23
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "In regard to genetic similarities, the [24] tomato is the nearest to the earliest type of tomato.",
+          "context": "Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q24",
+              "number": 24
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "A genetic [25] which is evident in pomodoro produced larger tomatoes.",
+          "context": "Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q25",
+              "number": 25
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "[26] are a problem for heirloom tomatoes because they frequently lead to damage and deterioration.",
+          "context": "Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q26",
+              "number": 26
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Crossing the Threshold",
+      "passages": [
+        "Architects are finding it very difficult to innovate in today's cultural landscape. The profession faces a three-way threat; a public that apparently doesn't understand what architects do, developers who couldn't care less what they do, and ever-increasing critics micromanaging every single aspect of what they do. According to sources within the architectural profession, the situation is much worse when architects work on municipal buildings, as architects FJMT and Archimedia discovered with their Auckland Gallery makeover, where a vast number of external pressures threatened the project, and so many bureaucratic difficulties it looked doomed to fail.\n\nThe major challenge of the gallery renovation project was that it involved two parts. The first was to restore the heritage building, dating back to 1888, which contained a network of small spaces, refurbished so often it contained 17 different floor heights. The second was to deliver a new extension that would not only double floor and exhibition space but also attract new patrons, a total necessity.\n\nWhile the old building's circulation was off-putting, so was something intangible yet just as powerful; its atmosphere. For many, Auckland Art Gallery was just an old building that served a limited range of patrons with highbrow interests, missing its chance to engage with new audiences.\n\nA 2003 survey of young people's impressions of the gallery confirmed this opinion, sounding more like references to an abandoned building. For the survey authors, 'threshold fear' – where certain groups are intimidated from entering certain spaces by their off-putting atmospheres – was the institution's undoing, something no architects wanted anything to do with.\n\nFor those people Auckland Art Gallery was undemocratic, 'dusty' and 'cold' – the epitome of threshold fear. Also, 16% of the sample group had no idea where it even was, despite being interviewed on the pavement right outside it. Clearly, the gallery was a fallacy out of step at a time when New Zealand's national museum in Wellington was successfully engaging broader audiences with contemporary branding and marketing, interactive displays and temporary events.\n\nThe decision to evolve the gallery was actually made in 2000, although it took eight years for building to commence, as architects fought off heritage committees and conservationists trying to stop them. The architects were not just dealing with a disillusioned public, but also with precious timber and the parkland which surrounds the building. Pushing the design through the Environment Court, the body which approves renovations of this scale, alone took three years. During this time the budget blew out by several million dollars, the funding dried up, and the new wing had to be completely redesigned.\n\nEven after the redesign, the use of kauri timber, with its significance to New Zealand's Māori* people, stirred up political debate. In the new building the architects have used kauri to produce a canopy with a curving interior roof supported by tapered, steel columns, also clad in kauri. The canopy represents a signature public face, its curvature lifting light to the forecourt to the west and creating a visual echo of the canopy of pohutukawa trees in Albert Park to the east. The park also has cultural significance to Māori as it was the site of early settlements.\n\nThe connection is reinforced by sculptures from Māori artist Arnold Wilson decorating the columns, while fellow artist Bernard Makoare was a consultant, ensuring the gallery emphasised Māori beliefs. Still, that didn't stop the conservationist Stephen King from accusing the architects of 'throwing caution' at a 'mediocre building' and of misappropriating the 'mana' (spiritual energy) of the precious material (which is almost extinct: harvesting of both petrified and swamp kauri has been linked to a gold rush). However, the kauri that was used here was from the forest floor, and King's misconceptions sum up the prejudice that surrounded the project.\n\nObjections also came from the Auckland Regional Council, worrying about the extension's impact on Albert Park, yet the project's relationship with parkland is one of the most successful outcomes. Impact is not only minimal, it improves the park's social function. The extension's enormous glass atrium opens up the building by directing the gaze from street level to the parkland beyond, while inside, the new art space is fronted along the east by a continuous glass wall incorporating the park into the gallery. The glass becomes a 'screen' for viewing the outside world and makes the art accessible to those in the park, a far cry from both 'white cube' galleries worldwide, the plain boxes where paintings are hung in antiseptic white surroundings, and also the dusty but impermeable Auckland Gallery of old.\n\nAnother success is the refurbishment of the heritage building, especially the Mackelvie Gallery, in disrepair after its characteristic early twentieth-century Edwardian decoration had been stripped out or walled away in previous renovations. Remarkably the Mackelvie space has been reconstructed from two photographs, although the problem of multiple floor levels was so serious that scaffolding had to be erected at the highest level, with work progressing downwards, the reverse of normal practice. When it was over, a fascinating detail was retained: the lowest level visible under glass embedded in the new floor. The building itself as artwork, while elsewhere columns from the old gallery have been exposed in the walls of the new wing.\n\nIn 2008 the gallery averaged just 190,000 visitors annually. After reopening, it had 300,000 in five months. Cynics will chalk that up to novelty of the new, but the fact is the gallery is now an alluring cultural space which is crawling with new people."
+      ],
+      "instructions": [
+        "Choose the correct letter A, B, C or D.",
+        "Do the following statements agree with the claims of the writer in Reading Passage 3?",
+        "Complete each sentence with the correct ending, A-F, below."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "single_choice",
+          "prompt": "What is the writer's main point in the first paragraph?",
+          "context": "",
+          "options": [
+            "A. Criticism of architects by different groups is unfair.",
+            "B. The architectural profession is generally well respected.",
+            "C. The most difficult projects for architects are public buildings.",
+            "D. Failure to deliver buildings is a result of poor communication."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "single_choice",
+          "prompt": "The Auckland Gallery project was particularly difficult because",
+          "context": "",
+          "options": [
+            "A. the existing building was old and parts of it had fallen down.",
+            "B. there was a high number of floors in the building.",
+            "C. it needed to satisfy the requirements of the existing patrons.",
+            "D. it involved renovating the existing building and adding a new one."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "single_choice",
+          "prompt": "What disturbing information did the architects find out from the survey of young people?",
+          "context": "",
+          "options": [
+            "A. They did not visit the gallery because of the way it made them feel.",
+            "B. They thought that the gallery buildings were not in use.",
+            "C. The gallery had the reputation of being dirty.",
+            "D. They did not like the entrance."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "single_choice",
+          "prompt": "What point is the writer making when he says that 16% of the sample group did not know where the museum was?",
+          "context": "",
+          "options": [
+            "A. Young people are not interested in galleries.",
+            "B. The gallery was not reaching out to involve young people.",
+            "C. The entrance to the gallery was not well signposted.",
+            "D. The location of the gallery was difficult to access."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "single_choice",
+          "prompt": "Māori artists were used on this project to",
+          "context": "",
+          "options": [
+            "A. satisfy the concerns of conservationists.",
+            "B. protect sacred materials in the Albert Park site.",
+            "C. make sure the gallery respects Māori culture.",
+            "D. ensure that certain sources of kauri were not used."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "yes_no_not_given",
+          "prompt": "Before the renovation, the Auckland Art Gallery was regarded as an elitist institution.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "yes_no_not_given",
+          "prompt": "Stephen King's intervention in the project shows his understanding of the architects' use of kauri.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "yes_no_not_given",
+          "prompt": "The way the building interacts with its surroundings is a triumph.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "yes_no_not_given",
+          "prompt": "The glass screen along the east wall was one of the most costly items in the rebuild.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "yes_no_not_given",
+          "prompt": "The design of the extension to the Auckland Art Gallery is similar to the design of 'white cube' galleries in other parts of the world.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "matching",
+          "prompt": "The destruction of Edwardian ornamentation",
+          "context": "Sentence Endings: A. resulted in work being done in the opposite direction to that usually followed., B. is more than cosmetic and has improved the circulation., C. was the clue to rebuilding the Mackelvie Gallery successfully., D. has resulted in the building itself becoming a work of art., E. means that you should be able to tell whether you are in the old wing or the new one., F. was the result of earlier attempts to modernise the building.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "matching",
+          "prompt": "It is extraordinary that a limited number of photographs",
+          "context": "Sentence Endings: A. resulted in work being done in the opposite direction to that usually followed., B. is more than cosmetic and has improved the circulation., C. was the clue to rebuilding the Mackelvie Gallery successfully., D. has resulted in the building itself becoming a work of art., E. means that you should be able to tell whether you are in the old wing or the new one., F. was the result of earlier attempts to modernise the building.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "matching",
+          "prompt": "The problem of having so many floor levels to deal with",
+          "context": "Sentence Endings: A. resulted in work being done in the opposite direction to that usually followed., B. is more than cosmetic and has improved the circulation., C. was the clue to rebuilding the Mackelvie Gallery successfully., D. has resulted in the building itself becoming a work of art., E. means that you should be able to tell whether you are in the old wing or the new one., F. was the result of earlier attempts to modernise the building.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "matching",
+          "prompt": "The glass floor in the Mackelvie Gallery which reveals old features",
+          "context": "Sentence Endings: A. resulted in work being done in the opposite direction to that usually followed., B. is more than cosmetic and has improved the circulation., C. was the clue to rebuilding the Mackelvie Gallery successfully., D. has resulted in the building itself becoming a work of art., E. means that you should be able to tell whether you are in the old wing or the new one., F. was the result of earlier attempts to modernise the building.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

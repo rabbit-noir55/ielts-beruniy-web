@@ -1,0 +1,876 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test18.html",
+    "title": "IELTS Listening Mock Test 080907",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/203255/main/20232110.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "Monterey"
+    ],
+    "2": [
+      "library"
+    ],
+    "3": [
+      "dentist"
+    ],
+    "4": [
+      "transportation",
+      "transport"
+    ],
+    "5": [
+      "parents",
+      "parent"
+    ],
+    "6": [
+      "youth"
+    ],
+    "7": [
+      "mail"
+    ],
+    "8": [
+      "teacher",
+      "teachers"
+    ],
+    "9": [
+      "August 19",
+      "19 August",
+      "19th August",
+      "August 19th"
+    ],
+    "10": [
+      "2.05",
+      "2:05",
+      "2.05pm",
+      "2.05 pm"
+    ],
+    "11": [
+      "F"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "I"
+    ],
+    "14": [
+      "D"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "C"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "B"
+    ],
+    "25": [
+      "A"
+    ],
+    "26": [
+      "F"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "B"
+    ],
+    "29": [
+      "E"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "threat"
+    ],
+    "32": [
+      "astronomy"
+    ],
+    "33": [
+      "cities",
+      "city"
+    ],
+    "34": [
+      "sound",
+      "sounds"
+    ],
+    "35": [
+      "culture"
+    ],
+    "36": [
+      "wars",
+      "war"
+    ],
+    "37": [
+      "style"
+    ],
+    "38": [
+      "blog"
+    ],
+    "39": [
+      "speed"
+    ],
+    "40": [
+      "ceremony",
+      "ceremonies"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 1–10.",
+        "Complete the notes below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "School: [1] Heights Elementary School",
+          "context": "Information about School Registration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Can pick up packet from the school [2] any afternoon up to 5.00",
+          "context": "Information about School Registration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Health forms from doctor and [3]",
+          "context": "Information about School Registration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "No [4] is provided",
+          "context": "Information about School Registration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "There is on-site licensed daycare for working [5]",
+          "context": "Information about School Registration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "This is organized by the City [6] Council",
+          "context": "Information about School Registration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Open house in July – details provided through the [7] and on the school’s website",
+          "context": "Information about School Registration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Will tour the school, meet the [8] and schedule entrance testing",
+          "context": "Information about School Registration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "First day of school will be on [9]",
+          "context": "Information about School Registration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Regular schedule is 8.00 to [10]",
+          "context": "Information about School Registration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 11–20.",
+        "Label the map below.",
+        "Choose the correct letter, A–I, next to questions 11–14.",
+        "Choose the correct letter, A, B or C."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "matching",
+          "prompt": "Toilets with baby changing facilities",
+          "context": "Brightwater Adventure Park",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "matching",
+          "prompt": "Ice-cream shop",
+          "context": "Brightwater Adventure Park",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "matching",
+          "prompt": "Gift shop",
+          "context": "Brightwater Adventure Park",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "Film theatre",
+          "context": "Brightwater Adventure Park",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "On the ‘Flying Tigers’ ride, children have to be",
+          "context": "",
+          "options": [
+            "over 1.1 metres tall.",
+            "over 1.3 metres tall.",
+            "over 1.5 metres tall."
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "Visitors should be warned that the Hidden Cove ride involves",
+          "context": "",
+          "options": [
+            "being in darkness.",
+            "going underground.",
+            "getting slightly wet."
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "single_choice",
+          "prompt": "The speaker recommends the picnic area for families because",
+          "context": "",
+          "options": [
+            "there is plenty of space for children to run around.",
+            "it has a children’s playground.",
+            "children’s entertainment is provided there."
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "single_choice",
+          "prompt": "What change to this Saturday night’s programme has been made?",
+          "context": "",
+          "options": [
+            "The fireworks will start one hour later.",
+            "The barbecue will be by the forest.",
+            "The live band will play rock music."
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "single_choice",
+          "prompt": "This month, as a special deal, visitors can get",
+          "context": "",
+          "options": [
+            "two photos for the price of one.",
+            "a discount on tickets for future visits.",
+            "a free soft drink when they buy lunch."
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "single_choice",
+          "prompt": "The supervisor advises new employees to carry",
+          "context": "",
+          "options": [
+            "bus timetables.",
+            "maps of the park.",
+            "the park rules."
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 21–30.",
+        "Choose the correct letter, A, B or C.",
+        "Complete the flow-chart below.",
+        "Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 26–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "Why does Katie say she will continue attending lectures on her present course?",
+          "context": "Changing course",
+          "options": [
+            "to gain credits for part of the course",
+            "to get a good reference from her tutor",
+            "to see if she changes her mind about her decision"
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "Why is Katie going to speak to her family?",
+          "context": "Changing course",
+          "options": [
+            "because they can give her good advice",
+            "because they may disapprove of her decision",
+            "because they are paying for the course"
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "What does Stefan say about the Sports Education course?",
+          "context": "Changing course",
+          "options": [
+            "It has a very good reputation.",
+            "It would be easy to get a job afterwards.",
+            "Katie would enjoy it more."
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "What problem does Katie agree to consider?",
+          "context": "Changing course",
+          "options": [
+            "the extra financial support required",
+            "the amount of missed work to make up",
+            "the extra travelling that could be involved"
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "Katie has now decided that degrees",
+          "context": "Changing course",
+          "options": [
+            "are only useful if you enjoy what you study.",
+            "are a means to getting a better job.",
+            "contain too little practical experience."
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B or C",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "Speak to the [26] about requirements for the new course",
+          "context": "To change courses",
+          "options": [
+            "A: administration office",
+            "B: finance department",
+            "C: hall of residence",
+            "D: head of department",
+            "E: library",
+            "F: tutor",
+            "G: welfare advisor"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–G",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "give the [27] a date for the change",
+          "context": "To change courses",
+          "options": [
+            "A: administration office",
+            "B: finance department",
+            "C: hall of residence",
+            "D: head of department",
+            "E: library",
+            "F: tutor",
+            "G: welfare advisor"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–G",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "email the [28]",
+          "context": "To change courses",
+          "options": [
+            "A: administration office",
+            "B: finance department",
+            "C: hall of residence",
+            "D: head of department",
+            "E: library",
+            "F: tutor",
+            "G: welfare advisor"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–G",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "get the [29] to change their data",
+          "context": "To change courses",
+          "options": [
+            "A: administration office",
+            "B: finance department",
+            "C: hall of residence",
+            "D: head of department",
+            "E: library",
+            "F: tutor",
+            "G: welfare advisor"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–G",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "notify the [30]",
+          "context": "To change courses",
+          "options": [
+            "A: administration office",
+            "B: finance department",
+            "C: hall of residence",
+            "D: head of department",
+            "E: library",
+            "F: tutor",
+            "G: welfare advisor"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–G",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 31–40.",
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "They thought it represented a [31] to their control.",
+          "context": "Translating ancient Mayan - 16th to early 20th centuries",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "They identified some numbers and sections of the text relating to [32]",
+          "context": "Translating ancient Mayan - 16th to early 20th centuries",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "Heinrich Berlin found that certain ‘glyphs’ in the writing referred to some well-known [33] in the Mayan Empire.",
+          "context": "Translating ancient Mayan - Developments in the 1950s and 1960s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "Yuri Knorozov found that some ‘glyphs’ referred to a [34] rather than a word.",
+          "context": "Translating ancient Mayan - Developments in the 1950s and 1960s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Young academics immersed themselves in present-day Mayan art, [35] and religion.",
+          "context": "Translating ancient Mayan - A new approach in the 1980s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "They found many of the manuscripts described the success of Mayan kings in [36]",
+          "context": "Translating ancient Mayan - A new approach in the 1980s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Academics had to learn the [37] of each writer.",
+          "context": "Translating ancient Mayan - A new approach in the 1980s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "In 2003, David Stuart created a [38] that developed into a project for translating Mayan texts.",
+          "context": "Translating ancient Mayan - The Maya Decipherment project",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Now, feedback on translations can be provided with great [39] by translators around the world.",
+          "context": "Translating ancient Mayan - The Maya Decipherment project",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "This led to new understanding – previously Mayans were believed to be only interested in [40]",
+          "context": "Translating ancient Mayan - The Maya Decipherment project",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

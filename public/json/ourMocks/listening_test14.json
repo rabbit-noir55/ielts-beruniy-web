@@ -1,0 +1,868 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test14.html",
+    "title": "IELTS Listening Mock Test 56658",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/audio-test-55555/main/56658%2B(3).mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "age"
+    ],
+    "2": [
+      "21.50",
+      "21.5",
+      "£21.50"
+    ],
+    "3": [
+      "2",
+      "£2",
+      "two"
+    ],
+    "4": [
+      "parking"
+    ],
+    "5": [
+      "Argentina"
+    ],
+    "6": [
+      "singing"
+    ],
+    "7": [
+      "piano"
+    ],
+    "8": [
+      "1922"
+    ],
+    "9": [
+      "comedy"
+    ],
+    "10": [
+      "talk"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "F"
+    ],
+    "17": [
+      "A"
+    ],
+    "18": [
+      "D"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "C"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "G"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "H"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "typing"
+    ],
+    "32": [
+      "desks",
+      "desk"
+    ],
+    "33": [
+      "screens",
+      "screen"
+    ],
+    "34": [
+      "share"
+    ],
+    "35": [
+      "privacy"
+    ],
+    "36": [
+      "security"
+    ],
+    "37": [
+      "health"
+    ],
+    "38": [
+      "energy"
+    ],
+    "39": [
+      "training"
+    ],
+    "40": [
+      "noise"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Film Club",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 1–10.",
+        "Complete the notes below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Club meets every 2 weeks. No [1] limit.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Student membership costs 2 £[2] per season",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Members get: free entry to club films; 3 £[3] reduction on other films at cinema",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Members are entitled to 3 hours’ free [4]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Oct 14: Pablo - about a child in [5] who runs away from home and wins a [6] competition on TV",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Oct 14: Pablo - about a child in [5] who runs away from home and wins a [6] competition on TV",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Oct 28: The Soldier - with live [7] accompaniment",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Oct 28: The Soldier - made in the year [8]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Oct 28: The Soldier - type of film: a [9]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Nov 11: Tiger - cartoon aimed at adults, followed by a [10] by the director",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "extrahands.com",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 11–20.",
+        "Choose the correct letter, A, B or C.",
+        "Which job did Stephen do on his placement in each of the following countries? Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 16–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "Stephen says the founders of extrahands.com originally needed help in",
+          "context": "",
+          "options": [
+            "preparing their fields for planting.",
+            "harvesting their organic crops.",
+            "constructing their farm buildings."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "To remain an active member of extrahands.com, you must",
+          "context": "",
+          "options": [
+            "update your form on the website every year.",
+            "pay a subscription of $25 every year.",
+            "use the scheme as a host or volunteer every year."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "Most extrahands.com volunteers search for jobs on the website according to",
+          "context": "",
+          "options": [
+            "the type of work available.",
+            "the geographical location.",
+            "the length of time required."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "Stephen recommends that the host and volunteer should",
+          "context": "",
+          "options": [
+            "confirm details of the arrangement in writing.",
+            "draw up a formal written contract.",
+            "meet each other before settling on terms."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "To deal with members’ problems, extrahands.com have a system",
+          "context": "",
+          "options": [
+            "for checking each new member online.",
+            "for allowing online feedback.",
+            "for inspecting work and accommodation."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Which job did Stephen do on his placement in each of the following countries? Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 16–20.",
+          "context": "Portugal",
+          "options": [
+            "A - cook",
+            "B - gardener",
+            "C - construction worker",
+            "D - tour guide",
+            "E - farm labourer",
+            "F - editor",
+            "G - swimming pool cleaner"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Which job did Stephen do on his placement in each of the following countries? Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 16–20.",
+          "context": "Australia",
+          "options": [
+            "A - cook",
+            "B - gardener",
+            "C - construction worker",
+            "D - tour guide",
+            "E - farm labourer",
+            "F - editor",
+            "G - swimming pool cleaner"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Which job did Stephen do on his placement in each of the following countries? Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 16–20.",
+          "context": "South Korea",
+          "options": [
+            "A - cook",
+            "B - gardener",
+            "C - construction worker",
+            "D - tour guide",
+            "E - farm labourer",
+            "F - editor",
+            "G - swimming pool cleaner"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Which job did Stephen do on his placement in each of the following countries? Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 16–20.",
+          "context": "USA",
+          "options": [
+            "A - cook",
+            "B - gardener",
+            "C - construction worker",
+            "D - tour guide",
+            "E - farm labourer",
+            "F - editor",
+            "G - swimming pool cleaner"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Which job did Stephen do on his placement in each of the following countries? Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 16–20.",
+          "context": "Italy",
+          "options": [
+            "A - cook",
+            "B - gardener",
+            "C - construction worker",
+            "D - tour guide",
+            "E - farm labourer",
+            "F - editor",
+            "G - swimming pool cleaner"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Song-writing course for drama students",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 21–30.",
+        "Choose the correct letter, A, B or C.",
+        "What is the focus of the drama workshop run by each of the following teachers? Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "What problem is Lorna having with her report?",
+          "context": "",
+          "options": [
+            "listing the references",
+            "keeping to the word limit",
+            "writing the evaluation"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "Why did Charles take the song-writing course?",
+          "context": "",
+          "options": [
+            "to improve his job prospects",
+            "to increase his self-confidence",
+            "to develop his self-expression"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "Which type of work did Lorna most enjoy?",
+          "context": "",
+          "options": [
+            "individual work",
+            "pair work",
+            "group work"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "Which aspect of the course content did both students find interesting?",
+          "context": "",
+          "options": [
+            "song structure",
+            "writing a chorus",
+            "lyrical styles and forms"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "Lorna found writing a song",
+          "context": "",
+          "options": [
+            "impossible.",
+            "tiring.",
+            "amusing."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "What is the focus of the drama workshop run by each of the following teachers? Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30.",
+          "context": "Bob Lacey",
+          "options": [
+            "A - use of own memories",
+            "B - full use of the stage",
+            "C - relaxation techniques",
+            "D - physical expression of character",
+            "E - play readings",
+            "F - acting without preparation",
+            "G - using a range of accents",
+            "H - following instructions"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "What is the focus of the drama workshop run by each of the following teachers? Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30.",
+          "context": "Evelyn Chance",
+          "options": [
+            "A - use of own memories",
+            "B - full use of the stage",
+            "C - relaxation techniques",
+            "D - physical expression of character",
+            "E - play readings",
+            "F - acting without preparation",
+            "G - using a range of accents",
+            "H - following instructions"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "What is the focus of the drama workshop run by each of the following teachers? Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30.",
+          "context": "Ted Winter",
+          "options": [
+            "A - use of own memories",
+            "B - full use of the stage",
+            "C - relaxation techniques",
+            "D - physical expression of character",
+            "E - play readings",
+            "F - acting without preparation",
+            "G - using a range of accents",
+            "H - following instructions"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "What is the focus of the drama workshop run by each of the following teachers? Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30.",
+          "context": "Kevin Gray",
+          "options": [
+            "A - use of own memories",
+            "B - full use of the stage",
+            "C - relaxation techniques",
+            "D - physical expression of character",
+            "E - play readings",
+            "F - acting without preparation",
+            "G - using a range of accents",
+            "H - following instructions"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "What is the focus of the drama workshop run by each of the following teachers? Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30.",
+          "context": "Dorothy Thomas",
+          "options": [
+            "A - use of own memories",
+            "B - full use of the stage",
+            "C - relaxation techniques",
+            "D - physical expression of character",
+            "E - play readings",
+            "F - acting without preparation",
+            "G - using a range of accents",
+            "H - following instructions"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Office Design",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 31–40.",
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Early 20th Century: workers employed to do [31] were arranged in rows",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "1960s to present: first, workers had individual [32]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "1960s to present: later, they had cubicles with high or low [33]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "1960s to present: nowadays, workers may have to [34] a work area",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Survey results: attitudes of employees to open-plan designs: there is a lack of [35] and [36]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Survey results: attitudes of employees to open-plan designs: there is a lack of [35] and [36]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Survey results: attitudes of employees to open-plan designs: they pose a risk to our [37] (staff records support this)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Survey results: attitudes of employers to open-plan designs: they significantly reduce rent and [38] costs",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Survey results: attitudes of employers to open-plan designs: they can make [39] staff easier",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "In reality, employees are unhappy and they are often distracted by the [40] in the office.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

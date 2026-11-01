@@ -1,0 +1,846 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test4.html",
+    "title": "IELTS Listening Mock Test 4",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/mock-test-5/main/57262%2B(3).mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "money"
+    ],
+    "2": [
+      "168"
+    ],
+    "3": [
+      "maths"
+    ],
+    "4": [
+      "language"
+    ],
+    "5": [
+      "swim"
+    ],
+    "6": [
+      "illness"
+    ],
+    "7": [
+      "cultures"
+    ],
+    "8": [
+      "Eurontas"
+    ],
+    "9": [
+      "team"
+    ],
+    "10": [
+      "uniform"
+    ],
+    "11": [
+      "D",
+      "E"
+    ],
+    "12": [
+      "D",
+      "E"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "D"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "A"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "C"
+    ],
+    "20": [
+      "A"
+    ],
+    "21": [
+      "F"
+    ],
+    "22": [
+      "G"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "H"
+    ],
+    "25": [
+      "E"
+    ],
+    "26": [
+      "C"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "Engineering"
+    ],
+    "32": [
+      "printed"
+    ],
+    "33": [
+      "global market"
+    ],
+    "34": [
+      "documentation"
+    ],
+    "35": [
+      "traditional"
+    ],
+    "36": [
+      "tutorials"
+    ],
+    "37": [
+      "reflective"
+    ],
+    "38": [
+      "business plan"
+    ],
+    "39": [
+      "journalism"
+    ],
+    "40": [
+      "interview"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "",
+          "context": "giving the safety demonstration - some responsibility for [1] from sales during the flight - serving food",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "",
+          "context": "must be over age 19 and at least [2] cm tall",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "",
+          "context": "basic academic requirements: English and [3]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "",
+          "context": "at least one other [4] is desirable",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "",
+          "context": "must be able to [5]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "",
+          "context": "what to do in case of [6] during a flight",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "",
+          "context": "awareness of different [7]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "",
+          "context": "the airline is called [8]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "",
+          "context": "working in a [9] (voluntary work)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "",
+          "context": "you don't have to buy a [10]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose TWO letters, A–E.",
+        "Choose the correct letter, A, B or C."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number_range": [
+            11,
+            12
+          ],
+          "number": 11,
+          "type": "multiple_choice",
+          "prompt": "Which TWO kinds of people are the scholarships intended for?",
+          "context": "",
+          "options": [
+            "A. people working as temporary staff",
+            "B. people with management experience",
+            "C. people straight from college",
+            "D. people with at least three years' experience",
+            "E. people with or without qualifications"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number_range": [
+            11,
+            12
+          ],
+          "number": 12,
+          "type": "multiple_choice",
+          "prompt": "Which TWO kinds of people are the scholarships intended for?",
+          "context": "",
+          "options": [
+            "A. people working as temporary staff",
+            "B. people with management experience",
+            "C. people straight from college",
+            "D. people with at least three years' experience",
+            "E. people with or without qualifications"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number_range": [
+            13,
+            14
+          ],
+          "number": 13,
+          "type": "multiple_choice",
+          "prompt": "Which TWO things does Marie say about the hospitality industry in Scotland?",
+          "context": "",
+          "options": [
+            "A. It mainly attracts UK tourists.",
+            "B. It pays high wages.",
+            "C. It is very important for the Scottish economy.",
+            "D. It is highly regarded by visitors.",
+            "E. It is attracting a lot of investment."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number_range": [
+            13,
+            14
+          ],
+          "number": 14,
+          "type": "multiple_choice",
+          "prompt": "Which TWO things does Marie say about the hospitality industry in Scotland?",
+          "context": "",
+          "options": [
+            "A. It mainly attracts UK tourists.",
+            "B. It pays high wages.",
+            "C. It is very important for the Scottish economy.",
+            "D. It is highly regarded by visitors.",
+            "E. It is attracting a lot of investment."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "Why did Marie start working at the Rock Hotel?",
+          "context": "",
+          "options": [
+            "It was the only job available.",
+            "She needed a job with flexible working hours.",
+            "She wanted a job working with people."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "What did the scholarship application process involve?",
+          "context": [
+            "giving a presentation",
+            "writing a report about the Rock Hotel",
+            "researching the role of hotel manager"
+          ],
+          "options": [],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "single_choice",
+          "prompt": "What does Marie say about the other winners she met?",
+          "context": [
+            "They were not as old as she expected.",
+            "They were doing a variety of jobs in the hotel sector.",
+            "Most of them had applied for scholarships before."
+          ],
+          "options": [],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "single_choice",
+          "prompt": "Marie says that at the Florida Beach Hotel, every member of staff",
+          "context": [
+            "takes part in annual customer service training sessions.",
+            "is responsible for providing an efficient service.",
+            "is expected to interact with visitors."
+          ],
+          "options": [],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "single_choice",
+          "prompt": "What did Marie find out about people's attitude to visiting Scotland?",
+          "context": [
+            "Most people would be interested in visiting it.",
+            "People knew a surprising amount about it.",
+            "People only wanted to see a limited number of places."
+          ],
+          "options": [],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "single_choice",
+          "prompt": "What improvement has Marie introduced at the Rock Hotel?",
+          "context": [
+            "getting better feedback from customers",
+            "providing more information for customers",
+            "making contact with more customers"
+          ],
+          "options": [],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Label the diagram below.",
+        "Choose SIX answers from the box and write the correct letter, A–I, next to questions 21–26.",
+        "Choose the correct letter, A, B or C."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "input",
+          "prompt": "Cooling Tower",
+          "context": "A. fresh air is removed, B. fresh air is pulled in, C. heat loss is reduced, D. rainwater is checked, E. rainwater is used, F. old air is removed, G. temperature is checked, H. water temperature is reduced, I. water is stored",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q21",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "input",
+          "prompt": "Weather Station",
+          "context": "A. fresh air is removed, B. fresh air is pulled in, C. heat loss is reduced, D. rainwater is checked, E. rainwater is used, F. old air is removed, G. temperature is checked, H. water temperature is reduced, I. water is stored",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q22",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "input",
+          "prompt": "Shower Tower",
+          "context": "A. fresh air is removed, B. fresh air is pulled in, C. heat loss is reduced, D. rainwater is checked, E. rainwater is used, F. old air is removed, G. temperature is checked, H. water temperature is reduced, I. water is stored",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q23",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "Tank",
+          "context": "A. fresh air is removed, B. fresh air is pulled in, C. heat loss is reduced, D. rainwater is checked, E. rainwater is used, F. old air is removed, G. temperature is checked, H. water temperature is reduced, I. water is stored",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q24",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "Balcony",
+          "context": "A. fresh air is removed, B. fresh air is pulled in, C. heat loss is reduced, D. rainwater is checked, E. rainwater is used, F. old air is removed, G. temperature is checked, H. water temperature is reduced, I. water is stored",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q25",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "Windows",
+          "context": "A. fresh air is removed, B. fresh air is pulled in, C. heat loss is reduced, D. rainwater is checked, E. rainwater is used, F. old air is removed, G. temperature is checked, H. water temperature is reduced, I. water is stored",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q26",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "single_choice",
+          "prompt": "What do John and Debbie think will surprise visitors to the Education House building?",
+          "context": "",
+          "options": [
+            "how high the building is",
+            "where the main entrance is",
+            "what is on the outside walls"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "single_choice",
+          "prompt": "What is their reaction to the findings on staff productivity in the building?",
+          "context": "",
+          "options": [
+            "They think the findings are predictable.",
+            "They believe more research should be done.",
+            "They suggest the findings are reported in the media."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "single_choice",
+          "prompt": "What do they think about the 'edge space' in the building?",
+          "context": "",
+          "options": [
+            "It might be unpopular with staff.",
+            "It is a surprising part of the design.",
+            "It is an area for managers."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "single_choice",
+          "prompt": "What could be a problem for the building's water system?",
+          "context": "",
+          "options": [
+            "the reaction of the staff",
+            "the completion date",
+            "the possible health hazards"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write NO MORE THAN TWO WORDS for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "",
+          "context": "Now possible to work with the [31] Faculty to widen learning opportunities",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "",
+          "context": "To cover three areas of textiles: - knitted - [32] - woven",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "",
+          "context": "Work placement: focus on studio work in the context of the [33]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "",
+          "context": "Visual research with [34] and suggestions for its application",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "",
+          "context": "Optional course: [35] design processes",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "",
+          "context": "Three- or four-year course? Students are offered [36] to help them make their decision.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "",
+          "context": "Learning style: [37] practice",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "",
+          "context": "Students produce: - a dissertation - a portfolio - a [38]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "",
+          "context": "Within textile business – e.g. stylists, retail managers - Further opportunities – jobs in [39] and trend forecasting",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "",
+          "context": "If interested – come back tomorrow for a short [40]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "input-q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

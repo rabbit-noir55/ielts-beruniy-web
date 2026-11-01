@@ -1,0 +1,761 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test6.html",
+    "title": "IELTS Listening Mock Test 20143",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/part-2/main/1-1_Iv74iIDr%20(1).mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "database"
+    ],
+    "2": [
+      "rock"
+    ],
+    "3": [
+      "month"
+    ],
+    "4": [
+      "45"
+    ],
+    "5": [
+      "750"
+    ],
+    "6": [
+      "studio"
+    ],
+    "7": [
+      "legal"
+    ],
+    "8": [
+      "recording"
+    ],
+    "9": [
+      "KIPPAX"
+    ],
+    "10": [
+      "talent"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "G"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "H"
+    ],
+    "19": [
+      "D"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "B"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "C"
+    ],
+    "27": [
+      "D"
+    ],
+    "28": [
+      "B"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "flooding"
+    ],
+    "32": [
+      "firewood"
+    ],
+    "33": [
+      "fertilizer"
+    ],
+    "34": [
+      "trash"
+    ],
+    "35": [
+      "sand"
+    ],
+    "36": [
+      "grey/gray"
+    ],
+    "37": [
+      "hot house"
+    ],
+    "38": [
+      "rain"
+    ],
+    "39": [
+      "rabbit"
+    ],
+    "40": [
+      "storm"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Members' details are on a",
+          "context": "Music Alive Agency\nExample\nContact person: Jim Granley",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Type of music represented: modern music",
+          "context": "Music Alive Agency",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Newsletter comes out once a",
+          "context": "Music Alive Agency",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Cost of adult membership: £",
+          "context": "Music Alive Agency",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Current number of members:",
+          "context": "Music Alive Agency",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Facilities include: rehearsal rooms and a",
+          "context": "Music Alive Agency",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "There is no charge for",
+          "context": "Music Alive Agency",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "a recent",
+          "context": "To become a member, send: a letter with contact details",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Address: 707,",
+          "context": "Music Alive Agency",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Contact email: music.",
+          "context": "Music Alive Agency",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Write the correct letter, A–I, next to questions 15–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "What do participants need to take to the registration desk?",
+          "context": "Information for participants in the Albany fishing competition",
+          "options": [
+            "a form of identification.",
+            "a competitor number.",
+            "cash for the entrance fee."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "What does the entrance fee to the competition include?",
+          "context": "Information for participants in the Albany fishing competition",
+          "options": [
+            "equipment for fishing.",
+            "all food for both days.",
+            "fuel for the fishing."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "Participants without a fishing licence are recommended to apply for one",
+          "context": "Information for participants in the Albany fishing competition",
+          "options": [
+            "at the registration desk.",
+            "over the phone.",
+            "on the internet."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "What will happen at 6 pm on Sunday?",
+          "context": "Information for participants in the Albany fishing competition",
+          "options": [
+            "The time allocated for fishing will end.",
+            "The fish caught will be judged.",
+            "The prizes will be awarded to the winners."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Registration area",
+          "context": "Albany Fishing Competition Map",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Shore fishing area",
+          "context": "Albany Fishing Competition Map",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Boat launching area",
+          "context": "Albany Fishing Competition Map",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Judging area",
+          "context": "Albany Fishing Competition Map",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Dining area",
+          "context": "Albany Fishing Competition Map",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Prize-giving area",
+          "context": "Albany Fishing Competition Map",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Choose FOUR answers from the box and drag the correct letter, A–F, next to questions 27–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "Max and Abby agree that in the art exhibition they are looking forward to",
+          "context": "Preparing for the end-of-year art exhibition",
+          "options": [
+            "showing people their work.",
+            "getting feedback from their tutor.",
+            "talking to other students about their displays."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "In last year's exhibition, both students were impressed by",
+          "context": "Preparing for the end-of-year art exhibition",
+          "options": [
+            "a set of metal sculptures.",
+            "a series of wooden models.",
+            "a collection of textile designs."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "What has Max decided to call his display?",
+          "context": "Preparing for the end-of-year art exhibition",
+          "options": [
+            "Mother Nature",
+            "Views of Farmland",
+            "Seasons"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "What does Abby think will be difficult about preparing for their displays?",
+          "context": "Preparing for the end-of-year art exhibition",
+          "options": [
+            "having enough time to set it up.",
+            "choosing which pieces to show.",
+            "filling up all the available space."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "What does Abby say about the summary they have to write?",
+          "context": "Preparing for the end-of-year art exhibition",
+          "options": [
+            "She isn't sure whether people will read it.",
+            "It will be difficult to keep it short enough.",
+            "It will be hard to clarify the reasons for her work."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "single_choice",
+          "prompt": "What aspect of the display will the students organise themselves?",
+          "context": "Preparing for the end-of-year art exhibition",
+          "options": [
+            "arranging the lighting.",
+            "inviting local journalists.",
+            "providing comment forms."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "On the Water",
+          "context": "Which feature do the speakers identify as particularly interesting for each of the following exhibitions they saw?",
+          "options": [
+            "the realistic colors",
+            "the sense of space",
+            "the unusual interpretation of the theme",
+            "the painting technique",
+            "the variety of materials used",
+            "the use of light and shade"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "City Life",
+          "context": "Which feature do the speakers identify as particularly interesting for each of the following exhibitions they saw?",
+          "options": [
+            "the realistic colors",
+            "the sense of space",
+            "the unusual interpretation of the theme",
+            "the painting technique",
+            "the variety of materials used",
+            "the use of light and shade"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Faces",
+          "context": "Which feature do the speakers identify as particularly interesting for each of the following exhibitions they saw?",
+          "options": [
+            "the realistic colors",
+            "the sense of space",
+            "the unusual interpretation of the theme",
+            "the painting technique",
+            "the variety of materials used",
+            "the use of light and shade"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "Moods",
+          "context": "Which feature do the speakers identify as particularly interesting for each of the following exhibitions they saw?",
+          "options": [
+            "the realistic colors",
+            "the sense of space",
+            "the unusual interpretation of the theme",
+            "the painting technique",
+            "the variety of materials used",
+            "the use of light and shade"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write NO MORE THAN TWO WORDS for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "protect coastal areas from",
+          "context": "The Mangrove Regeneration Project\nBackground\nMangrove forests:",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "mangroves had been used by farmers as",
+          "context": "The Mangrove Regeneration Project\nProblems:",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "mangroves were poisoned by the use of",
+          "context": "The Mangrove Regeneration Project\nProblems:",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "local people used the mangroves as a place to put their",
+          "context": "The Mangrove Regeneration Project\nProblems:",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "a barrier which was made of",
+          "context": "The Mangrove Regeneration Project\nActions taken to protect the mangroves:",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "the seeds of the",
+          "context": "The Mangrove Regeneration Project\nActions taken to protect the mangroves:",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "kept in small pots in a",
+          "context": "The Mangrove Regeneration Project\nFirst set of seedlings:",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "watered with",
+          "context": "The Mangrove Regeneration Project\nFirst set of seedlings:",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "at risk from the large",
+          "context": "The Mangrove Regeneration Project\nFirst set of seedlings:",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "the young plants were destroyed in a",
+          "context": "The Mangrove Regeneration Project\nSecond set of seedlings:",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

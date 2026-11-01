@@ -1,0 +1,1056 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test23.html",
+    "title": "IELTS Listening Day 5 - Full Test",
+    "part_count": 4,
+    "total_questions": 49,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 49 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/audioop/main/DAYS%2015%2C16.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "GROOTHER"
+    ],
+    "2": [
+      "0218790538"
+    ],
+    "3": [
+      "wall"
+    ],
+    "4": [
+      "back"
+    ],
+    "5": [
+      "brick"
+    ],
+    "6": [
+      "laundry"
+    ],
+    "7": [
+      "door"
+    ],
+    "8": [
+      "painting"
+    ],
+    "9": [
+      "kitchen"
+    ],
+    "10": [
+      "shelves",
+      "shelf"
+    ],
+    "11": [
+      "September"
+    ],
+    "12": [
+      "neighbour",
+      "neighbor"
+    ],
+    "13": [
+      "review"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "D"
+    ],
+    "22": [
+      "D"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "D"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "A"
+    ],
+    "27": [
+      "E"
+    ],
+    "28": [
+      "I"
+    ],
+    "29": [
+      "F"
+    ],
+    "30": [
+      "G"
+    ],
+    "31": [
+      "C"
+    ],
+    "32": [
+      "E"
+    ],
+    "33": [
+      "A"
+    ],
+    "34": [
+      "C"
+    ],
+    "35": [
+      "A"
+    ],
+    "36": [
+      "D"
+    ],
+    "37": [
+      "transportation",
+      "transport"
+    ],
+    "38": [
+      "nuts",
+      "nut"
+    ],
+    "39": [
+      "summer"
+    ],
+    "40": [
+      "center",
+      "centre"
+    ],
+    "41": [
+      "soil"
+    ],
+    "42": [
+      "bees",
+      "bee"
+    ],
+    "43": [
+      "sugar"
+    ],
+    "44": [
+      "smell"
+    ],
+    "45": [
+      "protein"
+    ],
+    "46": [
+      "bag",
+      "bags"
+    ],
+    "47": [
+      "cooperation",
+      "co-operation"
+    ],
+    "48": [
+      "temperature"
+    ],
+    "49": [
+      "color",
+      "colour"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 1–13.",
+        "Complete the form below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Address: 21 [1] Street, West Hill",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Telephone number: [2]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Type of job: building a [3]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Location: at the [4] of the property",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Building material required: [5]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Replacing tiles in the [6]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Home office: fixing the [7]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "[8] several rooms – start with the [9]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Painting several rooms – start with the [9]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Building some [10] in the living room",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Client is happy to work to start from early [11]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Client heard about the service from a [12]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Client is willing to provide a [13]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 14–23.",
+        "Choose the correct letter, A, B or C.",
+        "What can you do on holiday in the following deserts? Choose the correct letter, A, B, C or D, next to questions 17–23."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "What first attracted Naomi to deserts?",
+          "context": "Desert Holidays",
+          "options": [
+            "a beautiful sight she once saw",
+            "hearing about her husband’s travels",
+            "an exciting event which happened to her"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "What does Naomi advise about travelling in the desert?",
+          "context": "Desert Holidays",
+          "options": [
+            "keep an open mind",
+            "take detailed maps",
+            "bring plenty of clothing"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "Naomi thinks the best thing about travelling in the same group for a long time is",
+          "context": "Desert Holidays",
+          "options": [
+            "the chance to exchange life experiences",
+            "the fun company in the evenings",
+            "the feeling of trust which builds up"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "What can you do on holiday in the following deserts?",
+          "context": "Atacama",
+          "options": [
+            "A: stay in tented accommodation",
+            "B: go horseback riding",
+            "C: go mountain climbing",
+            "D: take trips to see wildlife"
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B, C or D",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "What can you do on holiday in the following deserts?",
+          "context": "Skeleton Coast",
+          "options": [
+            "A: stay in tented accommodation",
+            "B: go horseback riding",
+            "C: go mountain climbing",
+            "D: take trips to see wildlife"
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B, C or D",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "What can you do on holiday in the following deserts?",
+          "context": "Moroccan Sahara",
+          "options": [
+            "A: stay in tented accommodation",
+            "B: go horseback riding",
+            "C: go mountain climbing",
+            "D: take trips to see wildlife"
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B, C or D",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "What can you do on holiday in the following deserts?",
+          "context": "Almeria",
+          "options": [
+            "A: stay in tented accommodation",
+            "B: go horseback riding",
+            "C: go mountain climbing",
+            "D: take trips to see wildlife"
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B, C or D",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "What can you do on holiday in the following deserts?",
+          "context": "Gobi",
+          "options": [
+            "A: stay in tented accommodation",
+            "B: go horseback riding",
+            "C: go mountain climbing",
+            "D: take trips to see wildlife"
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B, C or D",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "matching",
+          "prompt": "What can you do on holiday in the following deserts?",
+          "context": "Thar",
+          "options": [
+            "A: stay in tented accommodation",
+            "B: go horseback riding",
+            "C: go mountain climbing",
+            "D: take trips to see wildlife"
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B, C or D",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "matching",
+          "prompt": "What can you do on holiday in the following deserts?",
+          "context": "Uluru-Kata",
+          "options": [
+            "A: stay in tented accommodation",
+            "B: go horseback riding",
+            "C: go mountain climbing",
+            "D: take trips to see wildlife"
+          ],
+          "inputs": [],
+          "constraint": "Choose A, B, C or D",
+          "answer_key_ref": "23"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 24–36.",
+        "What impact do the speakers say each of the following sports stadiums had on the local area?",
+        "Choose SEVEN answers from the box and drag the correct letter, A–I, next to questions 24–30.",
+        "Choose TWO letters, A–E."
+      ],
+      "questions": [
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "matching",
+          "prompt": "What impact do the speakers say each of the following sports stadiums had on the local area?",
+          "context": "Westway",
+          "options": [
+            "A: The crime rate fell",
+            "B: It helped create jobs for locals",
+            "C: People had to move away",
+            "D: House prices increased",
+            "E: Tourism increased",
+            "F: Local businesses suffered",
+            "G: Traffic congestion became a problem",
+            "H: Public transportation improved",
+            "I: Its economic benefits were temporary"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "matching",
+          "prompt": "What impact do the speakers say each of the following sports stadiums had on the local area?",
+          "context": "Crenley",
+          "options": [
+            "A: The crime rate fell",
+            "B: It helped create jobs for locals",
+            "C: People had to move away",
+            "D: House prices increased",
+            "E: Tourism increased",
+            "F: Local businesses suffered",
+            "G: Traffic congestion became a problem",
+            "H: Public transportation improved",
+            "I: Its economic benefits were temporary"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "What impact do the speakers say each of the following sports stadiums had on the local area?",
+          "context": "Stockfield",
+          "options": [
+            "A: The crime rate fell",
+            "B: It helped create jobs for locals",
+            "C: People had to move away",
+            "D: House prices increased",
+            "E: Tourism increased",
+            "F: Local businesses suffered",
+            "G: Traffic congestion became a problem",
+            "H: Public transportation improved",
+            "I: Its economic benefits were temporary"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "What impact do the speakers say each of the following sports stadiums had on the local area?",
+          "context": "Thornton",
+          "options": [
+            "A: The crime rate fell",
+            "B: It helped create jobs for locals",
+            "C: People had to move away",
+            "D: House prices increased",
+            "E: Tourism increased",
+            "F: Local businesses suffered",
+            "G: Traffic congestion became a problem",
+            "H: Public transportation improved",
+            "I: Its economic benefits were temporary"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "What impact do the speakers say each of the following sports stadiums had on the local area?",
+          "context": "Banford",
+          "options": [
+            "A: The crime rate fell",
+            "B: It helped create jobs for locals",
+            "C: People had to move away",
+            "D: House prices increased",
+            "E: Tourism increased",
+            "F: Local businesses suffered",
+            "G: Traffic congestion became a problem",
+            "H: Public transportation improved",
+            "I: Its economic benefits were temporary"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "What impact do the speakers say each of the following sports stadiums had on the local area?",
+          "context": "Greydon",
+          "options": [
+            "A: The crime rate fell",
+            "B: It helped create jobs for locals",
+            "C: People had to move away",
+            "D: House prices increased",
+            "E: Tourism increased",
+            "F: Local businesses suffered",
+            "G: Traffic congestion became a problem",
+            "H: Public transportation improved",
+            "I: Its economic benefits were temporary"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "What impact do the speakers say each of the following sports stadiums had on the local area?",
+          "context": "Ravenswood",
+          "options": [
+            "A: The crime rate fell",
+            "B: It helped create jobs for locals",
+            "C: People had to move away",
+            "D: House prices increased",
+            "E: Tourism increased",
+            "F: Local businesses suffered",
+            "G: Traffic congestion became a problem",
+            "H: Public transportation improved",
+            "I: Its economic benefits were temporary"
+          ],
+          "inputs": [],
+          "constraint": "Choose A–I",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "multiple_choice",
+          "prompt": "What do the speakers agree are TWO factors that help make a stadium profitable?",
+          "context": "Questions 31 and 32",
+          "options": [
+            "A: the frequency of public transport",
+            "B: the capacity of the stadium",
+            "C: the location of the stadium",
+            "D: the state of repair of the stadium",
+            "E: the kind of sport played there"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "multiple_choice",
+          "prompt": "What do the speakers agree are TWO factors that help make a stadium profitable?",
+          "context": "Questions 31 and 32",
+          "options": [
+            "A: the frequency of public transport",
+            "B: the capacity of the stadium",
+            "C: the location of the stadium",
+            "D: the state of repair of the stadium",
+            "E: the kind of sport played there"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "multiple_choice",
+          "prompt": "Which TWO sections do the speakers agree should be included in the assignment?",
+          "context": "Questions 33 and 34",
+          "options": [
+            "A: an examination of how stadiums are funded",
+            "B: the impact of international sporting events on stadiums",
+            "C: an evaluation of sports stadiums in different cities",
+            "D: the environmental impact of stadiums",
+            "E: how stadium designs have changed over time"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "multiple_choice",
+          "prompt": "Which TWO sections do the speakers agree should be included in the assignment?",
+          "context": "Questions 33 and 34",
+          "options": [
+            "A: an examination of how stadiums are funded",
+            "B: the impact of international sporting events on stadiums",
+            "C: an evaluation of sports stadiums in different cities",
+            "D: the environmental impact of stadiums",
+            "E: how stadium designs have changed over time"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "multiple_choice",
+          "prompt": "Which TWO things do the speakers say about published research on stadiums?",
+          "context": "Questions 35 and 36",
+          "options": [
+            "A: It may be out of date",
+            "B: The focus is too general",
+            "C: It has been gathered over a long period",
+            "D: It is paid for by big businesses",
+            "E: There is not enough available"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "multiple_choice",
+          "prompt": "Which TWO things do the speakers say about published research on stadiums?",
+          "context": "Questions 35 and 36",
+          "options": [
+            "A: It may be out of date",
+            "B: The focus is too general",
+            "C: It has been gathered over a long period",
+            "D: It is paid for by big businesses",
+            "E: There is not enough available"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "36"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 37–49.",
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "It can spread across the country through [37] of fruit, or by flying",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "It attacks soft crops, but not hard-skinned fruit or [38]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "The four-stage life cycle takes about two weeks during [39]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Eggs are laid in the fruit, and larvae make their way to the [40]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        },
+        {
+          "id": "q41",
+          "number": 41,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "After the fruit falls, the larvae make cocoons in the [41]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q41",
+              "placeholder": "41"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "41"
+        },
+        {
+          "id": "q42",
+          "number": 42,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Spraying was common (now fewer chemicals are used for health reasons and to protect [42])",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q42",
+              "placeholder": "42"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "42"
+        },
+        {
+          "id": "q43",
+          "number": 43,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "At home, people make traps using a mix of yeast, [43] and water",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q43",
+              "placeholder": "43"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "43"
+        },
+        {
+          "id": "q44",
+          "number": 44,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "In the MAT technique, male fruit flies are attracted to a [44] in a trap",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q44",
+              "placeholder": "44"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "44"
+        },
+        {
+          "id": "q45",
+          "number": 45,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Males and females can both be killed in traps that contain a poisonous [45]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q45",
+              "placeholder": "45"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "45"
+        },
+        {
+          "id": "q46",
+          "number": 46,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Organic farmers use a [46] made of natural materials to protect fruit",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q46",
+              "placeholder": "46"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "46"
+        },
+        {
+          "id": "q47",
+          "number": 47,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "These methods require integration and grower [47] in a particular area",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q47",
+              "placeholder": "47"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "47"
+        },
+        {
+          "id": "q48",
+          "number": 48,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "To breed males only, researchers will use a gene that makes the female fly die at a certain [48]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q48",
+              "placeholder": "48"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "48"
+        },
+        {
+          "id": "q49",
+          "number": 49,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Another plan is to breed flies where the young males and females can be separated because they are a different [49]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q49",
+              "placeholder": "49"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "49"
+        }
+      ]
+    }
+  ]
+}

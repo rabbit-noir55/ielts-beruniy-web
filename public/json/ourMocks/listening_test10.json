@@ -1,0 +1,850 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test10.html",
+    "title": "IELTS Listening Mock Test 10",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/audio-test-9/main/audio.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "piano"
+    ],
+    "2": [
+      "coffee"
+    ],
+    "3": [
+      "mirror"
+    ],
+    "4": [
+      "glass"
+    ],
+    "5": [
+      "Harrivale"
+    ],
+    "6": [
+      "232.50",
+      "232,50",
+      "£232.50"
+    ],
+    "7": [
+      "insurance"
+    ],
+    "8": [
+      "morning"
+    ],
+    "9": [
+      "side"
+    ],
+    "10": [
+      "garage"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "B"
+    ],
+    "19": [
+      "E"
+    ],
+    "20": [
+      "D"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "D"
+    ],
+    "23": [
+      "E"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "G"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "C"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "business management"
+    ],
+    "32": [
+      "phone interview",
+      "phone interviews"
+    ],
+    "33": [
+      "qualification"
+    ],
+    "34": [
+      "public"
+    ],
+    "35": [
+      "salary"
+    ],
+    "36": [
+      "team"
+    ],
+    "37": [
+      "problem solving",
+      "problem-solving"
+    ],
+    "38": [
+      "presentation"
+    ],
+    "39": [
+      "essay writing"
+    ],
+    "40": [
+      "job"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "a ... (normal size)",
+          "context": "A1 Furniture Removals, Details of items",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "a small ... table",
+          "context": "A1 Furniture Removals, Details of items",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "an antique ... (2m × 2m)",
+          "context": "A1 Furniture Removals, Details of items",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "a cupboard (1.90m × 1m, doors made of ...)",
+          "context": "A1 Furniture Removals, Details of items",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "448 ... Road",
+          "context": "Items to be delivered to",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "£...",
+          "context": "Price quoted",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "(not including ...)",
+          "context": "Price quoted",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "August 26 (in the ...)",
+          "context": "Date of collection",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Collection: at the ... of the house",
+          "context": "Parking",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Delivery: in front of the ... of the house",
+          "context": "Parking",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "What information does the guide give about each of the following collections?",
+        "Choose FOUR answers from the box and drag the correct letter, A–F, next to questions 17–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "What does the tour guide advise the visitors to do in the museum today?",
+          "context": "Museum tour",
+          "options": [
+            "see the most popular exhibits first",
+            "pay a brief visit to each gallery",
+            "go to the photography gallery last"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "The museum was designed by William Craven, who also designed",
+          "context": "Museum tour",
+          "options": [
+            "a textile factory",
+            "the town hall",
+            "the railway station"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "The museum won an award for the preservation of the",
+          "context": "Museum tour",
+          "options": [
+            "staircase",
+            "floor",
+            "windows"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "Most of the money for the project came from",
+          "context": "Museum tour",
+          "options": [
+            "the public",
+            "the government",
+            "local businesses"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "Over the next five years, the museum will invest mainly in",
+          "context": "Museum tour",
+          "options": [
+            "restoring existing collections.",
+            "developing educational programmes.",
+            "purchasing new objects for display."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "Visitors who are interested in learning more about the exhibits should",
+          "context": "Museum tour",
+          "options": [
+            "visit the museum’s website",
+            "read the leaflets on display",
+            "attend the monthly lectures"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "18th-century paintings",
+          "context": "Collections and Information",
+          "options": [
+            "A has been shown in different museums",
+            "B consists of work by a local resident",
+            "C has exhibits from various countries",
+            "D is only on temporary display",
+            "E shows things that are no longer common",
+            "F is on loan from a foreign museum"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Farnley collection",
+          "context": "Collections and Information",
+          "options": [
+            "A has been shown in different museums",
+            "B consists of work by a local resident",
+            "C has exhibits from various countries",
+            "D is only on temporary display",
+            "E shows things that are no longer common",
+            "F is on loan from a foreign museum"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "kitchen appliances",
+          "context": "Collections and Information",
+          "options": [
+            "A has been shown in different museums",
+            "B consists of work by a local resident",
+            "C has exhibits from various countries",
+            "D is only on temporary display",
+            "E shows things that are no longer common",
+            "F is on loan from a foreign museum"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "fashion gallery",
+          "context": "Collections and Information",
+          "options": [
+            "A has been shown in different museums",
+            "B consists of work by a local resident",
+            "C has exhibits from various countries",
+            "D is only on temporary display",
+            "E shows things that are no longer common",
+            "F is on loan from a foreign museum"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 21–25.",
+        "Choose the correct letter, A, B or C."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "PEST",
+          "context": "Analysis methods",
+          "options": [
+            "A it will save a lot of business time and effort",
+            "B it is visualized",
+            "C it does not fit our company",
+            "D it will take too long",
+            "E it is easy to use",
+            "F it is difficult to apply",
+            "G it is suitable to almost all sized companies"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "matching",
+          "prompt": "Drill Down",
+          "context": "Analysis methods",
+          "options": [
+            "A it will save a lot of business time and effort",
+            "B it is visualized",
+            "C it does not fit our company",
+            "D it will take too long",
+            "E it is easy to use",
+            "F it is difficult to apply",
+            "G it is suitable to almost all sized companies"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "matching",
+          "prompt": "PMI",
+          "context": "Analysis methods",
+          "options": [
+            "A it will save a lot of business time and effort",
+            "B it is visualized",
+            "C it does not fit our company",
+            "D it will take too long",
+            "E it is easy to use",
+            "F it is difficult to apply",
+            "G it is suitable to almost all sized companies"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "matching",
+          "prompt": "Pareto",
+          "context": "Analysis methods",
+          "options": [
+            "A it will save a lot of business time and effort",
+            "B it is visualized",
+            "C it does not fit our company",
+            "D it will take too long",
+            "E it is easy to use",
+            "F it is difficult to apply",
+            "G it is suitable to almost all sized companies"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "matching",
+          "prompt": "SWOT",
+          "context": "Analysis methods",
+          "options": [
+            "A it will save a lot of business time and effort",
+            "B it is visualized",
+            "C it does not fit our company",
+            "D it will take too long",
+            "E it is easy to use",
+            "F it is difficult to apply",
+            "G it is suitable to almost all sized companies"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "single_choice",
+          "prompt": "What does Frances consider as the best strength of the company?",
+          "context": "",
+          "options": [
+            "reputation",
+            "experienced employees",
+            "management"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "single_choice",
+          "prompt": "What factor did Sam overlook for the future growth of the company?",
+          "context": "",
+          "options": [
+            "seek for cheaper suppliers",
+            "set up an overseas office",
+            "compete with major competitors"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "single_choice",
+          "prompt": "Which of the following can be the threat to a company?",
+          "context": "",
+          "options": [
+            "increasing competition",
+            "outdated technology",
+            "new legislation"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "single_choice",
+          "prompt": "What has Sam learned from the research?",
+          "context": "",
+          "options": [
+            "using better tools",
+            "cost of a success business",
+            "gap between reality and theory"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "single_choice",
+          "prompt": "What is the professor’s suggestion for the report?",
+          "context": "",
+          "options": [
+            "give a final determination",
+            "reorganize a clear structure",
+            "add more detailed information"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write NO MORE THAN TWO WORDS for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "interviews from which subject: ...",
+          "context": "Employment Survey on Graduates, Overview",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "two research methods: email questionnaires and ...",
+          "context": "Employment Survey on Graduates, Overview",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "32% of students tended to acquire another ...",
+          "context": "Employment Survey on Graduates, Findings",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "most of the students work in the ... sector",
+          "context": "Employment Survey on Graduates, Findings",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "majority are happy with: ...",
+          "context": "Employment Survey on Graduates, Findings",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "working as a ... member",
+          "context": "Employment Survey on Graduates, Feedback, Useful skills learned in college",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "... ability",
+          "context": "Employment Survey on Graduates, Feedback, Useful skills learned in college",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "... (lack of training)",
+          "context": "Employment Survey on Graduates, Feedback, Useless skills",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "advice on ... (unnecessary)",
+          "context": "Employment Survey on Graduates, Feedback, Useless skills",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "advice on finding a ... (not enough)",
+          "context": "Employment Survey on Graduates, Feedback, Useless skills",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

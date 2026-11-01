@@ -1,0 +1,893 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test14.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "adaptation"
+    ],
+    "2": [
+      "Pong",
+      "pong"
+    ],
+    "3": [
+      "Atari"
+    ],
+    "4": [
+      "graphics"
+    ],
+    "5": [
+      "females"
+    ],
+    "6": [
+      "Playstation",
+      "PlayStation"
+    ],
+    "7": [
+      "FALSE"
+    ],
+    "8": [
+      "TRUE"
+    ],
+    "9": [
+      "FALSE"
+    ],
+    "10": [
+      "TRUE"
+    ],
+    "11": [
+      "FALSE"
+    ],
+    "12": [
+      "NOT GIVEN"
+    ],
+    "13": [
+      "NOT GIVEN"
+    ],
+    "14": [
+      "E"
+    ],
+    "15": [
+      "G"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "F"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "G"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "E"
+    ],
+    "23": [
+      "stone"
+    ],
+    "24": [
+      "Abraham Darby",
+      "Darby"
+    ],
+    "25": [
+      "River Severn",
+      "the River Severn",
+      "Severn"
+    ],
+    "26": [
+      "Michael Rooker",
+      "Rooker"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "D"
+    ],
+    "31": [
+      "B"
+    ],
+    "32": [
+      "YES"
+    ],
+    "33": [
+      "NO"
+    ],
+    "34": [
+      "NOT GIVEN"
+    ],
+    "35": [
+      "NO"
+    ],
+    "36": [
+      "H"
+    ],
+    "37": [
+      "B"
+    ],
+    "38": [
+      "E"
+    ],
+    "39": [
+      "G"
+    ],
+    "40": [
+      "I"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Computer games",
+      "passages": [
+        "It's not whether you win or lose, but how you play the game. In the age of computers, that statement takes on new meanings: a video game cannot ever really be defeated because, no matter how high the score, it is always the human who tires first or makes the fatal error. But millions of people continue to play, because microelectronic technology has enabled game designers to conveniently and inexpensively transform plain screens into playfields of extraordinary capability. At the same time, a multi-billion dollar industry has grown from very humble beginnings in just a few decades.",
+        "The technological roots of video games can be traced back to 1962, when an MIT (Massachusetts Institute of Technology) graduate student demonstrated Spacewar, a science-fiction fantasy game played on a mainframe computer and a large screen. That game immediately attracted a wide cult following among computer buffs. The next important step came in 1968, when a console was developed that could be used to play games on ordinary televisions. But it was not until the early 1970s that a young University of Utah engineer reached the point that adaptation of Spacewar from a large computer into coin-operated form, for use in video game arcades, was becoming economically feasible. Bushnell and his associates began working on such a machine in a converted bedroom workshop, but were unsuccessful. What they ultimately developed instead was a simple tennis-like game that they named Pong.",
+        "Pong took the industry by storm and quickly became the first coin-operated video-game hit. And soon thereafter commercial Pong-style home video games also appeared. Yet despite early enthusiasm, consumer interest in this area proved less sustained than had been anticipated and, as prices started to drop and losses mounted, most of the early manufacturers withdrew from the field. Profits proved to be just as elusive at Bushnell's company, Atari, where a rapidly growing market presence in coin-operated machines and home video required greater injections of capital and more professional management than the company was able to provide. In 1976, the founders of Atari sold their share of the company for a sum that was only equivalent to their sales in that year.",
+        "At that point, coin-operated video games seemed just another passing fad. But the introduction of Space Invaders — an arcade model produced by Japanese manufacturer Taito — proved otherwise. With its vibrant graphics it was so different from the previous black and white games that Space Invaders immediately captured public interest. There soon followed a rush of popular video games that employed the same or better hardware and even more imaginative software. Of these, Pac-Man (in 1980) was especially significant, because now females began to take an interest.",
+        "By this time, the same software improvements and technological advances (faster microprocessors and larger memories) that permitted designers to produce spectacular audio and visual effects for coin-operated machines were also being applied to home video units. It was thus only a short while before the programmable consoles that had been unpopular for lack of software suddenly began to sell in large numbers: consumers had discovered that they could finally play a reasonable version of their favorite arcade games in the comfort of their own home. The impact on Atari was astounding. Unprofitable for the first three years, Atari had by the end of 1979 become a success. By either self-designing or licensing the most popular arcade concepts for cartridge format for use at home, the company had captured some 80 percent of the worldwide market for home video games.",
+        "All of this, however, was too good to last. By late 1982, the public's fascination with arcade games had begun to slow down, and fewer potential best-sellers were becoming available for conversion to cartridges that could be used on an Atari machine. At the same time, the market was flooded with illegal software of all types. It was thus not until the late 1980s that the unstructured nature of the industry, at least on the software side, had stabilized and become restructured in a manner similar, in many respects, to the book publishing business.",
+        "Until 1986, when Japan-based Nintendo introduced a more technologically sophisticated and user-friendly game console, the hardware side was also in disarray. But with tight control of software development and marketing, Nintendo was able to revive and then capture up to 80 percent of a once-again booming market in which no significant competition appeared until the early 1990s. By that point, the annual operating profits of Nintendo had already grown to over $1 billion — an amount exceeding the 1991 profits of all the major Hollywood film studios combined. In 1999, sales of game hardware and software, led by Playstation, were equal in size (around $7 billion) to US domestic box-office revenues.",
+        "With change the only constant, the game industry has moved on to become what it is today. However, no matter what the technology or the format, the essence of a successful game will always be the same: it is simple to understand and to play on an elementary level, but it is compulsive and maddeningly difficult — in fact, forever impossible to master fully."
+      ],
+      "instructions": [
+        "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+        "Do the following statements agree with the information given in Reading Passage 1? Write TRUE, FALSE, or NOT GIVEN."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Advances in technology led to cheaper [blank] and the possibility of coin-operated video games.",
+          "context": "1970s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "The first successful coin-operated video game was [blank].",
+          "context": "1970s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "[blank] was bought from its original owners.",
+          "context": "1970s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Space Invaders was successful because of its colourful [blank].",
+          "context": "1970s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Pac-Man was the first game to attract [blank].",
+          "context": "1980s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "By the end of the decade [blank] had become the biggest selling home entertainment product.",
+          "context": "1990s",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "true_false_not_given",
+          "prompt": "Spacewar was unpopular at first.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "true_false_not_given",
+          "prompt": "Bushnell and his team failed to create a coin-operated version of Spacewar.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "true_false_not_given",
+          "prompt": "From the beginning the home video game market has been commercially successful.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "true_false_not_given",
+          "prompt": "Atari was successful for the first time in 1979.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "true_false_not_given",
+          "prompt": "Video arcade game usage continued strongly in the 1980s.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "true_false_not_given",
+          "prompt": "The time taken to produce a video game can be compared to producing a book.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "true_false_not_given",
+          "prompt": "The qualities needed for a video game to become successful have been researched thoroughly.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Art and engineering",
+      "passages": [
+        "A Works of engineering and technology are sometimes viewed as having nothing to do with art and humanity. Think of the connotation of assembly lines, robots and computers. The positive values associated with these creations can be overwhelmed by the negative associations of repetitive, stressful work and threatened jobs. Critics of technology protest against what they see as dehumanisation. At the same time, megastructures such as the Brooklyn and Golden Gate Bridges in the US are hailed as majestic human achievements, as well as great engineering monuments that have come to embody the spirit of their respective cities. The relationship between art and engineering has seldom been easy or consistent.",
+        "B Arguably, the assembly line process associated with Henry Ford made workers tools of the system. The human worker may have appeared to be only a cog in the wheel of industry, yet photographers such as Lewis Hine revealed the beauty of line and composition in his study of a worker using a wrench to turn a bolt. Hine focused on the individuals engaged in the work. In the period around World War I, he visited New York and was given the opportunity to record the construction of the famous Empire State Building, the tallest building of its time. This resulted in a series of striking photographs which have become familiar images of daring. Hine put his own life at risk to photograph workers suspended on cables hundreds of feet in the air, or sitting on a high girder eating lunch.",
+        "C When Ford's enormous River Rouge plant opened in 1927, the painter/photographer Charles Sheeler was chosen to photograph it. The world's largest car plant captured the imagination of Sheeler, who described it as the most thrilling subject he had ever had to work with.",
+        "D Long before Hine and Sheeler, other photographers and painters had seen the art and humanity in works of engineering and technology. This is perhaps nowhere more evident than in the Coalbrookdale Museum of Iron, at Ironbridge in Shropshire in the UK. In the late 18th century, Abraham Darby cast the large iron ribs that formed the world's first iron bridge, a dramatic departure from the classic stone and timber bridges that dotted the countryside and had been captured in numerous landscape paintings. This structure still spans the River Severn, and the Coalbrookdale Museum is crowded with its portraits, showing the iron structure not as a blight on the landscape, but as its focal point. This is how Michael Rooker shows the iron bridge in his late 18th-century painting, in which the surrounding area radiates out from the bridge and pales behind it. Countless other contemporary representations of the bridge hang in the nearby museum.",
+        "E In the 19th century, the railways were another feat of engineering which captured the imagination of painters, and the steam engine in the distance of a landscape became as much a part of it as the herd of cows in the foreground. The Impressionist Claude Monet painted railway stations — such as the Gare St-Lazare in Paris — as well as flowers and gardens. By the 20th century, engineering, technology and industry were very well established as subjects for artists.",
+        "F American-born artist Joseph Pennell portrayed buildings under construction and shrouded in scaffolding, and recorded scenes of industry during World War I. He is perhaps best known for his prints of the Panama Canal as it neared completion and of the partially completed Hell Gate and Delaware River Bridges. Pennell has often been quoted as saying, \"Great engineering is great art\", a sentiment that he expressed repeatedly. He wrote of his contemporaries: \"I understand nothing of engineering, but I know that engineers are the greatest architects and the most pictorial builders since the ancient Greeks.\" Pennell called the sensation that he felt when he looked at a great construction project \"the Wonder of Work\". He saw engineering as a process memorialized in every completed dam, skyscraper, bridge or other great engineering feat.",
+        "G Today, one of the most innovative and influential engineers is Santiago Calatrava, who also trained as an architect. His bridges and other structures provide public spaces on a human scale, and stand as pieces of sculpture in their own right. Increasingly, commissioners of bridges in the US are looking to such individuals, to teams of engineers and architects who work with artists. The growing awareness of the intangible added value of art is sure to give us more masterpieces like the Brooklyn Bridge. They in turn will continue to be noble monuments to civilization, and will be welcome subjects for artists of all kinds."
+      ],
+      "instructions": [
+        "Reading Passage 2 has seven paragraphs, A-G. Which paragraph contains the following information? Write the correct letter A-G.",
+        "Look at the following statements and the list of people below. Match each statement with the correct person, A-G.",
+        "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "a time when a transport system became an inspiration for artists",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "a reference to the current trend of including artists in engineering projects",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "reasons for the idea that art and engineering are difficult to combine",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "how the depiction of human labour involved danger to an artist",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "a reference to an artist who celebrated a number of unfinished structures",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "a reference to two large engineering works that are symbols of their locations",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "His engineering constructions are also regarded as works of art.",
+          "context": "List of People: A. Lewis Hine, B. Charles Sheeler, C. Abraham Darby, D. Michael Rooker, E. Claude Monet, F. Joseph Pennell, G. Santiago Calatrava",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "He created images of builders constructing an iconic American skyscraper.",
+          "context": "List of People: A. Lewis Hine, B. Charles Sheeler, C. Abraham Darby, D. Michael Rooker, E. Claude Monet, F. Joseph Pennell, G. Santiago Calatrava",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "matching",
+          "prompt": "He painted a building connected with a significant innovation in transport.",
+          "context": "List of People: A. Lewis Hine, B. Charles Sheeler, C. Abraham Darby, D. Michael Rooker, E. Claude Monet, F. Joseph Pennell, G. Santiago Calatrava",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "input",
+          "prompt": "Before the late 18th century, bridges were traditionally constructed of wood and [blank].",
+          "context": "The iron bridge summary",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q23",
+              "placeholder": "23"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "Then the engineer [blank] manufactured the elements of an innovative bridge across the [blank].",
+          "context": "The iron bridge summary",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q24",
+              "placeholder": "24"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "Then the engineer [blank] manufactured the elements of an innovative bridge across the [blank].",
+          "context": "The iron bridge summary",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q25",
+              "placeholder": "25"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "This iron bridge was the subject of a number of artworks, including a notable one by [blank].",
+          "context": "The iron bridge summary",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q26",
+              "placeholder": "26"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Charles Darwin in the office",
+      "passages": [
+        "Charles Darwin, the brilliant naturalist and creator of the theory of evolution, is not normally associated with the modern business world. Nevertheless, Darwinian evolutionary theory is the foundation of a new wave of ideas about human behaviour in general and particularly the way people behave in the workplace; these ideas have given rise to the field of evolutionary psychology. Evolutionary psychology revolves around the notion that our brains, like our bodies, have an inherited evolutionary design that has scarcely changed for 10,000 years. As respected evolutionary psychology experts Leda Cosmides and John Tooby comment, our modern skulls house a Stone Age mind. The US biologist Edward O Wilson sees evolutionary psychology as being a discipline which is based on both socio-biology, which is the study of the biological basis of social behaviour, and psychology, which is the systematic study of human behaviour.",
+        "Nigel Nicholson, an organisational psychologist from the London Business School, is a strong supporter of evolutionary psychology and on this subject has published Managing the Human Animal. His book takes the reader on a journey from the Stone Age plains of the savannah to the modern office, and includes a discussion of Darwinism and behavioural psychology together with a dissection of dysfunctional organisational behaviour. It is an effective approach explaining why people behave as they do, particularly at work. Evolutionary psychology is increasingly being cited in management circles, where managers are trying to understand puzzling aspects of human behaviour and by doing so improve the workplace. Nicholson believes that evolutionary psychology can help managers understand what goes wrong in organisational life and what they can do about it.",
+        "Nicholson maintains that evolutionary psychology dismisses the long-held assumption that our minds are like blank pages just waiting for culture and experience to write on them and shape our nature. He points out that sophisticated research shows the brain actually houses a store of knowledge when we are born, and now genetic research is establishing there are certain genes that account for abilities, tastes and tendencies. The stored knowledge in the human brain has not changed much since the Stone Age. As Tooby and Cosmides stress, there have not been enough generations for a brain that is well adapted to our post-industrial life to evolve through natural selection.",
+        "The evolutionary psychology version of human nature revolves around some key elements which we have inherited from our hunter-gatherer minds. One key element is emotion. Emotion was originally essential to keep early man alive and safe from predators. Emotion was, and continues to be our radar, guiding us throughout today's techno-defined business world. Despite this, the business world emphasises rational not emotional behaviour, and does not admit the importance of emotion. We still use the emotional part of our minds to make sense of other people's behaviour and to create an impression, so we can often be taken in by appearances. This mental predisposition actually works best in small communities (the tribe), not in much larger environments filled with people we barely know (the modern workplace). Our minds naturally try to re-create our ancestral communities with networks of no more than 150 people, where there are clear hierarchies and leaders. As a consequence, it takes very little to trigger people's innate distrust of others because our safety in antiquity depended on supporting our near family and friends whom we valued more than other people.",
+        "So what advice does Nicholson have for the corporate world? He thinks that by knowing the reasons for people's behaviour it is possible to mould corporate environments into places that have more chance of working efficiently and being pleasant places to work in. Nicholson admits that not everybody in the business world agrees with his belief in the effectiveness of evolutionary psychology in the workplace. One group that resist the theory of evolutionary psychology is young MBA graduates who are just beginning their careers and feel that evolutionary psychology will make their lives at work more difficult. Older and wiser executives point out that they still tend to cling to the idea of a magic formula to bring people into line with corporate strategy. But that is back-to-front thinking according to Nicholson, who contends that we should be reinventing our business structures, not our fundamental human nature.",
+        "At the end of his book, Nicholson gives his forecast of what will and will not change in the business world. He believes that most people will still prefer more traditional forms of work and throughout their lives will continue to aim at lifelong status advancement. He also maintains that the line between work and home will be less defined, but that people will prefer traditional working patterns if working from home leaves them isolated from their work community. He doubts that the high-tech ideas of virtual companies will ever be very successful because people will still want to meet each other face-to-face. Nicholson describes his ideal organisation in the future: it would be decentralised, with small sub-units; the staff would be from diverse backgrounds and be allowed a high degree of self-determination. New endeavours and creativity would replace systems and rationality. Nicholson acknowledges that there is a long way to go in terms of the translation of his ideas of evolutionary psychology into practical propositions, but he is confident more and more people will come round to his way of thinking."
+      ],
+      "instructions": [
+        "Choose the correct letter A, B, C or D.",
+        "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN.",
+        "Complete the summary using the list of words A-I below."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "single_choice",
+          "prompt": "The writer's purpose in the first paragraph is to",
+          "context": "",
+          "options": [
+            "A. oppose the views of Charles Darwin.",
+            "B. compare experts' opinions of Darwin's theory.",
+            "C. explain the theory of evolutionary psychology.",
+            "D. name experts in the field of evolutionary psychology."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "single_choice",
+          "prompt": "In the third paragraph which view about evolutionary psychology matches Nicholson's opinion?",
+          "context": "",
+          "options": [
+            "A. Our characters determine our career choices.",
+            "B. We begin life without any preconceived notions.",
+            "C. Our interests and skills depend on our environment.",
+            "D. We inherit ideas and characteristics from our ancestors."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "single_choice",
+          "prompt": "The writer discusses the key element of emotion in order to",
+          "context": "",
+          "options": [
+            "A. criticise primitive survival strategies.",
+            "B. explain attitudes and actions at work.",
+            "C. demonstrate the slowness of evolution.",
+            "D. suggest companies today are poorly structured."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "single_choice",
+          "prompt": "Which of the following does Nicholson predict will happen in the business world?",
+          "context": "",
+          "options": [
+            "A. Companies will remain in city centres.",
+            "B. Promotion will no longer motivate people.",
+            "C. Employees will be less independent than now.",
+            "D. Social interaction will remain important to workers."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "single_choice",
+          "prompt": "Which of the following is the most suitable title for Reading Passage 3?",
+          "context": "",
+          "options": [
+            "A. How successful companies manage change.",
+            "B. Understanding the origins of workplace behaviour.",
+            "C. Darwin's theories rejected by modern management.",
+            "D. Why post-industrial organisations need to evolve more quickly."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "true_false_not_given",
+          "prompt": "Nicholson makes a persuasive argument in his book.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "true_false_not_given",
+          "prompt": "Tooby and Cosmides believe natural selection through the generations has prepared the human brain for modern office life.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "true_false_not_given",
+          "prompt": "Our reliance on technology causes emotional problems in the workplace.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "true_false_not_given",
+          "prompt": "People today are more trusting than they used to be.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "matching",
+          "prompt": "Nicholson believes that if we know why people act the way they do, we can change [blank] so employees will work more efficiently.",
+          "context": "Word Bank: A. business leaders, B. MBA graduates, C. promotion structures, D. reward strategy, E. magic formula, F. strategic planning, G. back-to-front thinking, H. business environments, I. human nature",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "matching",
+          "prompt": "Nicholson's ideas are unwelcome to [blank] but some executives are more open to what evolutionary psychology says.",
+          "context": "Word Bank: A. business leaders, B. MBA graduates, C. promotion structures, D. reward strategy, E. magic formula, F. strategic planning, G. back-to-front thinking, H. business environments, I. human nature",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "matching",
+          "prompt": "However, these executives still believe that there is a [blank] that will make employees act according to the company's practices.",
+          "context": "Word Bank: A. business leaders, B. MBA graduates, C. promotion structures, D. reward strategy, E. magic formula, F. strategic planning, G. back-to-front thinking, H. business environments, I. human nature",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "matching",
+          "prompt": "According to Nicholson, these senior executives are engaging in [blank] and we should not try to change [blank] but instead we should change our business structures.",
+          "context": "Word Bank: A. business leaders, B. MBA graduates, C. promotion structures, D. reward strategy, E. magic formula, F. strategic planning, G. back-to-front thinking, H. business environments, I. human nature",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "matching",
+          "prompt": "we should not try to change [blank] but instead we should change our business structures.",
+          "context": "Word Bank: A. business leaders, B. MBA graduates, C. promotion structures, D. reward strategy, E. magic formula, F. strategic planning, G. back-to-front thinking, H. business environments, I. human nature",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

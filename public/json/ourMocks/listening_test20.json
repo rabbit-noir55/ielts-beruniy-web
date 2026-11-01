@@ -1,0 +1,848 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test20.html",
+    "title": "IELTS Listening Full Test 9",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/303030/main/july%2B2%2Btest%2B%2B(2).mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "Thorn"
+    ],
+    "2": [
+      "5 days",
+      "five days",
+      "5"
+    ],
+    "3": [
+      "gold coast"
+    ],
+    "4": [
+      "apartment",
+      "an apartment"
+    ],
+    "5": [
+      "C"
+    ],
+    "6": [
+      "A"
+    ],
+    "7": [
+      "C"
+    ],
+    "8": [
+      "B"
+    ],
+    "9": [
+      "E"
+    ],
+    "10": [
+      "F"
+    ],
+    "11": [
+      "cars",
+      "car"
+    ],
+    "12": [
+      "1928"
+    ],
+    "13": [
+      "cinema"
+    ],
+    "14": [
+      "quality"
+    ],
+    "15": [
+      "factory"
+    ],
+    "16": [
+      "waste"
+    ],
+    "17": [
+      "safety"
+    ],
+    "18": [
+      "website"
+    ],
+    "19": [
+      "customers",
+      "customer"
+    ],
+    "20": [
+      "money"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "B"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "C"
+    ],
+    "27": [
+      "E"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "D"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "infection",
+      "infections"
+    ],
+    "32": [
+      "wall"
+    ],
+    "33": [
+      "stress"
+    ],
+    "34": [
+      "heart"
+    ],
+    "35": [
+      "immune"
+    ],
+    "36": [
+      "interviews",
+      "interview"
+    ],
+    "37": [
+      "fountain"
+    ],
+    "38": [
+      "furniture"
+    ],
+    "39": [
+      "birds",
+      "bird"
+    ],
+    "40": [
+      "society"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 1–10.",
+        "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Surname:",
+          "context": "Travel Agency Client Quotation Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Length of stay:",
+          "context": "Travel Agency Client Quotation Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Area of destination: the ... (near Brisbane)",
+          "context": "Travel Agency Client Quotation Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Type of accommodation:",
+          "context": "Travel Agency Client Quotation Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "single_choice",
+          "prompt": "According to the client, the children's favourite theme park will be",
+          "context": "",
+          "options": [
+            "Movieworld",
+            "Dreamworld",
+            "Waterworld"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "single_choice",
+          "prompt": "At the wildlife sanctuary they will be able to take close-up photographs of",
+          "context": "",
+          "options": [
+            "the crocodiles",
+            "the kangaroos",
+            "the koalas"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "single_choice",
+          "prompt": "The client wants the accommodation to be near the",
+          "context": "",
+          "options": [
+            "beach",
+            "nightclubs",
+            "shopping facilities"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "multiple_choice",
+          "prompt": "Which THREE facilities does the client want at her accommodation?",
+          "context": "",
+          "options": [
+            "childcare",
+            "playroom",
+            "parking",
+            "gym",
+            "laundry",
+            "cleaning",
+            "sauna/spa"
+          ],
+          "inputs": [],
+          "constraint": "Choose THREE letters, A–G.",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "multiple_choice",
+          "prompt": "Which THREE facilities does the client want at her accommodation?",
+          "context": "",
+          "options": [
+            "childcare",
+            "playroom",
+            "parking",
+            "gym",
+            "laundry",
+            "cleaning",
+            "sauna/spa"
+          ],
+          "inputs": [],
+          "constraint": "Choose THREE letters, A–G.",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "multiple_choice",
+          "prompt": "Which THREE facilities does the client want at her accommodation?",
+          "context": "",
+          "options": [
+            "childcare",
+            "playroom",
+            "parking",
+            "gym",
+            "laundry",
+            "cleaning",
+            "sauna/spa"
+          ],
+          "inputs": [],
+          "constraint": "Choose THREE letters, A–G.",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 11–20.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "Tony Reynolds' first business produced",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "Reynolds Electrical was started in the year",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "There was previously a ... where the company is now based",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "input",
+          "prompt": "The ... of the products is an important factor for customers",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q14",
+              "placeholder": "14"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "input",
+          "prompt": "The company is building a new",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q15",
+              "placeholder": "15"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "input",
+          "prompt": "The company recently won an award for its success in reducing",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q16",
+              "placeholder": "16"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "input",
+          "prompt": "Monday: possible improvements in",
+          "context": "Complete the table below.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q17",
+              "placeholder": "17"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "input",
+          "prompt": "Tuesday: ... development",
+          "context": "Complete the table below.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q18",
+              "placeholder": "18"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "input",
+          "prompt": "Wednesday: communication with",
+          "context": "Complete the table below.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q19",
+              "placeholder": "19"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "input",
+          "prompt": "Friday: making sure the company has enough",
+          "context": "Complete the table below.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q20",
+              "placeholder": "20"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 21–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "According to Sandra, what is the most important thing to demonstrate in the portfolio?",
+          "context": "",
+          "options": [
+            "creativity",
+            "development",
+            "quality"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "What is Charlie going to include to show his understanding of design?",
+          "context": "",
+          "options": [
+            "some photos",
+            "a poster",
+            "a publicity flyer"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "Charlie and Sandra choose drawings of the human body to show their ability to",
+          "context": "",
+          "options": [
+            "provide realistic detail",
+            "portray everyday situations",
+            "represent movement"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "Why does Charlie advise Sandra not to include her work on deserts?",
+          "context": "",
+          "options": [
+            "It needs explanation",
+            "It will take up too much space",
+            "It doesn't fit in with the rest of her work"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "What did Sandra think was the best advice from their tutor?",
+          "context": "",
+          "options": [
+            "Save the best for the end",
+            "Make a strong first impression",
+            "Organise work in groups"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "single_choice",
+          "prompt": "Who is Sandra going to ask to look at her portfolio before she submits it?",
+          "context": "",
+          "options": [
+            "her parents",
+            "an art critic",
+            "an artist"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "a design for a book cover",
+          "context": "Which reason is given for the inclusion in Charlie's portfolio of each of the following pieces?",
+          "options": [
+            "A: explanation of a personal relationship",
+            "B: communication of a mood",
+            "C: high degree of accuracy",
+            "D: evidence of originality",
+            "E: use of lettering",
+            "F: combination of different materials"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F.",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "designs for jewellery",
+          "context": "Which reason is given for the inclusion in Charlie's portfolio of each of the following pieces?",
+          "options": [
+            "A: explanation of a personal relationship",
+            "B: communication of a mood",
+            "C: high degree of accuracy",
+            "D: evidence of originality",
+            "E: use of lettering",
+            "F: combination of different materials"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F.",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "a wood carving",
+          "context": "Which reason is given for the inclusion in Charlie's portfolio of each of the following pieces?",
+          "options": [
+            "A: explanation of a personal relationship",
+            "B: communication of a mood",
+            "C: high degree of accuracy",
+            "D: evidence of originality",
+            "E: use of lettering",
+            "F: combination of different materials"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F.",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "an advertisement",
+          "context": "Which reason is given for the inclusion in Charlie's portfolio of each of the following pieces?",
+          "options": [
+            "A: explanation of a personal relationship",
+            "B: communication of a mood",
+            "C: high degree of accuracy",
+            "D: evidence of originality",
+            "E: use of lettering",
+            "F: combination of different materials"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F.",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 31–40.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "looking at gardens may speed recovery from surgery and from",
+          "context": "Hospital gardens - 1984 Schwartz study found that",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "patients with views of nature recovered much faster than patients with views of a",
+          "context": "Hospital gardens - 1984 Schwartz study found that",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "hospitals were a source of",
+          "context": "Hospital gardens - European studies",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "can affect electrical activity in the body, especially the",
+          "context": "Hospital gardens - Looking at nature",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "can be beneficial to the ... system",
+          "context": "Hospital gardens - Looking at nature",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "research methods included analysis, observation and",
+          "context": "Hospital gardens - 1995 Cooper and Bennett study",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "gardens with a ... were particularly popular",
+          "context": "Hospital gardens - 1995 Cooper and Bennett study",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "easily moved",
+          "context": "Hospital gardens - 'Behavioural maps' studies",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "landscaping that attracts",
+          "context": "Hospital gardens - 'Behavioural maps' studies",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "elderly patients want to feel a part of",
+          "context": "Hospital gardens - 'Behavioural maps' studies",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

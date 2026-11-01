@@ -1,0 +1,783 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test9.html",
+    "title": "IELTS Listening Mock Test 9",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/mock-test-9/main/audio.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "diving"
+    ],
+    "2": [
+      "jungle"
+    ],
+    "3": [
+      "dance"
+    ],
+    "4": [
+      "1,450",
+      "1450"
+    ],
+    "5": [
+      "birds"
+    ],
+    "6": [
+      "dinner"
+    ],
+    "7": [
+      "electronics"
+    ],
+    "8": [
+      "Japan"
+    ],
+    "9": [
+      "costume"
+    ],
+    "10": [
+      "fish"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "D"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "D"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "E"
+    ],
+    "17": [
+      "I"
+    ],
+    "18": [
+      "F"
+    ],
+    "19": [
+      "D"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "C"
+    ],
+    "25": [
+      "A"
+    ],
+    "26": [
+      "H"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "E"
+    ],
+    "29": [
+      "G"
+    ],
+    "30": [
+      "D"
+    ],
+    "31": [
+      "different"
+    ],
+    "32": [
+      "meat"
+    ],
+    "33": [
+      "tradition"
+    ],
+    "34": [
+      "steam"
+    ],
+    "35": [
+      "ice"
+    ],
+    "36": [
+      "medicine"
+    ],
+    "37": [
+      "tax"
+    ],
+    "38": [
+      "insects"
+    ],
+    "39": [
+      "competition"
+    ],
+    "40": [
+      "healthy"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the table below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Complete the table below.",
+          "context": "Vietnam: a cookery course at a 5-star hotel, either [1] lessons or a one-day trek in the [2], attend a [3] performance",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Complete the table below.",
+          "context": "Vietnam: a cookery course at a 5-star hotel, either [1] lessons or a one-day trek in the [2], attend a [3] performance",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Complete the table below.",
+          "context": "Vietnam: a cookery course at a 5-star hotel, either [1] lessons or a one-day trek in the [2], attend a [3] performance",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Complete the table below.",
+          "context": "Vietnam Cost: 4 £[4]",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Complete the table below.",
+          "context": "Hong Kong: go to the hills to look at [5] in a country park, followed by [6] in a monastery",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Complete the table below.",
+          "context": "Hong Kong: go to the hills to look at [5] in a country park, followed by [6] in a monastery",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Complete the table below.",
+          "context": "Hong Kong: visit an [7] factory with the chance to shop",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Complete the table below.",
+          "context": "[8] Tour",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Complete the table below.",
+          "context": "Tour Details: visit a museum of traditional [9]",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Complete the table below.",
+          "context": "Tour Details: tour of a big [10] market",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose TWO letters, A–E.",
+        "Label the plan below."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "multiple_choice",
+          "prompt": "Which TWO items will participants on the dancing course receive when they check in?",
+          "context": "",
+          "options": [
+            "A. a class list",
+            "B. a face towel",
+            "C. a name tag",
+            "D. a shoe bag",
+            "E. a water bottle"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "multiple_choice",
+          "prompt": "Which TWO items will participants on the dancing course receive when they check in?",
+          "context": "",
+          "options": [
+            "A. a class list",
+            "B. a face towel",
+            "C. a name tag",
+            "D. a shoe bag",
+            "E. a water bottle"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "multiple_choice",
+          "prompt": "Which TWO activities will take place on the first afternoon and evening?",
+          "context": "",
+          "options": [
+            "A. costume making",
+            "B. a musical show",
+            "C. an informal dance",
+            "D. a talk on dance history",
+            "E. dancing tests"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "multiple_choice",
+          "prompt": "Which TWO activities will take place on the first afternoon and evening?",
+          "context": "",
+          "options": [
+            "A. costume making",
+            "B. a musical show",
+            "C. an informal dance",
+            "D. a talk on dance history",
+            "E. dancing tests"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Label the plan below. Choose the correct letter, A–I, next to questions 15–20.",
+          "context": "the bathrooms",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–I",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Label the plan below. Choose the correct letter, A–I, next to questions 15–20.",
+          "context": "the bunkrooms",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–I",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Label the plan below. Choose the correct letter, A–I, next to questions 15–20.",
+          "context": "the games room",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–I",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Label the plan below. Choose the correct letter, A–I, next to questions 15–20.",
+          "context": "the hall",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–I",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Label the plan below. Choose the correct letter, A–I, next to questions 15–20.",
+          "context": "the medical room",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–I",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Label the plan below. Choose the correct letter, A–I, next to questions 15–20.",
+          "context": "the reception office",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A–I",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Complete the flow-chart below. Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "According to Dominic, what is surprising about the supermarket garden project?",
+          "context": "Innovative Environmental Solutions",
+          "options": [
+            "At first, it was unpopular with customers.",
+            "It has gained a lot of interest from chefs.",
+            "Many shops are using the idea now."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "What do the speakers identify as a possible problem with the solar carpark idea?",
+          "context": "Innovative Environmental Solutions",
+          "options": [
+            "The technology might not be well developed.",
+            "The cost could be too high.",
+            "There may not be enough room."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "According to the speakers, the unexpected benefit of wildlife crossings is that",
+          "context": "Innovative Environmental Solutions",
+          "options": [
+            "they are much cheaper to build than was predicted.",
+            "animal populations become more genetically diverse.",
+            "they greatly reduce the number of car accidents."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "What is impressive about the 100% renewable energy campaign?",
+          "context": "Innovative Environmental Solutions",
+          "options": [
+            "how many countries the movement has spread to",
+            "how fast cities can convert to 100% renewable energy",
+            "how much help is given to participating communities"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "What positive point about “carrot-mobbing” does Ella describe?",
+          "context": "Innovative Environmental Solutions",
+          "options": [
+            "It helps businesses undertake eco-friendly projects.",
+            "It encourages people to buy sustainable products.",
+            "It creates a sense of community in the people who participate."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "Complete the flow-chart below. Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30.",
+          "context": "Choose a reforestation area with plenty of [26]",
+          "options": [
+            "A. land",
+            "B. plants",
+            "C. seeds",
+            "D. nutrients",
+            "E. compost",
+            "F. insecticide",
+            "G. clay",
+            "H. light"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "Complete the flow-chart below. Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30.",
+          "context": "Take a lot of suitable [27] , appropriate to your purposes.",
+          "options": [
+            "A. land",
+            "B. plants",
+            "C. seeds",
+            "D. nutrients",
+            "E. compost",
+            "F. insecticide",
+            "G. clay",
+            "H. light"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "Complete the flow-chart below. Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30.",
+          "context": "Mix with long-lasting [28]",
+          "options": [
+            "A. land",
+            "B. plants",
+            "C. seeds",
+            "D. nutrients",
+            "E. compost",
+            "F. insecticide",
+            "G. clay",
+            "H. light"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Complete the flow-chart below. Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30.",
+          "context": "Press into lumps of [29]",
+          "options": [
+            "A. land",
+            "B. plants",
+            "C. seeds",
+            "D. nutrients",
+            "E. compost",
+            "F. insecticide",
+            "G. clay",
+            "H. light"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "Complete the flow-chart below. Choose FIVE answers from the box and drag the correct letter, A–H, next to questions 26–30.",
+          "context": "Apply an outer coating, e.g. paper, to provide appropriate levels of [30] and protection.",
+          "options": [
+            "A. land",
+            "B. plants",
+            "C. seeds",
+            "D. nutrients",
+            "E. compost",
+            "F. insecticide",
+            "G. clay",
+            "H. light"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–H",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "Complete the notes below.",
+          "context": "Canadian maple syrup - Description: The production of sap needs a climate where night and day temperatures are very [31]",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "Complete the notes below.",
+          "context": "Canadian maple syrup - History: Folk stories claim that maple syrup was first used to cook [32]",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "Complete the notes below.",
+          "context": "Canadian maple syrup - History: Sap collection in spring developed into a First Nations [33]",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "Complete the notes below.",
+          "context": "Canadian maple syrup - History: using hot stones to produce [34]",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Complete the notes below.",
+          "context": "Canadian maple syrup - History: leaving it outside at night and then removing the layer of [35] on top.",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "Complete the notes below.",
+          "context": "Canadian maple syrup - Uses: European settlers put the syrup in various types of [36]",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Complete the notes below.",
+          "context": "Canadian maple syrup - Uses: Its use for making sugar declined after 1880, when the [37] on Caribbean sugar was removed.",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Complete the notes below.",
+          "context": "Canadian maple syrup - Threats: Natural - Harvests may be affected by storms and destructive [38]",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Complete the notes below.",
+          "context": "Canadian maple syrup - Threats: Social - Maple syrup is expensive and faces considerable [39]",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Complete the notes below.",
+          "context": "Canadian maple syrup - Reasons for optimism: It is quite [40] compared with other sweeteners.",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,879 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test1.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "TRUE"
+    ],
+    "2": [
+      "NOT GIVEN"
+    ],
+    "3": [
+      "TRUE"
+    ],
+    "4": [
+      "FALSE"
+    ],
+    "5": [
+      "FALSE"
+    ],
+    "6": [
+      "NOT GIVEN"
+    ],
+    "7": [
+      "excavation"
+    ],
+    "8": [
+      "mountains"
+    ],
+    "9": [
+      "rafts"
+    ],
+    "10": [
+      "metal"
+    ],
+    "11": [
+      "size"
+    ],
+    "12": [
+      "game"
+    ],
+    "13": [
+      "rulers"
+    ],
+    "14": [
+      "Siberian polecat"
+    ],
+    "15": [
+      "Europe"
+    ],
+    "16": [
+      "prairie dog"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "H"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "F"
+    ],
+    "21": [
+      "G"
+    ],
+    "22": [
+      "E"
+    ],
+    "23": [
+      "E"
+    ],
+    "24": [
+      "H"
+    ],
+    "25": [
+      "D"
+    ],
+    "26": [
+      "I"
+    ],
+    "27": [
+      "YES"
+    ],
+    "28": [
+      "YES"
+    ],
+    "29": [
+      "NO"
+    ],
+    "30": [
+      "NOT GIVEN"
+    ],
+    "31": [
+      "B"
+    ],
+    "32": [
+      "C"
+    ],
+    "33": [
+      "D"
+    ],
+    "34": [
+      "C"
+    ],
+    "35": [
+      "A"
+    ],
+    "36": [
+      "H"
+    ],
+    "37": [
+      "G"
+    ],
+    "38": [
+      "A"
+    ],
+    "39": [
+      "D"
+    ],
+    "40": [
+      "B"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "The Olmec and their great stone heads",
+      "passages": [
+        "The Olmec civilisation flourished from about 1200 to 400 BC in the humid lowlands along the Gulf coast of what is now eastern Mexico. It was the first large and influential culture of Mesoamerica. Most Olmec families lived by agriculture, and many people worked as farmers growing staple crops, especially maize. Fishing and hunting supplemented their food, while skilled craftspeople produced pottery, jade ornaments and stone sculpture. Ideas first seen in Olmec centres, including religious symbols and ceremonial practices, were later adopted by other Mesoamerican peoples, among them the Maya and the Aztecs.\n\nSeveral important cities rose at different times. San Lorenzo was the earliest major centre, but it declined sharply around 900 BC. La Venta then became prominent before it too lost its influence. Tres Zapotes remained occupied after La Venta had declined, so La Venta was not the last Olmec city to weaken. Scholars have suggested environmental change, exhausted farmland and political disruption as possible causes of the civilisation's eventual disappearance. The surviving evidence does not tell us whether repeated wars with neighbouring enemies were responsible. Nor does it establish that river transport formed the basis of a formal Olmec trading network.\n\nThe civilisation's most memorable works are seventeen colossal stone heads discovered at four archaeological sites. Their excavation by modern investigators began in 1871, and the most recently recognised example was uncovered in 1994. Although individual heads differ, all have broad faces, flat noses and full lips. Several are taller than an adult, while the largest is close to three metres high and weighs many tonnes. Traces of pigment suggest that at least some of them may originally have been painted.\n\nMaking and positioning these monuments demanded extraordinary organisation. The sculptors used basalt obtained from mountains that could lie as much as a hundred kilometres from the cities where the heads were displayed. Workers transported the enormous stones partly on rafts along rivers and partly by dragging them over land with human labour. The achievement is even more striking because Olmec craftspeople had no tools made from metal. They shaped the basalt with harder stones, abrasive material and enormous patience.\n\nNobody can now be certain what the heads meant. Earlier archaeologists argued that their great size showed that they were images of gods. Others focused on the close-fitting stone helmets, comparing them with protective headgear used by players in an Olmec ball game. The theory accepted most widely today is that the sculptures portray powerful rulers. Each face has individual features rather than the anonymous appearance expected in a general image of a deity.\n\nThe Olmec also created altars, thrones, figurines and smaller carvings, but the giant heads remain their best-known legacy. Museums near the original sites protect most of them, and replicas displayed elsewhere allow a wider public to appreciate the technical skill and ambition of their makers."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "Do the following statements agree with the information given in Reading Passage 1?",
+          "context": "Many Olmec people were farmers.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "Do the following statements agree with the information given in Reading Passage 1?",
+          "context": "The Olmec established a trading network based on river transport.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "Do the following statements agree with the information given in Reading Passage 1?",
+          "context": "Some of the cultural practices of the Olmec were adopted by the Aztecs.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "Do the following statements agree with the information given in Reading Passage 1?",
+          "context": "La Venta was the last Olmec city to go into decline.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "Do the following statements agree with the information given in Reading Passage 1?",
+          "context": "The Olmec grew a large variety of agricultural products before their civilisation vanished.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "Do the following statements agree with the information given in Reading Passage 1?",
+          "context": "The Olmec fought many battles with enemies from neighbouring areas.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+          "context": "the [input 7] of the Olmec heads took place between 1871 and 1994",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+          "context": "the basalt stone the heads are made from was taken from [input 8] in distant locations",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+          "context": "the stones were moved by river on [input 9] and also dragged by men",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+          "context": "the heads are a remarkable achievement since the Olmec did not have tools made of [input 10]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+          "context": "some archaeologists believed the [input 11] of the heads indicated they represented gods",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+          "context": "other archaeologists thought the stone helmets were like those worn in an Olmec [input 12]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+          "context": "today's most widely accepted theory is that the heads depict Olmec [input 13]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "The Return of the Black-footed Ferret",
+      "passages": [
+        "A  The black-footed ferret is a small carnivorous mammal native to North America. Of the living polecats, its body shape and behaviour most closely resemble those of the Siberian polecat. Scientists think the ancestors of North American ferrets crossed from Europe long ago. On the grasslands, a ferret depends heavily on one animal: the prairie dog is its primary source of food and its abandoned burrows also provide shelter.\n\nB  The species entered scientific literature in 1851, when a specimen was formally described. For decades afterwards it remained little known. In 1874 a naturalist published an appeal asking residents and collectors to send evidence of black-footed ferrets. Reports were scarce, which helped create an enduring impression that the animal had always been rare.\n\nC  During the twentieth century, surveys showed that both prairie dogs and ferrets were disappearing. The ferret was placed on an official endangered-species list in 1967. Conservationists began searches across the plains, but the nocturnal animal was difficult to find because it spent much of the day underground.\n\nD  By the early 1970s, so few confirmed sightings existed that some zoologists openly wondered whether the black-footed ferret was a genuine surviving species rather than an animal confused with a related polecat. A small population found in South Dakota briefly answered those doubts, but it vanished soon afterwards.\n\nE  The fall in numbers had several connected causes. Farmers poisoned prairie dogs and ploughed native grassland, removing both the ferret's prey and its shelter. Disease affected the remaining colonies, while fragmented habitat left small groups isolated. In 1979 officials announced that efforts to save the last known population had failed, and many experts assumed the species was extinct.\n\nF  Hope returned unexpectedly in 1981. A ranch dog near Meeteetse, Wyoming, brought home a dead black-footed ferret. The discovery of that single animal led biologists to search the area, where they found a previously unknown wild colony. Researchers started observing and protecting it immediately.\n\nG  Disease then swept through the Meeteetse colony. Faced with the possible loss of the species, wildlife managers made a controversial decision. In 1985 they captured North America's last known wild-born black-footed ferrets and transferred them to a protected breeding programme. Only a small number survived to reproduce, so genetic management became essential.\n\nH  Captive breeding succeeded, and in 1991 a programme began releasing captive-born animals into the wild. Before release, young ferrets spend time in outdoor pens containing prairie-dog burrows. There they learn to enter tunnels, avoid predators and hunt live prey. This preparation is intended to give animals raised by people the survival skills normally learned in natural grassland.\n\nI  Reintroduction now takes place at several protected sites. A suitable location needs a large, healthy prairie-dog population, connected habitat and limited exposure to disease. One broad grassland reserve in the western plains is considered ideal because its extensive colonies can support many ferrets and are far from intensive farming. Numbers remain modest, but continued breeding, vaccination and habitat protection have made the future more hopeful."
+      ],
+      "instructions": [
+        "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "Match each event with the correct date, A-H."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "input",
+          "prompt": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "context": "The black-footed ferret shares most characteristics with the [input 14].",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q14",
+              "placeholder": "14"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "input",
+          "prompt": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "context": "North American ferrets are thought to have originally come from [input 15].",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q15",
+              "placeholder": "15"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "input",
+          "prompt": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "context": "The [input 16] is the black-footed ferret's primary source of food.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q16",
+              "placeholder": "16"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Match each event with the correct date, A-H.",
+          "context": "An appeal for evidence of black-footed ferrets was published",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Match each event with the correct date, A-H.",
+          "context": "A scheme for releasing captive-born black-footed ferrets into the wild was launched",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Match each event with the correct date, A-H.",
+          "context": "The black-footed ferret first appeared in a scientific work",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Match each event with the correct date, A-H.",
+          "context": "The discovery of a single black-footed ferret led to renewed hope for the species",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "Match each event with the correct date, A-H.",
+          "context": "North America's last wild-born black-footed ferrets were taken into captivity",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "matching",
+          "prompt": "Match each event with the correct date, A-H.",
+          "context": "Efforts to save the black-footed ferret were officially announced as having failed",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "matching",
+          "prompt": "Which paragraph contains the following information? Write the correct letter, A-I.",
+          "context": "reasons for the sharp decrease in black-footed ferret populations",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "matching",
+          "prompt": "Which paragraph contains the following information? Write the correct letter, A-I.",
+          "context": "the procedure by which black-footed ferrets are taught to survive in the wild",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "matching",
+          "prompt": "Which paragraph contains the following information? Write the correct letter, A-I.",
+          "context": "mention of doubts about whether there was such an animal as a black-footed ferret",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "Which paragraph contains the following information? Write the correct letter, A-I.",
+          "context": "reference to a site which is ideal for the release of black-footed ferrets into the wild",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Marine mammals exhibit their ingenuity",
+      "passages": [
+        "In the clear channels of Shark Bay in Western Australia, a small number of bottlenose dolphins hunt with an unusual aid. They tear a cone-shaped marine sponge from the seabed and place it over the end of the nose. The sponge acts as protection, allowing a dolphin to probe rough sand and broken shell for hidden fish without getting hurt. This behaviour is genuine tool use rather than decoration or play.\n\nResearchers think the practice may have begun when one inventive female experimented with a sponge and discovered that it made bottom-feeding safer. Her offspring copied her, and the habit then continued through related females. Such a history interests scientists who study human evolution, because a simple discovery spreading through observation may offer clues about how early human tool traditions began.\n\nSponging changes a dolphin's daily life. A user often searches alone and dives more deeply and for longer periods than dolphins employing ordinary hunting methods. As a result, sponge users become more isolated from large social groups. The method is productive, but locating the right tool can take time: dolphins reject unsuitable specimens and continue searching until they find a sponge whose shape and size fit the nose securely.\n\nThe behaviour first attracted attention after a local fisherman saw what looked like a strange growth permanently attached to a dolphin's nose. He reported the sighting to marine researchers. Repeated observation showed that the apparent growth was removable and that dolphins deliberately carried it to feeding areas.\n\nOnly a few dozen of the hundreds of dolphins living in the bay use sponges. That small number created a valuable natural comparison: researchers could investigate different behaviours within one species living in the same environment. They compared tool users with non-users rather than comparing dolphins with a completely different animal.\n\nOne early possibility was that a special gene made certain dolphins use tools. Genetic work did not support that explanation; investigators rejected a simple inherited cause for the behaviour. Instead, the family pattern points to learning. Calves remain with their mothers for years, giving them repeated opportunities to observe where a sponge is found, how it is carried and how it is used to uncover fish. Observation of their mothers is therefore the most likely way the skill is learned.\n\nYoung males sometimes copy the technique, but most stop before adulthood. Daughters are much more likely to continue using sponges when mature, so persistent adult sponging is more frequent among females. Adult males, by contrast, more often cooperate with other males and tend to hunt for fish in groups. Group hunting is consequently more typical of males than of female sponge users.\n\nScientists do not all agree that tool use proves high intelligence. Some argue that tool use can emerge from a narrow response to a local problem and should not automatically be treated as evidence of general reasoning. Others point to dolphins' large brains, flexible communication, imitation and rapid learning. On this view, their clever behaviour may be linked to a physical characteristic: a brain that is unusually large in relation to body size.\n\nDr Janet Mann and her colleagues have spent years documenting the Shark Bay dolphins, recording family relationships and hunting choices. Their observations support cultural transmission of the sponging technique. Although researchers continue to debate the broader connection between animal tools and intelligence, the passage of this particular skill from mothers to daughters is well supported. No criticism of Dr Mann's analysis by other scientists is reported here."
+      ],
+      "instructions": [
+        "Do the following statements agree with the claims of the writer in Reading Passage 3?",
+        "Choose the correct letter, A, B, C or D.",
+        "Complete each sentence with the correct ending, A-H, below."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "true_false_not_given",
+          "prompt": "Do the following statements agree with the claims of the writer in Reading Passage 3?",
+          "context": "Researchers believe that the use of sponges for hunting may have originated with one female dolphin's experimentation.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "true_false_not_given",
+          "prompt": "Do the following statements agree with the claims of the writer in Reading Passage 3?",
+          "context": "Research into tool use by dolphins can help us understand the origins of the use of tools by humans.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "true_false_not_given",
+          "prompt": "Do the following statements agree with the claims of the writer in Reading Passage 3?",
+          "context": "There is general agreement amongst researchers on the relationship of tool use amongst animals and animal intelligence.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "true_false_not_given",
+          "prompt": "Do the following statements agree with the claims of the writer in Reading Passage 3?",
+          "context": "Dr. Mann's analysis of dolphin behaviour has been criticised by some other scientists.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "single_choice",
+          "prompt": "Choose the correct letter, A, B, C or D.",
+          "context": "Some bottlenose dolphins in Shark Bay use sponges",
+          "options": [
+            "A to attract fish.",
+            "B to avoid getting hurt.",
+            "C to supplement their diet.",
+            "D as a form of decoration."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "single_choice",
+          "prompt": "Choose the correct letter, A, B, C or D.",
+          "context": "The use of sponges by bottlenose dolphins results in their",
+          "options": [
+            "A living longer.",
+            "B attracting more mates.",
+            "C becoming more isolated.",
+            "D becoming more aggressive."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "single_choice",
+          "prompt": "Choose the correct letter, A, B, C or D.",
+          "context": "The Shark Bay fisherman mentioned in the passage",
+          "options": [
+            "A provided an explanation for the dolphins' hunting habits.",
+            "B made numerous observations of the dolphins in Shark Bay.",
+            "C notified the media about dolphins balancing sponges on their noses.",
+            "D thought the sponge was permanently attached to the dolphin's nose."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "single_choice",
+          "prompt": "Choose the correct letter, A, B, C or D.",
+          "context": "The dolphins sometimes take some time to find a sponge because",
+          "options": [
+            "A some sponges are too heavy.",
+            "B sponges are quite rare in Shark Bay.",
+            "C they are only satisfied with sponges that fit well.",
+            "D they have individual preferences for types of sponges."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "single_choice",
+          "prompt": "Choose the correct letter, A, B, C or D.",
+          "context": "The fact that only a few dozen Shark Bay dolphins use sponges in this way allowed researchers to",
+          "options": [
+            "A investigate different behaviours within one species.",
+            "B track individual members of a species.",
+            "C decide whether the behaviour was tool use or not.",
+            "D explain the purpose for the behaviour."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "matching",
+          "prompt": "Complete each sentence with the correct ending, A-H, below.",
+          "context": "A genetic explanation for the dolphins' use of sponges",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "matching",
+          "prompt": "Complete each sentence with the correct ending, A-H, below.",
+          "context": "Observation of the behaviour of their mothers",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "matching",
+          "prompt": "Complete each sentence with the correct ending, A-H, below.",
+          "context": "The continued use of sponges in adulthood",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "matching",
+          "prompt": "Complete each sentence with the correct ending, A-H, below.",
+          "context": "A tendency to hunt for fish in groups",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "matching",
+          "prompt": "Complete each sentence with the correct ending, A-H, below.",
+          "context": "The clever behaviour of the dolphins",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

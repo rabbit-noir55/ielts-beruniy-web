@@ -1,0 +1,919 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test4.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "FALSE"
+    ],
+    "2": [
+      "FALSE"
+    ],
+    "3": [
+      "TRUE"
+    ],
+    "4": [
+      "NOT GIVEN"
+    ],
+    "5": [
+      "TRUE"
+    ],
+    "6": [
+      "TRUE"
+    ],
+    "7": [
+      "FALSE"
+    ],
+    "8": [
+      "102 million",
+      "$102 million",
+      "102,000,000"
+    ],
+    "9": [
+      "Sweden"
+    ],
+    "10": [
+      "granite"
+    ],
+    "11": [
+      "four",
+      "4"
+    ],
+    "12": [
+      "forecourt"
+    ],
+    "13": [
+      "harbour"
+    ],
+    "14": [
+      "iv"
+    ],
+    "15": [
+      "viii"
+    ],
+    "16": [
+      "vi"
+    ],
+    "17": [
+      "iii"
+    ],
+    "18": [
+      "i"
+    ],
+    "19": [
+      "v"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "D"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "sustainability"
+    ],
+    "25": [
+      "supervision"
+    ],
+    "26": [
+      "mayor"
+    ],
+    "27": [
+      "E"
+    ],
+    "28": [
+      "F"
+    ],
+    "29": [
+      "D"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "B"
+    ],
+    "32": [
+      "F"
+    ],
+    "33": [
+      "C"
+    ],
+    "34": [
+      "A"
+    ],
+    "35": [
+      "B"
+    ],
+    "36": [
+      "E"
+    ],
+    "37": [
+      "H"
+    ],
+    "38": [
+      "D"
+    ],
+    "39": [
+      "C"
+    ],
+    "40": [
+      "B"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Sydney Opera House",
+      "passages": [
+        "Sydney Opera House is an example of late modern architecture; it is admired internationally and treasured by the people of Australia",
+        "In 1956 the Premier of New South Wales, Australia, announced an international competition for the design of an opera house for Sydney. It attracted more than 200 entries from around the world and was won by Jørn Utzon, a relatively little-known architect from Denmark. The story goes that during the judging of the competition, one judge, American architect Eero Saarinen, arrived in Sydney after the other three judges had started assessing the entries. He looked through their rejected entries and stopped at the Utzon design, declaring it to be outstanding.",
+        "It was Utzon's life and travels that had shaped his design for the Sydney Opera House. Though he had never visited the site, he used his maritime background to study naval charts of Sydney Harbour. His early exposure to shipbuilding provided the inspiration for the design of the roof of the Sydney Opera House, which is a series of curved 'shells' that look like the sails of a sailing ship billowing on the wind. From his travels to Mexico, he had the idea of placing his building on a wide horizontal platform.",
+        "Construction of the platform began in 1959, and throughout the early 1960s Utzon amended his original designs in order to develop a way to build the large 'shells' that cover the two main halls. The construction of the roof brought together some of the world's best engineers with Utzon's vision. The design was one of the first examples of the use of computer-aided design for complex shapes.",
+        "Although Utzon had spectacular plans for the interior, he was unable to realize them. Cost overruns contributed to criticism of the project and, after a change of government, the Minister of Works began questioning Utzon's schedules and cost estimates. Payments to Utzon were stopped and he was forced to withdraw as chief architect in 1966. Following his resignation, there were protests through the streets led by prominent architect Harry Seidler and others, demanding Utzon be reinstated as architect. However, Utzon was not reinstated and left Australia in 1966. He never returned and new architects were appointed to complete the building in his absence. The original cost estimate for the Opera House was $7 million, with the completion date set at 26 January 1963. However, the Opera House was not formally completed until 1973, having cost $102 million.",
+        "Since its opening in 1973, Sydney Opera House has earned a reputation as a world-class performing arts centre, and become a symbol of both Sydney and Australia.",
+        "Situated at Bennelong Point on Sydney Harbour, it consists of a series of large precast 'shells' made of concrete, each composed of sections of a sphere of 75.2 metres radius, forming the roofs of the structure, set on a monumental platform. The building is 183 metres long and 120 metres wide at its widest point. It is supported on 588 concrete piers which are sunk approximately 25 metres below sea level.",
+        "Although the roof structures are commonly referred to as 'shells', they are precast concrete panels supported by concrete ribs. The 'shells' are covered with 1,056,006 white and cream-coloured tiles manufactured in a factory in Sweden that generally produced stoneware tiles for the paper-mill industry. The design solution and construction of the shell structure took eight years to complete, and the development of the special ceramic tiles took over three years. Apart from the tiles covering the 'shells', the building's exterior is mostly clad with granite quarried in Australia.",
+        "Contrary to its name, Sydney Opera House includes multiple performance venues. It is among the busiest performing arts centres in the world, holding over 1,500 performances each year. It hosts a large number of performing arts companies, including the four resident companies: Opera Australia, the Australian Ballet, the Sydney Theatre Company and the Sydney Symphony Orchestra.",
+        "With its grand setting and cathedral-like atmosphere the Concert Hall is Sydney Opera House's most prestigious performance space. The largest of all Sydney Opera House interior venues, it delivers outstanding acoustics thanks to its high ceiling and wood paneling. There is a sizeable outdoor forecourt from which people ascend to the main entrance. The steps, which lead up from the forecourt to the main performance venues, are nearly 100 metres wide.",
+        "In 1999, Utzon was re-engaged to develop a set of design principles to act as a guide for future changes to the building. All of this design work he did from his base in Europe. These principles help to ensure that the building's architectural integrity is maintained. The first alteration to the exterior of the building was the addition of a new colonnade, which shades nine large glass openings into the previously solid exterior wall. This Utzon-led project, completed in 2006, enabled theatre patrons to see the harbour for the first time from the theatre foyers. The design also incorporates the first public lift and interior escalators to assist less mobile patrons.",
+        "Since 2007, the cultural, heritage and architectural importance of Sydney Opera House has been protected by its inclusion on the World Heritage List."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Complete the notes below. Choose ONE WORD AND/OR A NUMBER from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "Utzon was famous for his work before he designed the Opera House.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "Utzon's design was favored by the four judges of the competition from the beginning.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "Utzon's knowledge of boats gave him the idea for parts of the Opera House.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "Utzon was impressed by the opera houses he had seen in Mexico.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "Utzon changed his designs in the 1960s after construction began.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "Seidler defended Utzon's role as architect.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "true_false_not_given",
+          "prompt": "Utzon went back to Australia in 1973 for the opening of the Opera House.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Final cost: $",
+          "context": "Sydney Opera House",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "over a million tiles from",
+          "context": "Construction",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "from Australia covering the outside walls",
+          "context": "Construction",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "performing arts companies have their home base at the Opera House",
+          "context": "Use",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "a large",
+          "context": "Outside",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "opening made the",
+          "context": "Alteration",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Healthy buildings, productive people",
+      "passages": [
+        "A  Have you felt tired at your desk lately? According to new research, some often overlooked environmental factors within buildings – the degree or type of ventilation, airborne contaminants, lighting and noise levels, for example – can play a surprisingly large role in how good or bad you feel, and even how well you think. It is estimated that we spend more than 90 percent of our time inside, but builders in general have paid little attention to the health aspects of indoor spaces, instead focusing on superficial design features and on meeting minimum environmental standards to keep costs down.",
+        "B  Researchers at Harvard University in the US looked at the effects of indoor air quality on workers' cognitive performance – important both for health and for companies' bottom lines, says Joseph Allen, assistant professor of environmental health and principal investigator of the study. 'The true cost of running our buildings should take into account the health and productivity of people in those buildings,' Allen says. In fact, an analysis by the team showed that the cost of making alterations that could boost cognitive performance significantly was minuscule compared with the related increase in productivity – about $40 per person, per year, compared with a $6,500 increase in employee productivity.",
+        "C  The team's first study, published in Environmental Health Perspectives, was conducted at the Syracuse Center of Excellence, a US research organization devoted to studying and developing sustainability. The center houses a laboratory that allows researchers to test a wide range of indoor air quality factors using sophisticated ventilation. Each day, the indoor environment was controlled with a ventilation system which included small amounts of carbon dioxide and volatile organic compounds, or VOCs – the toxic by-products of office supplies commonly found in the workplace. The office workers were blinded to the conditions. For six days over two weeks, 24 office workers with administrative, technical, professional or managerial jobs came to the lab and performed their regular work under full supervision, as well as participating in an hour and a half of cognitive testing at the end of the day. The cognitive tasks used in the study had participants respond to online scenarios that mimic real-life situations, such as running a city as a mayor. The findings are remarkable for showing in a well-controlled study, that indoor air quality can significantly lower cognitive performance in buildings that would otherwise meet current building standards, notes environmental psychologist Craig Zimring, director of Georgia Tech University's SimTigrate Design Lab in the US. 'If these findings are replicated in other labs and in real-world work environments,' he says, 'they could lead to designs that provide much more outside air through mechanical ventilation or operable windows, for example' – in turn, promoting better health and performance.",
+        "D  In a second study, reported in Building and Environment, the Harvard-Syracuse team moved from the lab to the real world. Using the same methodology, they compared test scores of 109 people working in 10 buildings – about 12 people per site – in two buildings in each of five cities. When the team examined the buildings for differences, they found that certified buildings had lower humidity levels and brighter light than non-certified buildings. That said, the differences in humidity and lighting didn't entirely explain the differing cognitive function scores of people on the job. This has led researchers to believe that other factors, such as how someone feels about their working environment, may also play a part, notes Harvard research fellow Piers MacNaughton, who led the study.",
+        "E  A recently constructed building on the Washington University campus in St. Louis, US, is providing another opportunity to examine how green building design can affect health and behavior. Hillman Hall was designed with the highest environmental and energy standards available, as well as design elements intended to foster more collaboration and physical activity, says Amy Eyler, associate professor and assistant dean for public health at the Brown School at Washington University. The design includes easy access to stairways, plenty of natural light, generous spaces for collaboration, desks that allow people to sit or stand up, and inviting places to walk. Unlike traditional hallways designed as long corridors with private offices to either side, for example, these hallways include classrooms, offices and spaces to sit, so they are multi-use – 'you have many reasons to walk them,' says Eyler. To test how the building might affect people's behavior, Eyler conducted a pre-test before people moved in, and a post-test one year later. Her team collected data on the three main features the designers were attempting to foster: physical activity, collaboration and sustainable practices. Results showed that people were more likely to take part in spontaneous collaborations in the new space than in the older ones, and to be physically active.",
+        "F  Like other researchers in this growing field, Eyler sees multidisciplinary collaboration as the key to success. Administrators, public health faculty and architects worked together to create a building that captured the university's vision for a space that fosters collegial work and health for faculty, staff and students – a shared goal evidenced by the fact that the architecture firm that designed the building also funded part of the research. 'Complex projects like this one need teams of people with varied backgrounds and expertise in order to solve them,' Eyler says."
+      ],
+      "instructions": [
+        "Reading Passage 2 has six paragraphs, A-F. Choose the correct heading for each paragraph from the list of headings below.",
+        "Look at the following statements (Questions 20-23) and the list of researchers below. Match each statement with the correct researcher.",
+        "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "Paragraph A",
+          "context": "List of Headings: i. The effects of a new environmentally friendly building on the people who work there, ii. The ability of well-designed workplaces to attract the best staff, iii. The assessment of workplaces in several locations, iv. The low priority given to making buildings healthy for users, v. Achieving design efficiency by involving a range of specialists, vi. Workers were assessed outside of their usual workplace, vii. Workplace changes based on worker feedback, viii. The financial benefits of efficient workplaces",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct number, i-viii",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Paragraph B",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct number, i-viii",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Paragraph C",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct number, i-viii",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Paragraph D",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct number, i-viii",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Paragraph E",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct number, i-viii",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Paragraph F",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct number, i-viii",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Further investigations will result in improved wellbeing and efficiency.",
+          "context": "List of Researchers: A. Joseph Allen, B. Craig Zimring, C. Piers MacNaughton, D. Amy Eyler",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "A person's opinion of their workspace may influence how well they perform at work.",
+          "context": "List of Researchers",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "matching",
+          "prompt": "The design of a workplace can have an impact on how much staff work with their colleagues.",
+          "context": "List of Researchers",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "matching",
+          "prompt": "A worker's mental capacity may be considerably reduced due to their working environment.",
+          "context": "List of Researchers",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "Allen's first study was done at the Syracuse Center, which focuses on researching",
+          "context": "Harvard study published in Environmental Health Perspectives",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q24",
+              "placeholder": "24"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "In this study, a complex ventilation system was used to control the airflow in the simulated workplace. All staff carried out normal duties during the day without much",
+          "context": "Harvard study published in Environmental Health Perspectives",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q25",
+              "placeholder": "25"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "Later in the day participants were assessed as they performed tasks which required them to play a role, for example acting as",
+          "context": "Harvard study published in Environmental Health Perspectives",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q26",
+              "placeholder": "26"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Risk taking",
+      "passages": [
+        "A  We run risks. Most of the time we ignore them; sometimes we stop and decide how to deal with them. That's life. Risks arise in sports, in business, in personal relationships; they are present in the laboratory, in political calculations, everywhere. Acting individually, we often prefer to gain some benefit by accepting some danger. Acting collectively, we make similar trade-offs.",
+        "B  When society must assess risks, and those risks can be clarified, at least in part, by science, technology or mathematics, the responsibility of the research community is to be clear and complete. But that is not always so easy. Furthermore, too few people pay full attention to the best evidence, much less modify their behaviors as a result. Even when the evidence of high risk is clear – about smoking, for instance – many will deny the risk, or dispute it, or accept that it exists and still go ahead. As a former cigarette smoker, I understand denial.",
+        "C  Perhaps more important than the basic facts of risk are the varied perception of it. Hearing the prediction of 60% chance of rain, or recognizing the minuscule likelihood of becoming ill from a flu shot, most people understand the right responses: take your umbrella and get your flu shot. But some, fearfully but irrationally, go to the extreme and stay at home and avoid all contact with other people. Irrational decisions occasionally affect us all. When it comes to risks the best odds do not always influence people to make the correct decision.",
+        "D  In her book, The Universe and the Teacup, the science writer K. C. Cole reminds us that the risks of losing something and gaining something appear to be calculated in our minds according to quite different scales. People will risk a lot to prevent a loss, she notes; some people will rush into a burning building to save a pet. But they will usually risk very little if the only perceived outcome is a possible gain; many people won't even risk pursuing an exciting job, if the current job, though unfulfilling, remains comfortable. That psychological mechanism, a desire to maintain the status quo, helps explain the high hurdles that any rational risk assessment must confront.",
+        "E  Organizations face the same hurdles whenever they must cope with major shifts in policy. In his classic examination of the character of high-tech industry, Only the Paranoid Survive, Andrew S. Grove gives a perceptive account of a crisis that took place during his tenure as Chairman of the Intel Corporation. The business environment for Intel and its competitors was transformed by a flood of low-cost memory chips from Japan, and Intel made the difficult decision to abandon its chip-making business. Such a period of change in the outside world is filled with danger, Grove notes, precisely because it is so easy for executives to try to disregard it or misinterpret the mounting evidence showing the profound risks of not making change at the very core. The distinction Cole cites is instructive here: one reason management and staff may not act is that they tend to focus on the potential gains of risking change (which they characterize as small), rather than on the catastrophic losses that risking change could prevent. The period becomes critical for a company, according to Grove, and deadly when unattended to.",
+        "F  Likewise, at the national level, and even the global one, institutions tend to be more willing to take a risk if it means avoiding a loss, than they are if it might confer a gain. Almost everyone, for instance, sees the signs of ecological decay. Reid J. Lifset's article, 'Full Accounting', describes newly developed techniques for clarifying which critical decision would have the highest pay-offs for the environment. Once these 'leverage points' as he calls them, are located, many environmental organizations will be willing to risk the resources needed to prevent further deterioration.",
+        "G  More complicated are decisions by nations to invest broadly in educational research. Some governmental leaders are oblivious to the risks posed by social under-investment, because the urgent needs of the present take precedence over actions that would give rise to even more substantial gains in the future. Their attitude is that today's risks must be manageable, and that tomorrow's gains are at the very least difficult to measure. Better consideration and decision making for what lies ahead is essential.",
+        "H  Nevertheless, I confess to being an optimist. My glass is generally half full – though that may not help me handle risk. Whether one's temperament is optimistic or pessimistic, everyone in our scientific and engineering community has a social responsibility: measure with care and portray with honesty the level of risk involved in any action or decision."
+      ],
+      "instructions": [
+        "Complete each sentence with the correct ending, A-G, below.",
+        "Which paragraph contains the following information? Write the correct letter, A-H.",
+        "Choose the correct letter, A, B, C or D."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "K. C. Cole points out that avoiding a loss seems more important to people than .......",
+          "context": "Sentence Endings: A. planning for the future., B. predicting their errors., C. continuing in the present situation., D. recent findings on the most effective solutions to problems., E. achieving a gain., F. changes occurring externally., G. a high level of agreement.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "According to Andrew S. Grove, it can be very dangerous for companies to ignore .......",
+          "context": "Sentence Endings",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Reid J. Lifset argues that environmental agencies can benefit from .......",
+          "context": "Sentence Endings",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "The writer suggests that government leaders need to focus more on .......",
+          "context": "Sentence Endings",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "matching",
+          "prompt": "the areas of study that help us understand risk",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "matching",
+          "prompt": "reference to key actions that might benefit the world",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "matching",
+          "prompt": "examples of statistical predictions that the majority of the public react to in the same way",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "matching",
+          "prompt": "the variety of contexts in which risk occurs",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "matching",
+          "prompt": "mention of a habit that has been proved to be very risky",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "matching",
+          "prompt": "reference to market forces motivating change",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "matching",
+          "prompt": "the writer's current attitude towards risk",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "matching",
+          "prompt": "a reason why some individuals avoid making a career change",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "matching",
+          "prompt": "how some people over-react to information about risk",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "single_choice",
+          "prompt": "At the end of the passage the writer concludes that",
+          "context": "",
+          "options": [
+            "risk is something we must try to avoid.",
+            "experts should be truthful about risk to the public.",
+            "optimists are better able to deal with risk than pessimists.",
+            "it is important to take risks in order to fulfil social obligations."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B, C or D",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+  server: {
+    proxy: {
+      "/api": {
+        target: "http://127.0.0.1:8000",
+        changeOrigin: true,
+      },
+      "/oss": {
+        target: "https://oss.jumpinto.com",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/oss/, ""),
+      },
+      "/dict": {
+        target: "https://api.datamuse.com",
+        changeOrigin: true,
+        rewrite: (path) => `/words${path.replace(/^\/dict/, "")}`,
+      },
+    },
+  },
+});

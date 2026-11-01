@@ -1,0 +1,919 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test8.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "q1": [
+      "TRUE"
+    ],
+    "q2": [
+      "NOT GIVEN"
+    ],
+    "q3": [
+      "FALSE"
+    ],
+    "q4": [
+      "NOT GIVEN"
+    ],
+    "q5": [
+      "FALSE"
+    ],
+    "q6": [
+      "TRUE"
+    ],
+    "q7": [
+      "TRUE"
+    ],
+    "q8": [
+      "size"
+    ],
+    "q9": [
+      "mud"
+    ],
+    "q10": [
+      "fishing"
+    ],
+    "q11": [
+      "tourism"
+    ],
+    "q12": [
+      "coral"
+    ],
+    "q13": [
+      "earthquake"
+    ],
+    "q14": [
+      "F"
+    ],
+    "q15": [
+      "C"
+    ],
+    "q16": [
+      "B"
+    ],
+    "q17": [
+      "D"
+    ],
+    "q18": [
+      "E"
+    ],
+    "q19": [
+      "G"
+    ],
+    "q20": [
+      "A",
+      "D"
+    ],
+    "q21": [
+      "A",
+      "D"
+    ],
+    "q22": [
+      "Central Europe",
+      "central Europe"
+    ],
+    "q23": [
+      "Mississippi",
+      "the Mississippi"
+    ],
+    "q24": [
+      "London"
+    ],
+    "q25": [
+      "soft engineers",
+      "'soft engineers'",
+      "soft engineer"
+    ],
+    "q26": [
+      "Los Angeles",
+      "Sun Valley"
+    ],
+    "q27": [
+      "YES"
+    ],
+    "q28": [
+      "YES"
+    ],
+    "q29": [
+      "NO"
+    ],
+    "q30": [
+      "NOT GIVEN"
+    ],
+    "q31": [
+      "NOT GIVEN"
+    ],
+    "q32": [
+      "NO"
+    ],
+    "q33": [
+      "B"
+    ],
+    "q34": [
+      "A"
+    ],
+    "q35": [
+      "D"
+    ],
+    "q36": [
+      "B"
+    ],
+    "q37": [
+      "D"
+    ],
+    "q38": [
+      "C"
+    ],
+    "q39": [
+      "A"
+    ],
+    "q40": [
+      "D"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "In Deep Water",
+      "passages": [
+        "While we know that the sea is a big place, few of us realise just how big it really is. More than 66% of the world's surface is covered by ocean, and the sea makes up 97% of the environments on Earth that can support living things. The vast majority of this area – and New Zealand's seas are no exception – remains unexplored. In fact, the deepest parts of the ocean are so poorly known that nearly every submarine dive or research trawl (pulling up specimens from the seabed) brings new knowledge of genuine significance to oceanographers. Our present knowledge of land biodiversity (all animal and plant life) compared with ocean biodiversity is one measure of how early we are in the task of researching the deep sea. A good example is the New Zealand takahe bird. In 1948, a small population of takahe, a flightless bird which at that time was thought to be extinct, was found living in New Zealand's mountains. The rediscovery of this one species created a sensation among bird lovers. In dramatic contrast, new species from New Zealand's deep sea are today being discovered at a rate of about one every two weeks.",
+        "What's more, catching, examining and naming a new species is only the first step in the learning process. Just because an animal has been given a scientific name and shelf space in a museum doesn't necessarily mean that we know anything at all about its lifestyle and ecology. Most deep-sea animals have never been seen alive, and the few that have were almost certainly acting unnaturally in the glare of lights from the submarine camera with which they were observed. For this reason, our understanding of life in the deep sea relies heavily on conjecture. Fierce debate continues among scientists over such details as how fast a giant squid can swim, and why lantern fish flash their little lights. In some respects, deep-sea biology parallels the way that detectives hunt for criminals, requiring comparable problem-solving and clue-finding skills.",
+        "The sea floor around New Zealand has a wide range of seabed features. One of the most important are seamounts, which are underwater volcanoes. Most of the world's charted seamounts were discovered in the past 40 years, although the exact number around New Zealand is not known. One of the most conspicuous is the Bollons Seamount, which among others was visited by a scientific expedition in 2002. It rises more than three kilometres above the surrounding seabed, and measures two hundred kilometres across, making it a remarkable size, and therefore of particular interest.",
+        "Research has shown that these mountains of the deep are home to many species, although it is not clear why. One theory is that the ocean currents cause plankton, which is an important source of food, to thrive on their upper surfaces. Another factor is that they are not completely draped with the fine mud that covers just about everything else in the deep sea. Instead, their rocky surfaces provide attachment points for animals like sponges and anemones.",
+        "Many seamounts are found on the Chatham Rise, which is a huge platform in a remote part of the ocean. The top of the rise is covered with small seamounts, many of which have been named by the inhabitants of the nearby Chatham Islands. They come fishing here because a valuable species called orange roughy seasonally migrates to these shallow waters to spawn.",
+        "Canyons are another of New Zealand's underwater features. These trenches cut deeply into the sea floor and come unusually close to land. At Goose Bay, the squid that live in the canyon attract sperm whales, and every year thousands of people come to see the whales just off the coast, helping local tourism. Further south, near the city of Dunedin, several canyons are found. Since the 1960s, the University of Otago's ship Munida has conducted research in this area, leading to many unusual discoveries. Among these was a population of button-sized coral, whose remains had originally been mistaken by early fossil collectors for small dinosaur bones.",
+        "Scientists believe that canyons were created when powerful underwater currents cut into the seabed. Nearly all submarine canyons are located offshore from a large river, and it was the force of this flowing from the land into the sea that set the underwater current in motion. However, there are other explanations for canyons in other parts of the world, and a spectacular example took place in November 1929, when a significant earthquake in Canadian waters triggered an underwater current that travelled more than 720 kilometres, creating a canyon and cutting an undersea communication cable in the process.",
+        "Research in the seas around New Zealand has resulted in a far better understanding of the seamounts, canyons and other underwater features that stand out from the otherwise flat sea floor. Indeed, the seabed generally is very flat compared to the land. To deal with this, oceanographers use a technique called 'vertical exaggeration' in their maps, to make changes in ocean depth more apparent. Unfortunately, this has resulted in many people believing that the seabed is much steeper than it really is. But this misunderstanding aside, we know much more about the deep ocean today than we did even 20 years ago, and the speed of scientists' discoveries is only likely to increase."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Complete the notes below using ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "Research trawls in the deepest oceans tend to produce important findings.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "In New Zealand, research into land biodiversity is better funded than ocean research.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "The takahe bird was first recorded as a species in 1948.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "Museums only display a small number of their specimens from the deep ocean.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "Filming specimens gives accurate information about the normal behaviour of their species.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "Scientists disagree about the swimming speed of giant squid.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "true_false_not_given",
+          "prompt": "The approach used by deep-sea biologists is similar to that used in police investigations.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "The Bollons Seamount is unusual because of its [8].",
+          "context": "Seamounts",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "number": 8
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Seamounts are home to many species, perhaps because there is more food and less [9].",
+          "context": "Seamounts",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "number": 9
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "The Chatham Rise is considered a good place for [10] by local people.",
+          "context": "Seamounts",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "number": 10
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "The presence of whales in Goose Bay has resulted in the development of [11].",
+          "context": "Canyons",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "number": 11
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "A species of [12] has been discovered near Dunedin.",
+          "context": "Canyons",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "number": 12
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "One canyon near Canada was formed when a big [13] started a current in 1929.",
+          "context": "Canyons",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "number": 13
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Keeping the water away",
+      "passages": [
+        "A: Recently, winter floods on the rivers of central Europe have been among the worst for 600 to 700 years, and dams and dykes (protective sea walls) have failed to solve the problem. Traditionally, river engineers have tried to get rid of the water quickly, draining it off the land and down to the sea in rivers re-engineered as high-performance drains. But however high they build the artificial riverbanks, the floods keep coming back. And when they come, they seem to be worse than ever.",
+        "B: Engineers are now turning to a different plan: to sap the water's destructive strength by dispersing it into fields, forgotten lakes and flood plains. They are reviving river bends and marshes to curb the flow, and even plugging city drains to encourage floodwater to use other means to go underground. Back in the days when rivers took a winding path to the sea, floodwaters lost force and volume while meandering across flood plains and inland deltas, but today the water tends to have a direct passage to the sea. This means that, when it rains in the uplands, the water comes down all at once.",
+        "C: Worse, when the flood plains are closed off, the river's flow downstream becomes more violent and uncontrollable; by turning complex river systems into the simple mechanics of a water pipe, engineers have often created danger where they promised safety. The Rhine, Europe's most engineered river, is a good example. For a long time engineers have erased its backwaters and cut it off from its plain. The aim was partly to improve navigation, and partly to speed floodwaters out of the Alps and down to the North Sea. Now, when it rains in the Alps, the peak flows from several branches of the Rhine coincide where once they arrived separately, and with four-fifths of the Lower Rhine's flood plain barricaded off, the waters rise. The result is more frequent flooding and greater damage. The same thing has happened in the US on the Mississippi river, which drains the world's second largest river catchment into the Gulf of Mexico. Despite some $7 billion spent over the last century on levees (embankments) the situation is growing worse.",
+        "D: Specialists in water control now say that a new approach is needed – one which takes the whole landscape into consideration. To help keep London's feet dry, the UK Environment Agency is reflooding 10 square kilometres of the ancient flood plain of the River Thames outside Oxford. Nearer to London, it has spent £100 million creating new wetlands and a relief channel across 16 kilometres of flood plain. Similar ideas are being tested in Austria, in one of Europe's largest river restorations to date. The engineers calculate that the restored flood plain of the Drava River can now store up to 10 million cubic metres of floodwater, and slow down storm surges coming out of the Alps by more than an hour, protecting towns not only in Austria, but as far downstream as Slovenia and Croatia.",
+        "E: The Dutch, for whom preventing floods is a matter of survival, have gone furthest. This nation, built largely on drained marshes and seabed, has had several severe shocks in the last two decades, when very large numbers of people have had to be evacuated. Since that time, the Dutch have broken one of their most enduring national stereotypes by allowing engineers to punch holes in dykes. They plan to return up to a sixth of the country to its former waterlogged state in order to better protect the rest.",
+        "F: Water use in cities also needs to change. At the moment, cities seem to create floods; they are concreted and paved so that rains flow quickly into rivers. A new breed of 'soft engineers' wants cities to be porous. Berlin is one place where this is being done. Tough new rules for new developments mean that drains will be prevented from becoming overloaded after heavy rains. Architects of new urban buildings are diverting rainwater from the roofs for use in toilets and the irrigation of roof gardens, while water falling onto the ground is collected in ponds, or passes underground through porous paving. One high-tech urban development can store a sixth of its annual rainfall, and reuse most of the rest.",
+        "G: Could this be expanded to protect a whole city? The test case could be Los Angeles. With non-porous surfaces covering 70% of the city, drainage is a huge challenge. Billions of dollars have been spent digging huge drains and concreting riverbeds, but many communities still flood regularly. Meanwhile this desert city ships water from hundreds of kilometres away to fill its taps and swimming pools. Los Angeles has recently launched a new scheme to utilise floodwater in the Sun Valley section of the city. The plan is to catch the rain that falls on thousands of driveways, parking lots and rooftops in the valley. Trees will soak up water from parking lots; houses and public buildings will capture roof water to irrigate gardens and parks, and road drains will empty into old gravel pits to recharge the city's underground water reserves. Result: less flooding and more water for the city. It may sound expensive, until we realise how much is spent trying to drain cities and protect areas from flooding, and how little this method achieves."
+      ],
+      "instructions": [
+        "Reading Passage 2 has seven paragraphs, A-G. Which paragraph contains the following information?",
+        "Choose TWO letters, A-E.",
+        "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "how legislation has forced building designers to improve water use",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q14",
+              "number": 14
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "two reasons why one river was isolated from its flood plain",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q15",
+              "number": 15
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "how natural water courses in the past assisted flood control",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q16",
+              "number": 16
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "an example of flood control on one river, affecting three countries",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q17",
+              "number": 17
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "a country which has partly destroyed one of its most typical features in order to control water",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q18",
+              "number": 18
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "the writer's comment on the comparative cost effectiveness of traditional flood control and newer methods",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q19",
+              "number": 19
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "multiple_choice",
+          "prompt": "According to the article, which TWO of these statements are true of the new approach to flood control?",
+          "context": "",
+          "options": [
+            "A. It aims to slow the movement of water to the sea.",
+            "B. It aims to channel water more directly into rivers.",
+            "C. It will cost more than twice as much as former measures.",
+            "D. It will involve the loss of some areas of land.",
+            "E. It has been tested only in The Netherlands."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "multiple_choice",
+          "prompt": "According to the article, which TWO of these statements are true of the new approach to flood control?",
+          "context": "",
+          "options": [
+            "A. It aims to slow the movement of water to the sea.",
+            "B. It aims to channel water more directly into rivers.",
+            "C. It will cost more than twice as much as former measures.",
+            "D. It will involve the loss of some areas of land.",
+            "E. It has been tested only in The Netherlands."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "input",
+          "prompt": "Some of the most severe floods for many centuries have recently occurred in parts of [22].",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q22",
+              "number": 22
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "input",
+          "prompt": "The Rhine and the [23] rivers have experienced similar problems with water control.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q23",
+              "number": 23
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "An area near Oxford will be flooded to protect the city of [24].",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q24",
+              "number": 24
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "Planners who wish to allow water to pass more freely through city surfaces are called [25].",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q25",
+              "number": 25
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "A proposal for part of the city of [26] could show whether small-scale water projects could apply on a large scale.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q26",
+              "number": 26
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Tasmania's Museum of Old and New Art",
+      "passages": [
+        "As an eighteen-year-old living in the small Australian island state of Tasmania, moving to the 'mainland' could not happen soon enough. Now, ten years later, I look forward to going home. This is probably because I've grown up, but also perhaps because the cultural landscape of Tasmania has matured. The latest addition to Tasmania's cultural scene is David Walsh's Museum of Old and New Art (MONA), a museum that has established Hobart, the capital city of Tasmania, on the global art circuit.",
+        "This building is an example of how art and architecture can have an instant impact on the social and cultural reputation of a place. Andrew Bain of The Sydney Morning Herald wrote, 'In a virtual blink, Hobart's cultural landscape has been transformed, with art, wine, fine food and stylish accommodation becoming integral features of the city … If Hobart's makeover has an origin, it's the opening of MONA – the Museum of Old and New Art.' MONA is said to have been solely instrumental in the reinvention of Hobart as a cultural hub.",
+        "MONA made the national press and international blogs before it opened. After that, Tourism Industry Council of Tasmania's chief executive, Luke Martin, claimed that MONA was proving so popular it was underpinning the tourism industry in Tasmania. However, MONA's effect on Hobart has broader ramifications for Tasmania's tourism industry. As reported in Hobart's local paper, The Mercury, there is concern about how long people are staying in Tasmania. Rather than spending a week in the state and hiring a car to experience the beauty of the Tasmanian landscape, people are making short stays in Hobart only to visit the gallery. The next challenge for the state is how to entice holiday-makers to stay longer, and to venture further afield. Tasmania is more than a one-hit wonder.",
+        "According to Martin, possibilities for packaging up MONA with visits to other galleries around Tasmania are being investigated. Although not directly related to these investigations, the 1891 Queen Victoria Museum and Art Gallery at Royal Park in Launceston is currently being restored to its original condition; there are also plans to extensively redevelop the Tasmanian Museum and Art Gallery in Hobart. In addition to this, there are up to twenty other existing quality galleries in the state. So there is more to see than just MONA.",
+        "Although large, the building is rather nondescript, sitting heavily on the edge of the Derwent River. MONA's 'wow factor' comes from the notoriety of David Walsh, the museum's millionaire founder, and his choice of unusual artworks. The architecture has more depth of meaning and does exactly as it should: it supports the vision of the museum, essentially the vision of Walsh. It's a new building in the context of a maturing city. The dark, moody labyrinth of gallery spaces could be likened to the mind of the eccentric founder himself. Each artwork appears to be integrated into the dark materiality of the architecture – the interiors are far from light, bright and neutral, as might be seen in a more traditional gallery. The dim lighting and rough, rocky surfaces are a reminder that visitors are three levels underground.",
+        "The warped, mirrored surface at the museum's entry could be seen as the start of a journey of reflecting on one's existence. Much of the art explores the human condition – there are uninhibited artistic descriptions of human relationships, death, and even the digestion process. Going to a gallery with such confronting artworks with your parents is an interesting experience; I was pleasantly surprised by my parents' openness to the exhibitions. My father, who normally whisks through a gallery while my mother likes to take her time, happily spent almost five hours at MONA; the urge to linger is a common feeling here. This is because the gallery engages all of the senses, and visitors often pause to experience the effect each artwork has on them. This raises the question of who is actually visiting MONA – and it's definitely not just the normal gallery-goers. People from all kinds of socioeconomic backgrounds are curious about what lies within the subterranean maze of MONA. Conservative minds are being opened, which is a good thing anywhere.",
+        "Walsh's antiquities collection is superb, but he knew that old coins would compete for attention against new works that are more challenging in scale and subject matter, hence the device of setting antiquities among twentieth- and twenty-first-century works. For me, one of the intriguing outcomes of this strategy was an intensified feeling that the makers of the coins and antiquities were the great contemporary artists of their time.",
+        "The so-called Bilbao Effect has worked its magic on Hobart because, just as Frank Gehry's Guggenheim Museum has transformed the city of Bilbao in Spain, MONA has been a magnet for tourists in Hobart. However, the architectural 'wow' factor of the Guggenheim was the most famous component of that city's transformation, whereas Fender Katsalidis's MONA does not have the same spectacular impact as the shimmering metal surfaces of Gehry's building. Walsh himself abhors descriptions of MONA as the Bilbao of the south, saying that Fender Katsalidis solved a problem when he designed MONA, in executing a project of this scale in an underground location. Walsh contrasts this with what he describes as the 'architectural self-indulgence of Gehry when designing the Guggenheim in Bilbao.' Call it the Bilbao Effect, but this phenomenon has been around for thousands of years – good public architecture forms the centrepiece of a city. This is probably true, but like the Guggenheim, MONA has initiated something very important for Tasmania, and for Hobart in particular. Now the question is how Tasmania will build on David Walsh's input into its cultural setting."
+      ],
+      "instructions": [
+        "Do the following statements agree with the claims of the writer in Reading Passage 3?",
+        "Choose the correct letter, A, B, C or D.",
+        "Complete the summary using the list of words, A-H, below."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "true_false_not_given",
+          "prompt": "The writer changed her mind about spending time in Tasmania.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "true_false_not_given",
+          "prompt": "Andrew Bain believes that the effect MONA had on Hobart was immediate.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "true_false_not_given",
+          "prompt": "Other factors have contributed as much as MONA to Hobart's transformation.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "true_false_not_given",
+          "prompt": "The Tourism Industry Council of Tasmania works closely with the director of MONA.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "true_false_not_given",
+          "prompt": "Many local residents are writing to The Mercury expressing concern about the length of tourists' stays in Hobart.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "true_false_not_given",
+          "prompt": "Tourists now regard MONA as a starting point for longer trips in Tasmania.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "single_choice",
+          "prompt": "Luke Martin plans to promote tourism in Tasmania by",
+          "context": "",
+          "options": [
+            "A. focusing more on MONA as the leading attraction.",
+            "B. combining trips to MONA with visits to other galleries.",
+            "C. encouraging visitors to do activities that are not connected with art galleries.",
+            "D. improving the quality of promotional information about Tasmania's galleries."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "single_choice",
+          "prompt": "According to the writer, what is especially interesting about MONA?",
+          "context": "",
+          "options": [
+            "A. the man who founded the gallery",
+            "B. its location close to a river",
+            "C. visitors' responses to the gallery spaces",
+            "D. the striking architecture of the building"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "single_choice",
+          "prompt": "Why do visitors spend a long time at the gallery?",
+          "context": "",
+          "options": [
+            "A. There is a great number of exhibits.",
+            "B. Visitors tend to come in family groups.",
+            "C. Many of the works are difficult to understand.",
+            "D. The gallery has a physical effect on visitors."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "single_choice",
+          "prompt": "What does the writer say about the visitors to MONA?",
+          "context": "",
+          "options": [
+            "A. Older people spend longer there than younger people do.",
+            "B. A wide variety of people are interested in MONA.",
+            "C. The majority of visitors are young people.",
+            "D. The visitors are representative of gallery enthusiasts generally."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "single_choice",
+          "prompt": "Why does the writer mention the coins at MONA?",
+          "context": "",
+          "options": [
+            "A. to illustrate how interesting they are to visitors to modern galleries",
+            "B. to explain why they are displayed in a separate section of the gallery",
+            "C. to argue that Walsh's collection is among the best in the world",
+            "D. to express admiration for the way that the exhibits are presented"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "While MONA may lack the [38] effect of the Guggenheim",
+          "context": "The Bilbao Effect",
+          "options": [
+            "A - challenge",
+            "B - pipe",
+            "C - visual",
+            "D - contribution",
+            "E - lasting",
+            "F - essential",
+            "G - ambition",
+            "H - attraction"
+          ],
+          "inputs": [
+            {
+              "id": "q38",
+              "number": 38
+            }
+          ],
+          "constraint": "Choose from A-H",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "unlike the architectural showcasing of the Guggenheim, with MONA there was a major [39] that needed to be dealt with",
+          "context": "The Bilbao Effect",
+          "options": [
+            "A - challenge",
+            "B - pipe",
+            "C - visual",
+            "D - contribution",
+            "E - lasting",
+            "F - essential",
+            "G - ambition",
+            "H - attraction"
+          ],
+          "inputs": [
+            {
+              "id": "q39",
+              "number": 39
+            }
+          ],
+          "constraint": "Choose from A-H",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "It remains to be seen how the [40] of David Walsh will be expanded upon in Tasmania.",
+          "context": "The Bilbao Effect",
+          "options": [
+            "A - challenge",
+            "B - pipe",
+            "C - visual",
+            "D - contribution",
+            "E - lasting",
+            "F - essential",
+            "G - ambition",
+            "H - attraction"
+          ],
+          "inputs": [
+            {
+              "id": "q40",
+              "number": 40
+            }
+          ],
+          "constraint": "Choose from A-H",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

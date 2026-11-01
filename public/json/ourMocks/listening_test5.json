@@ -1,0 +1,833 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test5.html",
+    "title": "IELTS Listening Mock Test 54165",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/listening-mock-test-5/main/54165.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "light"
+    ],
+    "2": [
+      "manager"
+    ],
+    "3": [
+      "automatic"
+    ],
+    "4": [
+      "tires",
+      "tyres"
+    ],
+    "5": [
+      "8",
+      "eight"
+    ],
+    "6": [
+      "Station"
+    ],
+    "7": [
+      "Thursday"
+    ],
+    "8": [
+      "GERALD"
+    ],
+    "9": [
+      "supermarket"
+    ],
+    "10": [
+      "identification",
+      "ID"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "E"
+    ],
+    "19": [
+      "C"
+    ],
+    "20": [
+      "D"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "F"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "E"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "marketing"
+    ],
+    "32": [
+      "airline",
+      "airlines"
+    ],
+    "33": [
+      "feedback"
+    ],
+    "34": [
+      "behavior",
+      "behaviour"
+    ],
+    "35": [
+      "pilots"
+    ],
+    "36": [
+      "exercise"
+    ],
+    "37": [
+      "piano"
+    ],
+    "38": [
+      "hand",
+      "hands"
+    ],
+    "39": [
+      "fun"
+    ],
+    "40": [
+      "privacy"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 1–10.",
+        "Complete the notes below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "One [1] is broken.",
+          "context": "Noda (silver)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Used to belong to the [2]",
+          "context": "Comina (white)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "It's an [3] model.",
+          "context": "Telsta (orange)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Has got new [4]",
+          "context": "Telsta (orange)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Only [5] years old.",
+          "context": "Abrada (red)",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Garage address: [6] Road, Mitchell",
+          "context": "Other Information",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Day/Time: on [7] at 9:30 am",
+          "context": "Other Information",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Ask for: [8] Smith",
+          "context": "Other Information",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Parking available: outside the [9]",
+          "context": "Other Information",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "What to bring: [10] (for a test drive)",
+          "context": "Other Information",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 11–20.",
+        "Choose the correct letter, A, B or C.",
+        "What free goods or services are offered by each of the following providers?",
+        "Choose FOUR answers from the box and drag the correct letter, A–F, next to questions 17–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "Who founded the Middletown Urban Farming Scheme?",
+          "context": "The Middletown Urban Farming Scheme (MUFS)",
+          "options": [
+            "A. university specialists.",
+            "B. business people.",
+            "C. town planners."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "What was the original reason for starting the MUFS?",
+          "context": "The Middletown Urban Farming Scheme (MUFS)",
+          "options": [
+            "A. to encourage more efficient land use.",
+            "B. to help lessen CO2 emissions.",
+            "C. to improve people's eating habits."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "For the coming year, the MUFS will focus on recruiting members from",
+          "context": "The Middletown Urban Farming Scheme (MUFS)",
+          "options": [
+            "A. schools.",
+            "B. companies.",
+            "C. community centres."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "What kind of information is available from members of the MUFS committee?",
+          "context": "The Middletown Urban Farming Scheme (MUFS)",
+          "options": [
+            "A. practical gardening tips.",
+            "B. plant sciences.",
+            "C. location of local garden sites."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "What are provided by the MUFS for the physically disabled?",
+          "context": "The Middletown Urban Farming Scheme (MUFS)",
+          "options": [
+            "A. soil and compost.",
+            "B. containers for plants.",
+            "C. gardening tools."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "According to school teachers, what has been an unexpected advantage of the MUFS?",
+          "context": "The Middletown Urban Farming Scheme (MUFS)",
+          "options": [
+            "A. its usefulness as an aid for teaching science.",
+            "B. its contribution to reducing costs of school meals.",
+            "C. its help in encouraging community pride among students."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "city hospital",
+          "context": "What free goods or services are offered by each of the following providers?",
+          "options": [
+            "A. fertilizers",
+            "B. cooking lessons",
+            "C. advice on soil",
+            "D. eat-to-keep-fit course",
+            "E. use of a greenhouse",
+            "F. market stalls"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "local government",
+          "context": "What free goods or services are offered by each of the following providers?",
+          "options": [
+            "A. fertilizers",
+            "B. cooking lessons",
+            "C. advice on soil",
+            "D. eat-to-keep-fit course",
+            "E. use of a greenhouse",
+            "F. market stalls"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "university",
+          "context": "What free goods or services are offered by each of the following providers?",
+          "options": [
+            "A. fertilizers",
+            "B. cooking lessons",
+            "C. advice on soil",
+            "D. eat-to-keep-fit course",
+            "E. use of a greenhouse",
+            "F. market stalls"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "supermarket",
+          "context": "What free goods or services are offered by each of the following providers?",
+          "options": [
+            "A. fertilizers",
+            "B. cooking lessons",
+            "C. advice on soil",
+            "D. eat-to-keep-fit course",
+            "E. use of a greenhouse",
+            "F. market stalls"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 21–30.",
+        "Choose the correct letter, A, B or C.",
+        "What is the main physical benefit of each of the following walking situations?",
+        "Choose FOUR answers from the box and drag the correct letter, A–G, next to questions 27–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "Daniel mentions the research about walking and creativity to Katie because",
+          "context": "Research on the effect of walking on creativity",
+          "options": [
+            "A. she has read it too.",
+            "B. what she says reminds him of it.",
+            "C. he thinks she might like to do similar research."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "In the experiments, researchers compared participants' creativity when walking and when",
+          "context": "Research on the effect of walking on creativity",
+          "options": [
+            "A. sitting.",
+            "B. running.",
+            "C. listening to music."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "Daniel says that in each experiment, there was a different",
+          "context": "Research on the effect of walking on creativity",
+          "options": [
+            "A. type of control group.",
+            "B. pattern of activities.",
+            "C. way of selecting participants."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "Daniel thinks the experiment with words is",
+          "context": "Research on the effect of walking on creativity",
+          "options": [
+            "A. biased in favour of certain people.",
+            "B. a good indicator of creativity.",
+            "C. open to personal interpretation."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "What is Katie and Daniel's attitude to the experiment on focused thinking?",
+          "context": "Research on the effect of walking on creativity",
+          "options": [
+            "A. they are doubtful about its aims.",
+            "B. they are confused by its methods.",
+            "C. they are cautious about its conclusions."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "single_choice",
+          "prompt": "Katie thinks that the best way forward is to consider",
+          "context": "Research on the effect of walking on creativity",
+          "options": [
+            "A. whether other types of exercise affect creativity.",
+            "B. the cause of the improvement in creativity.",
+            "C. how the results can be applied to creativity in real life."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "walking with thin-soled footwear",
+          "context": "What is the main physical benefit of each of the following walking situations?",
+          "options": [
+            "A. improved balance",
+            "B. greater stamina",
+            "C. better eyesight",
+            "D. lower blood pressure",
+            "E. regular sleeping pattern",
+            "F. stronger bones",
+            "G. weight reduction"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "walking in the mountains",
+          "context": "What is the main physical benefit of each of the following walking situations?",
+          "options": [
+            "A. improved balance",
+            "B. greater stamina",
+            "C. better eyesight",
+            "D. lower blood pressure",
+            "E. regular sleeping pattern",
+            "F. stronger bones",
+            "G. weight reduction"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "walking for the elderly",
+          "context": "What is the main physical benefit of each of the following walking situations?",
+          "options": [
+            "A. improved balance",
+            "B. greater stamina",
+            "C. better eyesight",
+            "D. lower blood pressure",
+            "E. regular sleeping pattern",
+            "F. stronger bones",
+            "G. weight reduction"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "walking long distances",
+          "context": "What is the main physical benefit of each of the following walking situations?",
+          "options": [
+            "A. improved balance",
+            "B. greater stamina",
+            "C. better eyesight",
+            "D. lower blood pressure",
+            "E. regular sleeping pattern",
+            "F. stronger bones",
+            "G. weight reduction"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 31–40.",
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "In business, it is frequently used for [31]",
+          "context": "Gamification",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "Not a new idea, e.g. incentive schemes were first used by [32]",
+          "context": "Gamification",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "To get online [33] quickly",
+          "context": "Gamification - Uses",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "To persuade people to change their [34]",
+          "context": "Gamification - Uses",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "For training purposes, e.g. simulators used by [35] and town planners",
+          "context": "Gamification - Uses",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "Australian government: to encourage people to [36] more",
+          "context": "Gamification - Successful examples - Official campaigns",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "a staircase at a station that worked like a [37]",
+          "context": "Gamification - Successful examples - Health",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "a game that helps recovery when old people hurt their [38] in a fall",
+          "context": "Gamification - Successful examples - Health",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "It's important for gamification to be [39]",
+          "context": "Gamification - Things to consider",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Need to think about the laws regarding [40]",
+          "context": "Gamification - Things to consider",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

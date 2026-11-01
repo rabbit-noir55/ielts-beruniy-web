@@ -1,0 +1,738 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test16.html",
+    "title": "IELTS Listening Mock Test 7",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/asdassd/main/Test%2B7%2B.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "3834",
+      "£3834"
+    ],
+    "2": [
+      "holidays",
+      "holiday"
+    ],
+    "3": [
+      "Home welcome",
+      "homewelcome",
+      "home-welcome"
+    ],
+    "4": [
+      "flexible"
+    ],
+    "5": [
+      "studio"
+    ],
+    "6": [
+      "48",
+      "£48"
+    ],
+    "7": [
+      "water"
+    ],
+    "8": [
+      "transportation",
+      "transport"
+    ],
+    "9": [
+      "a deposit",
+      "deposit"
+    ],
+    "10": [
+      "references",
+      "reference"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "A"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "information desk"
+    ],
+    "20": [
+      "lockers",
+      "locker"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "B"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "B"
+    ],
+    "32": [
+      "A"
+    ],
+    "33": [
+      "challenge"
+    ],
+    "34": [
+      "school"
+    ],
+    "35": [
+      "health"
+    ],
+    "36": [
+      "interests",
+      "interest"
+    ],
+    "37": [
+      "tutors",
+      "tutor"
+    ],
+    "38": [
+      "maturity"
+    ],
+    "39": [
+      "advisors",
+      "advisers",
+      "advisor",
+      "adviser"
+    ],
+    "40": [
+      "online"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 1–10.",
+        "Complete the table below.",
+        "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "En-suite: 1 £ per year (meals are not included)",
+          "context": "College: Single room, Standard: £3276 per year",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Rooms not available during the",
+          "context": "College: Single room, 36 weeks",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Room with a family",
+          "context": "£150 per week – all inclusive",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Arrangements are",
+          "context": "Room with a family",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "room in a share house or a",
+          "context": "Private renting",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "gas and electricity 6 £ per month approx",
+          "context": "Private renting additional costs",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Additional cost item: £9",
+          "context": "Private renting additional costs",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Additional cost item",
+          "context": "Private renting additional costs",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Need contract requirement",
+          "context": "Private renting contract 6 months",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Need two",
+          "context": "Private renting contract 6 months",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 11–20.",
+        "Choose the correct letter, A, B or C.",
+        "Write NO MORE THAN TWO WORDS for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "The Heritage Clothes exhibition was put together by",
+          "context": "",
+          "options": [
+            "A. museum staff.",
+            "B. local residents.",
+            "C. clothing manufacturers."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "The photographs show the clothes worn by",
+          "context": "",
+          "options": [
+            "A. their owners.",
+            "B. professional models.",
+            "C. design students."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "The exhibition called Toys from the Past is",
+          "context": "",
+          "options": [
+            "A. displayed in a new gallery.",
+            "B. on show for a limited time.",
+            "C. aimed specially at children."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "Visitors to Toys from the Past are recommended to",
+          "context": "",
+          "options": [
+            "A. play with the toy trains.",
+            "B. look at all the dolls.",
+            "C. see the board games."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "The miniature toys have been",
+          "context": "",
+          "options": [
+            "A. made by the museum.",
+            "B. bought by the museum.",
+            "C. borrowed by the museum."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "The biscuit factory made tins",
+          "context": "",
+          "options": [
+            "A. for people all over the world.",
+            "B. of different shapes.",
+            "C. for many famous people."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "single_choice",
+          "prompt": "People’s favourite biscuit used to be",
+          "context": "",
+          "options": [
+            "A. an unsweetened one.",
+            "B. one covered in chocolate.",
+            "C. one filled with cream."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "single_choice",
+          "prompt": "The hands-on activity allows people to",
+          "context": "",
+          "options": [
+            "A. make some biscuits.",
+            "B. taste some of the biscuits.",
+            "C. pack a biscuit tin."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "input",
+          "prompt": "The gift shop is located beside the on the ground floor.",
+          "context": "",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "input",
+          "prompt": "Free are available for visitors’ belongings.",
+          "context": "",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 21–30.",
+        "Choose the correct letter, A, B or C.",
+        "Choose the correct letter, A, B, C or D, next to questions 25–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "Pacific tapa cloth is different from other types of tapa cloth because it is",
+          "context": "Pacific tapa cloth",
+          "options": [
+            "A. the only tapa made today",
+            "B. better quality than others",
+            "C. put to a wider range of uses"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "What does Helen say about the paper mulberry tree?",
+          "context": "Pacific tapa cloth",
+          "options": [
+            "A. It is also a source of food",
+            "B. It is not native to the Pacific",
+            "C. It can grow in any environment"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "Why did the Maori people of New Zealand stop making tapa?",
+          "context": "Pacific tapa cloth",
+          "options": [
+            "A. They could not find the right trees in New Zealand",
+            "B. They were introduced to other fabrics by the Europeans",
+            "C. They found a better material for making fabric"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "Large pieces of tapa are made from smaller pieces which are",
+          "context": "Pacific tapa cloth",
+          "options": [
+            "A. stuck together",
+            "B. woven together",
+            "C. sewn together"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "matching",
+          "prompt": "Samoa",
+          "context": "According to the speakers, what function has tapa cloth played in the following countries? Functions: A - recreational, B - practical, C - spiritual, D - commercial",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "Tonga",
+          "context": "According to the speakers, what function has tapa cloth played in the following countries? Functions: A - recreational, B - practical, C - spiritual, D - commercial",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "Cook Islands",
+          "context": "According to the speakers, what function has tapa cloth played in the following countries? Functions: A - recreational, B - practical, C - spiritual, D - commercial",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "Fiji",
+          "context": "According to the speakers, what function has tapa cloth played in the following countries? Functions: A - recreational, B - practical, C - spiritual, D - commercial",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Tahiti",
+          "context": "According to the speakers, what function has tapa cloth played in the following countries? Functions: A - recreational, B - practical, C - spiritual, D - commercial",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "Tikopia",
+          "context": "According to the speakers, what function has tapa cloth played in the following countries? Functions: A - recreational, B - practical, C - spiritual, D - commercial",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 31–40.",
+        "Choose the correct letter, A, B or C.",
+        "Write ONE WORD ONLY for each answer.",
+        "Write NO MORE THAN TWO WORDS for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "single_choice",
+          "prompt": "Participants in the Learner Persistence study were all drawn from the same",
+          "context": "",
+          "options": [
+            "A. age group.",
+            "B. geographical area.",
+            "C. socio-economic level."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "single_choice",
+          "prompt": "The study showed that when starting their course, older students were most concerned about",
+          "context": "",
+          "options": [
+            "A. effects on their home life.",
+            "B. implications for their future career.",
+            "C. financial constraints."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "Enjoyment of a",
+          "context": "Research findings: First level of importance - Personal Characteristics",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "Positive experiences at",
+          "context": "Research findings: Second level of importance - Social and Environmental Factors",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Good",
+          "context": "Research findings: Second level of importance - Other Factors",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "Many in daily life",
+          "context": "Research findings: Second level of importance - Personal Characteristics",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Good interaction with the",
+          "context": "Research findings: Third level of importance - Social and Environmental Factors",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Ask new students to complete questionnaires to gauge their level of",
+          "context": "Recommendations",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Train selected students to act as",
+          "context": "Recommendations",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Outside office hours, offer help.",
+          "context": "Recommendations",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

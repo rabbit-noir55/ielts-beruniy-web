@@ -1,0 +1,766 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test3.html",
+    "title": "IELTS Listening Mock Test 2",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/mock-test-2/main/57474.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "0491570156"
+    ],
+    "2": [
+      "post"
+    ],
+    "3": [
+      "bed"
+    ],
+    "4": [
+      "39"
+    ],
+    "5": [
+      "kitchen"
+    ],
+    "6": [
+      "heater"
+    ],
+    "7": [
+      "microwave"
+    ],
+    "8": [
+      "airport"
+    ],
+    "9": [
+      "49"
+    ],
+    "10": [
+      "Australia"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "D"
+    ],
+    "18": [
+      "B"
+    ],
+    "19": [
+      "F"
+    ],
+    "20": [
+      "A"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "D"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "G"
+    ],
+    "26": [
+      "E"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "F"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "D"
+    ],
+    "31": [
+      "foundation"
+    ],
+    "32": [
+      "sand"
+    ],
+    "33": [
+      "clay"
+    ],
+    "34": [
+      "convenient"
+    ],
+    "35": [
+      "training"
+    ],
+    "36": [
+      "labour"
+    ],
+    "37": [
+      "roof"
+    ],
+    "38": [
+      "insects"
+    ],
+    "39": [
+      "strength"
+    ],
+    "40": [
+      "fire"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the form below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Tel",
+          "context": "Oz Campervans – Customer Quote Form - Contact Details",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "NB: Send written quote by",
+          "context": "Oz Campervans – Customer Quote Form - Contact Details",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Type of campervan selected: 'The Explorer' (need to supply an extra",
+          "context": "Oz Campervans – Customer Quote Form - Booking Information",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Price: $",
+          "context": "Oz Campervans – Customer Quote Form - Booking Information",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "NB: Price includes all bedding and",
+          "context": "Oz Campervans – Customer Quote Form - Booking Information",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Optional extras selected: a",
+          "context": "Oz Campervans – Customer Quote Form - Booking Information",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "and a",
+          "context": "Oz Campervans – Customer Quote Form - Booking Information",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Pickup from: the",
+          "context": "Oz Campervans – Customer Quote Form - Booking Information",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Youngest driver (Caroline):",
+          "context": "Oz Campervans – Customer Quote Form - Insurance requirements",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Drivers' licences issued in:",
+          "context": "Oz Campervans – Customer Quote Form - Insurance requirements",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Which benefit does each of the following sports activities bring? Choose FOUR answers from the box and drag the correct letter, A–F, next to questions 17–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "The sports centre has just opened a new",
+          "context": "Bexter Sports Centre",
+          "options": [
+            "dance studio.",
+            "swimming pool.",
+            "cafe."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "The sports facilities are used most",
+          "context": "Bexter Sports Centre",
+          "options": [
+            "at weekends.",
+            "on weekday evenings.",
+            "during the day from Monday to Friday."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "Classes are cheaper if you pay",
+          "context": "Bexter Sports Centre",
+          "options": [
+            "in cash.",
+            "for several in advance.",
+            "by credit card."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "The sports centre recently won an award for",
+          "context": "Bexter Sports Centre",
+          "options": [
+            "the range of training in different sports.",
+            "the amount of information on its website.",
+            "the quality of the advice offered by its instructors."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "Today the sports department is offering",
+          "context": "Bexter Sports Centre",
+          "options": [
+            "a free hour with a personal trainer.",
+            "a free ticket to the cup final.",
+            "free membership for 20 people."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "According to the speaker, why do many people stop exercising?",
+          "context": "Bexter Sports Centre",
+          "options": [
+            "Their friends do not share the experience with them.",
+            "Their job or studies take up too much of their time.",
+            "They cannot see any results."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "general training",
+          "context": "Which benefit does each of the following sports activities bring?",
+          "options": [
+            "A: better reaction times",
+            "B: improved concentration",
+            "C: increased arm power",
+            "D: increased leg power",
+            "E: increased speed",
+            "F: reduced stress"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "weight training",
+          "context": "Which benefit does each of the following sports activities bring?",
+          "options": [
+            "A: better reaction times",
+            "B: improved concentration",
+            "C: increased arm power",
+            "D: increased leg power",
+            "E: increased speed",
+            "F: reduced stress"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "aerobics class",
+          "context": "Which benefit does each of the following sports activities bring?",
+          "options": [
+            "A: better reaction times",
+            "B: improved concentration",
+            "C: increased arm power",
+            "D: increased leg power",
+            "E: increased speed",
+            "F: reduced stress"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "squash",
+          "context": "Which benefit does each of the following sports activities bring?",
+          "options": [
+            "A: better reaction times",
+            "B: improved concentration",
+            "C: increased arm power",
+            "D: increased leg power",
+            "E: increased speed",
+            "F: reduced stress"
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–F",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Complete the flow-chart below.",
+        "Choose FIVE answers from the box and write the correct letter, A–G, next to questions 21–25.",
+        "What problem do the speakers identify with each of the following types of bee? Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 26–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "input",
+          "prompt": "The mite moves from the bee to",
+          "context": "How the Varroa mite attacks",
+          "options": [
+            "A: the blood",
+            "B: a flower",
+            "C: the hive",
+            "D: the honey",
+            "E: a honeycomb cell",
+            "F: the queen bee",
+            "G: a virus"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and write the correct letter, A–G",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "input",
+          "prompt": "The mite travels to",
+          "context": "How the Varroa mite attacks",
+          "options": [
+            "A: the blood",
+            "B: a flower",
+            "C: the hive",
+            "D: the honey",
+            "E: a honeycomb cell",
+            "F: the queen bee",
+            "G: a virus"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and write the correct letter, A–G",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "input",
+          "prompt": "The mite uses",
+          "context": "How the Varroa mite attacks",
+          "options": [
+            "A: the blood",
+            "B: a flower",
+            "C: the hive",
+            "D: the honey",
+            "E: a honeycomb cell",
+            "F: the queen bee",
+            "G: a virus"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and write the correct letter, A–G",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "The mite feeds on",
+          "context": "How the Varroa mite attacks",
+          "options": [
+            "A: the blood",
+            "B: a flower",
+            "C: the hive",
+            "D: the honey",
+            "E: a honeycomb cell",
+            "F: the queen bee",
+            "G: a virus"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and write the correct letter, A–G",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "The bee is left weakened and with",
+          "context": "How the Varroa mite attacks",
+          "options": [
+            "A: the blood",
+            "B: a flower",
+            "C: the hive",
+            "D: the honey",
+            "E: a honeycomb cell",
+            "F: the queen bee",
+            "G: a virus"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and write the correct letter, A–G",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "European Bumblebee",
+          "context": "What problem do the speakers identify with each of the following types of bee?",
+          "options": [
+            "A: could introduce pests",
+            "B: needs a warm climate",
+            "C: not much is known about it",
+            "D: numbers are too few to help farmers",
+            "E: spreads weeds",
+            "F: too aggressive",
+            "G: unable to produce honey"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "Blue Banded Bee",
+          "context": "What problem do the speakers identify with each of the following types of bee?",
+          "options": [
+            "A: could introduce pests",
+            "B: needs a warm climate",
+            "C: not much is known about it",
+            "D: numbers are too few to help farmers",
+            "E: spreads weeds",
+            "F: too aggressive",
+            "G: unable to produce honey"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "Africanized Bee",
+          "context": "What problem do the speakers identify with each of the following types of bee?",
+          "options": [
+            "A: could introduce pests",
+            "B: needs a warm climate",
+            "C: not much is known about it",
+            "D: numbers are too few to help farmers",
+            "E: spreads weeds",
+            "F: too aggressive",
+            "G: unable to produce honey"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Australian Stingless Bee",
+          "context": "What problem do the speakers identify with each of the following types of bee?",
+          "options": [
+            "A: could introduce pests",
+            "B: needs a warm climate",
+            "C: not much is known about it",
+            "D: numbers are too few to help farmers",
+            "E: spreads weeds",
+            "F: too aggressive",
+            "G: unable to produce honey"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "Canadian Leafcutter Bee",
+          "context": "What problem do the speakers identify with each of the following types of bee?",
+          "options": [
+            "A: could introduce pests",
+            "B: needs a warm climate",
+            "C: not much is known about it",
+            "D: numbers are too few to help farmers",
+            "E: spreads weeds",
+            "F: too aggressive",
+            "G: unable to produce honey"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "With all methods of building using natural materials, a good",
+          "context": "Using natural building materials",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "The best soil has large quantities of",
+          "context": "Rammed earth",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "The most suitable soil for adobe bricks contains lots of",
+          "context": "Adobe (mud brick)",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "cheap and",
+          "context": "Adobe (mud brick) - Advantages",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "little",
+          "context": "Adobe (mud brick) - Advantages",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "a lot of water, time and",
+          "context": "Adobe (mud brick) - Disadvantage",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "A",
+          "context": "Straw bales",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "The bales are covered with plaster for protection against",
+          "context": "Straw bales",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "the shape of the bamboo stalks gives them",
+          "context": "Bamboo - Advantage",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "risk of",
+          "context": "Bamboo - Disadvantages",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

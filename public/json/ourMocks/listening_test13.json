@@ -1,0 +1,834 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test13.html",
+    "title": "IELTS Listening Mock Test 555",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/MOCK-5555/main/16207.mp3.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "keogh"
+    ],
+    "2": [
+      "15"
+    ],
+    "3": [
+      "garden"
+    ],
+    "4": [
+      "music"
+    ],
+    "5": [
+      "story"
+    ],
+    "6": [
+      "470",
+      "$470"
+    ],
+    "7": [
+      "farm"
+    ],
+    "8": [
+      "toy"
+    ],
+    "9": [
+      "pillow"
+    ],
+    "10": [
+      "0914638520"
+    ],
+    "11": [
+      "overseas"
+    ],
+    "12": [
+      "woodside"
+    ],
+    "13": [
+      "8",
+      "8pm",
+      "8 pm",
+      "8.00",
+      "8:00"
+    ],
+    "14": [
+      "tuesday"
+    ],
+    "15": [
+      "website"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "B"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "C"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "B"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "C"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "D"
+    ],
+    "28": [
+      "E"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "computer science"
+    ],
+    "32": [
+      "rocks"
+    ],
+    "33": [
+      "video camera",
+      "video cameras"
+    ],
+    "34": [
+      "C"
+    ],
+    "35": [
+      "A"
+    ],
+    "36": [
+      "B"
+    ],
+    "37": [
+      "seminar",
+      "seminaer"
+    ],
+    "38": [
+      "skills"
+    ],
+    "39": [
+      "ideas"
+    ],
+    "40": [
+      "team"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Second group – Mrs.",
+          "context": "Riverdale Pre-school Classes",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Suzie will attend 3 days a week for a total of",
+          "context": "Hours & Days",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "intend to make a",
+          "context": "Activities: Outside time",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "this year,",
+          "context": "Activities: Indoors",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "they hear a",
+          "context": "Activities: Indoors",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Now costs $",
+          "context": "Fees",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "a trip to a",
+          "context": "Fees include",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "chance to take home a",
+          "context": "Fees include",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Put a",
+          "context": "Don't forget",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Arrange a visit; phone number:",
+          "context": "Don't forget",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Complete the sentences below.",
+        "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+        "Choose the correct letter, A, B or C."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "Special conditions may apply to",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "The university Job Centre is located on the",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "The Job Centre remains open until",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "input",
+          "prompt": "The only day the employment lawyer is available is",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q14",
+              "placeholder": "14"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "input",
+          "prompt": "The university",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q15",
+              "placeholder": "15"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "At present, the university is offering part-time work in",
+          "context": "",
+          "options": [
+            "A. its offices.",
+            "B. the IT centre.",
+            "C. the car parks."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "single_choice",
+          "prompt": "Local employers visit the university",
+          "context": "",
+          "options": [
+            "A. only in the first term.",
+            "B. twice a term.",
+            "C. throughout the year."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "single_choice",
+          "prompt": "According to the speaker, a part-time job can",
+          "context": "",
+          "options": [
+            "A. lead to a full-time job after graduation.",
+            "B. provide a useful work record for the future.",
+            "C. give the chance to develop team-work skills."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "single_choice",
+          "prompt": "Students who work part-time",
+          "context": "",
+          "options": [
+            "A. will be taxed.",
+            "B. will be paid every week.",
+            "C. will need private insurance."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "single_choice",
+          "prompt": "Part-time student workers are advised to",
+          "context": "",
+          "options": [
+            "A. give notice in writing.",
+            "B. communicate by email.",
+            "C. have a mobile phone."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Choose TWO letters, A–E."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "How did John choose the topic of his research project?",
+          "context": "Research Project",
+          "options": [
+            "A. He thought the information would be useful for town planning.",
+            "B. He has a special interest in the use of public services.",
+            "C. He read about a similar study which had been done earlier."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "During his research, John is expecting to find that",
+          "context": "Research Project",
+          "options": [
+            "A. the use of public services has altered very little.",
+            "B. a group of people has changed its habits.",
+            "C. the most frequently used facility is the library."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "What is the problem with using official records?",
+          "context": "Research Project",
+          "options": [
+            "A. They may be lacking in detail.",
+            "B. They may not be readily available.",
+            "C. They may be difficult to analyse."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "What does the tutor think about John using a questionnaire to get information?",
+          "context": "Research Project",
+          "options": [
+            "A. He needs to do a course in questionnaire design first.",
+            "B. He should use this method instead of looking at public records.",
+            "C. He will find the practice he gets useful the following year."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "Which new variable does John agree to add to his investigation?",
+          "context": "Research Project",
+          "options": [
+            "A. occupation",
+            "B. income group",
+            "C. qualifications"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "single_choice",
+          "prompt": "How many questionnaires will John distribute?",
+          "context": "Research Project",
+          "options": [
+            "A. the same number as in the previous study",
+            "B. a greater number than he needs for analysis",
+            "C. the number recommended in the project guidelines"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "multiple_choice",
+          "prompt": "Which TWO strategies will John use to encourage people to fill out his questionnaire?",
+          "context": "Research Project",
+          "options": [
+            "A. using simple language",
+            "B. delivering the questionnaires in person",
+            "C. making the questionnaires anonymous",
+            "D. providing return envelopes",
+            "E. trialling the questionnaire on friends"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "multiple_choice",
+          "prompt": "Which TWO strategies will John use to encourage people to fill out his questionnaire?",
+          "context": "Research Project",
+          "options": [
+            "A. using simple language",
+            "B. delivering the questionnaires in person",
+            "C. making the questionnaires anonymous",
+            "D. providing return envelopes",
+            "E. trialling the questionnaire on friends"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "multiple_choice",
+          "prompt": "Which TWO pieces of advice does the tutor give John about his questionnaire?",
+          "context": "Research Project",
+          "options": [
+            "A. There should be a mixture of question types.",
+            "B. Some questions should elicit personal information.",
+            "C. There should be an introduction to explain the survey's purpose.",
+            "D. A telephone number should be provided for queries.",
+            "E. The questions should only take a few minutes to answer."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "multiple_choice",
+          "prompt": "Which TWO pieces of advice does the tutor give John about his questionnaire?",
+          "context": "Research Project",
+          "options": [
+            "A. There should be a mixture of question types.",
+            "B. Some questions should elicit personal information.",
+            "C. There should be an introduction to explain the survey's purpose.",
+            "D. A telephone number should be provided for queries.",
+            "E. The questions should only take a few minutes to answer."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the sentences below.",
+        "Write NO MORE THAN TWO WORDS for each answer.",
+        "Choose the correct letter, A, B or C.",
+        "Complete the table below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "Undergraduates from both the engineering school and the",
+          "context": "Driverless vehicle competition",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "The automated vehicles will have to avoid obstacles such as",
+          "context": "Driverless vehicle competition",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "The tutor mentions one vehicle which used technology such as",
+          "context": "Driverless vehicle competition",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "single_choice",
+          "prompt": "The purpose of holding the race is to",
+          "context": "",
+          "options": [
+            "A. interest students in careers in industry.",
+            "B. help provide finance for universities.",
+            "C. find useful new design features."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "single_choice",
+          "prompt": "The tutor says success will depend on",
+          "context": "",
+          "options": [
+            "A. the software design.",
+            "B. good, solid construction.",
+            "C. sophisticated mechanisms."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "single_choice",
+          "prompt": "This year's competitors were surprised that the vehicles",
+          "context": "",
+          "options": [
+            "A. were so easy to design.",
+            "B. were as successful as they were.",
+            "C. took such a short time to construct."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "table",
+          "prompt": "Introductory",
+          "context": "Schedule - Early May",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "table",
+          "prompt": "Essay giving information about relevant",
+          "context": "Schedule - Late May",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "table",
+          "prompt": "discuss",
+          "context": "Schedule - September Workshop",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "table",
+          "prompt": "Selection of the",
+          "context": "Schedule - January",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

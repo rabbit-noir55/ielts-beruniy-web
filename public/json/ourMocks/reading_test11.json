@@ -1,0 +1,915 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test11.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "FALSE"
+    ],
+    "2": [
+      "NOT GIVEN"
+    ],
+    "3": [
+      "FALSE"
+    ],
+    "4": [
+      "TRUE"
+    ],
+    "5": [
+      "NOT GIVEN"
+    ],
+    "6": [
+      "FALSE"
+    ],
+    "7": [
+      "TRUE"
+    ],
+    "8": [
+      "skis"
+    ],
+    "9": [
+      "maintenance"
+    ],
+    "10": [
+      "flags"
+    ],
+    "11": [
+      "vitamins"
+    ],
+    "12": [
+      "failure"
+    ],
+    "13": [
+      "character"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "D"
+    ],
+    "16": [
+      "H"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "F"
+    ],
+    "19": [
+      "G"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "E"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "D"
+    ],
+    "24": [
+      "car",
+      "small car",
+      "a small car"
+    ],
+    "25": [
+      "30 miles",
+      "30miles",
+      "thirty miles"
+    ],
+    "26": [
+      "Birmingham"
+    ],
+    "27": [
+      "TRUE"
+    ],
+    "28": [
+      "NOT GIVEN"
+    ],
+    "29": [
+      "TRUE"
+    ],
+    "30": [
+      "TRUE"
+    ],
+    "31": [
+      "FALSE"
+    ],
+    "32": [
+      "FALSE"
+    ],
+    "33": [
+      "FALSE"
+    ],
+    "34": [
+      "TRUE"
+    ],
+    "35": [
+      "two-dimensional",
+      "two dimensional",
+      "a two-dimensional"
+    ],
+    "36": [
+      "straight line",
+      "a straight line"
+    ],
+    "37": [
+      "areal distortion",
+      "the areal distortion"
+    ],
+    "38": [
+      "polar regions",
+      "the polar regions"
+    ],
+    "39": [
+      "navigation",
+      "navigational"
+    ],
+    "40": [
+      "North America",
+      "america"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Conquering the South Pole",
+      "passages": [
+        "Roald Amundsen was a Norwegian explorer who, in 1906, had become famous for being the first to sail the Arctic's legendary Northwest Passage from the Atlantic to the Pacific. In 1911 he was at the opposite end of the world, in the Antarctic, aiming for the most prestigious prize the world of exploration still offered: the South Pole. His diary entry for 12th September of that year read: 'Not much visibility. Nasty breeze from South. -52°C. The dogs clearly affected by the cold ... prospect of milder weather doubtful.'",
+        "Planned with characteristic attention to detail, this bold venture was also the result of coincidence. Two years earlier Amundsen had been immersed in plans to go to the North Pole, when he received news (later contested) that the American Robert Peary had already claimed that Pole. At that instant, Amundsen recalled later, 'I decided on my change of front to turn and face to the South.' As Amundsen reckoned, if he won the South Pole, fame as well as financing of future exploration would be secure.",
+        "Winning the South Pole, however, was not to be taken for granted. Also heading south was the well-advertised British Antarctic Expedition, under the command of Captain Robert Falcon Scott. Amundsen was keenly conscious of his rival; tormented by the prospect that Scott might beat him, Amundsen acted too soon, starting off with his team in September 1911, before the arrival of polar springtime and manageable weather. The result was frostbite on the feet of his men that would require a month to heal. Four days after his premature start Amundsen assessed his party's situation dispassionately, and made the decision to return and wait for a time so as not to risk lives.",
+        "This false start is a reminder that there is no such thing as an inevitable outcome in the risky enterprise of polar exploration. Methodical and careful, Amundsen was also a man of towering ambition, with dreams and impulses that drive all explorers to risk their lives in wild places. Amundsen's greatness is not that he lacked such driving forces, but that he mastered them. The ability to regain and maintain perspective in the pursuit of a personal dream is a rare asset. Like other great explorers, Amundsen knew when to turn back.",
+        "They began the journey for a second time on October 20. Ahead, across unknown terrain, lay a difficult hike over (and occasionally into) crevasses*, around the abysses and ice of the Queen Maud Mountains, and onto the Polar Plateau, through unpredictable weather. Yet without any major incident, on December 14 1911 the Norwegians reached their goal, the geographical South Pole, on schedule.",
+        "Before leaving their temporary camp at the South Pole, Amundsen left a letter for Norway's King Haakon VII on special notepaper he had brought, which also contained 'a few words to Scott, who I presume will be the first to come here after us'. The letter ensured a report of his success in the event of some disaster, and was an elegant way of telling Scott, 'I won'. Scott's honorable safeguarding of this letter would be the proof of Amundsen's success. On their return, the men abandoned surplus food, some of which was gratefully collected by Scott's party, and early on January 26, 1912, the polar victors arrived back to their base. 'Good morning, my dear Lindstrom,' Amundsen greeted his startled cook. 'Have you any coffee for us?'",
+        "The contrast between what Apsley Cherry-Garrard, the chronicler of the British expedition, called Amundsen's 'business-like' operation and Scott's 'first-rate tragedy' highlights issues that still concern adventurers and explorers today. Amundsen traveled with four sledges loaded with supplies, each weighing 880 pounds and pulled by 13 dogs. He and his four companions traveled behind the sledges on skis, a skill at which the Norwegians were adept. Scott, however, only took a few dogs. Instead he used ponies for transporting supplies, but these had to have food carried for them and had difficulty coping with the sub-zero temperatures. His most expensive investment was three motor sledges, but these required fuel, and it soon became apparent that the team were unable to carry out the necessary maintenance to fix them when they broke down. Scott was not a proficient skier, so he and his men had to walk, and for much of the way they were pulling their own sledges.",
+        "Amundsen was also better prepared in the way he organized the depots of supplies left at regular intervals on their journey to the South Pole, ready to be picked up on their return. He used lines of flags at regular intervals together with piles of stones so there was no danger of missing the food depots. As well as having more depots than Scott, he also left three times the amount of food Scott did in depots; Scott badly underestimated the amount of calories that would be needed in these conditions and the rations provided were deficient in vitamins B and C, meaning the men became increasingly malnourished and weak.",
+        "At root, though, the contrast between Amundsen and Scott is not about details of management but broad outlooks. 'In Norway there is very little tolerance for failure in expeditions,' one historian says. 'You go and you come back whole.' The British, in contrast, emphasized the struggle, believing that character, not skill, would win out in the end."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Complete the table below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "Amundsen first gained fame for travelling on foot from the Atlantic to the Pacific.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "Amundsen had met Captain Scott on a previous expedition.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "When Amundsen and his team set out in September, the weather conditions were good.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "Amundsen realised that it was unwise to continue with the expedition in September.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "Amundsen's second attempt to reach the South Pole took a different route from the first.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "Amundsen left a letter at the South Pole intended only for Scott.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "true_false_not_given",
+          "prompt": "The food left by Amundsen and his men was useful for Scott.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Complete the table below using ONE WORD ONLY from the passage.",
+          "context": "Transport - Amundsen: used dogs and sledges for carrying supplies; used [8] for their own transport",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Complete the table below using ONE WORD ONLY from the passage.",
+          "context": "Transport - Scott: used ponies (which needed to have their food carried); used motor sledges (which needed fuel and [9])",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Complete the table below using ONE WORD ONLY from the passage.",
+          "context": "Food depots - Amundsen: many food depots clearly marked with stones and [10]; plenty of food",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "Complete the table below using ONE WORD ONLY from the passage.",
+          "context": "Food depots - Scott: fewer food depots, with food providing insufficient calories and lacking important [11]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "Complete the table below using ONE WORD ONLY from the passage.",
+          "context": "General outlook - Amundsen: [12] was not regarded as an acceptable option",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "Complete the table below using ONE WORD ONLY from the passage.",
+          "context": "General outlook - Scott: [13] was seen as the most important personal quality",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "The development of television and its introduction in Britain",
+      "passages": [
+        "A. The possibility of seeing events without being present at them was a dream of humanity for countless centuries. When the telephone emerged as a practical device in the late 1870s, the idea of also 'seeing by electricity' caught the public imagination, and as early as 1878 a cartoonist conceived of the 'telephonoscope', a wildly accurate prediction of global video communication. Various experiments were conducted, and two forms of television were invented almost simultaneously: the electronic and the mechanical.",
+        "B. In 1897 a German physicist, Ferdinand Braun, developed a method of displaying electronic traces on a fluorescent screen coated inside an evacuated glass bulb. He called this the cathode-ray oscilloscope. A few years later a British scientist, A. A. Campbell Swinton, realized that Braun's device could be used to display pictures transmitted electronically. Campbell Swinton wrote about the possibility of a television system in a scientific journal, Nature, in 1911. However, at that time it could not be built, as the components were not available.",
+        "C. The real pioneer of electronic television was Vladimir Zworykin. His interest in the field developed when he worked on a cathode-ray tube receiver in St. Petersburg. In 1918 he left Russia for the United States, and in 1923 he patented the principles of the Iconoscope, a camera tube, and in 1924 the Kinescope, or television receiver. The Radio Corporation of America (RCA) recognized the potential of Zworykin's ideas, and in 1929 funded a laboratory for him to continue his research. The work was conducted in secret and Zworykin did not publish his paper describing the Iconoscope in detail until 1933. This was the breakthrough that made electronic television a practical possibility. For the first time, a pick-up device could televise studio and outdoor scenes at a standard of definition that would bear comparison with the cinema.",
+        "D. Meanwhile, in Britain, public interest in television was stimulated by a Scotsman, John L. Baird. He loved experimenting and, in 1922, found the cause to which he was to devote his life — to invent mechanical television. As he lacked a real understanding of electronics, and would probably have been unaware of Zworykin's work, he began his research using very simple mechanical equipment. Baird successfully transmitted his first crude pictures in April 1925, and gave the first public demonstration of television in 1926. But it was not until 1929 that the government accepted that the technical quality of his pictures had improved sufficiently to allow broadcasting. Transmissions began on frequencies available when normal radio programs had finished for the day. Baird used the late transmission time to his advantage — it became an opportunity to encourage performers from top London shows to the medium. They dropped into his nearby studio after finishing on stage and performed a song or a dance for one of his shows. He developed a large amount of material, and in 1931 he televised the Epsom Derby horse race live.",
+        "E. However, at the beginning of the 1930s, interest in television in Britain was spreading beyond Baird. The research departments of Britain's two largest record companies came together and formed Electric and Musical Industries Ltd. (EMI) in 1931. The new department of brilliant scientists was led by Isaac Schoenberg, who, like Zworykin, had once worked in Russia. The group first looked to develop cathode-ray receivers, retaining mechanical scanning for generating the picture. However, work on an electronic camera tube started in 1933, after Zworykin's paper was published.",
+        "F. The EMI team made a successful electronic tube in January 1934 and they called the design the Emitron. This was fundamentally the same as Zworykin's Iconoscope, though there were manufacturing differences that gave it a superior performance. EMI did not immediately give up mechanical scanning, but they now joined forces with the Marconi Company to design the components and circuits of an all-electronic system of television. Very soon the technical superiority of the Marconi-EMI system was so obvious that, on 30 January 1937, the BBC ended transmissions using Baird's television equipment.",
+        "G. In 1936 television receiving sets were very expensive, possibly costing as much as a small car. Fewer than 500 were in use when the broadcasting service started, and growth was slower than had been hoped for. The signals could only be received clearly within a radius of about 30 miles from the television studio. Gradually the cost of sets came down, and just under 19,000 had been sold by 1939, when television in Britain abruptly came to an end for security reasons. War was about to be declared. The screens were to be dark for nearly seven years until, in 1946, the British government decided to restart television.",
+        "H. Transmissions restarted with a broadcast of the Victory Parade in London. Television remained confined to the London region until 1949 when studios in Birmingham opened. From then on, coverage gradually spread across Britain. Many people had their first experience of television watching Queen Elizabeth's 1953 coronation ceremony. Households with television receivers opened up their homes to friends and neighbors. As the better-off purchased their new sets, so their old ones were sold on, which enlarged the audience still further. With quality entertainment now cheaply available at home, people went out far less often. Many cinemas and theatres closed down, and town centers became much emptier at night. The television age had finally arrived."
+      ],
+      "instructions": [
+        "Which section contains the following information? Write the correct letter, A-H.",
+        "Match each researcher with the correct activity, A-E.",
+        "Complete the sentences below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "The reason for a delay between the initial idea for an electronic television and its production",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q14"
+            }
+          ],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "An explanation of how professional entertainers agreed to appear on television",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q15"
+            }
+          ],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Some examples of the social effects of television broadcasts",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q16"
+            }
+          ],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Reference to the confidential nature of certain research",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q17"
+            }
+          ],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "The reason for the termination of mechanical television broadcasting",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q18"
+            }
+          ],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "The reason for a long period of inactivity in British television broadcasting",
+          "context": "",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q19"
+            }
+          ],
+          "constraint": "Write the correct letter, A-H",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "A A Campbell Swinton",
+          "context": "Match with activities: A. Was involved in both technical aspects and content; B. Published an academic paper suggesting an application for a fellow scientist's invention; C. Was influenced by research into public expectations; D. Headed a team with experience of sound technology; E. Was given financial support to carry out scientific investigations",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inputs": [
+            {
+              "id": "q20"
+            }
+          ],
+          "constraint": "Choose A-E",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "Vladimir Zworykin",
+          "context": "Match with activities: A. Was involved in both technical aspects and content; B. Published an academic paper suggesting an application for a fellow scientist's invention; C. Was influenced by research into public expectations; D. Headed a team with experience of sound technology; E. Was given financial support to carry out scientific investigations",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inputs": [
+            {
+              "id": "q21"
+            }
+          ],
+          "constraint": "Choose A-E",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "matching",
+          "prompt": "John L Baird",
+          "context": "Match with activities: A. Was involved in both technical aspects and content; B. Published an academic paper suggesting an application for a fellow scientist's invention; C. Was influenced by research into public expectations; D. Headed a team with experience of sound technology; E. Was given financial support to carry out scientific investigations",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inputs": [
+            {
+              "id": "q22"
+            }
+          ],
+          "constraint": "Choose A-E",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "matching",
+          "prompt": "Isaac Schoenberg",
+          "context": "Match with activities: A. Was involved in both technical aspects and content; B. Published an academic paper suggesting an application for a fellow scientist's invention; C. Was influenced by research into public expectations; D. Headed a team with experience of sound technology; E. Was given financial support to carry out scientific investigations",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inputs": [
+            {
+              "id": "q23"
+            }
+          ],
+          "constraint": "Choose A-E",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "In the first few years of broadcasting, the price of a television could be similar to that of a [24].",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q24",
+              "placeholder": "24"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "At first, good television reception could not be obtained further than approximately [25] from the studio.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q25",
+              "placeholder": "25"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "[26] was the second city in Britain to establish television studios.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q26",
+              "placeholder": "26"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Mercator — The Map Maker",
+      "passages": [
+        "Maps codify the miracle of existence. And the man who wrote the codes for the maps we use today was Gerard Mercator, a cobbler's son born 500 years ago on a muddy floodplain in northern Europe.",
+        "Mercator was a humble man with a universal vision. In his own time he was 'the prince of modern geographers', his depictions of the planet and its regions unsurpassed in accuracy, clarity and consistency. More recently, he was crowned by the American scholar Robert W. Karrow as 'the first modern, scientific cartographer'. Where his predecessors had adopted a piecemeal approach to cartography, Mercator sought to wrap the world in systematic overlapping maps. Along the way he erected a number of historic milestones. He participated in the naming and mapping of 'America', he constructed the two most important globes of the 16th century, and the title of his pioneering 'modern geography', the Atlas, became the standard term for a volume of maps. Mercator also devised a new method — 'a projection' — of converting the spherical world into a two-dimensional map.",
+        "Mercator was born in 1512 and died in 1594. His world was one of military conflict, social upheaval, religious revolution — and geographical discovery. He was ten years old when the survivors of the world's first circumnavigation returned to Spain in their leaking caravel. No better example is required of genius arising from turmoil. He knew poverty, plague, war and persecution. He was imprisoned for his ideas yet patronised by an emperor. His life was one of brilliant breakthroughs and abrupt reversals. In its telling, his is the story of the poor boy made good: the pauper who embraced the world, found fame, faced death, yet triumphed through fortitude. Variously described by his peers as honest, calm, candid, sincere and peaceable, Mercator wore an aura of calm in troubled times. His attitude to his geographical calling was described by his friend and neighbour, William Ghim, as 'indefatigable'. Some 40 or so of Mercator's letters have survived, together with examples of virtually all of his printed maps and globes.",
+        "Mercator's most significant work was a project of cosmic proportions. A multi-part cosmography, the work would include a section on astronomy, a chronology of world events and a modern geography, which would eventually contain over 100 maps. Before he commenced the great work, Mercator produced in 1569 an enormous world map on a new projection. His method for converting the spherical globe into a two-dimensional map helped to solve the greatest cartographic riddle of the day: how could the course of a ship following a constant compass bearing be represented as a straight line on a map which had been constructed on a grid of latitude and longitude?",
+        "Mercator's solution was to progressively increase the space between his lines of latitude, away from the equator. The effect was to straighten the lines of constant compass bearing (also known as rhumbs or loxodromes). Unfortunately, straightening the rhumbs caused areal* distortion: at the map's northern and southern extremities, the polar regions occupied the full width of the map, while North America appeared to fill half the circumference of the world.",
+        "Few of Mercator's contemporaries understood what he was up to, despite the map's title explaining that it was intended 'for use in navigation'. Mercator knew that his projection was unsuitable as an areal description of the world, but it would be several decades before the map's true navigational value would be recognised.",
+        "Meanwhile, Mercator was marshalling and editing all the geographical data he needed for his modern regional maps of the world. His sources were wide-ranging and multitudinous, including an imperial physician in Vienna and his competitor, the Viceroy of Holstein. He was still working on these maps when he died. The great cosmography that Mercator had already titled 'Atlas' would never be finished.",
+        "In the Atlas, Mercator had embodied the principles of future mapmaking: his italic lettering, his identical map overlaps, his complete coverage of regions at more than one scale, his consistent use of grids of latitude and longitude, his singular editorial control, were all adopted as cartographic standards. 'Atlas', the cosmography, became 'atlas', the (Oxford English Dictionary) term for 'a collection of maps in a volume.'",
+        "The projection assumed a life of its own. So powerful a cartographic tool did it become that Mercator the man became subsumed by his own device. By the 20th century, Mercator's Projection had been adopted by state cartographers to map the land that he had named 'North America'. In 1938, Mercator's Projection was selected by the Ordnance Survey to map Britain anew. And in 1974, the American cartographer Alden P. Colvocoresses used the Space Oblique Mercator Projection for the first satellite map of the USA. When the Jet Propulsion Laboratory sent Mariner 8 and Mariner 9 to map Mars, they undertook their Martian cartography on a standard Mercator Projection. One by one, the mappable orbs of our solar system are appearing on the worldwide web, flattened for our screens according to Mercator's cartographic principles.",
+        "Mercator's Projection succeeded in reconciling the sphere and the plane, while his Atlas enveloped the world with an integrated system of maps."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 3?",
+        "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "true_false_not_given",
+          "prompt": "Cartographers before Mercator had tended to produce separate, individual maps.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "true_false_not_given",
+          "prompt": "Mercator was critical of the work of his contemporaries.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "true_false_not_given",
+          "prompt": "During his life, Mercator experienced great changes of fortune.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "true_false_not_given",
+          "prompt": "Most of Mercator's published work remains intact today.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "true_false_not_given",
+          "prompt": "Mercator started work on his projection shortly after embarking on his cosmography.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "true_false_not_given",
+          "prompt": "Mercator's Projection was immediately seen as a major breakthrough.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "true_false_not_given",
+          "prompt": "Mercator produced an accurate areal description of the world.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "true_false_not_given",
+          "prompt": "Mercator consulted the work of various people when producing his maps.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage.",
+          "context": "Mercator's Projection - His attempt to represent the globe as a [35] map",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage.",
+          "context": "Problem: When sailors used a map based on lines of latitude and longitude and kept to a constant compass bearing, the course of the ship could not be shown as a [36] on a map",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage.",
+          "context": "Result: When Mercator straightened the 'rhumbs' as intended, this produced [37] at the northern and southern extremities",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage.",
+          "context": "Result: with the full width of the map being taken up by the [38]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage.",
+          "context": "Original intention: Mercator originally designed the map for [39] purposes",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage.",
+          "context": "Uses of Mercator's Projection up to the present day: Various uses including the mapping of [40] by state cartographers",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

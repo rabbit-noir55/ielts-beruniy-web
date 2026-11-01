@@ -1,0 +1,760 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test21.html",
+    "title": "IELTS Listening Mock Test 595653",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/aaudio/main/59435.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "club"
+    ],
+    "2": [
+      "male"
+    ],
+    "3": [
+      "drive"
+    ],
+    "4": [
+      "Tuesday"
+    ],
+    "5": [
+      "August"
+    ],
+    "6": [
+      "dinner"
+    ],
+    "7": [
+      "25",
+      "£25"
+    ],
+    "8": [
+      "16"
+    ],
+    "9": [
+      "modern"
+    ],
+    "10": [
+      "hospital"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "F"
+    ],
+    "17": [
+      "H"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "E"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "D"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "F"
+    ],
+    "29": [
+      "G"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "logic"
+    ],
+    "32": [
+      "guess"
+    ],
+    "33": [
+      "rumor",
+      "rumour"
+    ],
+    "34": [
+      "mistake"
+    ],
+    "35": [
+      "action"
+    ],
+    "36": [
+      "proof"
+    ],
+    "37": [
+      "negative"
+    ],
+    "38": [
+      "threat"
+    ],
+    "39": [
+      "apology"
+    ],
+    "40": [
+      "compensation"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Location for rehearsals: The [1] House, Wynn",
+          "context": "Amateur Dramatic Society Secretary: Jane Caulfield, Mailing address: 117 Green Road, Prestwin",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "They need actors and [2] singers",
+          "context": "Amateur Dramatic Society",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Also need people who can [3]",
+          "context": "Amateur Dramatic Society",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Meetings 6–8 p.m. every [4]",
+          "context": "Amateur Dramatic Society",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Closed in [5] (for 2 weeks)",
+          "context": "Amateur Dramatic Society",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Standard: £40 (includes a [6] once a year)",
+          "context": "Membership costs",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Over 60s or unemployed: £[7]",
+          "context": "Membership costs",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Youth group: for people aged [8] years old and under",
+          "context": "Membership costs",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "mostly plays by [9] authors",
+          "context": "Shows",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "family show in December (raises money for children’s [10])",
+          "context": "Shows",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Label the map below. Choose the correct letter, A–H, next to questions 16–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "The speaker stresses the importance to Clifton Bird Park of",
+          "context": "Information for Volunteers at Clifton Bird Park",
+          "options": [
+            "A. birds that are now endangered.",
+            "B. birds from all over the world.",
+            "C. birds that are common in the local area."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "People who volunteer to help with gardening at the park",
+          "context": "Information for Volunteers at Clifton Bird Park",
+          "options": [
+            "A. must work at weekends.",
+            "B. need to come at least once a month.",
+            "C. will only be required in the busy season."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "According to the speaker, who would be the ideal gardening volunteer?",
+          "context": "Information for Volunteers at Clifton Bird Park",
+          "options": [
+            "A. someone who can work independently",
+            "B. someone who is willing to work in any weather",
+            "C. someone who knows a lot about plants"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "Volunteer guides will mainly be working with",
+          "context": "Information for Volunteers at Clifton Bird Park",
+          "options": [
+            "A. international visitors.",
+            "B. local people from Clifton.",
+            "C. school groups."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "What is still required for the Maintenance Day at the bird park?",
+          "context": "Information for Volunteers at Clifton Bird Park",
+          "options": [
+            "A. food and drink",
+            "B. transport",
+            "C. tools"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Wooden bridge",
+          "context": "Label the map below. Choose the correct letter, A–H.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Observation tower",
+          "context": "Label the map below. Choose the correct letter, A–H.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Visitor cabins",
+          "context": "Label the map below. Choose the correct letter, A–H.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Nesting boxes",
+          "context": "Label the map below. Choose the correct letter, A–H.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Boat sheds",
+          "context": "Label the map below. Choose the correct letter, A–H.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Which topic does each of the following reading packs focus on? Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 26–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "Why do Andrew and Sarah decide to mention the Mountain Code?",
+          "context": "Geology field trip to Iceland",
+          "options": [
+            "A. It is the most relevant to their field trip.",
+            "B. It also applies to caves.",
+            "C. It covers the whole country."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "Andrew suggests some field trip participants harm the environment because",
+          "context": "Geology field trip to Iceland",
+          "options": [
+            "A. they fail to recognize rare species of plant.",
+            "B. they don’t realise how fragile the environment is.",
+            "C. they get too absorbed in their tasks."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "Which rule about taking samples is most important?",
+          "context": "Geology field trip to Iceland",
+          "options": [
+            "A. Leave the area in its natural state.",
+            "B. Avoid removing fossils.",
+            "C. Keep collecting to a minimum."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "Which aspect of taking samples do they still have to find out about?",
+          "context": "Geology field trip to Iceland",
+          "options": [
+            "A. taking them from private land",
+            "B. taking them from rock faces",
+            "C. taking them from man-made structures"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "What danger in coastal areas do they decide to emphasise?",
+          "context": "Geology field trip to Iceland",
+          "options": [
+            "A. falling rock",
+            "B. tidal movements",
+            "C. unstable sand"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "Geothermal Fields",
+          "context": "Reading packs topics matching",
+          "options": [
+            "A. unique geological features of Iceland",
+            "B. replacement of fossil fuels",
+            "C. negative changes due to human activity",
+            "D. energy for agriculture",
+            "E. health risks of eruptions",
+            "F. risk of flooding",
+            "G. long-term effects of volcanoes"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "The Hot Spot",
+          "context": "Reading packs topics matching",
+          "options": [
+            "A. unique geological features of Iceland",
+            "B. replacement of fossil fuels",
+            "C. negative changes due to human activity",
+            "D. energy for agriculture",
+            "E. health risks of eruptions",
+            "F. risk of flooding",
+            "G. long-term effects of volcanoes"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "Glaciers",
+          "context": "Reading packs topics matching",
+          "options": [
+            "A. unique geological features of Iceland",
+            "B. replacement of fossil fuels",
+            "C. negative changes due to human activity",
+            "D. energy for agriculture",
+            "E. health risks of eruptions",
+            "F. risk of flooding",
+            "G. long-term effects of volcanoes"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Basalt Rock",
+          "context": "Reading packs topics matching",
+          "options": [
+            "A. unique geological features of Iceland",
+            "B. replacement of fossil fuels",
+            "C. negative changes due to human activity",
+            "D. energy for agriculture",
+            "E. health risks of eruptions",
+            "F. risk of flooding",
+            "G. long-term effects of volcanoes"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "Geothermal Power Plants",
+          "context": "Reading packs topics matching",
+          "options": [
+            "A. unique geological features of Iceland",
+            "B. replacement of fossil fuels",
+            "C. negative changes due to human activity",
+            "D. energy for agriculture",
+            "E. health risks of eruptions",
+            "F. risk of flooding",
+            "G. long-term effects of volcanoes"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "Some people think using [31] is better than theory",
+          "context": "Crisis Communication Theory",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "But a lot of advice is simply a [32]",
+          "context": "Crisis Communication Theory",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "The organization can be a victim – e.g. due to a [33]",
+          "context": "Types of crisis",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "Crisis can be preventable – resulting from a [34] in the organization",
+          "context": "Types of crisis",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Communicate what [35] is to be taken",
+          "context": "Suggested response for all crises",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "provide [36] that the crisis is not so bad",
+          "context": "Strategies to influence people’s thinking - Diminish the crisis",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Initial objective is to lessen [37] opinions",
+          "context": "Protecting the organisation’s reputation",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "there is a serious [38] to the organisation’s reputation",
+          "context": "Protecting the organisation’s reputation - ‘Rebuild strategies’",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Things can be improved by providing an [39]",
+          "context": "Protecting the organisation’s reputation",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "In serious cases, [40] is usually offered",
+          "context": "Protecting the organisation’s reputation",
+          "options": [],
+          "inputs": [],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

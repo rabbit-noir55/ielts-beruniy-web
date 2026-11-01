@@ -1,0 +1,956 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test6.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "TRUE"
+    ],
+    "2": [
+      "FALSE"
+    ],
+    "3": [
+      "NOT GIVEN"
+    ],
+    "4": [
+      "TRUE"
+    ],
+    "5": [
+      "NOT GIVEN"
+    ],
+    "6": [
+      "TRUE"
+    ],
+    "7": [
+      "Romantics",
+      "Romantic"
+    ],
+    "8": [
+      "fireside"
+    ],
+    "9": [
+      "Whitman"
+    ],
+    "10": [
+      "languages"
+    ],
+    "11": [
+      "Jamaica"
+    ],
+    "12": [
+      "Bengali"
+    ],
+    "13": [
+      "Irish"
+    ],
+    "14": [
+      "F"
+    ],
+    "15": [
+      "D"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "E"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "daylight"
+    ],
+    "20": [
+      "fruit flies",
+      "fruitflies"
+    ],
+    "21": [
+      "genes"
+    ],
+    "22": [
+      "circadian cycle",
+      "circadian"
+    ],
+    "23": [
+      "B",
+      "C"
+    ],
+    "24": [
+      "B",
+      "C"
+    ],
+    "25": [
+      "C",
+      "D"
+    ],
+    "26": [
+      "C",
+      "D"
+    ],
+    "27": [
+      "F"
+    ],
+    "28": [
+      "H"
+    ],
+    "29": [
+      "G"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "C"
+    ],
+    "32": [
+      "F"
+    ],
+    "33": [
+      "B"
+    ],
+    "34": [
+      "G"
+    ],
+    "35": [
+      "E"
+    ],
+    "36": [
+      "A"
+    ],
+    "37": [
+      "truthful"
+    ],
+    "38": [
+      "shock"
+    ],
+    "39": [
+      "understand"
+    ],
+    "40": [
+      "interpretation"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "A look at the history of poetry",
+      "passages": [
+        "Unlike other literary forms that we can date to precise texts and time periods, it is a challenge to pinpoint the earliest work of poetry. In one form or another, poetry has been around for thousands of years. Indeed, poetry as an art form may even predate literacy. Many ancient works, such as the Vedas (1700–1200 BCE), were composed in poetic form to aid memorization and oral transmission of information in prehistoric and ancient societies. Poetry appears among the earliest records of most literate cultures, with poetic fragments found engraved on ancient stones.",
+        "The lengthy adventure poem known as an epic might be considered as the first type of poetry. The Epic of Gilgamesh is often cited as one of the earliest epic works, dating back to the 18th century BCE. Consisting of poems written in an ancient language, it's a text that was discovered through many different versions during archaeological excavations. Other examples of early epic poems include the Mahabharata and the Ramayana, the latter of which has become an important narrative in both Hindu and Buddhist mythology throughout regions of Asia.",
+        "A list of the most notable works of epic poetry – at least in the Western world – would have to include the Iliad and the Odyssey, both works of Greek mythology that have been attributed by academics to the Greek poet Homer. The Iliad recounts the battle between Achilles, a famed warrior, and King Agamemnon during the Trojan War. A companion of sorts to the Iliad, the Odyssey depicts the long journey of its hero, Odysseus, after the conflict is over.",
+        "Sonnets* were a form of poetry that came into being in the 13th century. The rhyme scheme of a sonnet varies depending upon whether it is Italian or English. The Italian poet Petrarca, after whom the Petrarchan sonnet is named, is perhaps one of the most well-known early writers of the sonnet, in which he specialized. Following his work in the 13th century, other poets created variations of the sonnet, but it became widely known as an English poetic form through the work of William Shakespeare in the 16th century. However, its popularity declined in the Restoration period (1660–1689).",
+        "The Restoration Period in England also saw the rise of literary elites, such as John Dryden. Perhaps one of the best-known names of English literary criticism, translation, drama and poetry, Dryden made his name as a poet with his poems making fun of important figures or genres. The form of these mock-heroic poems, and the use of poetic form for satire, did not end with Dryden. Alexander Pope carried on Dryden's tradition of using poetry for comic purposes.",
+        "The 19th century saw the emergence of many poets of importance. The so-called English Romantics included figures like William Blake, Samuel Taylor Coleridge, William Wordsworth and John Keats. During the same period, American poetry produced what are known as the fireside poets. Writers like Henry Wadsworth Longfellow, Oliver Wendell Holmes, and William Cullen Bryant belonged to this group. In other circles, Walt Whitman revolutionized the 19th-century American spirit with his 'Leaves of Grass', while most of Emily Dickinson's unconventional poems, written in the mid-to-late 1800s, were published only after her death.",
+        "During the 20th century, the waves of change brought about by world events influenced poetry, resulting in works by poets with distinct voices who came to enjoy global circulation. Around the turn of the 20th century, Whitman continued to edit and alter his 1855 edition of 'Leaves of Grass', which introduced a new period – and a variety of forms – for poetry. The extraordinary modernist style of Gertrude Stein overwhelmed American readers who bought her work 'Tender Buttons' in 1914. Those same readers were to be surprised again a short time later by T.S. Eliot's employment of ancient languages and obscure references to other poetical texts in his famous poem, 'The Waste Land', written in 1927.",
+        "Another example of modernist poetry is the hugely important work of Claude McKay. An African-American poet born in Jamaica who emigrated to the US in 1912, he carried his homeland into his distinctly American poetic voice. Writing on war, racism and memories connected with his birthplace, McKay wrote notable poems such as 'If We Must Die' and 'The Tropics in New York'.",
+        "The 20th century also witnessed a number of poets winning the Nobel Prize, from the United States to India. Rabindranath Tagore, who resisted pressure from the English language used by the rulers of the country at that time and wrote solely in his mother tongue, Bengali, won this esteemed award in 1913. He was followed by Irish poets William Butler Yeats in 1923 and Seamus Heaney in 1995.",
+        "* sonnet: a 14-line poem with a specific rhyme scheme"
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "Nearly all early literate cultures had poetry in some form.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "The Ramayana is of little significance in Asia.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "The Odyssey was discovered many years later than the Iliad.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "Petrarca is associated with a particular form of poetry.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "Shakespeare's sonnets were some of the finest ever written.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "Dryden attempted to amuse people with his poetry.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "English poets such as Keats and Blake were known as the [7]",
+          "context": "19th-century poetry",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "the [8] poets in America included names such as Longfellow and Bryant",
+          "context": "19th-century poetry",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "a variety of new poetic forms followed the revision by [9] of his earlier work",
+          "context": "20th-century poetry",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "'The Waste Land's' use of old [10] took those who read it by surprise",
+          "context": "20th-century poetry",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "many of Claude McKay's poems were about his homeland of [11]",
+          "context": "20th-century poetry",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "in 1913, Tagore won the Nobel Prize with poems written in [12]",
+          "context": "20th-century poetry",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "two [13] writers won the Nobel Prize for their poetry in the 20th century",
+          "context": "20th-century poetry",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "The internal body clock",
+      "passages": [
+        "A  From buffalo to bacteria, oaks to algae, all life follows the same relentless 24-hour cycle, which is driven by the rising and setting of the Sun. Or is it? Over 250 years ago, a French scientist performed a simple experiment that blew apart the idea that all life on Earth does the bidding of the Sun. Intrigued by the way some flowers open and close their leaves each day, Jean-Jacques de Mairan put a heliotrope in a darkened room and observed the effect. He was expecting the plant, robbed of sunlight, to cease its daily routine. To his astonishment, its leaves continued to open and close as if in response to some invisible timekeeper.",
+        "B  But what — and where — is this internal timekeeper? And how does it achieve such astonishing regularity? These are the mysteries at the forefront of chronobiology, the study of the effect of time in living organisms. The search for answers is about more than just tying up some scientific loose ends. Internal 'clocks' clearly cause a lot of hardship. When an individual's 'clock' is knocked out of synchronization through having to work at night or go on long-haul flights, that person can be left utterly unable to think or act. Yet even when these 'clocks' work correctly, the natural rhythms of alertness they generate prove dangerous: traffic accident statistics show two deadly peaks, at 4 a.m. and again twelve hours later when people are at their least alert.",
+        "C  During the 1970s, best-selling books began to emerge claiming such phenomena were manifestations of so-called biorhythms, a set of three cycles governing physical, emotional and intellectual traits. Said to start from the moment of birth and repeat every 23, 28 and 33 days respectively, they were supposed to result in 'critical days' when one or more cycles led to sub-optimal performance, with unfortunate consequences.",
+        "D  Scientists have since dismissed biorhythms as pseudoscience, insisting the existence of the three cycles has no basis in fact. In 1998, Dr Terence Hines of the Pace University, New York State published the most comprehensive study of the claims made for biorhythms, reviewing the results of over 130 investigations. He found that three-quarters of them failed to provide any support for biorhythms. Most of the remainder contained blunders ranging from faulty mathematics to basic errors in statistics, while the handful of positive studies were explicable as flukes.",
+        "E  But there is no doubting the existence of 24-hour biological cycles or rather, ones roughly 24 hours long. Following de Mairan's pioneering work, other researchers found that when deprived of the cues provided by sunlight, organisms settle down to 'free-running' cycles that are close to, but rarely exactly, 24 hours. In the case of humans, the cycle is typically around 24.5 hours long. This is the so-called 'circadian' cycle (from the Latin meaning 'about a day'), the length of which is generated by the mysterious internal 'clock'.",
+        "F  During the late 1960s, chronobiologists believed they had found the 'clock' in the form of the suprachiasmatic nucleus (SCN), a collection of nerves in a region of the brain known as the hypothalamus. Linked to photosensitive cells in the eye, the SCN senses daylight and triggers the release of hormones like melatonin, which keep body functions in synchronization with the time of day. For a few years the SCN was regarded as the ultimate pacemaker at least in higher organisms such as ourselves. But in 1971, scientists at the California Institute of Technology working with fruit flies found evidence for something truly amazing: Fruit flies appeared to have genes affecting the daily rhythm of their behavior — suggesting that there are 'clocks' inside each of their cells. Further evidence for this emerged in 1995, when researchers at Massachusetts General Hospital isolated nerve cells from the SCN and found they kept up a circadian cycle without help from daylight. Finally in 1997, scientists at Northwestern University, Illinois, found a gene that regulates the daily rhythms of cellular activity in mammals.",
+        "G  The details of how this gene, known as CLOCK, actually works are still being investigated but they could culminate in better ways of coping with shift-work and jetlag. Professor Takahashi, who led the research, says that now that we know that circadian clocks exist throughout our bodies, we will need new therapeutics to help all of our cells. But how do all the biochemical 'clocks' inside their cells stay in synchronization and why did organisms bother to acquire a link with sunlight? So far, no-one knows, though there are several theories. For example, sunlight might be useful in keeping the myriad cellular 'clocks' in lockstep.",
+        "H  In the search for answers researchers are studying the behavior of a microbe called cyanobacterium. In 2005 a team at Nagoya University, Japan, showed that chemical reactions between three proteins produced by this bacterium ebbed and flowed on a 24-hour cycle. Cyanobacterium is the oldest form of life on Earth, so this suggests that cellular 'clocks' have existed for over three billion years. All subsequent organisms have followed suit, says Professor Johnson of Vanderbilt University, Tennessee. 'Bacteria, fungi, plants and animals all appear to have evolved clock systems independently from each other.' Quite why is still unknown. But one thing is clear: the daily routine of life is certainly not a modern invention."
+      ],
+      "instructions": [
+        "Reading Passage 2 has eight paragraphs, A-H. Which paragraph contains the following information?",
+        "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "Choose TWO letters, A-E. Which TWO of the following problems are stated as being linked with the internal 'clock'?",
+        "Choose TWO letters, A-E. Which TWO of the following issues relating to internal 'clocks' remain to be solved, according to information in the passage?"
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "support for an earlier finding from experiments on insects",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q14"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "criticism of the way some research data was analysed",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q15"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "reference to a basic test on a plant",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q16"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "a statement that the length of natural cycles varies slightly between living things",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q17"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "reference to a theory that became popular with the public",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q18"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "input",
+          "prompt": "The SCN is able to perceive [19] as a result of connections to the eye.",
+          "context": "An overview of research into the existence of the internal 'clock'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q19"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "input",
+          "prompt": "Several years later, research involving [20] showed that the timing of their normal actions was regulated by certain",
+          "context": "An overview of research into the existence of the internal 'clock'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q20"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "input",
+          "prompt": "[21] or 'clocks', in their cells.",
+          "context": "An overview of research into the existence of the internal 'clock'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q21"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "input",
+          "prompt": "Other scientists went on to conduct experiments in the dark that proved that a [22] was maintained by individual SCN cells.",
+          "context": "An overview of research into the existence of the internal 'clock'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q22"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following problems are stated as being linked with the internal 'clock'?",
+          "context": "",
+          "options": [
+            "A: a decrease in output in workplaces without windows to let in natural light",
+            "B: a failure among workers on night-shifts to perform tasks",
+            "C: an increase in casualties on the roads at specific times of day",
+            "D: a decline in efficiency on certain days in a number of fixed cycles",
+            "E: a rise in mood swings dependent on the appearance of the Sun"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A-E",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following problems are stated as being linked with the internal 'clock'?",
+          "context": "",
+          "options": [
+            "A: a decrease in output in workplaces without windows to let in natural light",
+            "B: a failure among workers on night-shifts to perform tasks",
+            "C: an increase in casualties on the roads at specific times of day",
+            "D: a decline in efficiency on certain days in a number of fixed cycles",
+            "E: a rise in mood swings dependent on the appearance of the Sun"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A-E",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following issues relating to internal 'clocks' remain to be solved, according to information in the passage?",
+          "context": "",
+          "options": [
+            "A: the precise length of the free-running daily cycle in different animals",
+            "B: the reason for 'clocks' being temporarily driven out of synchronization",
+            "C: the reason for living beings forming a connection with the Sun's rhythms",
+            "D: the way in which all 'clocks' in a single organism are able to stay in step with one another",
+            "E: the location of the 'clocks' across the whole range of living organisms"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A-E",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following issues relating to internal 'clocks' remain to be solved, according to information in the passage?",
+          "context": "",
+          "options": [
+            "A: the precise length of the free-running daily cycle in different animals",
+            "B: the reason for 'clocks' being temporarily driven out of synchronization",
+            "C: the reason for living beings forming a connection with the Sun's rhythms",
+            "D: the way in which all 'clocks' in a single organism are able to stay in step with one another",
+            "E: the location of the 'clocks' across the whole range of living organisms"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A-E",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "On art and artists",
+      "passages": [
+        "A  There really is no such thing as art, only artists. Once these were people who took coloured earth and roughed out the forms of a bison on the wall of a cave; today some buy their paints, and others design posters for hoardings; they did and do many other things. There is no harm in calling all these activities art as long as we keep in mind that such a word may mean very different things in different times and places, and as long as we realize that 'Art' with a capital 'A' has no existence: it has become something of an obsession. You may crush an artist by telling him that what he has just done may be quite good in its own way, only it is not true art.",
+        "B  Actually, I do not think that there are any wrong reasons for liking a statue or a picture. We may like a painting of a village scene because it reminds us of home. There is nothing wrong with that. All of us, when we see a painting, are bound to be reminded of a hundred-and-one things which influence our likes and dislikes. As long as these memories help us to enjoy what we see, we need not worry.",
+        "C  It is only when some irrelevant memory makes us prejudiced, when we instinctively turn away from a magnificent picture of an alpine scene because we dislike climbing, that we should search our mind for the reason for the aversion which spoils a pleasure we might otherwise have had. There are wrong reasons for disliking a work of art.",
+        "D  Most people like to see in pictures what they would also like to see in reality. This is quite a natural preference. We all like beauty in nature, and are grateful to the artists who have preserved it in their works. Nor would these artists themselves have rebuffed us for our taste. When the great Flemish painter Rubens made a drawing of his young son, he was surely proud of his good looks, and wanted us, too, to delight in the child's appearance. But this bias for the pretty and engaging subject is apt to become a stumbling block if it leads us to reject works which represent a less appealing subject.",
+        "E  The great German painter Dürer certainly drew his mother with as much devotion and love as Rubens felt for his child. His truthful study of old age may give us a shock which makes us turn away from it and yet, if we fight against that first reaction we may be richly rewarded. For Dürer's drawing in its tremendous sincerity is a great work. The beauty of a picture does not really lie in the beauty of its subject matter. The trouble about beauty is that tastes and standards of what is beautiful vary so much.",
+        "F  What is true of beauty is also true of facial expression. In fact, it is often the expression of a figure in the painting which makes us like or loathe the work. Some people like an expression — perhaps of suffering or of compassion — which they can readily understand, and which therefore moves them profoundly. But we should not, for that reason, turn away from works whose expression is perhaps less easy to understand. Often we must first learn to know the artist's methods of drawing to understand the feelings he or she wishes to portray, and may even come to prefer works of art in which expression is not obvious. Just as some of us would rather people use few words and gestures and leave something to be guessed, so some of us would rather look at paintings or sculptures which are open to interpretation.",
+        "G  But here newcomers to art are often brought up against another difficulty. They want to admire the artist's skill in representing the things they see. What they like best are paintings which 'look real'. This is an important consideration, and the patience and skill which go into the faithful rendering of the visible world are indeed to be admired. Great artists of the past have devoted much labour to works in which every tiny detail is carefully recorded. Dürer's watercolour study of a hare is one of the most famous examples of this loving patience. But who would say that Rembrandt's drawing of an elephant is necessarily less good because it shows fewer details? Indeed, Rembrandt gave us the feel of the elephant's wrinkly skin with just a few lines of his chalk.",
+        "H  If we find fault with the accuracy of a picture, we must remember that artists may have their reasons for changing the appearance of what they see. We should also never condemn a work for being incorrectly drawn unless we are quite sure that we are right and the painter is wrong. We have a curious habit of thinking that nature must always look like the pictures we are accustomed to. For generations, paintings showed horses galloping with outstretched legs in full flight through the air, and we came to believe that this was indeed how they moved. It was only the development of photography which proved that horses simply do not gallop in that way. And yet, when painters began to apply this new discovery, and painted horses moving as they actually do, everyone complained that their pictures looked wrong."
+      ],
+      "instructions": [
+        "Reading Passage 3 has eight paragraphs, A-H. Which paragraph contains the following information?",
+        "Look at the following statements (Questions 31-36) and the list of subjects below. Match each statement with the correct subject, A-G.",
+        "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "a comparison between people's preferences towards language and art",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q27"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "why people may have misunderstood how a certain animal moves",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q28"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "a contrast between the techniques used in two pictures",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q29"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "a possible negative effect of using the term \"art\"",
+          "context": "Paragraph matching",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [
+            {
+              "id": "q30"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "matching",
+          "prompt": "The artist clearly hoped that we would share his admiration of this subject.",
+          "context": "List of Subjects: A. village scene, B. alpine scene, C. Rubens's son, D. Dürer's mother, E. hare, F. elephant, G. horses",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q31"
+            }
+          ],
+          "constraint": "Match each statement with the correct subject, A-G",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "matching",
+          "prompt": "The artist aims to give a general impression of this subject rather than a detailed one.",
+          "context": "List of Subjects: A. village scene, B. alpine scene, C. Rubens's son, D. Dürer's mother, E. hare, F. elephant, G. horses",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q32"
+            }
+          ],
+          "constraint": "Match each statement with the correct subject, A-G",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "matching",
+          "prompt": "Someone's personal experience may make them consider a painting of this subject unpleasant.",
+          "context": "List of Subjects: A. village scene, B. alpine scene, C. Rubens's son, D. Dürer's mother, E. hare, F. elephant, G. horses",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q33"
+            }
+          ],
+          "constraint": "Match each statement with the correct subject, A-G",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "matching",
+          "prompt": "The way in which this subject was once portrayed was factually wrong.",
+          "context": "List of Subjects: A. village scene, B. alpine scene, C. Rubens's son, D. Dürer's mother, E. hare, F. elephant, G. horses",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q34"
+            }
+          ],
+          "constraint": "Match each statement with the correct subject, A-G",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "matching",
+          "prompt": "The painting is well known for the effort the artist put into creating a very accurate picture of this subject.",
+          "context": "List of Subjects: A. village scene, B. alpine scene, C. Rubens's son, D. Dürer's mother, E. hare, F. elephant, G. horses",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q35"
+            }
+          ],
+          "constraint": "Match each statement with the correct subject, A-G",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "matching",
+          "prompt": "People may like a painting of this subject for a reason that is external to the painting.",
+          "context": "List of Subjects: A. village scene, B. alpine scene, C. Rubens's son, D. Dürer's mother, E. hare, F. elephant, G. horses",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            {
+              "id": "q36"
+            }
+          ],
+          "constraint": "Match each statement with the correct subject, A-G",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Dürer's painting of his mother is considered significant because it is a [37] representation of her age and situation.",
+          "context": "Beauty and expression",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "However, we may need to overcome an initial reaction of [38] when we see it.",
+          "context": "Beauty and expression",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "While some of us are affected by the portrayal of a facial expression that we can [39] without much effort",
+          "context": "Beauty and expression",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "others prefer expressions that require [40].",
+          "context": "Beauty and expression",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

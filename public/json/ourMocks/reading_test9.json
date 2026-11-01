@@ -1,0 +1,892 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test9.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "TRUE"
+    ],
+    "2": [
+      "FALSE"
+    ],
+    "3": [
+      "NOT GIVEN"
+    ],
+    "4": [
+      "TRUE"
+    ],
+    "5": [
+      "NOT GIVEN"
+    ],
+    "6": [
+      "NOT GIVEN"
+    ],
+    "7": [
+      "FALSE"
+    ],
+    "8": [
+      "animal"
+    ],
+    "9": [
+      "ruins"
+    ],
+    "10": [
+      "stages"
+    ],
+    "11": [
+      "mountain"
+    ],
+    "12": [
+      "fields"
+    ],
+    "13": [
+      "canvas"
+    ],
+    "14": [
+      "F"
+    ],
+    "15": [
+      "D"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "E"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "daylight"
+    ],
+    "20": [
+      "fruit flies",
+      "fruit fly"
+    ],
+    "21": [
+      "genes"
+    ],
+    "22": [
+      "circadian cycle",
+      "circadian",
+      "'circadian' cycle"
+    ],
+    "23": [
+      "B",
+      "C"
+    ],
+    "24": [
+      "B",
+      "C"
+    ],
+    "25": [
+      "C",
+      "D"
+    ],
+    "26": [
+      "C",
+      "D"
+    ],
+    "27": [
+      "NO"
+    ],
+    "28": [
+      "NO"
+    ],
+    "29": [
+      "YES"
+    ],
+    "30": [
+      "NOT GIVEN"
+    ],
+    "31": [
+      "NOT GIVEN"
+    ],
+    "32": [
+      "C"
+    ],
+    "33": [
+      "A"
+    ],
+    "34": [
+      "B"
+    ],
+    "35": [
+      "C"
+    ],
+    "36": [
+      "E"
+    ],
+    "37": [
+      "C"
+    ],
+    "38": [
+      "G"
+    ],
+    "39": [
+      "A"
+    ],
+    "40": [
+      "D"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Thomas Cole: American Nature Painter",
+      "passages": [
+        {
+          "heading": "Thomas Cole: American Nature Painter",
+          "content": "Thomas Cole (1801–1848) was America's first major landscape artist. Though he was born in England and spent his formative time in Europe, his identity was as an American nature painter. He was also an advocate and protector of untouched American land threatened by industrial development.\nCole's father, a small-time businessman, moved his family from place to place in northwestern England. In the process, Cole worked as a print shop apprentice, designing styles of cloth and later making reproductions of well-known paintings. In 1818, the family sailed to the United States, settling at first in the east coast city of Philadelphia. The teenage Cole stayed behind on the east coast as his parents traveled westward. From this point, his career as a largely self-taught artist began.\nCole began to travel and wherever he went — including, briefly, to the Caribbean — he sketched what he saw. He had little patience with cities and distanced himself from them when he could. At the Pennsylvania Academy of the Fine Arts, he became familiar with new American and European work. But within a few years, he felt ready to head to New York City, where he made lasting contacts in the still small art world, and was able to sell some paintings. And on an 1825 trip up the Hudson River, he found the subject that he would make his own: the American landscape, which he approached as both a mirror of reality and an object of fantasy.\nEncouraged, Cole resolved to leave for Europe, a move that would let him see firsthand the art he had known mostly in reproduction. In terms of sales, London, the first stop, was a failure. No one noticed him, but he noticed a lot. He saw England suffering from chaos, with old social structures breaking down as a new industrial elite threatened a traditional wealthy rural class. And he saw artists responding to that. From England he went on to Italy, a more pleasant stay, though it was also suffering its own social issues. Outside Rome, he saw and painted countryside bathed in the hazy sunset light that he had seen and loved in 17th-century landscapes.\nWhen Cole returned to America in 1832 he found it confusing and depressing. Though he had worked hard to leave his poor childhood behind through identification with a cultural elite, Cole found a new America: competitive, commercial, and uncivil — a land of uncontrolled and destructive greed. He was committed to the USA — he became a citizen in 1834 — but left New York City with his wife and children for the countryside.\nWhat most disturbed him was the government's seizure and destruction of natural forest lands. From his house he could see forests being rapidly cut down. Increasingly, he used painting to protest against these developments. Cole chose wilderness, and used the rest of his life to paint it.\nOne of Cole's earliest pieces illustrating his dedication to the preservation of nature is The Tree, dated 1823. Done while he was living in the Caribbean, it's an ink drawing of a single tree. But it is no ordinary tree: although realistically drawn, it looks bizarre, almost resembling some kind of animal, swinging its arm-like branches and walking on its roots.\nCole's paintings from his Italian trip feature a different kind of countryside. These landscapes focused not on pure and untouched nature, but on the ruins of a long-dead culture. One of his most famous works is a series called The Course of Empire (1834–36). In five separate paintings, it narrates the stages that an unnamed fictional civilization passes through: from forest origins, to rural innocence, to proud flourishing high society, to destruction, to vanishing.\nReturning to America, Cole settled on producing and selling landscape paintings. An early landscape, View of the Round-Top (1827), depicts thin clouds in the cool fresh air, a forested mountain, and a river winding in the distance. Paintings such as these were popular and sold quickly for high prices to New York's new wealthy elite.\nA similar image that was far more effective is the single, large 1836 painting titled View From Mount Holyoke (The Oxbow). From a bird's-eye height we look down at the spot where the Connecticut River, flowing around an island-like mass, creates a question-mark shape known as the Oxbow. The painting divides vertically into two distinct halves. To the left is a wild cluster of old trees and dense vegetation, which looks messy and threatening, but full of life; to the right, flat, treeless, square-cut fields which are cultivated and fertile, but feel bare and bland. In the foreground is a tiny self-portrait of Cole at work. He turns away from his canvas and looks right at us, as if to say: Here are the alternatives that you will face; you choose.\nWhen he died suddenly at 47, in 1848, he was widely mourned. After Cole's death, respect for his life and work was shown by fellow artists in the form of paintings done in a similar style for just a few years. The most famous was Asher Brown Durand's 1849 Kindred Spirits, which illustrates Cole and the nature-poet William Bryant engaged in deep discussion in a rugged paradise of New York State forest. Yet, within a few years, Cole was all but forgotten, and it took more than a century before he was rediscovered."
+        }
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "Thomas Cole's early work experience included creating copies of famous artwork.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "Cole moved to the west of the USA while still a teenager.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "Cole sold paintings in the Caribbean.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "Cole remained in touch with other New York-based painters for a long time.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "The first paintings that Cole sold in New York showed the Hudson River.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "On Cole's trip to Europe, he stayed longer in Italy than in England.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "true_false_not_given",
+          "prompt": "Although Cole painted in the countryside, his family lived in New York City.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "The Tree: a drawing that looks like a strange [8]",
+          "context": "Cole's Work - Early work",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Cole's paintings show [9] from a past society instead of natural beauty.",
+          "context": "Cole's Work - Italian landscapes",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "The Course of Empire shows [10] of an imaginary society.",
+          "context": "Cole's Work - Italian landscapes",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "View of the Round-Top shows a [11] covered in trees.",
+          "context": "Cole's Work - American landscapes",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "The Oxbow shows wild vegetation on one side, and organised farmers' [12] on the other.",
+          "context": "Cole's Work - American landscapes",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "Cole put himself in the picture, next to a [13]",
+          "context": "Cole's Work - American landscapes",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "The internal body clock",
+      "passages": [
+        {
+          "heading": "The internal body clock",
+          "content": "A From buffalo to bacteria, oaks to algae, all life follows the same relentless 24-hour cycle, which is driven by the rising and setting of the Sun. Or is it? Over 250 years ago, a French scientist performed a simple experiment that blew apart the idea that all life on Earth does the bidding of the Sun. Intrigued by the way some flowers open and close their leaves each day, Jean-Jacques de Mairan put a heliotrope in a darkened room and observed the effect. He was expecting the plant, robbed of sunlight, to cease its daily routine. To his astonishment, its leaves continued to open and close as if in response to some invisible timekeeper.\nB But what — and where — is this internal timekeeper? And how does it achieve such astonishing regularity? These are the mysteries at the forefront of chronobiology, the study of the effect of time in living organisms. The search for answers is about more than just tying up some scientific loose ends. Internal 'clocks' clearly cause a lot of hardship. When an individual's 'clock' is knocked out of synchronization through having to work at night or go on long-haul flights, that person can be left utterly unable to think or act. Yet even when these 'clocks' work correctly, the natural rhythms of alertness they generate prove dangerous: traffic accident statistics show two deadly peaks, at 4 a.m. and again twelve hours later when people are at their least alert.\nC During the 1970s, best-selling books began to emerge claiming such phenomena were manifestations of so-called biorhythms, a set of three cycles governing physical, emotional and intellectual traits. Said to start from the moment of birth and repeat every 23, 28 and 33 days respectively, they were supposed to result in 'critical days' when one or more cycles led to sub-optimal performance, with unfortunate consequences.\nD Scientists have since dismissed biorhythms as pseudoscience, insisting the existence of the three cycles has no basis in fact. In 1998, Dr Terence Hines of the Pace University, New York State published the most comprehensive study of the claims made for biorhythms, reviewing the results of over 130 investigations. He found that three-quarters of them failed to provide any support for biorhythms. Most of the remainder contained blunders ranging from faulty mathematics to basic errors in statistics, while the handful of positive studies were explicable as flukes.\nE But there is no doubting the existence of 24-hour biological cycles or rather, ones roughly 24 hours long. Following de Mairan's pioneering work, other researchers found that when deprived of the cues provided by sunlight, organisms settle down to 'free-running' cycles that are close to, but rarely exactly, 24 hours. In the case of humans, the cycle is typically around 24.5 hours long. This is the so-called 'circadian' cycle (from the Latin meaning 'about a day'), the length of which is generated by the mysterious internal 'clock'.\nF During the late 1960s, chronobiologists believed they had found the 'clock' in the form of the suprachiasmatic nucleus (SCN), a collection of nerves in a region of the brain known as the hypothalamus. Linked to photosensitive cells in the eye, the SCN senses daylight and triggers the release of hormones like melatonin, which keep body functions in synchronization with the time of day. For a few years the SCN was regarded as the ultimate pacemaker at least in higher organisms such as ourselves. But in 1971, scientists at the California Institute of Technology working with fruit flies found evidence for something truly amazing: Fruit flies appeared to have genes affecting the daily rhythm of their behavior – suggesting that there are 'clocks' inside each of their cells. Further evidence for this emerged in 1995, when researchers at Massachusetts General Hospital isolated nerve cells from the SCN and found they kept up a circadian cycle without help from daylight. Finally in 1997, scientists at Northwestern University, Illinois, found a gene that regulates the daily rhythms of cellular activity in mammals.\nG The details of how this gene, known as CLOCK, actually works are still being investigated but they could culminate in better ways of coping with shift-work and jetlag. Professor Takahashi, who led the research, says that now that we know that circadian clocks exist throughout our bodies, we will need new therapeutics to help all of our cells. But how do all the biochemical 'clocks' inside their cells stay in synchronization and why did organisms bother to acquire a link with sunlight? So far, no-one knows, though there are several theories. For example, sunlight might be useful in keeping the myriad cellular 'clocks' in lockstep.\nH In the search for answers researchers are studying the behavior of a microbe called cyanobacterium. In 2005 a team at Nagoya University, Japan, showed that chemical reactions between three proteins produced by this bacterium ebbed and flowed on a 24-hour cycle. Cyanobacterium is the oldest form of life on Earth, so this suggests that cellular 'clocks' have existed for over three billion years. All subsequent organisms have followed suit, says Professor Johnson of Vanderbilt University, Tennessee. 'Bacteria, fungi, plants and animals all appear to have evolved clock systems independently from each other.' Quite why is still unknown. But one thing is clear: the daily routine of life is certainly not a modern invention."
+        }
+      ],
+      "instructions": [
+        "Reading Passage 2 has eight paragraphs, A-H. Which paragraph contains the following information? Write the correct letter, A-H, in boxes 14-18 on your answer sheet.",
+        "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "support for an earlier finding from experiments on insects",
+          "context": "Reading Passage 2 paragraphs A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "criticism of the way some research data was analysed",
+          "context": "Reading Passage 2 paragraphs A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "reference to a basic test on a plant",
+          "context": "Reading Passage 2 paragraphs A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "a statement that the length of natural cycles varies slightly between living things",
+          "context": "Reading Passage 2 paragraphs A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "reference to a theory that became popular with the public",
+          "context": "Reading Passage 2 paragraphs A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "input",
+          "prompt": "The SCN is able to perceive [19] as a result of connections to the eye.",
+          "context": "Summary of research into the internal 'clock'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q19",
+              "placeholder": "19"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "input",
+          "prompt": "Several years later, research involving [20] showed that the timing of their normal actions was regulated by certain [21] or 'clocks', in their cells.",
+          "context": "Summary of research into the internal 'clock'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q20",
+              "placeholder": "20"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "input",
+          "prompt": "Several years later, research involving [20] showed that the timing of their normal actions was regulated by certain [21] or 'clocks', in their cells.",
+          "context": "Summary of research into the internal 'clock'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q21",
+              "placeholder": "21"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "input",
+          "prompt": "Other scientists went on to conduct experiments in the dark that proved that a [22] was maintained by individual SCN cells.",
+          "context": "Summary of research into the internal 'clock'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q22",
+              "placeholder": "22"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number_range": [
+            23,
+            24
+          ],
+          "number": 23,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following problems are stated as being linked with the internal 'clock'?",
+          "context": "Multiple choice questions 23-24",
+          "options": [
+            "A a decrease in output in workplaces without windows to let in natural light",
+            "B a failure among workers on night-shifts to perform tasks",
+            "C an increase in casualties on the roads at specific times of day",
+            "D a decline in efficiency on certain days in a number of fixed cycles",
+            "E a rise in mood swings dependent on the appearance of the Sun"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number_range": [
+            23,
+            24
+          ],
+          "number": 24,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following problems are stated as being linked with the internal 'clock'?",
+          "context": "Multiple choice questions 23-24",
+          "options": [
+            "A a decrease in output in workplaces without windows to let in natural light",
+            "B a failure among workers on night-shifts to perform tasks",
+            "C an increase in casualties on the roads at specific times of day",
+            "D a decline in efficiency on certain days in a number of fixed cycles",
+            "E a rise in mood swings dependent on the appearance of the Sun"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number_range": [
+            25,
+            26
+          ],
+          "number": 25,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following issues relating to internal 'clocks' remain to be solved, according to information in the passage?",
+          "context": "Multiple choice questions 25-26",
+          "options": [
+            "A the precise length of the free-running daily cycle in different animals",
+            "B the reason for 'clocks' being temporarily driven out of synchronization",
+            "C the reason for living beings forming a connection with the Sun's rhythms",
+            "D the way in which all 'clocks' in a single organism are able to stay in step with one another",
+            "E the location of the 'clocks' across the whole range of living organisms"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number_range": [
+            25,
+            26
+          ],
+          "number": 26,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following issues relating to internal 'clocks' remain to be solved, according to information in the passage?",
+          "context": "Multiple choice questions 25-26",
+          "options": [
+            "A the precise length of the free-running daily cycle in different animals",
+            "B the reason for 'clocks' being temporarily driven out of synchronization",
+            "C the reason for living beings forming a connection with the Sun's rhythms",
+            "D the way in which all 'clocks' in a single organism are able to stay in step with one another",
+            "E the location of the 'clocks' across the whole range of living organisms"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Science in the kitchen",
+      "passages": [
+        {
+          "heading": "Science in the kitchen",
+          "content": "There is a recent movement in the world of food, in which chefs are collaborating with scientists to teach themselves the chemistry and physics of cuisine. Even academics are getting excited about the results. Colin Osborne of the Royal Society of Chemistry in London is enthused: 'Chefs are using unusual methods to produce exciting dishes that would be impossible without modern science,' he says.\nYou may wonder what's wrong with long-established culinary traditions. The fact is, many culturally ingrained cooking methods are less than perfect. Osborne gives the example of the common belief that frying meat seals in moisture, while researchers who weighed the meat actually found that moisture is lost in the process. Another example is the age-old technique of adding salt when boiling vegetables to raise the water's boiling point, thus cooking the vegetables faster. In fact, the amount of salt typically added does not raise the temperature significantly – or improve the flavour, since only a minuscule amount is absorbed.\nHervé This, director of the Molecular Gastronomy team at the French National Institute for Agricultural Research, spends much of his time trying to disprove culinary old wives' tales. He is empirically testing traditional beliefs about cooking and disproving the more absurd, tackling such questions as whether it's better to add vinaigrette to potato salad while the potatoes are still hot. 'The first modern chemists used kitchen equipment to do their experiments,' Hervé This explains. 'Since then, chemistry has undergone massive changes – but cooking methods have remained largely as they were in the Middle Ages.'\nIt's seriously important work, says Peter Barham, a physicist at Bristol University. 'If you understand what's going on in cooking, you'll be better equipped to improve it.' Barham contends that it's difficult to get good results from cookery books, because recipes are typically poorly written. In stark contrast, he notes, scientific papers are subject to peer review, whereby experts pore over experiments to ensure they can be accurately reproduced. Barham also collaborates with leading British chef Heston Blumenthal, proprietor of The Fat Duck, a restaurant in the south of England. The restaurant is widely regarded as one of the best in the world, serving delightfully unexpected dishes such as nitro-scrambled egg and bacon ice cream.\nWhen Simon Campbell of the Royal Society of Chemistry bestowed an honorary fellowship on Blumenthal for creative applications of science to cooking, he said: 'The scientific community admires and respects the research that Mr Blumenthal has performed to harness cuisine to science. Through his inquisitive and innovative approach to food he has underlined spectacularly how chemistry permeates all aspects of texture, taste and smell.'\nSuch restaurants are part of the movement known as 'molecular gastronomy', an expression coined by physicist Nicholas Kurti, working in collaboration with Hervé This. Kurti once quipped that it is a sad reflection that we know the temperature inside the stars better than the temperature inside a soufflé*. Kurti and Hervé This devised the expression 'molecular gastronomy' during the 1980s to denote the science of 'culinary transformations and eating phenomena' and differentiate it from food science.\n'Twenty years ago, the worlds of science and cooking were neatly compartmentalised,' agrees author Harold McGee, a top food science writer. 'There was food science: an applied science mainly concerned with understanding the materials and process of industrial manufacturing. And there was the world of domestic and restaurant cooking, traditional crafts that had never attracted much scientific attention.'\nA lot has changed in the two decades since he published his influential book on the topic. In a revised edition, McGee says the book was 'riding a rising wave of general interest in food, a wave that grew and grew, and knocked down the barriers between science and cooking, especially in the last decade. Science has found its way into the kitchen, and cooking into laboratories.'\nSo what does the future hold? Rachel Edwards-Stuart is a graduate PhD student who is studying some remarkable food additives, including modified cellulose gels that solidify on heating and melt again as they are cooled. The idea is to make dishes that develop different flavours as they are eaten. Her other project is creating drinks that change flavour. 'The concept came from... Roald Dahl's children's book Charlie and the Chocolate Factory, where Willy Wonka makes a bubble gum that is a whole meal in one sweet,' she says. Unfortunately, Edwards-Stuart was unable to say more, due to a confidentiality agreement with the restaurant for which she conducts her research.\nWhile Hervé This, Blumenthal and Edwards-Stuart are the pioneers, the next phase will be to bring science into kitchens at home. Already there are books that provide an insight into the wondrous chemistry that turns humble ingredients into cuisine. And as the movement grows it will not be long before we see laboratory test tubes, flasks and maybe the odd centrifuge on sale next to carving knives, rolling pins and pressure cookers.\n* soufflé: a French dish made using beaten eggs"
+        }
+      ],
+      "instructions": [
+        "Do the following statements agree with the claims of the writer in Reading Passage 3?",
+        "Choose the correct letter, A, B, C or D.",
+        "Complete each sentence with the correct ending, A-H, below."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "yes_no_not_given",
+          "prompt": "Scientists and chefs have a long-established history of working together.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "yes_no_not_given",
+          "prompt": "Traditional ways of cooking tend to be supported by modern scientific research.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "yes_no_not_given",
+          "prompt": "The food produced by Heston Blumenthal at The Fat Duck is unconventional.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "yes_no_not_given",
+          "prompt": "El Bulli is the most popular restaurant of its kind in Spain.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "yes_no_not_given",
+          "prompt": "McGee has plans to open his own restaurant.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "single_choice",
+          "prompt": "The purpose of Hervé This's research is to",
+          "context": "",
+          "options": [
+            "A determine how chemistry has influenced modern cooking.",
+            "B provide a scientific basis for traditional cooking methods.",
+            "C show that long-held beliefs about cooking are wrong.",
+            "D offer practical advice to those who cook at home."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "single_choice",
+          "prompt": "According to Peter Barham, one difference between cookery books and scientific papers is that",
+          "context": "",
+          "options": [
+            "A scientific papers are checked by more people.",
+            "B the writers of cookery books need not be qualified.",
+            "C the language used in scientific papers is more complicated.",
+            "D recipe writers can profit more financially than scientific writers."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "single_choice",
+          "prompt": "Nicholas Kurti referred to a soufflé in order to",
+          "context": "",
+          "options": [
+            "A give an example of a dish that can easily be ruined by excess heat.",
+            "B highlight the inadequacy of scientific research into cooking.",
+            "C show that cooking is similar to other scientific processes.",
+            "D confess his own limitations as a cook."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "single_choice",
+          "prompt": "One aspect of Rachel Edwards-Stuart's research involves",
+          "context": "",
+          "options": [
+            "A matching solid food to complementary liquids.",
+            "B determining which tastes appeal to young people.",
+            "C studying how food changes form in certain conditions.",
+            "D evaluating the risk of damage from using preservatives in food."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "matching",
+          "prompt": "Colin Osborne explains that",
+          "context": "List of Endings A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "matching",
+          "prompt": "Hervé This's research has led him to the view that",
+          "context": "List of Endings A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "matching",
+          "prompt": "Thanks to the joint effort of Nicholas Kurti and Hervé This,",
+          "context": "List of Endings A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "matching",
+          "prompt": "Food writer Harold McGee says that",
+          "context": "List of Endings A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "matching",
+          "prompt": "Rachel Edwards-Stuart gives an example of a case where",
+          "context": "List of Endings A-H",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ],
+  "meta_extra": {}
+}

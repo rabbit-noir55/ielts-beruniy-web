@@ -1,0 +1,880 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test22.html",
+    "title": "IELTS Listening Mock Test 00000",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/0000/main/55124.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "TCJ700785"
+    ],
+    "2": [
+      "Ocean"
+    ],
+    "3": [
+      "0718849923"
+    ],
+    "4": [
+      "computer"
+    ],
+    "5": [
+      "carpet"
+    ],
+    "6": [
+      "suitcase"
+    ],
+    "7": [
+      "camping"
+    ],
+    "8": [
+      "roof"
+    ],
+    "9": [
+      "window"
+    ],
+    "10": [
+      "photographs",
+      "photograph",
+      "photos",
+      "photo"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "E"
+    ],
+    "17": [
+      "G"
+    ],
+    "18": [
+      "H"
+    ],
+    "19": [
+      "F"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "C"
+    ],
+    "25": [
+      "A"
+    ],
+    "26": [
+      "G"
+    ],
+    "27": [
+      "D"
+    ],
+    "28": [
+      "B"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "F"
+    ],
+    "31": [
+      "army"
+    ],
+    "32": [
+      "safety"
+    ],
+    "33": [
+      "learning"
+    ],
+    "34": [
+      "reasons",
+      "reason"
+    ],
+    "35": [
+      "trust"
+    ],
+    "36": [
+      "writing"
+    ],
+    "37": [
+      "open"
+    ],
+    "38": [
+      "leaders",
+      "leader"
+    ],
+    "39": [
+      "training"
+    ],
+    "40": [
+      "time"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the form below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Client reference",
+          "context": "Insurance Claim Form - Client name: John Turner",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Client address",
+          "context": "23, [2] Drive, Browns Bay",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Client phone number",
+          "context": "Insurance Claim Form",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "A [4] used by the children no longer works.",
+          "context": "Inside the house",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Rain water has damaged the [5] by the door in the living room.",
+          "context": "Inside the house",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "A large [6] was affected by the water.",
+          "context": "In the garage",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Some new items of [7] equipment may need replacing.",
+          "context": "In the garage",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "A builder has already been contacted to inspect damage to the [8] of the house.",
+          "context": "Outside the house",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "The neighbour's aerial has damaged a small [9]",
+          "context": "Outside the house",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "The client has been advised to send some [10] as soon as possible.",
+          "context": "Inspection",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Choose the correct letter, A–J, next to questions 15–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "What is the main aim of the school’s new theatre?",
+          "context": "Rivermead School: facilities open to the public",
+          "options": [
+            "A. to gain an international reputation",
+            "B. to give local people access to good performances",
+            "C. to provide support for talented amateur actors"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "The first season’s theatre programme will include",
+          "context": "Rivermead School: facilities open to the public",
+          "options": [
+            "A. plays by modern writers.",
+            "B. displays by Chinese acrobats.",
+            "C. concerts performed by schoolchildren."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "Most of the theatre’s funding will come from",
+          "context": "Rivermead School: facilities open to the public",
+          "options": [
+            "A. sponsors.",
+            "B. government grants.",
+            "C. ticket sales."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "Which facility at the school is open to the public on a limited basis only?",
+          "context": "Rivermead School: facilities open to the public",
+          "options": [
+            "A. the sports hall",
+            "B. the museum",
+            "C. the cafeteria"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Theatre",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "New car park",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Bus stop",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Sports hall",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Cafeteria",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Museum",
+          "context": "Label the map below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 26–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "Edward heard about a type of mosquito net from",
+          "context": "Product development presentation: mosquito net",
+          "options": [
+            "A. an administrator.",
+            "B. a doctor.",
+            "C. a friend."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "Edward believes that mosquito nets were first used in",
+          "context": "Product development presentation: mosquito net",
+          "options": [
+            "A. China.",
+            "B. Japan.",
+            "C. Egypt."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "Chemical treatment of mosquito nets in the mid-twentieth century",
+          "context": "Product development presentation: mosquito net",
+          "options": [
+            "A. was first developed by a soldier.",
+            "B. made them potentially dangerous to users.",
+            "C. was made possible by modern textiles."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "The owners of present-day nets",
+          "context": "Product development presentation: mosquito net",
+          "options": [
+            "A. are likely to find they have an unpleasant smell.",
+            "B. should avoid using them every night.",
+            "C. may have difficulty obtaining the necessary chemical."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "According to Edward, Olyset nets are better than other nets because they",
+          "context": "Product development presentation: mosquito net",
+          "options": [
+            "A. remain effective for longer.",
+            "B. use a greater number of chemicals.",
+            "C. give protection against more types of insects."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "impact on [26]",
+          "context": "Seminar presentation - Context: need for anti-malarial products",
+          "options": [
+            "A. workforce",
+            "B. sources of funding",
+            "C. investment opportunities",
+            "D. unique features of the product",
+            "E. future developments",
+            "F. production figures",
+            "G. national economies"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "[27]",
+          "context": "Seminar presentation - Mosquito nets",
+          "options": [
+            "A. workforce",
+            "B. sources of funding",
+            "C. investment opportunities",
+            "D. unique features of the product",
+            "E. future developments",
+            "F. production figures",
+            "G. national economies"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "information about [28]",
+          "context": "Seminar presentation - Production",
+          "options": [
+            "A. workforce",
+            "B. sources of funding",
+            "C. investment opportunities",
+            "D. unique features of the product",
+            "E. future developments",
+            "F. production figures",
+            "G. national economies"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "profile of manufacturer with description of [29]",
+          "context": "Seminar presentation - Production",
+          "options": [
+            "A. workforce",
+            "B. sources of funding",
+            "C. investment opportunities",
+            "D. unique features of the product",
+            "E. future developments",
+            "F. production figures",
+            "G. national economies"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "[30] (according to website)",
+          "context": "Seminar presentation - Production",
+          "options": [
+            "A. workforce",
+            "B. sources of funding",
+            "C. investment opportunities",
+            "D. unique features of the product",
+            "E. future developments",
+            "F. production figures",
+            "G. national economies"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "Developed by the [31]",
+          "context": "After Action Review Process - Background",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "a [32] incident",
+          "context": "After Action Review Process - Benefits",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "Develops better team communication because of the emphasis on [33]",
+          "context": "After Action Review Process - Benefits",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "concentrates on results and the [34] for them",
+          "context": "After Action Review Process - What is an After Action Review?",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "stresses the need to [35] each other",
+          "context": "After Action Review Process - What is an After Action Review?",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "To encourage participation, get the group’s thoughts in [36]",
+          "context": "After Action Review Process - Things to remember when conducting an After Action Review",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Remember to use [37] questions",
+          "context": "After Action Review Process - Things to remember when conducting an After Action Review",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Give any recommendations to other team [38]",
+          "context": "After Action Review Process - Things to remember when conducting an After Action Review",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Make sure you follow up on ideas and provide [39] for employees",
+          "context": "After Action Review Process - Things to remember when conducting an After Action Review",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Remember to check the [40] often",
+          "context": "After Action Review Process - Things to remember when conducting an After Action Review",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

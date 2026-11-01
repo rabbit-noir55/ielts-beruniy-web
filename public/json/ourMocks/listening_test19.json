@@ -1,0 +1,772 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test19.html",
+    "title": "IELTS Listening Mock Test 5987",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/audio5987/main/mix_22m22s%2B(audio-joiner.com)%2B(2).mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "radio"
+    ],
+    "2": [
+      "LS142JW",
+      "LS14 2JW"
+    ],
+    "3": [
+      "hennings.co.uk",
+      "hennings"
+    ],
+    "4": [
+      "2",
+      "two"
+    ],
+    "5": [
+      "joint"
+    ],
+    "6": [
+      "49",
+      "£49"
+    ],
+    "7": [
+      "The Union Bank",
+      "Union Bank"
+    ],
+    "8": [
+      "15 October",
+      "October 15",
+      "15th October"
+    ],
+    "9": [
+      "JYZ37"
+    ],
+    "10": [
+      "video"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "D"
+    ],
+    "19": [
+      "C"
+    ],
+    "20": [
+      "E"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "E"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "F"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "salts",
+      "salt"
+    ],
+    "32": [
+      "hospitals",
+      "hospital"
+    ],
+    "33": [
+      "slow"
+    ],
+    "34": [
+      "Health International"
+    ],
+    "35": [
+      "9",
+      "9 litres",
+      "9 liters"
+    ],
+    "36": [
+      "family"
+    ],
+    "37": [
+      "glass"
+    ],
+    "38": [
+      "12.5"
+    ],
+    "39": [
+      "germs",
+      "germ"
+    ],
+    "40": [
+      "collection tank",
+      "tank"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Wildlife Conservation Society Application for membership",
+      "passages": [],
+      "instructions": [
+        "Complete the form below.",
+        "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Heard of WCS from",
+          "context": "Wildlife Conservation Society Application for membership",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Postcode",
+          "context": "Wildlife Conservation Society Application for membership",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Email address",
+          "context": "Wildlife Conservation Society Application for membership, mj@",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Length of membership",
+          "context": "Wildlife Conservation Society Application for membership",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Type of membership",
+          "context": "Wildlife Conservation Society Application for membership",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Fee",
+          "context": "Wildlife Conservation Society Application for membership, £",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Name of bank",
+          "context": "Wildlife Conservation Society Application for membership",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Date of first payment",
+          "context": "Wildlife Conservation Society Application for membership",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Reference number",
+          "context": "Wildlife Conservation Society Application for membership",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Other requests",
+          "context": "Wildlife Conservation Society Application for membership, – extra information pack",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Moving Office",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Choose TWO letters, A–E."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "What reason does the manager give for moving to a new office building?",
+          "context": "Moving Office",
+          "options": [
+            "to have more space",
+            "to pay less rent",
+            "to be in a central location"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "What is best about the new office building?",
+          "context": "Moving Office",
+          "options": [
+            "the air-conditioning system",
+            "the amount of natural light",
+            "the low level of noise"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "When will the office move take place?",
+          "context": "Moving Office",
+          "options": [
+            "after the sales conference",
+            "after the end of the tax year",
+            "after the annual holiday period"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "What information about the new location is already on the company website?",
+          "context": "Moving Office",
+          "options": [
+            "where to park",
+            "places to eat",
+            "public transport"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "What practical thing must staff do now?",
+          "context": "Moving Office",
+          "options": [
+            "give details of damaged furniture",
+            "throw away unnecessary papers",
+            "take home personal items"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "Staff will need to put folders containing confidential details",
+          "context": "Moving Office",
+          "options": [
+            "into packing boxes",
+            "into grey plastic bags",
+            "into new filing cabinets"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number_range": [
+            17,
+            18
+          ],
+          "number": 17,
+          "type": "multiple_choice",
+          "prompt": "Which TWO things do people often forget when lifting heavy things?",
+          "context": "Moving Office",
+          "options": [
+            "keep your head up",
+            "don't bend your back",
+            "don't lean to one side",
+            "use handles",
+            "stand with feet apart"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number_range": [
+            17,
+            18
+          ],
+          "number": 18,
+          "type": "multiple_choice",
+          "prompt": "Which TWO things do people often forget when lifting heavy things?",
+          "context": "Moving Office",
+          "options": [
+            "keep your head up",
+            "don't bend your back",
+            "don't lean to one side",
+            "use handles",
+            "stand with feet apart"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number_range": [
+            19,
+            20
+          ],
+          "number": 19,
+          "type": "multiple_choice",
+          "prompt": "Which TWO things should staff do when moving papers?",
+          "context": "Moving Office",
+          "options": [
+            "wear a face mask",
+            "open windows",
+            "wear gloves",
+            "take frequent breaks",
+            "drink plenty of water"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number_range": [
+            19,
+            20
+          ],
+          "number": 20,
+          "type": "multiple_choice",
+          "prompt": "Which TWO things should staff do when moving papers?",
+          "context": "Moving Office",
+          "options": [
+            "wear a face mask",
+            "open windows",
+            "wear gloves",
+            "take frequent breaks",
+            "drink plenty of water"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "The artist Samuel Prout",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Match the information for each picture.",
+        "Choose FIVE answers from the box and drag the correct letter, A–G, next to questions 26–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "According to Jack, why did Samuel Prout never become very famous?",
+          "context": "The artist Samuel Prout",
+          "options": [
+            "His output was very limited.",
+            "He was seen as old-fashioned.",
+            "His work never had a major exhibition."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "Dr Rubin and Jack agree that many of Prout’s problems were caused by",
+          "context": "The artist Samuel Prout",
+          "options": [
+            "poor health.",
+            "jealous colleagues.",
+            "an unhappy marriage."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "How did Prout learn to paint?",
+          "context": "The artist Samuel Prout",
+          "options": [
+            "His father taught him.",
+            "He went to art school.",
+            "He copied pictures."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "What point does Jack make about Prout’s style?",
+          "context": "The artist Samuel Prout",
+          "options": [
+            "Prout used different styles simultaneously",
+            "Many other artists had a similar style",
+            "Prout’s style developed throughout his career"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "What did John Ruskin admire about Prout’s paintings?",
+          "context": "The artist Samuel Prout",
+          "options": [
+            "their realism",
+            "their representation of buildings",
+            "their wide range of subject matter"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "A view in Germany: At Wurzburg",
+          "context": "Pictures matching",
+          "options": [
+            "A: one of several paintings of the same view",
+            "B: probably an inaccurate title",
+            "C: may not be genuine",
+            "D: was never finished",
+            "E: typical subject matter for Prout",
+            "F: skilful painting of light and dark",
+            "G: shows an event that never took place"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "Bridge on the Ouse, near York",
+          "context": "Pictures matching",
+          "options": [
+            "A: one of several paintings of the same view",
+            "B: probably an inaccurate title",
+            "C: may not be genuine",
+            "D: was never finished",
+            "E: typical subject matter for Prout",
+            "F: skilful painting of light and dark",
+            "G: shows an event that never took place"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "Woodland scene",
+          "context": "Pictures matching",
+          "options": [
+            "A: one of several paintings of the same view",
+            "B: probably an inaccurate title",
+            "C: may not be genuine",
+            "D: was never finished",
+            "E: typical subject matter for Prout",
+            "F: skilful painting of light and dark",
+            "G: shows an event that never took place"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Venice",
+          "context": "Pictures matching",
+          "options": [
+            "A: one of several paintings of the same view",
+            "B: probably an inaccurate title",
+            "C: may not be genuine",
+            "D: was never finished",
+            "E: typical subject matter for Prout",
+            "F: skilful painting of light and dark",
+            "G: shows an event that never took place"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "Entrance to a harbour",
+          "context": "Pictures matching",
+          "options": [
+            "A: one of several paintings of the same view",
+            "B: probably an inaccurate title",
+            "C: may not be genuine",
+            "D: was never finished",
+            "E: typical subject matter for Prout",
+            "F: skilful painting of light and dark",
+            "G: shows an event that never took place"
+          ],
+          "inputs": [],
+          "constraint": "Choose FIVE answers from the box",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Solar Water Purifier (SW40)",
+      "passages": [],
+      "instructions": [
+        "Complete the sentences below.",
+        "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+        "Label the diagram below."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "High levels of [...] make bore water unsafe to drink.",
+          "context": "Solar Water Purifier (SW40)",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "The SW40 produces water that is so pure it can be used in [...]",
+          "context": "Solar Water Purifier (SW40)",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "One problem with the present method of production of the SW40 is that it is quite [...]",
+          "context": "Solar Water Purifier (SW40)",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "The speaker hopes to acquire financial support from an agency called “[...]”",
+          "context": "Solar Water Purifier (SW40)",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "The SW40 has a maximum output of [...] on a sunny day.",
+          "context": "Solar Water Purifier (SW40)",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "Each SW40 produces enough water for a [...]",
+          "context": "Solar Water Purifier (SW40)",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "lid made of [...]",
+          "context": "Cross-section of SW40 solar water purifier",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "best inclined at angle [...]°",
+          "context": "Cross-section of SW40 solar water purifier",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "UV light destroys [...]",
+          "context": "Cross-section of SW40 solar water purifier",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "water [...] containing pure water",
+          "context": "Cross-section of SW40 solar water purifier",
+          "options": [],
+          "inputs": [],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

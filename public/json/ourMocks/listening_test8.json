@@ -1,0 +1,860 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test8.html",
+    "title": "IELTS Listening Mock Test 8",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/audio-test-8/main/30812.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "1803"
+    ],
+    "2": [
+      "furniture"
+    ],
+    "3": [
+      "library"
+    ],
+    "4": [
+      "school"
+    ],
+    "5": [
+      "bank"
+    ],
+    "6": [
+      "electricity"
+    ],
+    "7": [
+      "market"
+    ],
+    "8": [
+      "dinner"
+    ],
+    "9": [
+      "Barrett"
+    ],
+    "10": [
+      "5297238126"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "C"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "E"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "B"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "D"
+    ],
+    "21": [
+      "D"
+    ],
+    "22": [
+      "G"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "F"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "B"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "fresh"
+    ],
+    "32": [
+      "variety"
+    ],
+    "33": [
+      "communication"
+    ],
+    "34": [
+      "sleep"
+    ],
+    "35": [
+      "water"
+    ],
+    "36": [
+      "tools"
+    ],
+    "37": [
+      "instructions"
+    ],
+    "38": [
+      "testing"
+    ],
+    "39": [
+      "accent"
+    ],
+    "40": [
+      "safety"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 1–10.",
+        "Complete the notes below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "The town dates back at least to",
+          "context": "Barrington Historical Buildings Tours. History of the town.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "It originally had a flour mill and also made",
+          "context": "Barrington Historical Buildings Tours. History of the town.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "the old Town Hall (1841) – now a",
+          "context": "Barrington Historical Buildings Tours. Tours include visits to.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "the first",
+          "context": "Barrington Historical Buildings Tours. Tours include visits to built in 1882.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Cornell House – originally a private house, now a",
+          "context": "Barrington Historical Buildings Tours. Tours include visits to.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "a Quaker farm (still run without the use of",
+          "context": "Barrington Historical Buildings Tours. Tours include visits to.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "There will be a",
+          "context": "Barrington Historical Buildings Tours. Other attractions. in the main square",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Saturday evening:",
+          "context": "Barrington Historical Buildings Tours. Other attractions. by candlelight",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Lodge",
+          "context": "Barrington Historical Buildings Tours. Accommodation.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "phone",
+          "context": "Barrington Historical Buildings Tours. Accommodation. Lodge",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 11–20.",
+        "Choose the correct letter, A, B or C.",
+        "Label the map below.",
+        "Choose the correct letter, A–H, next to questions 16–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "The Silverton family arrived in the Bunna Bunna area in",
+          "context": "Buying holiday accommodation",
+          "options": [
+            "A. 1904.",
+            "B. 1907.",
+            "C. 1911."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "The Bunna Bunna National Park is famous for its",
+          "context": "Buying holiday accommodation",
+          "options": [
+            "A. trees.",
+            "B. waterfalls.",
+            "C. birds."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "What does the speaker say makes the villas special?",
+          "context": "Buying holiday accommodation",
+          "options": [
+            "A. There are a limited number of them.",
+            "B. They were designed by a famous architect.",
+            "C. They were the first in the area to use solar energy."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "If you pay extra money, the resort managers will",
+          "context": "Buying holiday accommodation",
+          "options": [
+            "A. maintain the gardens.",
+            "B. rent out your villa for you.",
+            "C. check your villa regularly."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "All Type B villas have",
+          "context": "Buying holiday accommodation",
+          "options": [
+            "A. two levels.",
+            "B. three bathrooms.",
+            "C. four bedrooms."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "art gallery",
+          "context": "Label the map below. Map of Silverton Resort.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "single_choice",
+          "prompt": "day spa",
+          "context": "Label the map below. Map of Silverton Resort.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "single_choice",
+          "prompt": "restaurant",
+          "context": "Label the map below. Map of Silverton Resort.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "single_choice",
+          "prompt": "hotel",
+          "context": "Label the map below. Map of Silverton Resort.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "single_choice",
+          "prompt": "play area",
+          "context": "Label the map below. Map of Silverton Resort.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 21–30.",
+        "What special feature will each of the following autonomous underwater vehicles (AUVs) have?",
+        "Choose FOUR answers from the box and drag the correct letter, A–G, next to questions 21–24.",
+        "Choose the correct letter, A, B or C."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "S83",
+          "context": "Autonomous Underwater Vehicles (AUVs)",
+          "options": [
+            "A: can stay in one place underwater",
+            "B: has a special shape",
+            "C: is made from special strong material",
+            "D: moves well over rough terrain",
+            "E: operates best in very deep water",
+            "F: senses dangers under the seabed",
+            "G: uses solar energy"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "matching",
+          "prompt": "Sea Explorer",
+          "context": "Autonomous Underwater Vehicles (AUVs)",
+          "options": [
+            "A: can stay in one place underwater",
+            "B: has a special shape",
+            "C: is made from special strong material",
+            "D: moves well over rough terrain",
+            "E: operates best in very deep water",
+            "F: senses dangers under the seabed",
+            "G: uses solar energy"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "matching",
+          "prompt": "Wave Rider",
+          "context": "Autonomous Underwater Vehicles (AUVs)",
+          "options": [
+            "A: can stay in one place underwater",
+            "B: has a special shape",
+            "C: is made from special strong material",
+            "D: moves well over rough terrain",
+            "E: operates best in very deep water",
+            "F: senses dangers under the seabed",
+            "G: uses solar energy"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "matching",
+          "prompt": "T602",
+          "context": "Autonomous Underwater Vehicles (AUVs)",
+          "options": [
+            "A: can stay in one place underwater",
+            "B: has a special shape",
+            "C: is made from special strong material",
+            "D: moves well over rough terrain",
+            "E: operates best in very deep water",
+            "F: senses dangers under the seabed",
+            "G: uses solar energy"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "The students agree that scientists’ choice of underwater vehicle depends on",
+          "context": "",
+          "options": [
+            "A. the water conditions.",
+            "B. the project’s budget.",
+            "C. the data required."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "single_choice",
+          "prompt": "Where did scientists think the oil off the Californian coast had come from?",
+          "context": "",
+          "options": [
+            "A. a tanker",
+            "B. vehicles on land",
+            "C. fishing boats"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "single_choice",
+          "prompt": "Why was the underwater vehicle known as ‘Alvin’ chosen to investigate the oil?",
+          "context": "",
+          "options": [
+            "A. It was the most advanced vehicle at the time.",
+            "B. It was able to take photos of the seabed.",
+            "C. It was designed specifically for coastal sea conditions."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "single_choice",
+          "prompt": "Scientists were able to use Alvin’s samples to analyse",
+          "context": "",
+          "options": [
+            "A. how long oil would stay in the seabed.",
+            "B. how much oil there was in the seabed.",
+            "C. the chemicals in the oil found in the seabed."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "single_choice",
+          "prompt": "Assessing the effect of oil on sea animals is difficult because",
+          "context": "",
+          "options": [
+            "A. oil can be complex and unpredictable.",
+            "B. we still can’t access certain underwater areas.",
+            "C. there are so many different species of sea animal."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "single_choice",
+          "prompt": "Scientists like studying natural oil seeps because these seeps",
+          "context": "",
+          "options": [
+            "A. show us how animals change to suit their environment.",
+            "B. tend to be concentrated in one specific area.",
+            "C. don’t require as much equipment or special clothing."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Listen and answer questions 31–40.",
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "The air smelt",
+          "context": "Life on the International Space Station. Early impressions.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "The food had enough",
+          "context": "Life on the International Space Station. Early impressions.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "was efficient",
+          "context": "Life on the International Space Station. Early impressions.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "Difficulties with air filters caused lack of",
+          "context": "Life on the International Space Station. Problems.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Systems were incompatible – e.g. there were problems when mixing",
+          "context": "Life on the International Space Station. Problems. because of the preservatives",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "The",
+          "context": "Life on the International Space Station. Problems. available were not always suitable for their purpose",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "It was difficult to access the",
+          "context": "Life on the International Space Station. Problems. for equipment maintenance",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Systems and equipment should undergo more extensive",
+          "context": "Life on the International Space Station. Suggested improvements.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "In language training, astronauts needed practice in understanding the controller’s",
+          "context": "Life on the International Space Station. Suggested improvements.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "There should be less emphasis on",
+          "context": "Life on the International Space Station. Suggested improvements. and more on other issues",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

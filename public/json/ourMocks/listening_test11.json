@@ -1,0 +1,841 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test11.html",
+    "title": "IELTS Listening Mock Test 3",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/mock-audio/main/30671%20(1).mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "southeast/south east/south-east"
+    ],
+    "2": [
+      "washing machine"
+    ],
+    "3": [
+      "15 May/May 15/15th May/15 may"
+    ],
+    "4": [
+      "employer"
+    ],
+    "5": [
+      "675/£675"
+    ],
+    "6": [
+      "translator"
+    ],
+    "7": [
+      "bank statement"
+    ],
+    "8": [
+      "Ainsworth"
+    ],
+    "9": [
+      "telephone"
+    ],
+    "10": [
+      "bus stop"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "E"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "A"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "B"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "C"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "G"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "E"
+    ],
+    "30": [
+      "F"
+    ],
+    "31": [
+      "confidence"
+    ],
+    "32": [
+      "risks"
+    ],
+    "33": [
+      "listening"
+    ],
+    "34": [
+      "responsible"
+    ],
+    "35": [
+      "therapy"
+    ],
+    "36": [
+      "safe"
+    ],
+    "37": [
+      "morality"
+    ],
+    "38": [
+      "participation"
+    ],
+    "39": [
+      "remember"
+    ],
+    "40": [
+      "problems"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Preferred location",
+          "context": "Type of accommodation: a house",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Facilities required: furnished property with a [2]",
+          "context": "Facilities required",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Start date of rental period",
+          "context": "Start date of rental period",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Reference from her [4]",
+          "context": "Reference from her",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Maximum rent: 5 £[5] per month",
+          "context": "Maximum rent",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Applicant's job",
+          "context": "Applicant's job",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Credit check: a [7]",
+          "context": "Credit check",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Address of property: 33, [8] Street",
+          "context": "Address of property",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Is there a [9] in the house?",
+          "context": "To check",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Is there a [10] nearby?",
+          "context": "To check",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Choose TWO letters, A–E."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "Which natural feature of Green Island is special?",
+          "context": "Green Island Nature Park",
+          "options": [
+            "A. The water",
+            "B. The birds",
+            "C. The fish"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "Who started the nature park?",
+          "context": "Green Island Nature Park",
+          "options": [
+            "A. Mitchell Cullen",
+            "B. Churchill Peters",
+            "C. Joseph Turia"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "multiple_choice",
+          "prompt": "Which TWO conditions are best for seeing fish?",
+          "context": "Which TWO conditions are best for seeing fish?",
+          "options": [
+            "A. Summer days",
+            "B. No wind",
+            "C. Early morning",
+            "D. High tide",
+            "E. No rain for one week"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "multiple_choice",
+          "prompt": "Which TWO conditions are best for seeing fish?",
+          "context": "Which TWO conditions are best for seeing fish?",
+          "options": [
+            "A. Summer days",
+            "B. No wind",
+            "C. Early morning",
+            "D. High tide",
+            "E. No rain for one week"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A–E.",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "play games on the beach",
+          "context": "What are the rules for the following activities in the nature park? Choose the correct letter, A, B or C, next to questions 15–20.\nA: Visitors can always do this\nB: Visitors can sometimes do this\nC: Visitors must not do this",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "feed the fish",
+          "context": "What are the rules for the following activities in the nature park? Choose the correct letter, A, B or C, next to questions 15–20.\nA: Visitors can always do this\nB: Visitors can sometimes do this\nC: Visitors must not do this",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "single_choice",
+          "prompt": "touch the fish on purpose",
+          "context": "What are the rules for the following activities in the nature park? Choose the correct letter, A, B or C, next to questions 15–20.\nA: Visitors can always do this\nB: Visitors can sometimes do this\nC: Visitors must not do this",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "single_choice",
+          "prompt": "take photographs underwater",
+          "context": "What are the rules for the following activities in the nature park? Choose the correct letter, A, B or C, next to questions 15–20.\nA: Visitors can always do this\nB: Visitors can sometimes do this\nC: Visitors must not do this",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "single_choice",
+          "prompt": "climb on Green Island",
+          "context": "What are the rules for the following activities in the nature park? Choose the correct letter, A, B or C, next to questions 15–20.\nA: Visitors can always do this\nB: Visitors can sometimes do this\nC: Visitors must not do this",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "single_choice",
+          "prompt": "use a private boat",
+          "context": "What are the rules for the following activities in the nature park? Choose the correct letter, A, B or C, next to questions 15–20.\nA: Visitors can always do this\nB: Visitors can sometimes do this\nC: Visitors must not do this",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "What comments do Mike and Sarah make about each of the following sections of the presentation? Choose SIX answers from the box and drag the correct letter, A–G, next to questions 25–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "The lecturer likes the topic because",
+          "context": "",
+          "options": [
+            "A. it links to a previous research topic.",
+            "B. the whole class will be interested in it.",
+            "C. there is plenty of information to write about."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "When talking about their teenage years, participants in a study were asked to say",
+          "context": "",
+          "options": [
+            "A. how often they listened to music",
+            "B. who some music reminded them of",
+            "C. whether their musical tastes had changed"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "The study is important because it is the first to",
+          "context": "",
+          "options": [
+            "A. involve so many participants.",
+            "B. do research into this topic area.",
+            "C. show a link between music and social class."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "Sarah doubts the findings of the study because she thinks",
+          "context": "",
+          "options": [
+            "A. the research was rushed.",
+            "B. some people wouldn’t fit the findings.",
+            "C. the information given may not be reliable."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "matching",
+          "prompt": "Background to the study",
+          "context": "What comments do Mike and Sarah make about each of the following sections of the presentation? Choose SIX answers from the box and drag the correct letter, A–G, next to questions 25–30.",
+          "options": [
+            "A. the information is inaccurate",
+            "B. not interesting enough",
+            "C. too detailed",
+            "D. the statistics are incomplete",
+            "E. need more expert opinions",
+            "F. need to make it more relevant",
+            "G. present both sides"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–G.",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "matching",
+          "prompt": "Other similar research",
+          "context": "What comments do Mike and Sarah make about each of the following sections of the presentation? Choose SIX answers from the box and drag the correct letter, A–G, next to questions 25–30.",
+          "options": [
+            "A. the information is inaccurate",
+            "B. not interesting enough",
+            "C. too detailed",
+            "D. the statistics are incomplete",
+            "E. need more expert opinions",
+            "F. need to make it more relevant",
+            "G. present both sides"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–G.",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "Findings",
+          "context": "What comments do Mike and Sarah make about each of the following sections of the presentation? Choose SIX answers from the box and drag the correct letter, A–G, next to questions 25–30.",
+          "options": [
+            "A. the information is inaccurate",
+            "B. not interesting enough",
+            "C. too detailed",
+            "D. the statistics are incomplete",
+            "E. need more expert opinions",
+            "F. need to make it more relevant",
+            "G. present both sides"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–G.",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "Market research",
+          "context": "What comments do Mike and Sarah make about each of the following sections of the presentation? Choose SIX answers from the box and drag the correct letter, A–G, next to questions 25–30.",
+          "options": [
+            "A. the information is inaccurate",
+            "B. not interesting enough",
+            "C. too detailed",
+            "D. the statistics are incomplete",
+            "E. need more expert opinions",
+            "F. need to make it more relevant",
+            "G. present both sides"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–G.",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Limitations of the research",
+          "context": "What comments do Mike and Sarah make about each of the following sections of the presentation? Choose SIX answers from the box and drag the correct letter, A–G, next to questions 25–30.",
+          "options": [
+            "A. the information is inaccurate",
+            "B. not interesting enough",
+            "C. too detailed",
+            "D. the statistics are incomplete",
+            "E. need more expert opinions",
+            "F. need to make it more relevant",
+            "G. present both sides"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–G.",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "Future research",
+          "context": "What comments do Mike and Sarah make about each of the following sections of the presentation? Choose SIX answers from the box and drag the correct letter, A–G, next to questions 25–30.",
+          "options": [
+            "A. the information is inaccurate",
+            "B. not interesting enough",
+            "C. too detailed",
+            "D. the statistics are incomplete",
+            "E. need more expert opinions",
+            "F. need to make it more relevant",
+            "G. present both sides"
+          ],
+          "inputs": [],
+          "constraint": "Choose SIX answers from the box and drag the correct letter, A–G.",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "firstly, group participation develops [31] in their own ideas",
+          "context": "Drama helps children’s personal development",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "unscripted, imaginative activities allow children to take [32]",
+          "context": "Drama helps children’s personal development",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "also, working as a group teaches the importance of [33] to others",
+          "context": "Drama helps children’s personal development",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "performance makes children [34] for their learning and behavior.",
+          "context": "Drama helps children’s personal development",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "to function as a form of [35] for children experiencing difficulties.",
+          "context": "The value of role play in the classroom",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "to explore controversial subjects with a class in a [36] environment",
+          "context": "The value of role play in the classroom",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "to develop children’s self-knowledge and understanding of [37]",
+          "context": "The value of role play in the classroom",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "drama activities increase children’s [38] class.",
+          "context": "How drama improves the process of history learning",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "make it easier for children to [39] and understand historical events.",
+          "context": "How drama improves the process of history learning",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "find answer to [40] in history to see why certain decisions were made.",
+          "context": "How drama improves the process of history learning",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,897 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test1.html",
+    "title": "IELTS Listening Mock Test 54768",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/listening/main/5476888888888.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "14th",
+      "14",
+      "fourteenth"
+    ],
+    "2": [
+      "835"
+    ],
+    "3": [
+      "school"
+    ],
+    "4": [
+      "deck"
+    ],
+    "5": [
+      "river"
+    ],
+    "6": [
+      "towels"
+    ],
+    "7": [
+      "garage"
+    ],
+    "8": [
+      "Chinese"
+    ],
+    "9": [
+      "200"
+    ],
+    "10": [
+      "July"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "F"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "H"
+    ],
+    "19": [
+      "G"
+    ],
+    "20": [
+      "I"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "G"
+    ],
+    "28": [
+      "E"
+    ],
+    "29": [
+      "D"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "wool"
+    ],
+    "32": [
+      "bird"
+    ],
+    "33": [
+      "rain"
+    ],
+    "34": [
+      "desert"
+    ],
+    "35": [
+      "prison"
+    ],
+    "36": [
+      "clothing"
+    ],
+    "37": [
+      "family"
+    ],
+    "38": [
+      "rainbow"
+    ],
+    "39": [
+      "snake"
+    ],
+    "40": [
+      "carpet"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Available for week beginning",
+          "context": "Aster Cottage",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1",
+              "placeholder": "1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Cost for the week: $",
+          "context": "Aster Cottage",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2",
+              "placeholder": "2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Part of a building that was first used as a",
+          "context": "Periwinkle Cottage",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3",
+              "placeholder": "3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "The living room leads out to the",
+          "context": "Periwinkle Cottage",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4",
+              "placeholder": "4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "View of the",
+          "context": "Periwinkle Cottage from the bedroom",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5",
+              "placeholder": "5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Bring your own",
+          "context": "Periwinkle Cottage",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6",
+              "placeholder": "6"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Doesn't have a",
+          "context": "Periwinkle Cottage",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "The owner recommends the",
+          "context": "The town restaurant",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Deposit: $",
+          "context": "Payment",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Deadline for final payment: final day of",
+          "context": "Payment",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Label the map below. Write the correct letter, A–I, next to questions 15–20."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "On the day of the race the speaker recommends parking",
+          "context": "Bridge to Brisbane Fun Run",
+          "options": [
+            "in the sports ground.",
+            "by the river.",
+            "in the shopping centre."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "The timing chip should be attached to",
+          "context": "Bridge to Brisbane Fun Run",
+          "options": [
+            "the shirt or singlet.",
+            "a shoe.",
+            "the wristband."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "single_choice",
+          "prompt": "Which group will run first?",
+          "context": "Bridge to Brisbane Fun Run",
+          "options": [
+            "yellow",
+            "red",
+            "purple"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "single_choice",
+          "prompt": "The race organisers still need to find volunteers to help with",
+          "context": "Bridge to Brisbane Fun Run",
+          "options": [
+            "giving first aid.",
+            "handing out water.",
+            "starting the race."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "input",
+          "prompt": "Stage",
+          "context": "Map labelling",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            {
+              "id": "q15",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "input",
+          "prompt": "T-shirt Stand",
+          "context": "Map labelling",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            {
+              "id": "q16",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "input",
+          "prompt": "Bag Collection Area",
+          "context": "Map labelling",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            {
+              "id": "q17",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "input",
+          "prompt": "Information Centre",
+          "context": "Map labelling",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            {
+              "id": "q18",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "input",
+          "prompt": "Prize Draw Box",
+          "context": "Map labelling",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            {
+              "id": "q19",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "input",
+          "prompt": "Water Station",
+          "context": "Map labelling",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            {
+              "id": "q20",
+              "placeholder": "A–I"
+            }
+          ],
+          "constraint": "Write the correct letter, A–I",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "What opinion is expressed about each of the following books? Choose FOUR answers from the box and drag the correct letter, A–G, next to questions 27–30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "What does Dr Owen advise Joel to include in the title of his project?",
+          "context": "Farmers' attitudes to new developments in agriculture",
+          "options": [
+            "the location of the farms",
+            "the number of farmers",
+            "the types of farming"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "Why has Joel decided to do face-to-face interviews?",
+          "context": "Farmers' attitudes to new developments in agriculture",
+          "options": [
+            "to see the farmers' workplaces",
+            "to limit the time he spends on the project",
+            "to get fuller answers"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "Joel agrees to investigate how farmers get information on new developments",
+          "context": "Farmers' attitudes to new developments in agriculture",
+          "options": [
+            "by showing them a series of pictures.",
+            "by asking them open questions.",
+            "by sending them a checklist in advance."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "Concerning government communication with farmers, the speakers agree that",
+          "context": "Farmers' attitudes to new developments in agriculture",
+          "options": [
+            "much of it is irrelevant.",
+            "it is often insufficient for farmers' needs.",
+            "the wording is sometimes unclear."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "single_choice",
+          "prompt": "According to Joel's reading about the cost of making changes, many British farmers",
+          "context": "Farmers' attitudes to new developments in agriculture",
+          "options": [
+            "leave investment decisions to their accountants.",
+            "have too little time to calculate the costs of new methods.",
+            "are reluctant to spend money on improvements."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "single_choice",
+          "prompt": "A survey of Australian sheep farmers found that most of them",
+          "context": "Farmers' attitudes to new developments in agriculture",
+          "options": [
+            "are usually reluctant to make changes.",
+            "make changes based on limited research.",
+            "want plenty of evidence before they make changes."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "matching",
+          "prompt": "Contemporary Farming Manual",
+          "context": "What opinion is expressed about each of the following books?",
+          "options": [
+            "A. It's badly organised.",
+            "B. It's out of date.",
+            "C. It's clear.",
+            "D. It's essential reading.",
+            "E. It's inaccurate.",
+            "F. It's well illustrated.",
+            "G. It's boring."
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "matching",
+          "prompt": "Running a Small Farm",
+          "context": "What opinion is expressed about each of the following books?",
+          "options": [
+            "A. It's badly organised.",
+            "B. It's out of date.",
+            "C. It's clear.",
+            "D. It's essential reading.",
+            "E. It's inaccurate.",
+            "F. It's well illustrated.",
+            "G. It's boring."
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "matching",
+          "prompt": "Agriculture and Economics",
+          "context": "What opinion is expressed about each of the following books?",
+          "options": [
+            "A. It's badly organised.",
+            "B. It's out of date.",
+            "C. It's clear.",
+            "D. It's essential reading.",
+            "E. It's inaccurate.",
+            "F. It's well illustrated.",
+            "G. It's boring."
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "matching",
+          "prompt": "How to Survive in Farming",
+          "context": "What opinion is expressed about each of the following books?",
+          "options": [
+            "A. It's badly organised.",
+            "B. It's out of date.",
+            "C. It's clear.",
+            "D. It's essential reading.",
+            "E. It's inaccurate.",
+            "F. It's well illustrated.",
+            "G. It's boring."
+          ],
+          "inputs": [],
+          "constraint": "Choose FOUR answers from the box and drag the correct letter, A–G",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "Initially, artists produced rugs made from",
+          "context": "Ernabella Arts Centre",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "Early designs included",
+          "context": "Tiwi Designs images",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "Designs are linked to traditional beliefs, e.g. some designs are believed to bring",
+          "context": "Tiwi Designs",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "placeholder": "33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "Inspired by the Australian landscape, especially the",
+          "context": "Jimmy Pike",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "placeholder": "34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Started creating art when he was in",
+          "context": "Jimmy Pike",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "His textiles were used to make",
+          "context": "Jimmy Pike",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Her work is a modern look at",
+          "context": "Bronwyn Bancroft and nature",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "1995 – painted a successful Aboriginal athlete's jeans with lizards and a",
+          "context": "Bronwyn Bancroft",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "2001 – designed a 'Journey of a Nation' parade outfit with part of a",
+          "context": "Bronwyn Bancroft on it",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Exploiting Aboriginal imagery affects the artists and the cultural group, e.g. 'The",
+          "context": "Copyright Issues Case'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

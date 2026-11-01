@@ -1,0 +1,885 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test3.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "FALSE"
+    ],
+    "2": [
+      "NOT GIVEN"
+    ],
+    "3": [
+      "FALSE"
+    ],
+    "4": [
+      "TRUE"
+    ],
+    "5": [
+      "TRUE"
+    ],
+    "6": [
+      "FALSE"
+    ],
+    "7": [
+      "water"
+    ],
+    "8": [
+      "cyclones"
+    ],
+    "9": [
+      "farming"
+    ],
+    "10": [
+      "logging"
+    ],
+    "11": [
+      "animals"
+    ],
+    "12": [
+      "maps"
+    ],
+    "13": [
+      "book"
+    ],
+    "14": [
+      "iv"
+    ],
+    "15": [
+      "iii"
+    ],
+    "16": [
+      "vi"
+    ],
+    "17": [
+      "ii"
+    ],
+    "18": [
+      "v"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "D"
+    ],
+    "21": [
+      "D"
+    ],
+    "22": [
+      "I"
+    ],
+    "23": [
+      "F"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "J"
+    ],
+    "26": [
+      "H"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "B"
+    ],
+    "29": [
+      "D"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "B"
+    ],
+    "32": [
+      "made of wood"
+    ],
+    "33": [
+      "hospitality"
+    ],
+    "34": [
+      "wealth"
+    ],
+    "35": [
+      "expensive commodity"
+    ],
+    "36": [
+      "classical"
+    ],
+    "37": [
+      "furniture and textiles"
+    ],
+    "38": [
+      "Edwin Lutyens"
+    ],
+    "39": [
+      "foreign architects"
+    ],
+    "40": [
+      "local government authorities"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "The Baobabs of Madagascar",
+      "passages": [
+        "The island of Madagascar in the Indian Ocean is the best place in the world to see baobabs. These spectacular trees, with their massive trunks and distinctive horizontal root-like branches, can live over 800 years. Of the eight known species, six are found only there, while a seventh has made its way across the Mozambique Channel from mainland Africa with a certain amount of human help. Some of the most visited and photographed baobabs in Madagascar are at the Avenue des Baobabs in the western province of Menabe, close to the town of Morondava. There, a dozen trees straddle a narrow sandy road, soaring 30 metres into the sky. Known as renala – 'mother of the forest' – in the local Malagasy language, these trees belong to the tallest baobab species in the world: Adansonia grandidieri, named after two great 19th-century French botanists, Michel Adanson and Alfred Grandidier.",
+        "Baobabs have religious and spiritual significance for many Malagasy tribes, although the majority of the island's population will probably never see one — they only grow along the western margin of the island and not in the more populous central highlands. However, as the national tree and the national emblem, the trees are an ideal symbol for increasing awareness not only of the endangered forests, but also of the traditional beliefs of the people who live alongside them. But what does the future hold for the Malagasy baobabs?",
+        "The Avenue des Baobabs is something of a contradiction; the 'natural' scene that tourists visit is actually man-made. While the trees themselves are natural enough, the surrounding landscape was created by humans. Back in the early 20th century, much of the Morondava plain was cleared for rice and sugar-cane fields. However, many baobabs were spared because they are valuable as a food source and renewable building material, or they simply survived the fires that were set to clear the dry deciduous forest around them. These days many stand alone in fields, a reminder of where the forest once was. But now it seems that even the mighty baobabs are falling down. 'Every year I see new trees that have fallen,' says Jim Bond, an ethnobotanist who has studied Madagascar's baobabs for more than a decade. The exact cause of the falling baobabs is uncertain, but some people think that the water used to irrigate the nearby fields is partly to blame. Baobabs are adapted to the annual wet season, but their roots can't cope with constantly waterlogged soils. Lone trees separated from the surrounding forest are also susceptible to cyclones, which reach speeds of over 200 kph in the area, and can easily uproot even a 30-metre baobab.",
+        "Baobabs elsewhere on the island are also facing a host of threats, with three of the six native species now listed as endangered by the World Conservation Union. David Baum from the University of Wisconsin has spent years researching Malagasy baobabs. 'The main threat to their survival is land clearance for farming, which probably suppresses regeneration,' he says. Burning is the usual method of clearing land, and while baobabs have some resistance to this, they will eventually succumb to repeated burning. Human disturbance in the forest, such as logging, is also a problem. This practice may be promoting the rapid spread of shrubby undergrowth, which quickly fills in the bright forest gaps needed for baobab germination. Another problem the trees face is the dispersal of their seeds. Baum suggests that dispersal is being limited by the absence of two large, now extinct animals — a gorilla-sized lemur and the three-metre-tall elephant bird. Passage through the digestive tract of these giant fruit-eating animals probably once played a vital role in the distribution of the renala baobabs in particular.",
+        "The Malagasy government is becoming increasingly concerned, as the baobab is key to the local tourism industry, and thus to the economy of the island as a whole. But visiting and photographing the solitary trees in the dramatic open landscape at the Avenue des Baobabs isn't the only way to experience baobabs in Madagascar. Within a few hours' drive of Morondava, three species of baobab can be seen in largely intact, dry forest habitat. Jim Bond has led expeditions of Malagasy and foreign participants to the Mike forest in the island's southwest, which is almost certainly one of the least studied and least damaged areas of baobab forest left in Madagascar. On his expeditions Bond works closely with local people to search for, and create maps of baobab distribution. He also plans to compile an illustrated children's book of the many local folk-tales about the tree, hoping that national and international versions will help to spread the word about how important baobabs are in Malagasy culture. But it's going to require some swift and coordinated action to ensure that the baobab becomes a symbol of conservation success, rather than a symbol of humanity's mistakes."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "All of the baobab species found on Madagascar are unique to the island.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "Adanson and Grandidier were the first foreign botanists to visit Madagascar.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "The baobab can be found in most areas of Madagascar.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "The landscape around the Avenue des Baobabs is the result of agricultural development.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "The baobab provides useful products for the local people.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "There is general agreement about the reasons for baobabs falling down.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "trees may be falling down because of [7] from nearby fields",
+          "context": "Morondava area",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "type": "text"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "lone trees are at risk from [8]",
+          "context": "Morondava area",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "type": "text"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "carried out to create space for [9] activity",
+          "context": "Forest areas",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "type": "text"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "practice of [10] makes seed germination difficult",
+          "context": "Forest areas",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "type": "text"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "disappearance of certain [11] which dispersed baobab seeds",
+          "context": "Forest areas",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "type": "text"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "making [12] of areas of relatively undamaged baobab forest",
+          "context": "Jim Bond's efforts to record information about the baobab:",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "type": "text"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "producing a [13] showing importance of baobab in local culture",
+          "context": "Jim Bond's efforts to record information about the baobab:",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "type": "text"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Born to Trade",
+      "passages": [
+        "Humans are born to trade and we don't need shops or money to do it — the heart of commerce is an instinctive ability for what anthropologists call 'reciprocity'. This is an ability to exchange goods of equal worth, and it evolved as the brains of our ancient ancestors and societies became more complex, allowing individuals to keep a running tally of their interactions with others. Evidence from modern hunter-gatherers leaves little doubt that the exchange of food and favours is innate, as is the ability to keep track of the credits and debits that accrue as a result. Combine this skill for mental book-keeping with even the most basic material culture, and trade inevitably follows.",
+        "Once trade gets off the ground, the economic benefits quickly make it irresistible. But exchanging tools, food and other essentials of life in a barter economy is a far cry from the shopping mall. Modern consumerism extends beyond subsistence and utilitarianism to encompass everything from Gucci handbags and BMW convertibles to valuable paintings. Clearly, the worth of such goods is not inherent but resides in certain intangible qualities that we invest in them. When did humans start holding these goods in such high esteem?",
+        "All the archaeological evidence for the flowering of consumer culture has up to now pointed to a date of around 40,000 years ago. That's when early modern humans started making increasingly intricate bone and stone tools, carving patterns into rocks and creating representational art such as carved figurines, jewellery and cave paintings. However, discoveries in Africa are pushing the origins of consumerism much further back into human prehistory.",
+        "A few years ago, reports began to emerge of discoveries made at the Blombos Cave, a site of ancient human habitation in South Africa. Christopher Henshilwood and colleagues from the University of Bergen in Norway dated thousands of pieces of ochre from the cave, and many of them proved to be more than 100,000 years old — before the time that early humans moved out of Africa. Ochre, a coloured clay that comes in various shades from red to black, does not occur naturally around Blombos and must have been imported from quarries at least 30 kilometres away, either directly by Blombos residents or through trade. Although ochre can be used to dry and preserve (cure) animal hides, the researchers are convinced the Blombos ochre had a symbolic purpose. For a start, it is predominantly red — any of the other colours available would have done for curing — and the surfaces of the clay had been scraped in a way that indicates they were used to yield pigment for dyes.",
+        "An even more intriguing discovery from Blombos was of 41 beads dating from 76,000 years ago, found in clusters and made from the shells of a tiny mollusc. These cannot be natural deposits, argue the researchers, as each cluster contains shells of a similar size and colour with consistently placed holes. What's more, all the beads display a pattern of wear suggesting friction from rubbing against thread, clothes or other beads. The previous oldest find of beads in Africa dates back to just 45,000 years ago. And it seems the Blombos people's taste for beautiful items was not an isolated phenomenon. Jessica Thompson of Arizona State University in Tempe has described finding shell fragments from a site in Tanzania that she believes may represent debris from bead manufacture. They are at least 45,000 — and possibly 280,000 — years old. Although there is no evidence of how the ancient beads were used, their modern counterparts are often traded. So it looks as though our taste for jewellery and art is much older than we thought.",
+        "But why did we come to value these objects in the first place? In many animal species, individuals signal their genetic fitness by showing off with attention-grabbing adornment. Some researchers think that in humans, consumer products play a similar role. Archaeologist Aimee Plourde, from the University of California, also argues that even in egalitarian societies, some people are more successful than others. Among our ancestors, superior skills in areas such as hunting, crafts, environmental knowledge and contact with neighbouring groups would have brought respect — in other words, prestige.",
+        "And because prestige brings social benefits, people would want to show off their talents. The best way to do this would be through demonstrating possession of material items that are hard to fake. 'A good hunter, for instance, could advertise his skills by wearing the tooth of an animal that is elusive or dangerous,' says Plourde. The benefits of prestige would also lead to competition to acquire it. As a result, the value and variety of prestige goods would spiral and there would be a parallel increase in the ranking of social systems.",
+        "If Plourde is correct, prestige goods form a direct link between our innate drive for trade and the development of structured, hierarchical societies. They are arguably the first step on the road to modern civilisation, paving the way for agriculture and urbanisation. We may not be impressed by beads any more, but their modern equivalents have the same fascination. Nobody believes the guy who spends €670,000 on a Bugatti Veyron car does so because he needs to travel at 250 mph. We all know in today's consumer society he's buying an exclusive status symbol."
+      ],
+      "instructions": [
+        "Reading Passage 2 has five sections, 14-18. Choose the correct heading for each section from the list of headings below.",
+        "Choose the correct letter, A, B, C or D.",
+        "Complete the summary below. Choose the correct word from the list, A-J, below."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "Section 14",
+          "context": "List of Headings: i. The desire to make expensive jewellery, ii. The clues that indicate ancient items were decorative, iii. Querying the changes in the value of traded items, iv. A natural human talent, v. How status can be gained from ownership of goods, vi. Recent finds alter theories about when consumerism started, vii. Changes in research methods",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Section 15",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Section 16",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Section 17",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Section 18",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "single_choice",
+          "prompt": "In paragraph 14, 'reciprocity' refers to our ancestors' ability to",
+          "context": "",
+          "options": [
+            "A keep written records of different goods traded",
+            "B monitor the balance between goods given and received",
+            "C produce more materials for trading purposes",
+            "D make money from trading goods and services"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "single_choice",
+          "prompt": "What is said about the ochre found at Blombos Cave?",
+          "context": "",
+          "options": [
+            "A It is of a type only found in this particular area.",
+            "B It has all been dyed to give the same shade of red.",
+            "C It has been perfectly preserved despite its age.",
+            "D It appears it was selected for its colour."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "What made the researchers realise the purpose of the beads found at Blombos Cave?",
+          "context": "",
+          "options": [
+            "A They are of many different shapes and sizes.",
+            "B They were found in large numbers, clustered together.",
+            "C They have patterns in many different colours.",
+            "D They have holes and markings suggesting they were joined together."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "select",
+          "prompt": "Some researchers argue that we may use ownership of desirable goods to demonstrate our strength and fitness as other [22] use their attractive physical features.",
+          "context": "Word bank: A. competitiveness, B. exploration, C. trade, D. settlements, E. stability, F. respect, G. appearance, H. ancestors, I. species, J. city",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "select",
+          "prompt": "Showing off one's superiority is not a new phenomenon and even in ancient times successful people would have gained [23] from this.",
+          "context": "Word bank",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "select",
+          "prompt": "A desire for status could have led to an increase in the worth of prestige goods and to [24] among people wishing to achieve this status.",
+          "context": "Word bank",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "select",
+          "prompt": "It is thought that our natural desire to trade provided a basis for organised farming and [25] development and finally resulted in the complex societies which can be seen today.",
+          "context": "Word bank",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "select",
+          "prompt": "Whilst we do not value things such as beads nowadays, other items hold the same appeal for us and bring the same status as owning beads did for our [26] .",
+          "context": "Word bank",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Architecture in Britain",
+      "passages": [
+        "Architecture is about evolution, not revolution. It used to be thought that once the Romans pulled out of Britain in the fifth century, their elegant villas, carefully planned towns and engineering marvels like Hadrian's Wall simply fell into decay, as British culture was plunged into the Dark Ages. However, the truth is not as simple as that. Romano-British culture persisted long after the Roman withdrawal. And the Anglo-Saxons already had a sophisticated building style of their own, although little survives to bear witness to their achievements as the vast majority of buildings were made of wood.",
+        "Nevertheless, it was the time period between the Norman invasion of 1066 and the late 15th century which marked the rarest flowering of British building. And this is all the more remarkable because the underlying ethos of medieval architecture was 'fitness for purpose'. The great cathedrals and parish churches that lifted up their towers to heaven were not merely acts of devotion in stone; they were fiercely functional buildings. The battlements and turrets of castles were much more than ornament. And the rambling manor houses of the later Middle Ages were primarily homes, their owners achieving respect and maintaining status by their hospitality rather than the grandeur of their buildings.",
+        "By contrast, domestic buildings of the 16th century were used to display status and wealth. A greater sense of security led to more outward-looking buildings, as opposed to the medieval arrangement where the need for defence created houses that faced inward onto a courtyard or series of courtyards. This allowed for much more in the way of exterior ornament. The rooms themselves tended to be bigger and lighter – as an expensive commodity, the use of great expanses of glass was in itself a statement of wealth. There was also a general move towards balanced and symmetrical exteriors with central entrances.",
+        "In spite of this building boom, the Renaissance was generally slow to arrive in England, largely because Queen Elizabeth I's troublesome relations with Europe made the free exchange of ideas difficult. Craftsmen and pattern books did come over from Europe, but, by and large, England's relative isolation from the European cultural mainstream led to a national style which was a bizarre though attractive mixture of gothic and classical styles.",
+        "With the exception of Inigo Jones, whose confident handling of classical detail and proportion set him apart from others of the period, early 17th century architects designed very ornate buildings, with the sort of details described at the time as 'a heap of craziness of decorations... very disgusting to see'. But during the 1640s and '50s, the Civil War and its aftermath sent many gentlemen and nobles abroad, either to escape the fighting or, when the war was lost, to follow King Charles II into exile. There they came into contact with French, Dutch and Italian architecture, and with Charles's restoration to the throne in 1660 there was a flurry of building activity as royalists reclaimed their property and built themselves houses reflecting the latest European trends.",
+        "As the century wore on, this resolved itself into a passion for the grandeur which King Louis XIV of France had turned into an instrument of statecraft at Versailles. Geometrical and symmetrical planning meant that a great lord could sit in his dining chamber, at the physical as well as the metaphorical centre of his world, with suites of rooms radiating out in straight lines to either side.",
+        "Nineteenth-century architecture, such as the huge glass-and-iron Crystal Palace building designed by Joseph Paxton to house the Great Exhibition of 1851, embraced new industrial processes. But it wasn't long before this confidence in progress came to be regarded with suspicion. Mass production resulted in buildings and furnishings that were too perfect, as the individual craftsmen no longer had a major role in their creation. Railing against the dehumanising effects of industrialisation, reformers like John Ruskin and William Morris made a concerted effort to return to hand-crafted, pre-industrial manufacturing techniques. Morris's influence grew from the production of furniture and textiles, but by the 1880s a generation of principled young architects was following his call for manual construction.",
+        "The most important trends in early 20th century architecture simply passed Britain by. Whilst Gropius was working on cold, hard expanses of glass, and Le Corbusier was experimenting with the use of reinforced concrete frames, England had staid establishment architects like Edwin Lutyens producing Neo-Georgian and Renaissance country houses for an outmoded landed class. Only a handful of Modern Movement buildings of any real merit were produced here during the 1920s and '30s, and most of these were the work of foreign architects, such as Serge Chermayeff, Berthold Lubetkin and Erno Goldfinger, who had settled in this country.",
+        "After the Second World War the situation began to change. The Modern Movement's belief in progress and the future struck a chord with the mood of post-war Britain, and, as reconstruction began in 1945, there was a desperate need for cheap housing which could be produced quickly. The use of prefabricated elements, metal frames, concrete cladding and the absence of decoration – all of which had been feared by Modernists abroad and viewed with suspicion by the British – were now adopted for housing developments and schools. Local government authorities, charged with the task of rebuilding city centres, became important patrons of architecture. This represented a shift away from the private individuals who had dominated the architectural scene for centuries."
+      ],
+      "instructions": [
+        "Choose the correct letter, A, B, C or D.",
+        "Complete the sentences below. Choose NO MORE THAN THREE WORDS from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "single_choice",
+          "prompt": "After the Romans left Britain,",
+          "context": "",
+          "options": [
+            "A their achievements were neglected.",
+            "B their cultural legacy endured.",
+            "C there was an abrupt cultural change.",
+            "D Anglo-Saxon building techniques declined."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "single_choice",
+          "prompt": "Medieval architecture aspired above all to be",
+          "context": "",
+          "options": [
+            "A immense.",
+            "B useful.",
+            "C decorative.",
+            "D durable."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "single_choice",
+          "prompt": "Which of the following architectural features generally characterised 16th century houses?",
+          "context": "",
+          "options": [
+            "A They faced inwards.",
+            "B They had plain exteriors.",
+            "C They had small windows.",
+            "D They displayed symmetry in their architecture."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "single_choice",
+          "prompt": "How did 17th century British architecture come to be influenced by styles in continental Europe?",
+          "context": "",
+          "options": [
+            "A Fugitives brought ideas from continental Europe back to Britain.",
+            "B British craftsmen went to work in other countries.",
+            "C The monarch encouraged cultural contacts with other countries.",
+            "D Buildings were restored by architects from continental Europe."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "single_choice",
+          "prompt": "What drove building design immediately after the Second World War?",
+          "context": "",
+          "options": [
+            "A conservatism",
+            "B a housing shortage",
+            "C foreign architecture",
+            "D wealthy patronage"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "Because most Anglo-Saxon buildings were [32] few of them have survived.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32",
+              "type": "text"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "The owners of medieval manor houses in Britain earned their reputation through their [33] .",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33",
+              "type": "text"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "Sixteenth-century houses were designed to provide evidence of status and [34] .",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34",
+              "type": "text"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "In the 16th century, the use of glass became fashionable, even though it was an [35] .",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "type": "text"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "Inigo Jones was particularly skilful in designing buildings in the [36] style.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "type": "text"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Although William Morris designed [37] his emphasis on hand-crafting also influenced architects.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "type": "text"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "In the early 20th century, British architects like [38] were producing conservative designs.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "type": "text"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Before the Second World War, Modern Movement buildings of quality in Britain were mainly designed by [39] .",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "type": "text"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "After the Second World War, much architecture in Britain was commissioned by [40] rather than private individuals.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "type": "text"
+            }
+          ],
+          "constraint": "NO MORE THAN THREE WORDS",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test15.html",
+    "title": "IELTS Listening Mock Test 53834",
+    "part_count": 4,
+    "total_questions": 36,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 4 parts",
+      "You will hear the audio only once",
+      "Answer all questions as you listen",
+      "You cannot pause or rewind the audio"
+    ]
+  },
+  "media": {
+    "audio_urls": [
+      "https://raw.githubusercontent.com/jasurrkham1dov-blip/mock/main/53834.mp3"
+    ],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "microwave"
+    ],
+    "2": [
+      "reception"
+    ],
+    "3": [
+      "shower"
+    ],
+    "4": [
+      "lake"
+    ],
+    "5": [
+      "18",
+      "18%"
+    ],
+    "6": [
+      "tennis"
+    ],
+    "7": [
+      "fishing"
+    ],
+    "8": [
+      "farm"
+    ],
+    "9": [
+      "forest"
+    ],
+    "10": [
+      "ARATAKI"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "40"
+    ],
+    "14": [
+      "25"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "A"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "E"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "E"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "D"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "D"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "homes"
+    ],
+    "32": [
+      "solar"
+    ],
+    "33": [
+      "experience"
+    ],
+    "34": [
+      "boiler"
+    ],
+    "35": [
+      "air"
+    ],
+    "36": [
+      "bacteria"
+    ],
+    "37": [
+      "radiators"
+    ],
+    "38": [
+      "training"
+    ],
+    "39": [
+      "simple"
+    ],
+    "40": [
+      "supervisor"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part 1",
+      "passages": [],
+      "instructions": [
+        "Complete the table below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer.",
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Ohope Holiday Park: Accommodation - Basic cabin, next to the pool, kitchen has a fridge and a [1], $35 per night",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q1"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Ohope Holiday Park: Accommodation - Standard cabin, close to [2], fully-equipped kitchen and a shower, $55 per night",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q2"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Ohope Holiday Park: Accommodation - Standard cabin, close to reception, fully-equipped kitchen and a [3], $55 per night",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q3"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Ohope Holiday Park: Accommodation - Standard Plus cabin, facing the [4], comes with own spa, discount for bookings over ten nights",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q4"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Ohope Holiday Park: Accommodation - Standard Plus cabin, facing the lake, comes with own spa, discount of [5]% for bookings over ten nights",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q5"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "General information about the holiday park and the Ohope area: The children can play [6] for free.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q6"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "General information about the holiday park and the Ohope area: It's possible to hire equipment for [7] for an afternoon.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "General information about the holiday park and the Ohope area: The children could visit the local [8] on Saturday and Sunday.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "General information about the holiday park and the Ohope area: There are guided tours of the [9] every evening to see the birds.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "General information about the holiday park and the Ohope area: Contact [10] to confirm the booking.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Part 2",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Complete the summary below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer.",
+        "How much does Joan like doing each of the following activities?",
+        "Choose TWO letters, A-E."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "single_choice",
+          "prompt": "Joan normally gets up at",
+          "context": "",
+          "options": [
+            "A. 5.30 a.m.",
+            "B. 6.30 a.m.",
+            "C. 7.30 a.m."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "single_choice",
+          "prompt": "Joan's first task of the day is to",
+          "context": "",
+          "options": [
+            "A. clean the horses.",
+            "B. organize her son.",
+            "C. do farm work."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "Complete the summary below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Joan's official title in Riding for the Disabled (RDA) is chairperson. In her local district there are at present twenty-two riders and [13] helpers on the volunteer list, out of whom [14] come regularly.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "input",
+          "prompt": "Complete the summary below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "context": "Joan's official title in Riding for the Disabled (RDA) is chairperson. In her local district there are at present twenty-two riders and 40 helpers on the volunteer list, out of whom [14] come regularly.",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q14"
+            }
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "single_choice",
+          "prompt": "How much does Joan like doing each of the following activities? correspondence",
+          "context": "A = She really likes it, B = She doesn't mind it, C = She hates it",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "How much does Joan like doing each of the following activities? fund-raising",
+          "context": "A = She really likes it, B = She doesn't mind it, C = She hates it",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "single_choice",
+          "prompt": "How much does Joan like doing each of the following activities? calling riders",
+          "context": "A = She really likes it, B = She doesn't mind it, C = She hates it",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "single_choice",
+          "prompt": "How much does Joan like doing each of the following activities? organizing accounts",
+          "context": "A = She really likes it, B = She doesn't mind it, C = She hates it",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19-20",
+          "number_range": [
+            19,
+            20
+          ],
+          "type": "multiple_choice",
+          "prompt": "Joan says the TWO ways the RDA needs to improve are by",
+          "context": "",
+          "options": [
+            "A. giving special training.",
+            "B. making fund-raising more effective.",
+            "C. opening more RDA centres.",
+            "D. providing more helpers.",
+            "E. recognizing difficulties of disabled riders."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A-E.",
+          "answer_key_ref": "19"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Part 3",
+      "passages": [],
+      "instructions": [
+        "Choose TWO letters, A-E.",
+        "Choose the correct letter, A, B or C."
+      ],
+      "questions": [
+        {
+          "id": "q21-22",
+          "number_range": [
+            21,
+            22
+          ],
+          "type": "multiple_choice",
+          "prompt": "What do the speakers agree are the TWO reasons why children play outdoors less now than in the past?",
+          "context": "",
+          "options": [
+            "A. concerns about traffic",
+            "B. limited outdoor play facilities",
+            "C. increased time spent online",
+            "D. preference for indoor play",
+            "E. reduction in free time"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A-E.",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q23-24",
+          "number_range": [
+            23,
+            24
+          ],
+          "type": "multiple_choice",
+          "prompt": "In his assignment, which TWO aspects of outdoor play does Ravi want to focus on?",
+          "context": "",
+          "options": [
+            "A. how it helps children to evaluate risk",
+            "B. how it broadens their horizons",
+            "C. how it aids children's muscular development",
+            "D. how it improves children's digestion",
+            "E. how it teaches children about the environment"
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A-E.",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q25-26",
+          "number_range": [
+            25,
+            26
+          ],
+          "type": "multiple_choice",
+          "prompt": "According to Ravi, in which TWO ways are children's periods of outdoor play now different from a generation ago?",
+          "context": "",
+          "options": [
+            "A. They are less dangerous.",
+            "B. They involve fewer children.",
+            "C. They usually last a shorter time.",
+            "D. They include fewer made-up games.",
+            "E. They involve fewer chasing games."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO letters, A-E.",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "single_choice",
+          "prompt": "Ravi thinks parents should be more concerned about the decline of outdoor play because",
+          "context": "",
+          "options": [
+            "A. it affects family relationships.",
+            "B. it leads to health problems later in life.",
+            "C. it makes childhood less enjoyable."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "single_choice",
+          "prompt": "What does Ravi say that schools should do with regard to outdoor play?",
+          "context": "",
+          "options": [
+            "A. revise their aims",
+            "B. spend more money on it",
+            "C. listen to the views of parents"
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "single_choice",
+          "prompt": "What did Smith and Barker say about children in rural areas?",
+          "context": "",
+          "options": [
+            "A. They tend not to be allowed on farmland.",
+            "B. They receive more supervision out of doors.",
+            "C. They spend more time outdoors than city children."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "single_choice",
+          "prompt": "What problem does Dr Chang highlight about Smith and Barker's research?",
+          "context": "",
+          "options": [
+            "A. Its findings are inconclusive.",
+            "B. It is too old to be useful.",
+            "C. Its focus is limited."
+          ],
+          "inputs": [],
+          "constraint": "Choose the correct letter, A, B or C.",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Part 4",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Field trial - heat pump technology. Background: Aim in UK is to reduce carbon emissions from energy consumed in [31] by approximately 25%",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q31"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Field trial - heat pump technology. Background: Most popular 'green' energy: [32]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q32"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Field trial - heat pump technology. Background: Little investment in heat pumps in UK due to lack of [33] in using them",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q33"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "What is a heat pump?: Heat pumps serve the purpose as a [34]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q34"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "What is a heat pump?: Most heat pumps get heat from the earth or the [35]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "What is a heat pump?: Water is heated to 60°C to destroy [36]",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "The field trial: 83 sites across the UK. Central heating systems monitored: [37] and under-floor heating",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Key conclusions: Installation: need to provide improved [38] in pump-fitting technique",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Key conclusions: [39] designs performed best",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "context": "Key conclusions: Need for a [40] to co-ordinate the installation",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

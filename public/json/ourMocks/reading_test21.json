@@ -1,0 +1,934 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test21.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "FALSE"
+    ],
+    "2": [
+      "NOT GIVEN"
+    ],
+    "3": [
+      "TRUE"
+    ],
+    "4": [
+      "FALSE"
+    ],
+    "5": [
+      "TRUE"
+    ],
+    "6": [
+      "NOT GIVEN"
+    ],
+    "7": [
+      "TRUE"
+    ],
+    "8": [
+      "FALSE"
+    ],
+    "9": [
+      "centenary"
+    ],
+    "10": [
+      "staff"
+    ],
+    "11": [
+      "overseas"
+    ],
+    "12": [
+      "recorded"
+    ],
+    "13": [
+      "target"
+    ],
+    "14": [
+      "iii"
+    ],
+    "15": [
+      "ii"
+    ],
+    "16": [
+      "v"
+    ],
+    "17": [
+      "vi"
+    ],
+    "18": [
+      "i"
+    ],
+    "19": [
+      "vii"
+    ],
+    "20": [
+      "C",
+      "E"
+    ],
+    "21": [
+      "C",
+      "E"
+    ],
+    "22": [
+      "B",
+      "D"
+    ],
+    "23": [
+      "B",
+      "D"
+    ],
+    "24": [
+      "audience"
+    ],
+    "25": [
+      "halls"
+    ],
+    "26": [
+      "soundtrack"
+    ],
+    "27": [
+      "D"
+    ],
+    "28": [
+      "L"
+    ],
+    "29": [
+      "F"
+    ],
+    "30": [
+      "J"
+    ],
+    "31": [
+      "I"
+    ],
+    "32": [
+      "B"
+    ],
+    "33": [
+      "YES"
+    ],
+    "34": [
+      "NO"
+    ],
+    "35": [
+      "YES"
+    ],
+    "36": [
+      "NOT GIVEN"
+    ],
+    "37": [
+      "D"
+    ],
+    "38": [
+      "A"
+    ],
+    "39": [
+      "B"
+    ],
+    "40": [
+      "C"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Investing in the Future",
+      "passages": [
+        "The founding and development of many universities has been dependent on philanthropy*. This has been true from some of the oldest universities such as Bologna, Oxford and Cambridge in the twelfth century, to relative newcomers like the universities of Harvard and Yale in the seventeenth century. Wealthy merchants gave young institutions money, land, libraries and rare items. Their belief in the value of higher learning is echoed by the growing number of philanthropists whose gifts have helped transform the University of Auckland, the largest university in New Zealand.",
+        "In 1884 Mr Justice Gillies made history when he gave $3,000 to the then very young University of Auckland, and so became its original philanthropist. Gillies' gift was more generous even than those regularly given to New Zealand's older University of Otago, and was exceptional because Auckland had a smaller population and was less wealthy than the other university cities at that time. However, from the 1930s privately funded prizes and scholarships began to be seen more frequently in Auckland. In that decade a local engineer and former lecturer in engineering, Samuel Crookes, launched a fund to save the engineering school in Auckland, which the state was determined to see discontinued, and raised over $6,500 in three years. Another significant philanthropist, Sir William Goodfellow, made his initial gift to the University in 1947 – $50,000 to build the Maclaurin Chapel. Since then, he and succeeding generations of the family have given numerous scholarships and fellowships and established a school within the University bearing the family's name.",
+        "The University had a difficult decade in the 1950s as it was short of equipment, buildings and money. It also had its first taste of international rivalry, when universities in many parts of the world competed to attract first class lecturers. In Auckland the problem largely resulted from the fact that academic salaries had slipped well behind those available in Britain and Australia, so the strongest candidates tended to be recruited to those countries. But when the new Medical School opened in 1968, it attracted significant gifts for academic positions and equipment from an unusually wide range of donors, including individuals, trusts, charitable foundations, societies and community groups. It also became the permanent home of the Philson Library, which by then consisted of some 8,000 books.",
+        "The first of the modern public appeals for funds took place in the 1960s, when Alan Highet built the Student Union complex. This was followed by another appeal in 1983 under the then Chancellor Henry Cooper who raised $800,000 to celebrate the University's centenary. These modern campaigns built on the successful campaigns of the past but included a number of new features. There was of course the familiar emphasis on donations from individuals, but the modern approach also stressed the importance of bringing the University and business closer together and specifically seeking donations from that sector.",
+        "Building on this success, the current 'Leading the Way' campaign was launched. It is intended as a drive to secure support for the whole University, with a focus on generating funds to recruit, support and retain the very best staff for the University. The current campaign has raised the whole process of philanthropy to a new level, and changed expectations. The University is investing considerable time and energy in devising new methods of fund-raising both within its local communities and – remembering that New Zealanders love to travel – by looking at campaigns in other parts of the world, and targeting alumni, or former students now living overseas.",
+        "'What it taught us,' says John Taylor, Director of External Relations, 'was that the campaign had to fit into the Strategic Plan of the University … As we kept talking we realised that we could have a transformative effect on the future of New Zealand by highlighting the potential benefits of high quality research.' The example Taylor gives is the $4.5 million gift to establish an information centre at the University's Marine Science laboratory on the coast at Leigh. He stresses that the fund-raising drive was so successful in part because the publicity used at the time highlighted the public benefit from the project.",
+        "On the financial side, the University's Vice-Chancellor, Stuart McCutcheon, explains that a fault they found in their campaigns actually turned out to be a stroke of good fortune. 'In the course of developing these new fund-raising systems,' he says, 'we have come to realise that there has been considerable giving to the University that has not been previously recorded through our Advancement Office … This has been in the order of $10 million per year over the campaign period.' The good news from this error is that at the recent Chancellor's dinner it was announced that the campaign target was now being increased from $100 million to $150 million, and would recognise all sources of philanthropic support. It's a long way from Gillies' first $3,000 gift."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "Harvard and Yale were the first universities to benefit from philanthropy.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "Merchants liked to donate to the same universities they attended themselves.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "The first gift to the University of Auckland came in 1884.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "Otago University often received larger gifts than Gillies' gift to Auckland.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "In the 1930s the government wanted to close Auckland's engineering school.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "After raising $6,500, Crookes returned to academic life.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "true_false_not_given",
+          "prompt": "In the 1950s the best lecturers chose to work in Britain or Australia rather than Auckland.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "true_false_not_given",
+          "prompt": "A single philanthropist was responsible for the new Medical School.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Henry Cooper's campaign marked the [9] of the University",
+          "context": "Fund-raising campaigns - The first modern appeals",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "this appeal is raising money to invest in the University's [10]",
+          "context": "Fund-raising campaigns - 'Leading the Way'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "gifts are being sought from graduates who are located [11]",
+          "context": "Fund-raising campaigns - 'Leading the Way'",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "some donations had not been [12] by the University",
+          "context": "Fund-raising campaigns - Financial matters",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "there is a new financial [13] for the campaign",
+          "context": "Fund-raising campaigns - Financial matters",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Classical music over the centuries",
+      "passages": [
+        "A: The production of any great art form, and classical music is no exception, does not usually occur in a society dominated by the basic material demands of food and shelter. Art and music have flourished in those periods of history, and those parts of society, in which the luxury of free time and material wealth has allowed such a culture to take precedence over more material matters. In the medieval European world, it was thus primarily in the closed communities of the church and monastery, and royal courts that music, literature and learning were able to flourish.",
+        "B: It was not until the 18th century that this situation changed to any great extent, and the rise of an economically independent middle class meant that concert-going became a public activity for anyone who cared to buy a ticket. It is worth remembering that the idea of classical music widely accepted today did not exist until about 300 years ago. Performing music in concert halls to a paying audience, as something inherently pleasurable and significant, was pretty much unheard of until the 18th century, and not widely established until the 19th. The concert venue, the audience, and the idea of the 'masterpieces' of classical music, were all effectively invented during the course of the 18th century — in London, Paris, Vienna, Berlin and other European cities where the arts in general were blossoming.",
+        "C: Today, music that was originally written for a concert venue may appear, out of its original context, in an advert or film. Conversely, music written specifically for films is sometimes performed live. But nothing has changed music over the last century more radically than the invention and dissemination of recording technologies. However, although Thomas Edison originally developed the phonograph in 1877, and wax cylinders were used as early as the 1880s for recording music, commercial recordings of music were not generally available to the majority until the 1920s. From the mid-1980s onwards, the vinyl disc gradually gave way to the new technology of the CD, but just a decade later, the digital MP3 file was already displacing the CD as the favoured way to produce recorded music. Yet now, people have more music stored on their phones or computers — which they can call up with the touch of a finger — than would have been contained on all the metres of library shelves of a proud \"record collector\" of the 20th century.",
+        "D: Before recording, music was a social event — it involved one or more people coming together to make music. The music lasted for as long as the musicians sang or played and then it was over. Therefore, the only music that was heard tended to be compositions by recent or living musicians, probably working in the locality; it was rare to hear music from a past generation, distant place or culture. Even when music became more professionalised, people who wanted to listen to music went to a specific venue, at a specific time, to hear musicians create a one-off event.",
+        "E: These days, however, technology makes almost all the world's music instantly and constantly available to anyone with access to simple and cheap gadgets designed for playing it. Music thus floats free of any specific occasion or venue. It is no longer restricted to a particular audience or group of musicians. For the first time, music (any music) can be an entirely personal affair. This is one of the reasons that the 'classical' label becomes harder to pin down. One of its distinctive aspects — a performance defined by concert halls and opera houses — is dissolved by digital recording formats. As a consequence all music, classical music included, can become any person's soundtrack for activities such as commuting, exercising or shopping.",
+        "F: The ubiquity of music as recorded sound means that it's very easy to overlook perhaps the most definitive aspect of the classical music tradition – the fact that it is written or notated music. Though classical music may lack a precise definition today and mean quite different things to different people, at its heart is the idea of a music that has remained viable over the years because it was written down in some form. The origins of what music historians think of as classical music date from the ninth century, when a system of musical notation was first developed. Before this time, singers in religious services in cathedrals or monasteries had to learn by heart a huge repertory of chants. The first attempts to notate music were intended to help them remember these. Over the next thousand years, notation became more complex, incorporating such aspects as rhythm and pitch, allowing composers to rework and refine their musical ideas. Put very simply, the history of classical music, in all its varied forms, is the history of a tradition that grew out of the possibilities of musical notation."
+      ],
+      "instructions": [
+        "Reading Passage 2 has six paragraphs, A-F. Choose the correct heading for each paragraph from the list of headings below."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "Paragraph A",
+          "context": "List of Headings: i. Music comes to be enjoyed in a large variety of situations, ii. More people gain access to live music, iii. A focus on survival limits the practice of classical music, iv. A clash of musical styles takes place, v. A range of scientific advances brings music to a wider audience, vi. Listening to music being limited to live performances, vii. How classical music has managed to survive for centuries",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Paragraph B",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Paragraph C",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Paragraph D",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Paragraph E",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Paragraph F",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following statements does the writer make about recording technologies?",
+          "context": "Choose TWO letters, A-E.",
+          "options": [
+            "A. The vinyl disc was relatively easy to damage.",
+            "B. The sound quality from wax cylinders was inferior to that of the phonograph.",
+            "C. Electronic storage allows people to keep a vast amount of music.",
+            "D. Recorded music sold well immediately after Edison invented the phonograph.",
+            "E. The CD was popular for a relatively brief period."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following statements does the writer make about recording technologies?",
+          "context": "Choose TWO letters, A-E.",
+          "options": [
+            "A. The vinyl disc was relatively easy to damage.",
+            "B. The sound quality from wax cylinders was inferior to that of the phonograph.",
+            "C. Electronic storage allows people to keep a vast amount of music.",
+            "D. Recorded music sold well immediately after Edison invented the phonograph.",
+            "E. The CD was popular for a relatively brief period."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following statements does the writer make about musical notation?",
+          "context": "Choose TWO letters, A-E.",
+          "options": [
+            "A. The way it is interpreted has changed over time.",
+            "B. It was originally designed as a memory aid.",
+            "C. It is often ignored by classical musicians today.",
+            "D. Classical music could not have survived without it.",
+            "E. Its importance diminished with the arrival of recording."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "multiple_choice",
+          "prompt": "Which TWO of the following statements does the writer make about musical notation?",
+          "context": "Choose TWO letters, A-E.",
+          "options": [
+            "A. The way it is interpreted has changed over time.",
+            "B. It was originally designed as a memory aid.",
+            "C. It is often ignored by classical musicians today.",
+            "D. Classical music could not have survived without it.",
+            "E. Its importance diminished with the arrival of recording."
+          ],
+          "inputs": [],
+          "constraint": "Choose TWO",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "nor is it associated with a group of musicians or a specific [24].",
+          "context": "The impact of today's technology on music",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q24",
+              "placeholder": "24"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "the need for venues such as opera houses or [25] where concerts are performed has vanished.",
+          "context": "The impact of today's technology on music",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q25",
+              "placeholder": "25"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "Digitisation has also made it possible for people to treat music as a [26] to their daily activities.",
+          "context": "The impact of today's technology on music",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q26",
+              "placeholder": "26"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "How a prehistoric predator took to the skies",
+      "passages": [
+        "Pterosaurs existed from the Triassic period, 220 million years ago, to the end of the Cretaceous period, 65 million years ago, when South America pulled away from Africa and the South Atlantic was formed. They are among the least understood of all the extinct reptiles that once spent their lives in the skies while the dinosaurs dominated the land. Pterosaurs had no feathers, but at least part of their bodies was covered in hair, not unlike bats. Some believe this is an indication they were warm-blooded. Researchers also debate whether pterosaurs travelled on the ground by walking on their hind legs, like birds, or by using all fours, relying on their three-toed front feet as well as their four-toed rear feet.",
+        "Pterosaurs were vertebrates, meaning they were the first species possessing backbones to become airborne, but scientists have never quite understood their flight technique. How, they wondered, did such a heavy creature ever manage to take off? How could a wing that appears to have been supported by fine, hollow bones have carried one into the sky? Then came the discovery of a site in Brazil's Araripe basin. Here, not only were hundreds of fossils of amphibians* and other reptiles found, but archaeologists unearthed a number of very well-preserved pterosaurs. The anhanguera – a fish-eating sub-species of pterosaur that ruled the skies in the Cretaceous period – was among them. With a wingspan of up to 12 metres, they would have made an amazing sight in the sky – had any human been there to witness it. 'I've been studying pterosaurs for about eight years now,' says Dr Matthew Wilkinson, a professor of zoology at Cambridge University. With an anhanguera fossil as his model, Wilkinson began gradually reconstructing its skeletal structure in his Cambridge studio. The probability of finding three-dimensional pterosaur fossils anywhere is slim. 'That was quite a find,' he says. 'Once the bones are usually crushed to dust.' Their structure was complete; it inspired him to make a robot version as a way to understand the animal's locomotion. With a team of model-makers, he has built a remote-controlled pterosaur in his studio. 'Fossils show just how large these creatures were. I've always been interested in how they managed to launch themselves, so I thought the real test would be to actually build one and fly it.'",
+        "Wilkinson hasn't been alone in his desire to recreate a prehistoric beast. Swiss scientists recently announced they had built an amphibious robot that could walk on land and swim in water using the sort of backbone movements that must have been employed by the first creatures to crawl from the sea. But Wilkinson had the added complication of working out his beast's flight technique. Unlike those of bats or flying squirrels, pterosaur wings – soft, stretchy membranes of skin tissue – are thought to have reached from the chest right to the ankle, reinforced by fibres that stiffened the wing and prevented tearing. Smaller subspecies flapped their wings during takeoff. That may have explained the creatures' flexibility, but it did not answer the most pressing question: how did such heavy animals manage to launch themselves into the sky? Working with researchers in London and Berlin, Wilkinson began to piece together the puzzle.",
+        "It emerged that the anhanguera had an elongated limb called the pteroid. It had previously been thought the pteroid pointed towards the shoulder of the creature and supported a soft forewing in front of the arm. But if that were the case, the forewing would have been too small and ineffectual for flight. However, to the surprise of many scientists, fossils from the Araripe basin showed the pteroid possibly faced the opposite way, creating a much greater forewing that would have caught the air, working in the same way as the flaps on the wings of an aeroplane. So, with both feet on the ground, the anhanguera might have simply faced into the wind, spread its wings and risen up into the sky. Initial trials in wind tunnels proved the point – models of pterosaurs with forward-facing pteroids were not only adept at gliding, but were agile flyers in spite of their size. 'This high-lift capability would have significantly reduced the minimum flight speed, allowing even the largest forms to take off without difficulty,' Wilkinson says. 'It would have enabled them to glide very slowly and may have been instrumental in the evolution of large size by the pterosaurs.'",
+        "Resting in the grass at the test site near Cambridge, the robot-model's wings ripple in the wind. In flight, the flexible membrane, while much stiffer than the real thing, allows for a smooth takeoff and landing. But the model has been troubled by other mechanical problems. 'Unlike an aircraft, which is stabilised by the tail wing at the back, the model is stabilised by its head, which means it can start spinning around. That's the most problematic bit as far as we're concerned,' Wilkinson says. 'We've had to take it flying without the head so far.' When it flies with its head attached, Wilkinson will finally have proved his point.",
+        "So what's next for the zoologist – perhaps a full-size Tyrannosaurus rex? 'No,' he tells me: 'We're desperate to build really big pterosaurs. I'm talking creatures with even greater wingspans, weighing a quarter of a ton. But,' he adds, just as one begins to fear for the safety and stress levels of pilots landing nearby at Cambridge City Airport, 'it's more likely we'll start off with one of the smaller, flapping pterosaurs.' This is certainly more reassuring. Let's hope he is content to leave it at that."
+      ],
+      "instructions": [
+        "Complete the summary using the list of words, A-L, below.",
+        "Do the following statements agree with the claims of the writer in Reading Passage 3?",
+        "Choose the correct letter, A, B, C or D."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "input",
+          "prompt": "They are classed as [27] which were capable of flight",
+          "context": "Pterosaurs summary",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "inputs": [
+            {
+              "id": "q27",
+              "placeholder": "27"
+            }
+          ],
+          "constraint": "Choose from A-L",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "input",
+          "prompt": "although, unlike modern species, they had some [28], which is evidence of their having had warm blood.",
+          "context": "Pterosaurs summary",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "inputs": [
+            {
+              "id": "q28",
+              "placeholder": "28"
+            }
+          ],
+          "constraint": "Choose from A-L",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "input",
+          "prompt": "perhaps with all their feet or by using their [29] only.",
+          "context": "Pterosaurs summary",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "inputs": [
+            {
+              "id": "q29",
+              "placeholder": "29"
+            }
+          ],
+          "constraint": "Choose from A-L",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "input",
+          "prompt": "Another mystery has concerned the ability of the pterosaur to fly despite its immense [30]",
+          "context": "Pterosaurs summary",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "inputs": [
+            {
+              "id": "q30",
+              "placeholder": "30"
+            }
+          ],
+          "constraint": "Choose from A-L",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "and the fact that the bones making up the wing did not have great [31].",
+          "context": "Pterosaurs summary",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "inputs": [
+            {
+              "id": "q31",
+              "placeholder": "31"
+            }
+          ],
+          "constraint": "Choose from A-L",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "Thanks to reptile fossils found in Brazil, we now know that the subspecies known as anhanguera had wings that were 12 metres across and that it mainly survived on [32].",
+          "context": "Pterosaurs summary",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "inputs": [
+            {
+              "id": "q32",
+              "placeholder": "32"
+            }
+          ],
+          "constraint": "Choose from A-L",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "yes_no_not_given",
+          "prompt": "It is rare to find a fossil of a pterosaur that clearly shows its skeleton.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "yes_no_not_given",
+          "prompt": "The reason for building the model was to prove pterosaurs flew for long distances.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "yes_no_not_given",
+          "prompt": "It is possible that pterosaur species achieved their wing size as a result of the pteroid.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "yes_no_not_given",
+          "prompt": "Wilkinson has made several unsuccessful replicas of the pterosaur's head.",
+          "context": "",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "single_choice",
+          "prompt": "What was Professor Wilkinson's main problem, according to the third paragraph?",
+          "context": "",
+          "options": [
+            "A. Early amphibians had a more complex structure than pterosaurs.",
+            "B. Pterosaur wings could easily be damaged while on the ground.",
+            "C. Flying squirrels and bats were better adapted to flying than pterosaurs.",
+            "D. Large pterosaurs were not able to take off like other flying animals."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "single_choice",
+          "prompt": "What did Professor Wilkinson discover about a bone in pterosaurs called a pteroid?",
+          "context": "",
+          "options": [
+            "A. It was in an unexpected position.",
+            "B. It existed only in large species of pterosaurs.",
+            "C. It allowed pterosaurs to glide rather than fly.",
+            "D. It increased the speed pterosaurs could reach in the air."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "single_choice",
+          "prompt": "According to the writer, the main problem with the remote-controlled 'pterosaur' is that",
+          "context": "",
+          "options": [
+            "A. it has been unable to leave the ground so far.",
+            "B. it cannot be controlled when its head is attached.",
+            "C. its wing material is not flexible enough.",
+            "D. the force of the wind may affect its test results."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "single_choice",
+          "prompt": "What does 'it' in the last sentence refer to?",
+          "context": "",
+          "options": [
+            "A. the information the tests have revealed",
+            "B. Wilkinson's sense of achievement",
+            "C. Wilkinson's desire to build models",
+            "D. the comparison between types of models"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

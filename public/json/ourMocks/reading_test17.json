@@ -1,0 +1,924 @@
+{
+  "meta": {
+    "test_type": "reading",
+    "source_file": "reading_test17.html",
+    "title": "IELTS Reading Mock Test",
+    "part_count": 3,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "The test contains 40 questions divided into 3 parts",
+      "You have 60 minutes to complete the test",
+      "Read all passages carefully and answer all questions",
+      "You can navigate between questions and parts freely"
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": []
+  },
+  "answer_key": {
+    "1": [
+      "TRUE"
+    ],
+    "2": [
+      "NOT GIVEN"
+    ],
+    "3": [
+      "FALSE"
+    ],
+    "4": [
+      "TRUE"
+    ],
+    "5": [
+      "TRUE"
+    ],
+    "6": [
+      "FALSE"
+    ],
+    "7": [
+      "records"
+    ],
+    "8": [
+      "traders"
+    ],
+    "9": [
+      "trend"
+    ],
+    "10": [
+      "politicians"
+    ],
+    "11": [
+      "frost"
+    ],
+    "12": [
+      "picking"
+    ],
+    "13": [
+      "flavour",
+      "flavor"
+    ],
+    "14": [
+      "x"
+    ],
+    "15": [
+      "ii"
+    ],
+    "16": [
+      "v"
+    ],
+    "17": [
+      "vii"
+    ],
+    "18": [
+      "iv"
+    ],
+    "19": [
+      "viii"
+    ],
+    "20": [
+      "iii"
+    ],
+    "21": [
+      "D"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "newspapers",
+      "newspaper"
+    ],
+    "25": [
+      "appearance"
+    ],
+    "26": [
+      "audience",
+      "the audience"
+    ],
+    "27": [
+      "TRUE"
+    ],
+    "28": [
+      "FALSE"
+    ],
+    "29": [
+      "TRUE"
+    ],
+    "30": [
+      "TRUE"
+    ],
+    "31": [
+      "NOT GIVEN"
+    ],
+    "32": [
+      "A"
+    ],
+    "33": [
+      "C"
+    ],
+    "34": [
+      "D"
+    ],
+    "35": [
+      "anatomy"
+    ],
+    "36": [
+      "resistance"
+    ],
+    "37": [
+      "stress"
+    ],
+    "38": [
+      "hypertension"
+    ],
+    "39": [
+      "organs"
+    ],
+    "40": [
+      "soles"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Coffee Then and Now",
+      "passages": [
+        "Coffee originated around the Red Sea, most probably in Africa, and there are records of coffee cultivation in Yemen as early as the 6th century. By the 13th century, the growing, roasting and grinding of coffee to make a strong-flavoured infusion was widespread throughout the Arab world. News of the drink was brought to Europe by traders, but people there were at first wary of the new drink. However, Pope Clement the Eighth gave the drink his seal of approval after trying a cup for himself, and the trend quickly caught on.",
+        "The 17th century saw the spread of coffee drinking throughout Europe. Coffee houses opened in Vienna, Paris and London, and they soon became the favourite meeting places of politicians, and were also known to attract artists of all kinds. By the 18th century, coffee production was well established in Java in Indonesia and also throughout the Caribbean. Coffee drinking continued to grow in popularity; one of the repercussions of the famous Boston Tea Party of 1773 was that the USA adopted coffee as its national beverage. Today, coffee is drunk around the world, though each nation has its own ways of preparing and serving it.",
+        "Coffee is now grown in more than 50 countries, although production is not at all straightforward. Because it is vulnerable to frost, coffee can only be grown successfully between the Tropics of Cancer and Capricorn. In addition, crop maintenance is labour intensive. The plants require constant care and attention, and in most areas the picking is carried out by hand.",
+        "The ripe berry-like fruits which are harvested are called 'cherries'. These ripen over a period of six to eight months and turn a deep red when ripe, which explains their name. Inside there are two green beans that have to be separated from the pulp and the skin, and dried. This process is known as curing, and it can be done by one of two methods. For the traditional 'dry method' of curing, the cherries are laid out in the sun until completely dry, and then the dried skins and pulp are removed from the beans. The 'wet method' is a more recent development and it is employed for high-quality hand-picked cherries. The outer, fleshy layer is removed, then the cherries are soaked and fermented, followed by washing and drying. Finally, the skins are removed by a machine, revealing the green beans.",
+        "In both cases, the green beans are sorted, graded and packed for export. Roasting tends to be done in the country of import. The roasting process is necessary to reduce the acidity of the beans and to develop the aromatic oils, which give the coffee its aroma and flavour. Finally, grinding exposes a larger surface area to the water, ensuring optimum contact between the ground beans and the water, resulting in a more satisfying cup of coffee.",
+        "The flavour, character and quality of coffee varies tremendously — not only between countries, but also between estates within the same country. The soil, altitude and climate are all factors that contribute to the character of the bean, thereby affecting the final taste. There are four varieties of coffee plant, but only two are sold on any commercial scale.",
+        "The most important of these is coffee arabica, which grows on steep mountain slopes at high altitudes. The arabica bean produces coffee that is rich, aromatic and full of flavour, and it accounts for 70% of world coffee production. Coffee experts agree that the arabica bean is far superior in flavour to other types. The other main variety, coffee canephora, produces the coffee bean known as robusta. Grown on the lower slopes, where cultivation is easier, robusta beans have a higher caffeine content than arabica beans, and a rougher, almost earthy flavour that lacks delicacy and subtlety. It costs about half the price of arabica and is used in the cheaper blends of both fresh and instant coffee.",
+        "There are three types of instant coffee. The cheapest is made from robusta beans that have been brewed into a concentrate. This is sprayed into a stream of hot air that instantly evaporates all moisture, leaving a fine powder. Some of the spray-dried powders undergo further heating to produce granular coffees; the better ones include some arabica beans. The best instant coffees are freeze-dried. For these, an arabica coffee concentrate is frozen and processed in a vacuum to produce crisp, dry particles of coffee.",
+        "Caffeine is a stimulant that is present in coffee. It makes the nervous system more active, which is usually the desired effect. However, it can cause sleeplessness and therefore some consumers prefer to buy coffee without caffeine. Decaffeinated coffee is available in all the regular coffee forms: whole beans, ground or instant. Caffeine is removed by soaking the beans in water, or by the use of solvents or carbon dioxide. The latter is thought to be the best method as it does not affect the flavour and there is no residue. To qualify as decaffeinated, coffee must contain less than 0.9% caffeine."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 1?",
+        "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "true_false_not_given",
+          "prompt": "Ripe coffee fruits are called cherries because of their colour.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "true_false_not_given",
+          "prompt": "The modern 'wet method' of curing is more efficient than the old 'dry method'.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "true_false_not_given",
+          "prompt": "Green beans are usually roasted before being exported.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "true_false_not_given",
+          "prompt": "The roasting process improves both the smell and the taste of coffee.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "true_false_not_given",
+          "prompt": "Arabica coffee is harder to grow than robusta coffee.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "true_false_not_given",
+          "prompt": "The best instant coffee is a mix of arabica and robusta coffee.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "Early suggest that coffee was grown in Yemen.",
+          "context": "The history of coffee",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q7",
+              "placeholder": "7"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "Europeans first heard about coffee from .",
+          "context": "The history of coffee",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q8",
+              "placeholder": "8"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "Coffee drinking became a in Europe only after Pope Clement VIII drank some of it.",
+          "context": "The history of coffee",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q9",
+              "placeholder": "9"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "People such as painters and began to get together in cafés in major European cities.",
+          "context": "The history of coffee",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q10",
+              "placeholder": "10"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "10"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "input",
+          "prompt": "Today coffee is grown only in tropical regions to avoid damage caused by .",
+          "context": "The history of coffee",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q11",
+              "placeholder": "11"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "input",
+          "prompt": "In coffee cultivation, the is generally done manually.",
+          "context": "The history of coffee",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q12",
+              "placeholder": "12"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "input",
+          "prompt": "Using carbon dioxide is the ideal way of removing caffeine because it maintains the of the coffee.",
+          "context": "Decaffeinated coffee",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q13",
+              "placeholder": "13"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "13"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "A study of western celebrity",
+      "passages": [
+        "In our celebrity-obsessed culture, TV shows, internet blogs, and even newspapers are often full of the latest news, gossip and scandals about current celebrities",
+        "A  It seems that our current society cannot get enough information about the daily lives of celebrities. But how did celebrities become so much an important force in our culture? While people have always shared a certain obsession for the fantastic and the famous, the notion of celebrity, as well as the types of people termed 'celebrities', has evolved greatly throughout the ages. The word 'celebrity' has its roots in the language of the ancient Roman civilization. The word we now know to mean 'a condition of being famous' or 'a famous person' is derived from the Latin word 'celeber', meaning 'frequented or populous'.",
+        "B  The celebrities of the ancient world were the powerful and awesome deities of Greece and Rome, and the citizens of these civilizations believed in a vast number of immortals who had a direct impact on their lives. It was, therefore, important to know about these figures' personal lives. This need to know led to the creation of myths, which personalized the gods and involved them in ancient celebrity scandals that thrilled and excited the common people.",
+        "C  During ancient times, amateur and professional athletes also began to make an impact on the celebrity culture. Victors in the ancient Olympic Games were treated as heroes and were often elevated to god-like status. In the ancient Roman civilization, gladiators – the equivalent of today's professional athletes – were also revered by the common people for their heroics and seemingly superhuman strength.",
+        "D  As Europe moved into the Dark Ages (the years spanning approximately 400–1300 AD) and a time when athletics and the arts were largely forgotten, monarchs and rulers continued to maintain celebrity status, while religious figures took on newfound fame. The miraculous lives and fascinating deaths of spiritual figures lent excitement to the lives of common people when there was often little else to be excited about, as they faced war, disease and food shortages.",
+        "E  During the period 1300–1600 AD, or the Renaissance period as it is known, interest in ruling figures faded. As Europe emerged from its long neglect of the arts, there was greater appreciation for portraits, statues and stone carvings. This period of appreciation for the arts lent a sense of celebrity to artists who were noted for their works and their personal achievements. It was a time when artists began to surpass political and religious individuals for supreme celebrity – a trend that would continue into later centuries.",
+        "F  While the figures of the ancient and early modern civilizations were able to achieve moderate and sometimes lasting celebrity within particular cultures, the global reach of their fame was limited. It was not until the 1700s, when technological advances made publishing commercially viable, that the extent of a person's fame could spread further. The increase in the availability of the written word was accompanied by a huge rise in the number of common people who could read, allowing a mass audience to find out about celebrities for the first time. Suddenly, the lives of authors, politicians, war heroes, and other celebrities could now be read about in newspapers around the world. These gave ordinary people the opportunity to become intimately knowledgeable about the figures they most admired.",
+        "G  In the modern era, particularly as radio and film took off in the 1900s, things really began to change. First, radio began to make its way into the average home in the 1920s and 1930s. Professional athletes also began to be regarded as stars, as their games and exploits could be broadcast over the air for an entirely new audience. Then, the rise of television in the 1950s only cemented the premier level of celebrity that film stars, athletes and television actors were beginning to share. This also meant a huge increase in the individual salaries of these celebrities. Even a few animals gained fame through children's TV shows. The emergence of reality television shows in the late 1990s allowed all kinds of people with little ability to enjoy a short burst of fame on the television screen. All you needed, it seemed, was an attractive appearance. Today, reality television programmes make it possible to be famous not for doing anything in particular, but simply for being, with the audience deciding whether someone deserves to become a celebrity or not. As the meaning of celebrity continues to evolve and redefine itself in a quickly changing world, there is no telling who will become of interest next."
+      ],
+      "instructions": [
+        "Choose the correct heading for each paragraph from the list of headings below.",
+        "Match each statement with the correct historical period, A, B, C or D.",
+        "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "Paragraph A",
+          "context": "List of Headings: i. Why it is necessary to explain the meaning of the word celebrity, ii. The influence of non-human celebrities on societies, iii. The impact of broadcasting on concepts of celebrity, iv. Creativity having greater value, v. Admiration for physical achievement, vi. The advantages of celebrity status in the ancient world, vii. A result of hardship, viii. Literacy and widespread celebrity, ix. Attitudes of celebrities towards the media, x. The original definition of celebrity",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [
+            {
+              "id": "q14"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Paragraph B",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [
+            {
+              "id": "q15"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "matching",
+          "prompt": "Paragraph C",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [
+            {
+              "id": "q16"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "matching",
+          "prompt": "Paragraph D",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [
+            {
+              "id": "q17"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "matching",
+          "prompt": "Paragraph E",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [
+            {
+              "id": "q18"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "matching",
+          "prompt": "Paragraph F",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [
+            {
+              "id": "q19"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "matching",
+          "prompt": "Paragraph G",
+          "context": "List of Headings",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv",
+            "v",
+            "vi",
+            "vii",
+            "viii",
+            "ix",
+            "x"
+          ],
+          "inputs": [
+            {
+              "id": "q20"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "20"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "matching",
+          "prompt": "A wide variety of people achieve a brief period of fame.",
+          "context": "List of historical periods in Europe: A. Ancient times, B. Dark Ages, C. Renaissance, D. Modern era",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [
+            {
+              "id": "q21"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "matching",
+          "prompt": "Stories are invented about celebrities' lives.",
+          "context": "List of historical periods in Europe",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [
+            {
+              "id": "q22"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "matching",
+          "prompt": "The fame of rulers is starting to diminish.",
+          "context": "List of historical periods in Europe",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inputs": [
+            {
+              "id": "q23"
+            }
+          ],
+          "constraint": "",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "input",
+          "prompt": "The development of the publishing industry in the 1700s signalled the beginning of international fame. A growing number of people could read, which meant they had the chance to become informed about their favourite figures by reading .",
+          "context": "Celebrities achieve a global status",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q24",
+              "placeholder": "24"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "This exposure to celebrities expanded further when radio and television became popular, and it was mass media attention that resulted in higher status and fame for some celebrities. The recent rise of reality television has also meant that a person's rather than their talent can bring fame.",
+          "context": "Celebrities achieve a global status",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q25",
+              "placeholder": "25"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "With this type of television programme, fame may be entirely dependent on the response of the .",
+          "context": "Celebrities achieve a global status",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q26",
+              "placeholder": "26"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "26"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Learning to Walk",
+      "passages": [
+        "These days the feet of a typical city dweller rarely encounter terrain any more uneven than a crack in the pavement. While that may not seem like a problem, it turns out that by flattening our urban environment we have put ourselves at risk of a surprising number of chronic illnesses and disabilities. Fortunately, the commercial market has come to the rescue with a choice of products. Research into the idea that flat floors could be detrimental to our health was pioneered back in the late 1960s in Long Beach, California. Podiatrist Charles Brantingham and physiologist Bruce Beekman were concerned with the growing epidemic of high blood pressure, varicose veins and deep-vein thromboses and reckoned they might be linked to the uniformity of the surfaces that we tend to stand and walk on.",
+        "The trouble, they believed, was that walking continuously on flat floors, sidewalks and streets concentrates forces on just a few areas of the foot. As a result, these surfaces are likely to be far more conducive to chronic stress syndromes than natural surfaces, where the foot meets the ground in a wide variety of orientations. They understood that the anatomy of the foot parallels that of the human hand – each having 26 bones, 33 joints and more than 100 muscles, tendons and ligaments – and that modern lifestyles waste all this potential flexibility.",
+        "Brantingham and Beekman became convinced that the damage could be rectified by making people wobble. To test their ideas, they got 65 factory workers to try standing on a variable terrain floor – spongy mats with varying degrees of resistance across the surface. This modest irregularity allowed the soles of the volunteers' feet to deviate slightly from the horizontal each time they shifted position. As the researchers hoped, this simple intervention made a huge difference, within a few weeks. Even if people were wobbling slightly, it activated a host of muscles in their legs, which in turn helped pump blood back to their hearts. The muscle action prevented the pooling of blood in their feet and legs, reducing the stress on the heart and circulation. Yet decades later, the flooring of the world's largest workplaces remains relentlessly smooth. Earlier this year, however, the idea was revived when other researchers in the US announced findings from a similar experiment with people over 60. John Fisher and colleagues at the Oregon Research Institute in Eugene designed a mat intended to replicate the effect of walking on cobblestones.",
+        "In tests funded by the National Institute of Aging, they got some 50 adults to walk on the mats in their bare feet for less than an hour, three times a week. After 16 weeks, these people showed marked improvements in mobility, and even a significant reduction in blood pressure. People in a control group who walked on ordinary floors also improved but not as dramatically. The mats are now available for purchase and production is being scaled up. Even so, demand could exceed supply if this foot-stimulating activity really is a 'useful non-pharmacological approach for preventing or controlling hypertension of older adults', as the researchers believe. They are not alone in recognising the benefits of cobblestones. Reflexologists have long advocated walking on textured surfaces to stimulate so-called 'acupoints' on the soles of the feet. They believe that pressure applied to particular spots on the foot connects directly to particular organs of the body and somehow enhances their function. In China, spas, apartment blocks and even factories promote their cobblestone paths as healthful amenities. Fisher admits he got the concept from regular visits to the country. Here, city dwellers take daily walks along cobbled paths for five or ten minutes, perhaps several times a day, to improve their health. The idea is now taking off in Europe.",
+        "People in Germany, Austria and Switzerland can now visit 'barefoot parks' and walk along 'paths of the senses' – with mud, logs, stone and moss underfoot. And it is not difficult to construct your own path with simple everyday objects such as stones or bamboo poles. But if none of these solutions appeal, there is another option. A new shoe on the market claims to transform flat, hard, artificial surfaces into something like uneven ground. 'These shoes have an unbelievable effect,' says Benno Nigg, an exercise scientist at Calgary University in Canada.",
+        "Known as the Masai Barefoot Technology, the shoes have rounded soles that cause you to rock slightly when you stand still, exercising the small muscles around the ankle that are responsible for stability. Forces in the joint are reduced, putting less strain on the system, Nigg claims.",
+        "Some of these options may not appeal to all consumers and there is a far simpler alternative. If the urban environment is detrimental to our health, then it is obvious where we should turn. A weekend or even a few hours spent in the countryside could help alleviate a sufferer's aches and pains, and would require only the spending of time.",
+        "However, for many modern citizens, the countryside is not as accessible as it once was and is in fact a dwindling resource. Our concrete cities are growing at a terrifying rate – perhaps at the same rate as our health problems."
+      ],
+      "instructions": [
+        "Do the following statements agree with the information given in Reading Passage 3?",
+        "Choose the correct letter, A, B, C or D.",
+        "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "true_false_not_given",
+          "prompt": "Brantingham and Beekman were the first researchers to investigate the relationship between health problems and flat floors.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "true_false_not_given",
+          "prompt": "The subjects in Fisher's control group experienced a decline in their physical condition.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "true_false_not_given",
+          "prompt": "The manufacturers are increasing the number of cobblestone mats they are making.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "true_false_not_given",
+          "prompt": "Fisher based his ideas on what he saw during an overseas trip.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "30"
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "true_false_not_given",
+          "prompt": "The Masai Barefoot Technology shoes are made to fit people of all ages.",
+          "context": "",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "single_choice",
+          "prompt": "The writer suggests that Brantingham and Beekman's findings were",
+          "context": "",
+          "options": [
+            "A  ignored by big companies.",
+            "B  doubted by other researchers.",
+            "C  applicable to a narrow range of people.",
+            "D  surprising to them."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "single_choice",
+          "prompt": "What claim is made by the designers of the cobblestone mats?",
+          "context": "",
+          "options": [
+            "A  They need to be used continuously in order to have a lasting effect.",
+            "B  They would be as beneficial to younger people as to older people.",
+            "C  They could be an effective alternative to medical intervention.",
+            "D  Their effects may vary depending on individual users."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "single_choice",
+          "prompt": "Which of the following points does the writer make in the final paragraph?",
+          "context": "",
+          "options": [
+            "A  People should question new theories that scientists put forward.",
+            "B  High prices do not necessarily equate to a quality product.",
+            "C  People are setting up home in the country for health reasons.",
+            "D  The natural environment is fast disappearing."
+          ],
+          "inputs": [],
+          "constraint": "",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "In their research, Brantingham and Beekman looked at the complex physical of the foot and noted that the surfaces of modern environments restrict its movement.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q35",
+              "placeholder": "35"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "They invented a mat which they tried out on factory workers. Whenever the workers walked on it, the different levels of in the mat would encourage greater muscle action.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q36",
+              "placeholder": "36"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "In turn, this lessened the effect of on the cardiovascular system.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q37",
+              "placeholder": "37"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "Similar research was undertaken by John Fisher and colleagues in Oregon. As a result of their findings, they decided to market cobblestone mats to the elderly as a means of dealing with .",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q38",
+              "placeholder": "38"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Reflexologists claim that by manipulating specific parts of the feet, the performance of certain will also improve.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q39",
+              "placeholder": "39"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Finally, Benno Nigg at Calgary University believes that specially shaped on shoes should give health benefits.",
+          "context": "",
+          "options": [],
+          "inputs": [
+            {
+              "id": "q40",
+              "placeholder": "40"
+            }
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}

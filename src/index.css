@@ -1,0 +1,527 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --font-sans: "Inter", "Segoe UI", sans-serif;
+  --font-serif: "Noto Serif", Georgia, "Times New Roman", serif;
+}
+
+/* Scrollbarni yashirish (Chrome/Edge WebKit uchun; Firefox/IE inline
+   style'da scrollbar-width:none bilan hal qilinadi) */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* iOS safe area for bottom tab bar */
+.safe-area-pb {
+  padding-bottom: max(0.375rem, env(safe-area-inset-bottom));
+}
+
+/* ============================================================
+   THEMES — 5 tema, har biri dark/light modaga ega.
+   data-theme html atributi orqali faollashadi.
+   --accent: asosiy urg'u rangi (tugma, badge, faol holatlar)
+   --accent-contrast: accent ustidagi matn rangi
+   ============================================================ */
+:root {
+  --accent: #17171a;
+  --accent-contrast: #ffffff;
+}
+.dark {
+  --accent: #ffffff;
+  --accent-contrast: #17171a;
+}
+[data-theme="ocean"] {
+  --accent: #2563eb;
+  --accent-contrast: #ffffff;
+}
+.dark[data-theme="ocean"] {
+  --accent: #60a5fa;
+  --accent-contrast: #0b1220;
+}
+[data-theme="forest"] {
+  --accent: #15803d;
+  --accent-contrast: #ffffff;
+}
+.dark[data-theme="forest"] {
+  --accent: #4ade80;
+  --accent-contrast: #07130c;
+}
+[data-theme="sunset"] {
+  --accent: #ea580c;
+  --accent-contrast: #ffffff;
+}
+.dark[data-theme="sunset"] {
+  --accent: #fb923c;
+  --accent-contrast: #1a0e04;
+}
+[data-theme="violet"] {
+  --accent: #7c3aed;
+  --accent-contrast: #ffffff;
+}
+.dark[data-theme="violet"] {
+  --accent: #a78bfa;
+  --accent-contrast: #11081f;
+}
+
+/* ============================================================
+   NEW ACCENT THEMES — Crimson, Teal, Gold, Indigo
+   ============================================================ */
+[data-theme="crimson"] {
+  --accent: #dc2626;
+  --accent-contrast: #ffffff;
+}
+.dark[data-theme="crimson"] {
+  --accent: #f87171;
+  --accent-contrast: #1a0505;
+}
+[data-theme="teal"] {
+  --accent: #0d9488;
+  --accent-contrast: #ffffff;
+}
+.dark[data-theme="teal"] {
+  --accent: #2dd4bf;
+  --accent-contrast: #041f1a;
+}
+[data-theme="gold"] {
+  --accent: #ca8a04;
+  --accent-contrast: #ffffff;
+}
+.dark[data-theme="gold"] {
+  --accent: #facc15;
+  --accent-contrast: #1a1505;
+}
+[data-theme="indigo"] {
+  --accent: #4f46e5;
+  --accent-contrast: #ffffff;
+}
+.dark[data-theme="indigo"] {
+  --accent: #818cf8;
+  --accent-contrast: #0c0a2a;
+}
+
+/* ============================================================
+   RADIUS — qirra radiusini boshqarish
+   ============================================================ */
+:root {
+  --radius: 12px;
+}
+[data-radius="sharp"] {
+  --radius: 0px;
+}
+[data-radius="round"] {
+  --radius: 20px;
+}
+
+/* ============================================================
+   FONT — shrift turini boshqarish
+   ============================================================ */
+:root {
+  --font-sans: 'Inter', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --font-serif: 'Noto Serif', Georgia, 'Times New Roman', serif;
+}
+:root {
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-font="jetbrains"] {
+  font-family: var(--font-mono);
+}
+[data-font="noto-serif"] {
+  font-family: var(--font-serif);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@keyframes floatY {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(12px, -10px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.float-slow {
+  animation: floatY 5s ease-in-out infinite;
+}
+
+.font-display {
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -0.01em;
+}
+
+@keyframes softPing {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  75%,
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+/* Yumshoq, kamtar "nafas olish" animatsiyasi — tugma jimgina katta/kichik
+   bo'lib turadi. Doimiy harakat sezilishi uchun amplituda yetarli, lekin
+   shovqinsiz — chalg'itmaydi. */
+@keyframes breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.12);
+  }
+}
+
+.animate-breathe {
+  animation: breathe 2.8s ease-in-out infinite;
+}
+
+.animate-soft-ping {
+  animation: softPing 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.float-medium {
+  animation: floatY 4s ease-in-out infinite;
+}
+
+.drift {
+  animation: drift 6s ease-in-out infinite;
+}
+
+.orb {
+  animation: pulseGlow 3.4s ease-in-out infinite;
+}
+
+.icon-pop {
+  animation: popIn 0.6s ease-out both;
+}
+
+/* ============================================================
+   GAMES — header'dagi "Games" linki uchun yaltiraydigan gradient.
+   Har 5 soniyada gradient yer hamisha siljiydi (shine).
+   ============================================================ */
+@keyframes qz-games-shine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+.qz-games-shine {
+  background-image: linear-gradient(
+    90deg,
+    var(--accent),
+    #f59e0b,
+    #ef4444,
+    var(--accent)
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: qz-games-shine 3s linear infinite;
+}
+
+/* Games linkining o'ziga — har 10 soniyada BIR marta titraydi (shake)
+   va atrofida yorug'lik halo "yonadi". Qolgan vaqt tinch turadi. */
+@keyframes qz-games-glow {
+  0%,
+  82% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
+    transform: scale(1);
+  }
+  84% {
+    box-shadow: 0 0 20px 4px rgba(245, 158, 11, 0.6);
+    transform: scale(1.06) translateX(-2px) rotate(-2deg);
+  }
+  87% {
+    box-shadow: 0 0 26px 6px rgba(245, 158, 11, 0.75);
+    transform: scale(1.06) translateX(2px) rotate(2deg);
+  }
+  90% {
+    box-shadow: 0 0 20px 4px rgba(245, 158, 11, 0.6);
+    transform: scale(1.06) translateX(-2px) rotate(-2deg);
+  }
+  93% {
+    box-shadow: 0 0 26px 6px rgba(245, 158, 11, 0.75);
+    transform: scale(1.06) translateX(2px) rotate(2deg);
+  }
+  96% {
+    box-shadow: 0 0 20px 4px rgba(245, 158, 11, 0.6);
+    transform: scale(1.06) translateY(0) rotate(0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
+    transform: scale(1);
+  }
+}
+.qz-games-glow {
+  animation: qz-games-glow 10s ease-in-out infinite;
+}
+
+/* ============================================================
+   HIGHLIGHTS — matn ustidagi rangli belgilar.
+   Light rejimda ochiq (yumshoq), dark rejimda to'q tusga oladi,
+   shunda highlight ichidagi matn har ikki rejimda ham o'qiladi.
+   ============================================================ */
+.custom-highlight[data-color="yellow"] {
+  background-color: #fef3c7;
+}
+.custom-highlight[data-color="green"] {
+  background-color: #bbf7d0;
+}
+.custom-highlight[data-color="blue"] {
+  background-color: #bfdbfe;
+}
+.custom-highlight[data-color="red"] {
+  background-color: #fecaca;
+}
+.dark .custom-highlight[data-color="yellow"] {
+  background-color: #a16207;
+}
+.dark .custom-highlight[data-color="green"] {
+  background-color: #15803d;
+}
+.dark .custom-highlight[data-color="blue"] {
+  background-color: #1d4ed8;
+}
+.dark .custom-highlight[data-color="red"] {
+  background-color: #b91c1c;
+}
+
+/* ============================================================
+   TY tiyping — Tabriklash animatsiyasi (leaderboardda o'zib ketish)
+   ============================================================ */
+@keyframes qz-congrats-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(30px);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.08) translateY(-6px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+.qz-congrats-pop {
+  animation: qz-congrats-pop 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes qz-confetti-fall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(105vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+.qz-confetti {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.qz-confetti::before,
+.qz-confetti::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 16px;
+  border-radius: 2px;
+  animation: qz-confetti-fall 2.6s linear infinite;
+}
+.qz-confetti::before {
+  left: 15%;
+  background: var(--accent, #f59e0b);
+}
+.qz-confetti::after {
+  left: 70%;
+  background: #22c55e;
+  animation-delay: 0.9s;
+}
+
+/* ============================================================
+   Leaderboard o'ngdan ochiladigan modal (Typing)
+   ============================================================ */
+@keyframes qz-slide-right-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.qz-slide-right-in {
+  animation: qz-slide-right-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes qz-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.qz-fade-in {
+  animation: qz-fade-in 0.25s ease-out both;
+}
+
+/* ============================================================
+   Tanlangan segment (rejim/vaqt) pillining "suriluvchi" animatsiyasi
+   ============================================================ */
+@keyframes qz-pill-active {
+  0% {
+    transform: scale(0.72);
+  }
+  60% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.qz-pill-active {
+  animation: qz-pill-active 0.28s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ============================================================
+   qz- animatsiya tizimi — barcha sahifalarda ishlatiladi
+   ============================================================ */
+@keyframes qz-fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes qz-fade-out { from { opacity: 1; } to { opacity: 0; } }
+@keyframes qz-scale-in {
+  from { opacity: 0; transform: scale(0.94) translateY(10px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+@keyframes qz-scale-out {
+  from { opacity: 1; transform: scale(1) translateY(0); }
+  to   { opacity: 0; transform: scale(0.94) translateY(6px); }
+}
+@keyframes qz-pop-in {
+  from { opacity: 0; transform: scale(0.9); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes qz-pop-out {
+  from { opacity: 1; transform: scale(1); }
+  to   { opacity: 0; transform: scale(0.9); }
+}
+@keyframes qz-slide-in-left {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0); }
+}
+@keyframes qz-slide-out-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-100%); }
+}
+@keyframes qz-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes qz-spin-smooth {
+  to { transform: rotate(360deg); }
+}
+
+.qz-anim-fade-in  { animation: qz-fade-in .18s ease-out both; }
+.qz-anim-fade-out { animation: qz-fade-out .18s ease-in both; }
+.qz-anim-scale-in  { animation: qz-scale-in .22s cubic-bezier(0.16,1,0.3,1) both; }
+.qz-anim-scale-out { animation: qz-scale-out .16s ease-in both; }
+.qz-anim-pop-in  { animation: qz-pop-in .16s cubic-bezier(0.16,1,0.3,1) both; }
+.qz-anim-pop-out { animation: qz-pop-out .13s ease-in both; }
+.qz-anim-slide-in-left  { animation: qz-slide-in-left .3s cubic-bezier(0.16,1,0.3,1) both; }
+.qz-anim-slide-out-left { animation: qz-slide-out-left .25s ease-in both; }
+
+/* Skeleton loading */
+.qz-skeleton {
+  background: linear-gradient(90deg, rgba(148,163,184,0.15) 25%, rgba(148,163,184,0.35) 37%, rgba(148,163,184,0.15) 63%);
+  background-size: 400% 100%;
+  animation: qz-shimmer 1.4s ease-in-out infinite;
+  border-radius: 0.5rem;
+}
+.dark .qz-skeleton {
+  background: linear-gradient(90deg, rgba(51,65,85,0.4) 25%, rgba(71,85,105,0.6) 37%, rgba(51,65,85,0.4) 63%);
+  background-size: 400% 100%;
+}
+
+/* Spinner */
+.qz-spinner {
+  animation: qz-spin-smooth .7s linear infinite;
+}
+
+.qz-row-in { animation: qz-fade-in .3s ease-out both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .qz-anim-fade-in, .qz-anim-fade-out, .qz-anim-scale-in, .qz-anim-scale-out,
+  .qz-anim-pop-in, .qz-anim-pop-out, .qz-anim-slide-in-left, .qz-anim-slide-out-left,
+  .qz-skeleton, .qz-spinner, .qz-row-in {
+    animation: none !important;
+  }
+}

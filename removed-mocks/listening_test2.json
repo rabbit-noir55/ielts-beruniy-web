@@ -1,0 +1,834 @@
+{
+  "meta": {
+    "test_type": "listening",
+    "source_file": "listening_test2.html",
+    "title": "IELTS CDI Listening Practice - Family Presents",
+    "part_count": 4,
+    "total_questions": 40,
+    "schema_version": "ai-universal-v1"
+  },
+  "settings": {
+    "timer_seconds": 3600,
+    "instructions": [
+      "Listen and answer questions 1-10.",
+      "Listen and answer questions 11-20.",
+      "Listen and answer questions 21-30.",
+      "Listen and answer questions 31-40."
+    ]
+  },
+  "media": {
+    "audio_urls": [],
+    "transcripts": [
+      "PART 1 – Family Presents...",
+      "PART 2 – Historical Sites Tour...",
+      "PART 3 – Work Experience Programme...",
+      "PART 4 – Theories of Intelligence..."
+    ]
+  },
+  "answer_key": {
+    "1": [
+      "truck"
+    ],
+    "2": [
+      "technology"
+    ],
+    "3": [
+      "bird"
+    ],
+    "4": [
+      "8.99"
+    ],
+    "5": [
+      "boxes"
+    ],
+    "6": [
+      "temperature"
+    ],
+    "7": [
+      "rimona"
+    ],
+    "8": [
+      "postage"
+    ],
+    "9": [
+      "gift"
+    ],
+    "10": [
+      "message"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "F"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "E"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "B"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "E"
+    ],
+    "27": [
+      "H"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "F"
+    ],
+    "31": [
+      "life"
+    ],
+    "32": [
+      "twins"
+    ],
+    "33": [
+      "experiences"
+    ],
+    "34": [
+      "improvement"
+    ],
+    "35": [
+      "musical"
+    ],
+    "36": [
+      "brain"
+    ],
+    "37": [
+      "face"
+    ],
+    "38": [
+      "interaction"
+    ],
+    "39": [
+      "spelling"
+    ],
+    "40": [
+      "song"
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Family presents",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD AND/OR A NUMBER for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "input",
+          "prompt": "A wooden [1] (a model)",
+          "context": "Presents for Peter",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "1"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "input",
+          "prompt": "helps children to understand basic [2]",
+          "context": "Presents for Peter",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "2"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "input",
+          "prompt": "A [3] feeder",
+          "context": "Presents for Peter",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "3"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "input",
+          "prompt": "price: [4]",
+          "context": "Presents for Peter",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "4"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "type": "input",
+          "prompt": "kit includes chocolate, moulds and some small [5]",
+          "context": "Present for Natalie",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "5"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "type": "input",
+          "prompt": "helps children to understand effects of [6]",
+          "context": "Present for Natalie",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "6"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "type": "input",
+          "prompt": "web address – www. [7] .com",
+          "context": "Ordering toys",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "7"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "type": "input",
+          "prompt": "order before Friday to get free [8]",
+          "context": "Ordering toys",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "8"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "type": "input",
+          "prompt": "under 'Packaging options' choose [9]",
+          "context": "Ordering toys",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "9"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "type": "input",
+          "prompt": "possible to include a [10]",
+          "context": "Ordering toys",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD AND/OR A NUMBER",
+          "answer_key_ref": "10"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Historical Sites Tour",
+      "passages": [],
+      "instructions": [
+        "What information is given about each of the following historical sites? Choose FIVE answers from the box and write the correct letter, A-G, next to questions 11-15.",
+        "Choose the correct letter A, B or C."
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "number": 11,
+          "type": "matching",
+          "prompt": "Chamber Museum",
+          "context": "Information options: A: limited viewing space, B: free movie, C: limited touring time, D: advance reservations only, E: old paintings, F: best seen at night, G: unusual architectural details",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-G",
+          "answer_key_ref": "11"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "type": "matching",
+          "prompt": "Harris Park",
+          "context": "Information options: A: limited viewing space, B: free movie, C: limited touring time, D: advance reservations only, E: old paintings, F: best seen at night, G: unusual architectural details",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-G",
+          "answer_key_ref": "12"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "type": "matching",
+          "prompt": "State Building",
+          "context": "Information options: A: limited viewing space, B: free movie, C: limited touring time, D: advance reservations only, E: old paintings, F: best seen at night, G: unusual architectural details",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-G",
+          "answer_key_ref": "13"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "type": "matching",
+          "prompt": "High Court",
+          "context": "Information options: A: limited viewing space, B: free movie, C: limited touring time, D: advance reservations only, E: old paintings, F: best seen at night, G: unusual architectural details",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-G",
+          "answer_key_ref": "14"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "type": "matching",
+          "prompt": "Castle Mount",
+          "context": "Information options: A: limited viewing space, B: free movie, C: limited touring time, D: advance reservations only, E: old paintings, F: best seen at night, G: unusual architectural details",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-G",
+          "answer_key_ref": "15"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "type": "single_choice",
+          "prompt": "At the King Centre, you can",
+          "context": "",
+          "options": [
+            "A. watch a movie.",
+            "B. see a live performance.",
+            "C. enjoy local food."
+          ],
+          "inputs": [],
+          "constraint": "A, B or C",
+          "answer_key_ref": "16"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "type": "single_choice",
+          "prompt": "The 'T Park' attendance has recently improved because of",
+          "context": "",
+          "options": [
+            "A. extra summer events.",
+            "B. popular activities for kids.",
+            "C. better public transport."
+          ],
+          "inputs": [],
+          "constraint": "A, B or C",
+          "answer_key_ref": "17"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "type": "single_choice",
+          "prompt": "In Marytown, you may be able to",
+          "context": "",
+          "options": [
+            "A. find a discount shop.",
+            "B. visit an old house.",
+            "C. attend a university lecture."
+          ],
+          "inputs": [],
+          "constraint": "A, B or C",
+          "answer_key_ref": "18"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "type": "single_choice",
+          "prompt": "At the canal, you can",
+          "context": "",
+          "options": [
+            "A. have a picnic.",
+            "B. rent a bicycle.",
+            "C. take a guided tour."
+          ],
+          "inputs": [],
+          "constraint": "A, B or C",
+          "answer_key_ref": "19"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "type": "single_choice",
+          "prompt": "The speaker concludes by recommending visitors to",
+          "context": "",
+          "options": [
+            "A. visit all the sites.",
+            "B. carry water.",
+            "C. use public transport."
+          ],
+          "inputs": [],
+          "constraint": "A, B or C",
+          "answer_key_ref": "20"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Work experience programme",
+      "passages": [],
+      "instructions": [
+        "Choose the correct letter, A, B or C.",
+        "Complete the flow-chart below. Choose SIX answers from the box and write the correct letter, A-I, next to questions 25-30."
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "number": 21,
+          "type": "single_choice",
+          "prompt": "John is unhappy because the work experience programme",
+          "context": "",
+          "options": [
+            "A. is very expensive.",
+            "B. takes too long.",
+            "C. doesn't earn credit."
+          ],
+          "inputs": [],
+          "constraint": "A, B or C",
+          "answer_key_ref": "21"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "type": "single_choice",
+          "prompt": "What part of the preparation course do Emma and John agree is unnecessary?",
+          "context": "",
+          "options": [
+            "A. creating a professional curriculum vitae",
+            "B. attending an interview workshop",
+            "C. setting personal goals"
+          ],
+          "inputs": [],
+          "constraint": "A, B or C",
+          "answer_key_ref": "22"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "type": "single_choice",
+          "prompt": "What does Emma say about the work experience role John might take on?",
+          "context": "",
+          "options": [
+            "A. He will spend the entire time on the help desk.",
+            "B. He will get the chance to design computer software.",
+            "C. He will be able to do work appropriate to his area of study."
+          ],
+          "inputs": [],
+          "constraint": "A, B or C",
+          "answer_key_ref": "23"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "type": "single_choice",
+          "prompt": "According to John, when students are doing work experience after their second year",
+          "context": "",
+          "options": [
+            "A. they cannot expect to receive the same wage as recent graduates.",
+            "B. their employers are not required to pay them.",
+            "C. they are not allowed to work for charity organisations."
+          ],
+          "inputs": [],
+          "constraint": "A, B or C",
+          "answer_key_ref": "24"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "type": "input",
+          "prompt": "The student gets a simple [25] form.",
+          "context": "The process for getting and doing work experience",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-I",
+          "answer_key_ref": "25"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "type": "input",
+          "prompt": "The college looks at a short [26] and confirms whether the work is suitable.",
+          "context": "The process for getting and doing work experience",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-I",
+          "answer_key_ref": "26"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "type": "input",
+          "prompt": "The college obtains the relevant [27] from the employer.",
+          "context": "The process for getting and doing work experience",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-I",
+          "answer_key_ref": "27"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "type": "input",
+          "prompt": "A meeting is arranged to discuss [28] issues.",
+          "context": "The process for getting and doing work experience",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-I",
+          "answer_key_ref": "28"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "type": "input",
+          "prompt": "The student must complete a [29] while doing the work experience.",
+          "context": "The process for getting and doing work experience",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-I",
+          "answer_key_ref": "29"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "type": "input",
+          "prompt": "Employers are provided with a voluntary [30] form.",
+          "context": "The process for getting and doing work experience",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "inputs": [
+            ""
+          ],
+          "constraint": "A-I",
+          "answer_key_ref": "30"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Theories of intelligence",
+      "passages": [],
+      "instructions": [
+        "Complete the notes below.",
+        "Write ONE WORD ONLY for each answer."
+      ],
+      "questions": [
+        {
+          "id": "q31",
+          "number": 31,
+          "type": "input",
+          "prompt": "There is no change during a person's [31]",
+          "context": "1st theory (developed by psychologists such as Spearman, 1920s)",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "31"
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "type": "input",
+          "prompt": "This theory is supported by research into the intelligence of [32]",
+          "context": "1st theory (developed by psychologists such as Spearman, 1920s)",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "32"
+        },
+        {
+          "id": "q33",
+          "number": 33,
+          "type": "input",
+          "prompt": "Two children from the same family are likely to have similar [33], affecting their intelligence.",
+          "context": "2nd theory (based on the same research)",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "33"
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "type": "input",
+          "prompt": "It found that after moving to a different culture there was an [34] in children's intelligence.",
+          "context": "2nd theory (based on the same research)",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "34"
+        },
+        {
+          "id": "q35",
+          "number": 35,
+          "type": "input",
+          "prompt": "People have multiple intelligences, including traditional ones (e.g. linguistic), and non-traditional (e.g. [35] )",
+          "context": "3rd theory (Howard Gardner, 1990s)",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "35"
+        },
+        {
+          "id": "q36",
+          "number": 36,
+          "type": "input",
+          "prompt": "It is based on research that suggests specific parts of the [36] control specific cognitive abilities.",
+          "context": "3rd theory (Howard Gardner, 1990s)",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "36"
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "type": "input",
+          "prompt": "It is supported by the fact that some people have problems identifying a [37] but no problems in other related areas.",
+          "context": "3rd theory (Howard Gardner, 1990s)",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "37"
+        },
+        {
+          "id": "q38",
+          "number": 38,
+          "type": "input",
+          "prompt": "According to Gardner's theory, there is [38] between the different intelligences.",
+          "context": "3rd theory (Howard Gardner, 1990s)",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "38"
+        },
+        {
+          "id": "q39",
+          "number": 39,
+          "type": "input",
+          "prompt": "Surprisingly, improvements in rhythm may affect [39]",
+          "context": "This can be used to improve learning",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "39"
+        },
+        {
+          "id": "q40",
+          "number": 40,
+          "type": "input",
+          "prompt": "Scientific facts may be easier to remember if learnt as a [40]",
+          "context": "This can be used to improve learning",
+          "options": [],
+          "inputs": [
+            ""
+          ],
+          "constraint": "ONE WORD ONLY",
+          "answer_key_ref": "40"
+        }
+      ]
+    }
+  ]
+}
