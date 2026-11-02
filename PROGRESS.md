@@ -14,6 +14,7 @@
 - [x] ESLint: `android/` build assetlari ignore qilindi
 - [x] `.gitignore` — `.playwright-mcp/` va `android/app/src/main/assets/public/` qo'shildi
 - [x] 3-bo'lim (Davomat) to'liq tugatildi
+- [x] 4.1-bo'lim — mobil responsive audit (35 sahifa screenshot + `MOBILE_AUDIT.md`)
 - [x] `src/utils/telegram.js` — `tg()`, `isTelegram()`
 - [x] `index.html` — telegram-web-app.js skripti
 - [x] `src/main.jsx` — ready/expand/setHeaderColor/disableVerticalSwipes

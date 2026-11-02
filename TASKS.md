@@ -44,7 +44,7 @@
 
 ## 4. Mobil responsive audit
 
-- [ ] **Faza 1 — ko'rish.** `src/App.jsx` dan barcha routelarni ol. Har biri uchun viewport `390x844`,
+- [x] **Faza 1 — ko'rish.** `src/App.jsx` dan barcha routelarni ol. Har biri uchun viewport `390x844`,
   `deviceScaleFactor 3`, mobile UA. `fullPage` screenshot → `screenshots/mobile/<route>.png`.
   Tekshir: gorizontal scroll (`scrollWidth > innerWidth`), ekrandan chiqqan element
   (`rect.right > innerWidth + 1`), tap target `< 44px`, kesilgan matn, console error.
