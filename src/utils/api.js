@@ -114,6 +114,25 @@ export function changePassword(old_password, new_password) {
   });
 }
 
+const REVEAL_PASSWORD_ERRORS = {
+  "Google hisobi mos kelmadi.": "Google hisobi mos kelmadi.",
+  "Parol o'qituvchi tomonidan o'rnatilmagan.": "Parol o'qituvchi tomonidan o'rnatilmagan.",
+  "Faqat o'quvchi uchun.": "Faqat o'quvchi uchun.",
+};
+
+export async function revealPassword(credential) {
+  try {
+    return await request("/auth/reveal-password/", {
+      method: "POST",
+      body: { credential },
+    });
+  } catch (err) {
+    const mapped = REVEAL_PASSWORD_ERRORS[err.message];
+    if (mapped) throw new Error(mapped, { cause: err });
+    throw err;
+  }
+}
+
 export function getSettings() {
   const settings = { autoSync: true };
   try {

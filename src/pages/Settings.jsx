@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   changePassword,
   clearAuth,
@@ -8,6 +8,7 @@ import {
   getSettings,
   getUser,
   isAuthenticated,
+  revealPassword,
   setBackgroundImage,
   setSettings,
   updateProfile,
@@ -157,6 +158,107 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
   const [pwBusy, setPwBusy] = useState(false);
 
   const [bgImage, setBgImage] = useState(() => getBackgroundImage());
+
+  // Parolni ko'rsatish
+  const [plainPassword, setPlainPassword] = useState("");
+  const [showPasswordRevealer, setShowPasswordRevealer] = useState(false);
+  const [revealError, setRevealError] = useState("");
+  const [revealBusy, setRevealBusy] = useState(false);
+  const revealTimerRef = useRef(null);
+  const googleRevealBtnRef = useRef(null);
+
+  const clearRevealedPassword = () => {
+    setPlainPassword("");
+    setShowPasswordRevealer(false);
+    if (revealTimerRef.current) clearTimeout(revealTimerRef.current);
+    revealTimerRef.current = null;
+  };
+
+  const startRevealTimer = () => {
+    if (revealTimerRef.current) clearTimeout(revealTimerRef.current);
+    revealTimerRef.current = setTimeout(clearRevealedPassword, 60000);
+  };
+
+  const handleRevealCredential = useCallback(async (credential) => {
+    setRevealBusy(true);
+    setRevealError("");
+    try {
+      const data = await revealPassword(credential);
+      if (!data.password) {
+        setRevealError("Parol o'qituvchi tomonidan o'rnatilmagan.");
+        return;
+      }
+      setPlainPassword(data.password);
+      setShowPasswordRevealer(false);
+      startRevealTimer();
+    } catch (err) {
+      setRevealError(err.message || "Parolni ko'rsatib bo'lmadi.");
+    } finally {
+      setRevealBusy(false);
+    }
+  }, []);
+
+  const handleCopyPassword = async () => {
+    if (!plainPassword) return;
+    try {
+      await navigator.clipboard.writeText(plainPassword);
+    } catch {
+      // ignore
+    }
+  };
+
+  useEffect(() => {
+    return () => {
+      if (revealTimerRef.current) clearTimeout(revealTimerRef.current);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!showPasswordRevealer) return;
+    const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID || window.__VITE_GOOGLE_CLIENT_ID__;
+    if (!clientId) return;
+
+    const render = () => {
+      if (googleRevealBtnRef.current && window.google?.accounts?.id) {
+        googleRevealBtnRef.current.innerHTML = "";
+        window.google.accounts.id.renderButton(googleRevealBtnRef.current, {
+          theme: isDark ? "filled_black" : "outline",
+          size: "large",
+          width: 320,
+          text: "continue_with",
+        });
+      }
+    };
+
+    if (window.google?.accounts?.id) {
+      window.google.accounts.id.initialize({
+        client_id: clientId,
+        callback: (response) => handleRevealCredential(response.credential),
+      });
+      render();
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = "https://accounts.google.com/gsi/client";
+    script.async = true;
+    script.defer = true;
+    document.head.appendChild(script);
+
+    script.onload = () => {
+      if (window.google?.accounts?.id) {
+        window.google.accounts.id.initialize({
+          client_id: clientId,
+          callback: (response) => handleRevealCredential(response.credential),
+        });
+        render();
+      }
+    };
+
+    return () => {
+      if (script.parentNode) script.parentNode.removeChild(script);
+    };
+  }, [showPasswordRevealer, isDark]);
 
   const update = (patch) => {
     const s = setSettings(patch);
@@ -532,6 +634,50 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
                 {profileBusy ? "Saving..." : "Save profile"}
               </button>
             </form>
+          </Section>
+
+          <Section title="Parol">
+            {revealError && <Notice type="error" text={revealError} />}
+            <Row title="Parol" desc="Google orqali tasdiqlang va parolni ko'ring.">
+              <div className="flex items-center gap-3">
+                {plainPassword ? (
+                  <>
+                    <span className="font-mono text-sm font-semibold">{plainPassword}</span>
+                    <button
+                      onClick={handleCopyPassword}
+                      className="inline-flex min-h-11 items-center justify-center rounded-full border border-[var(--accent)]/40 px-4 text-sm font-bold text-[var(--accent)] transition hover:bg-[var(--accent)]/10"
+                    >
+                      Nusxalash
+                    </button>
+                  </>
+                ) : (
+                  <>
+                    <span className="font-mono text-lg tracking-widest">••••••••</span>
+                    {!showPasswordRevealer && (
+                      <button
+                        onClick={() => {
+                          setRevealError("");
+                          setShowPasswordRevealer(true);
+                        }}
+                        className="inline-flex min-h-11 items-center justify-center rounded-full bg-[var(--accent)] px-5 text-sm font-bold text-white transition hover:opacity-90"
+                      >
+                        Ko'rsatish
+                      </button>
+                    )}
+                  </>
+                )}
+              </div>
+            </Row>
+            {showPasswordRevealer && !plainPassword && (
+              <div className="mt-3">
+                <div ref={googleRevealBtnRef} className="flex justify-center"></div>
+                {revealBusy && (
+                  <p className={`mt-2 text-center text-xs ${isDark ? "text-white/40" : "text-black/40"}`}>
+                    Tekshirilmoqda...
+                  </p>
+                )}
+              </div>
+            )}
           </Section>
 
           <Section title="Security">

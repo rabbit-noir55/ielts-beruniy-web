@@ -19,11 +19,11 @@
 
 ## 2. Parolni ko'rish
 
-- [ ] `Settings.jsx`: "Parol" kartasi — `••••••••` + `Ko'rsatish` → Google tugmasi → parol + `Nusxalash`,
+- [x] `Settings.jsx`: "Parol" kartasi — `••••••••` + `Ko'rsatish` → Google tugmasi → parol + `Nusxalash`,
   60 soniyadan keyin yana yashiriladi. `password_plain` bo'sh bo'lsa xabar.
-- [ ] `src/utils/api.js`: `revealPassword(credential)` → `POST /auth/reveal-password/`.
+- [x] `src/utils/api.js`: `revealPassword(credential)` → `POST /auth/reveal-password/`.
   Xato `detail` ni o'zbekcha xabarga aylantirish.
-- [ ] Playwright: `page.route()` bilan API mock qilib, `Ko'rsatish` → Google → parol ko'rinishini tekshirish.
+- [x] Playwright: `page.route()` bilan API mock qilib, `Ko'rsatish` → Google → parol ko'rinishini tekshirish.
 
 ## 3. Davomat
 
