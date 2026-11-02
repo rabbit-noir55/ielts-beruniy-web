@@ -31,15 +31,19 @@ import androidx.webkit.WebViewAssetLoader;
 public class ScannerFragment extends Fragment {
 
   private static final String START_URL =
-      "https://appassets.androidplatform.net/scanner/index.html";
+      "https://appassets.androidplatform.net/assets/scanner/index.html";
 
   private WebView webView;
-  private final TokenStore store;
-  private final Runnable openSite;
+  private TokenStore store;
+  private Runnable openSite;
 
-  ScannerFragment(TokenStore store, Runnable openSite) {
-    this.store = store;
-    this.openSite = openSite;
+  /** Fragment'da public no-arg konstruktor bo'lishi shart (holat tiklash uchun). */
+  public ScannerFragment() {
+  }
+
+  void configure(TokenStore tokenStore, Runnable openSiteTab) {
+    this.store = tokenStore;
+    this.openSite = openSiteTab;
   }
 
   @Nullable
@@ -57,9 +61,9 @@ public class ScannerFragment extends Fragment {
     webView = view.findViewById(R.id.webview);
 
     // file:// o'rniga https origin — fetch() va getUserMedia ishonchli ishlaydi.
+    // AssetsPathHandler faqat Context qabul qiladi: "/assets/" -> assets/ papkasi.
     WebViewAssetLoader assetLoader = new WebViewAssetLoader.Builder()
-        .addPathHandler("/scanner/",
-            new WebViewAssetLoader.AssetsPathHandler(requireContext(), "scanner"))
+        .addPathHandler("/assets/", new WebViewAssetLoader.AssetsPathHandler(requireContext()))
         .build();
 
     WebSettings s = webView.getSettings();

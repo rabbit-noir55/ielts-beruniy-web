@@ -27,7 +27,8 @@ public class TabsAdapter extends FragmentStateAdapter {
       siteFragment = new SiteFragment();
       return siteFragment;
     }
-    scannerFragment = new ScannerFragment(store, openSite);
+    scannerFragment = new ScannerFragment();
+    scannerFragment.configure(store, openSite);
     return scannerFragment;
   }
 
