@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRotateLeft, faTrophy, faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { useLang } from "../utils/LanguageContext";
@@ -11,6 +11,21 @@ const SHEETS = [
   { key: "overall", gid: "1245178641", label: "OVERALL" },
 ];
 
+// Har hafta 5 ta yo'nalish, har biri 20 ball = jami 100 ball.
+const SKILLS = {
+  W: { uz: "Writing", en: "Writing", max: 20 },
+  WR: { uz: "Vocabulary", en: "Vocabulary", max: 20 },
+  RT: { uz: "Reading", en: "Reading", max: 20 },
+  S: { uz: "Speaking", en: "Speaking", max: 20 },
+  R: { uz: "Random", en: "Random", max: 20 },
+  G: { uz: "Grammar", en: "Grammar", max: 20 },
+};
+
+function skillOf(code) {
+  const key = String(code || "").trim().toUpperCase();
+  return SKILLS[key] || { uz: key || "—", en: key || "—", max: 20 };
+}
+
 function toCsvUrl(sheetUrl) {
   if (!sheetUrl) return null;
   const m = sheetUrl.match(/\/spreadsheets\/d\/([a-zA-Z0-9_-]+)/);
@@ -21,6 +36,8 @@ function toCsvUrl(sheetUrl) {
 function normalizeTokens(s) {
   return (s || "")
     .toLowerCase()
+    // O'zbek apostroflari so'zni BO'LMASIN: O'rinboyeva -> orinboyeva
+    .replace(/[‘’ʻʼ`´']/g, "")
     .replace(/[^a-z0-9 ]/g, " ")
     .split(/\s+/)
     .filter(Boolean);
@@ -127,6 +144,17 @@ export default function Competition({ theme }) {
   const currentUser = getUser();
   const table = tables[active];
 
+  const skillCodes = useMemo(() => {
+    const seen = new Set();
+    (table?.groups || []).forEach((g) =>
+      (g.subs || []).forEach((sub) => {
+        const k = String(sub || "").trim().toUpperCase();
+        if (k) seen.add(k);
+      }),
+    );
+    return [...seen];
+  }, [table]);
+
   return (
     <div
       className={`min-h-screen px-4 pt-28 pb-12 ${
@@ -181,6 +209,35 @@ export default function Competition({ theme }) {
             </button>
           ))}
         </div>
+
+        {!loading && !error && skillCodes.length > 0 && (
+          <div
+            className={`mb-4 flex flex-wrap items-center gap-2 rounded-2xl border px-4 py-3 text-[11px] ${
+              isDark
+                ? "border-white/10 bg-white/[0.03] text-white/50"
+                : "border-black/10 bg-black/[0.02] text-black/50"
+            }`}
+          >
+            {skillCodes.map((code) => {
+              const sk = skillOf(code);
+              return (
+                <span
+                  key={code}
+                  className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 ${
+                    isDark ? "border-white/15" : "border-black/15"
+                  }`}
+                >
+                  <b className={isDark ? "text-white/80" : "text-black/75"}>{code}</b>
+                  <span>{lang === "uz" ? sk.uz : sk.en}</span>
+                  <span className={isDark ? "text-white/30" : "text-black/30"}>{sk.max}</span>
+                </span>
+              );
+            })}
+            <span className={`ml-auto font-bold ${isDark ? "text-white/60" : "text-black/60"}`}>
+              {t("Haftada jami 100 ball", "100 points per week")}
+            </span>
+          </div>
+        )}
 
         {loading ? (
           <div
@@ -251,7 +308,9 @@ export default function Competition({ theme }) {
                               : ""
                           }`}
                         >
-                          {g.label}
+                          <span title={t("5 ta yo'nalish × 20 ball = 100", "5 skills × 20 = 100")}>
+                            {g.label}
+                          </span>
                         </th>
                       ))}
                     </tr>
@@ -274,7 +333,9 @@ export default function Competition({ theme }) {
                                 : ""
                             }`}
                           >
-                            {s}
+                            <span title={`${lang === "uz" ? skillOf(s).uz : skillOf(s).en} — ${skillOf(s).max} ball`}>
+                              {s}
+                            </span>
                           </th>
                         )),
                       )}
