@@ -1,0 +1,16 @@
+{
+  "appId": "com.ieltsberuniy.app",
+  "appName": "IELTS Beruniy",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#F6F5F2"
+    }
+  }
+}

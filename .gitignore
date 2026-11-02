@@ -31,3 +31,9 @@ dist-ssr
 # Agent log (CI)
 agent-log.jsonl
 screenshots/
+
+# Playwright MCP logs
+.playwright-mcp/
+
+# Capacitor generated web assets
+android/app/src/main/assets/public/

@@ -36,11 +36,11 @@
 - [x] `/attendance` sahifasi: o'quvchining yozuvlari (sana ro'yxati). **Foiz yo'q.**
   Faqat `group` bor bo'lsa ko'rinadi; guruhsiz o'quvchiga "Siz guruhga biriktirilmagansiz".
 - [x] `App.jsx`: `/scan`, `/attendance` routelarini qo'shish, menyuda ko'rsatish.
-- [ ] Capacitor: `npx cap init`, `@capacitor/core`, `@capacitor/cli`, `@capacitor/android`,
+- [x] Capacitor: `npx cap init`, `@capacitor/core`, `@capacitor/cli`, `@capacitor/android`,
   `@capacitor/camera`, `@capacitor/geolocation` o'rnatish, `capacitor.config.json`.
-- [ ] Ilova qobig'i: 2 tab — "Davomat" (`/scan`) va "Sayt" (WebView → `VITE_SITE_URL`).
+- [x] Ilova qobig'i: 2 tab — "Davomat" (`/scan`) va "Sayt" (WebView → `VITE_SITE_URL`).
   Token WebView `localStorage` dan olinadi (ikki marta login bo'lmasin).
-- [ ] `README-app.md`: Android Studio'da APK yig'ish yo'riqnomasi. **APK yig'ilmaydi**, faqat yo'riqnoma.
+- [x] `README-app.md`: Android Studio'da APK yig'ish yo'riqnomasi. **APK yig'ilmaydi**, faqat yo'riqnoma.
 
 ## 4. Mobil responsive audit
 

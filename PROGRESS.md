@@ -5,12 +5,15 @@
 
 ## Hozirgi holat
 
-- Bosqich: 3-bo'lim (Davomat) — 3.1 dan boshlanadi
-- Oxirgi commit: 5e9b456
-- Oxirgi run: 2026-11-02 07:08 UTC
+- Bosqich: 4-bo'lim (Mobil responsive audit)
+- Oxirgi commit: kutilmoqda
+- Oxirgi run: 2026-11-02
 
 ## Bajarilgan
 
+- [x] ESLint: `android/` build assetlari ignore qilindi
+- [x] `.gitignore` — `.playwright-mcp/` va `android/app/src/main/assets/public/` qo'shildi
+- [x] 3-bo'lim (Davomat) to'liq tugatildi
 - [x] `src/utils/telegram.js` — `tg()`, `isTelegram()`
 - [x] `index.html` — telegram-web-app.js skripti
 - [x] `src/main.jsx` — ready/expand/setHeaderColor/disableVerticalSwipes
