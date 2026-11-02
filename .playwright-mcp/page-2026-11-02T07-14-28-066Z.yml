@@ -1,0 +1,38 @@
+- generic [ref=f3e4]:
+  - banner [ref=f3e5]:
+    - generic [ref=f3e6]:
+      - link [ref=f3e7] [cursor=pointer]:
+        - /url: /
+        - img "IELTS Beruniy" [ref=f3e8]
+      - generic [ref=f3e9]:
+        - button "I IELTS-1" [ref=f3e10] [cursor=pointer]:
+          - generic [ref=f3e11]: I
+          - generic [ref=f3e12]: IELTS-1
+        - button "Toggle theme" [ref=f3e13]
+  - main [ref=f3e20]:
+    - generic [ref=f3e23]:
+      - generic [ref=f3e25]:
+        - generic [ref=f3e26]: "?"
+        - generic [ref=f3e27]:
+          - heading "User" [level=1] [ref=f3e28]
+          - paragraph [ref=f3e29]: "Login: test@example.com · Natijalar serverga saqlanadi"
+        - generic [ref=f3e30]:
+          - link "Settings" [ref=f3e31] [cursor=pointer]:
+            - /url: /settings
+          - button "Logout" [ref=f3e32]
+      - generic [ref=f3e33]:
+        - paragraph [ref=f3e34]: No test data yet
+        - link "Start test" [ref=f3e35] [cursor=pointer]:
+          - /url: /
+  - navigation [ref=f3e36]:
+    - generic [ref=f3e37]:
+      - button "Mock" [ref=f3e38]
+      - link "Lessons" [ref=f3e42] [cursor=pointer]:
+        - /url: /lessons
+      - link "Competition" [ref=f3e46] [cursor=pointer]:
+        - /url: /competition
+      - button "Tools" [ref=f3e55]
+      - link "? Account" [ref=f3e59] [cursor=pointer]:
+        - /url: /account
+        - generic [ref=f3e60]: "?"
+        - generic [ref=f3e61]: Account

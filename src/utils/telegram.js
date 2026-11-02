@@ -4,5 +4,8 @@ export function tg() {
 }
 
 export function isTelegram() {
-  return !!tg();
+  const app = tg();
+  // Telegram skripti brauzerda ham yuklanishi mumkin, lekin initData
+  // faqat haqiqiy Telegram WebApp ichida beriladi.
+  return !!(app && app.initData);
 }

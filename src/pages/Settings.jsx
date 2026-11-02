@@ -501,7 +501,7 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
               href={import.meta.env.VITE_TELEGRAM_BOT_URL || "https://t.me/ielts_beruniy_bot"}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-sm font-bold text-white transition hover:opacity-90"
+              className="inline-flex min-h-11 items-center justify-center rounded-full bg-[var(--accent)] px-5 text-sm font-bold text-white transition hover:opacity-90"
             >
               Ochish
             </a>

@@ -1,0 +1,25 @@
+- generic [ref=f1e4]:
+  - banner [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - link [ref=f1e7] [cursor=pointer]:
+        - /url: /
+        - img "IELTS Beruniy" [ref=f1e8]
+      - generic [ref=f1e9]:
+        - button "I IELTS-1" [ref=f1e10] [cursor=pointer]:
+          - generic [ref=f1e11]: I
+          - generic [ref=f1e12]: IELTS-1
+        - button "Toggle theme" [ref=f1e13]
+  - main [ref=f1e20]:
+    - generic [ref=f1e21]: Loading...
+  - navigation [ref=f1e23]:
+    - generic [ref=f1e24]:
+      - button "Mock" [ref=f1e25]
+      - link "Lessons" [ref=f1e29] [cursor=pointer]:
+        - /url: /lessons
+      - link "Competition" [ref=f1e33] [cursor=pointer]:
+        - /url: /competition
+      - button "Tools" [ref=f1e42]
+      - link "? Account" [ref=f1e46] [cursor=pointer]:
+        - /url: /account
+        - generic [ref=f1e47]: "?"
+        - generic [ref=f1e48]: Account

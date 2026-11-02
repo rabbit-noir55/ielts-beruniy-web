@@ -1,0 +1,32 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "IELTS Beruniy" [ref=e8]
+      - button "Toggle theme" [ref=e10]
+  - main [ref=e17]:
+    - generic [ref=e20]:
+      - heading "Login" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Welcome back! Sign in to continue
+      - generic [ref=e23]: Email
+      - textbox "your@email.com" [ref=e24]
+      - generic [ref=e25]: Password
+      - textbox "Your password" [ref=e26]
+      - button "Login" [ref=e27]
+      - paragraph [ref=e28]:
+        - text: Don't have an account?
+        - link "Register" [ref=e29] [cursor=pointer]:
+          - /url: /register
+  - navigation [ref=e30]:
+    - generic [ref=e31]:
+      - button "Mock" [ref=e32]
+      - link "Lessons" [ref=e36] [cursor=pointer]:
+        - /url: /lessons
+      - link "Competition" [ref=e40] [cursor=pointer]:
+        - /url: /competition
+      - button "Tools" [ref=e49]
+      - link "? Account" [ref=e53] [cursor=pointer]:
+        - /url: /account
+        - generic [ref=e54]: "?"
+        - generic [ref=e55]: Account

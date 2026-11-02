@@ -14,7 +14,7 @@
 - [x] `Settings.jsx`: "Telegram bot" kartasi — `href = import.meta.env.VITE_TELEGRAM_BOT_URL || "https://t.me/ielts_beruniy_bot"`,
   `target="_blank"`, `rel="noopener noreferrer"`. Telegram ichida karta ko'rsatilmaydi.
 - [x] `Login.jsx` / `Register.jsx`: `isTelegram()` bo'lsa Google tugmasini yashirish.
-- [ ] Playwright: `/settings` da karta bor, `href` to'g'ri, tashqi navigatsiya yo'q, screenshot
+- [x] Playwright: `/settings` da karta bor, `href` to'g'ri, tashqi navigatsiya yo'q, screenshot
   `screenshots/settings-telegram.png`. `window.Telegram` inject qilinganda karta yo'q.
 
 ## 2. Parolni ko'rish
