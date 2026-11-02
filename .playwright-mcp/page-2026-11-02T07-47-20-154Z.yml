@@ -1,0 +1,32 @@
+- generic [ref=f4e4]:
+  - banner [ref=f4e5]:
+    - generic [ref=f4e97]:
+      - link [ref=f4e98] [cursor=pointer]:
+        - /url: /
+        - img "IELTS Beruniy Logo" [ref=f4e99]
+      - navigation [ref=f4e100]:
+        - link "Davomat" [ref=f4e101] [cursor=pointer]:
+          - /url: /scan
+        - link "Mening davomatim" [active] [ref=f4e108] [cursor=pointer]:
+          - /url: /attendance
+        - link "Competition" [ref=f4e118] [cursor=pointer]:
+          - /url: /competition
+        - link "Games" [ref=f4e126] [cursor=pointer]:
+          - /url: /games
+        - link "Lessons" [ref=f4e130] [cursor=pointer]:
+          - /url: /lessons
+        - link "About Us" [ref=f4e134] [cursor=pointer]:
+          - /url: /about-us
+      - generic [ref=f4e138]:
+        - button "I IELTS-1" [ref=f4e139] [cursor=pointer]:
+          - generic [ref=f4e140]: I
+          - text: IELTS-1
+        - button "Toggle theme" [ref=f4e141]
+        - link "Account" [ref=f4e152] [cursor=pointer]:
+          - /url: /account
+          - text: "?"
+  - main [ref=f4e20]:
+    - generic [ref=f4e153]:
+      - heading "My attendance" [level=1] [ref=f4e154]
+      - generic [ref=f4e155]: Failed to fetch
+      - paragraph [ref=f4e156]: No attendance records yet.

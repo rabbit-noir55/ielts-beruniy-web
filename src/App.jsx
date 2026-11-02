@@ -16,6 +16,8 @@ import Lessons from "./pages/Lessons";
 import TestResults from "./pages/TestResults";
 import NotFound from "./pages/NotFound";
 import LeaderboardReveal from "./pages/LeaderboardReveal";
+import Scan from "./pages/Scan";
+import Attendance from "./pages/Attendance";
 import { LanguageProvider } from "./utils/LanguageContext";
 
 const Settings = lazy(() => import("./pages/Settings"));
@@ -259,6 +261,8 @@ export default function App() {
               </Suspense>
             }
           />
+          <Route path="/scan" element={<RequireAuth><Scan theme={theme} /></RequireAuth>} />
+          <Route path="/attendance" element={<RequireAuth><Attendance theme={theme} /></RequireAuth>} />
           <Route path="/lessons" element={<RequireAuth><Lessons theme={theme} /></RequireAuth>} />
           <Route path="/results/:series/:testNum" element={<RequireAuth><TestResults theme={theme} /></RequireAuth>} />
           <Route path="/experiment" element={<LeaderboardReveal />} />

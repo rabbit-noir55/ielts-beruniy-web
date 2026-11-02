@@ -1,0 +1,32 @@
+- generic [ref=f4e4]:
+  - banner [ref=f4e5]:
+    - generic [ref=f4e6]:
+      - link [ref=f4e7] [cursor=pointer]:
+        - /url: /
+        - img "IELTS Beruniy" [ref=f4e8]
+      - generic [ref=f4e9]:
+        - button "I IELTS-1" [ref=f4e10] [cursor=pointer]:
+          - generic [ref=f4e11]: I
+          - generic [ref=f4e12]: IELTS-1
+        - button "Toggle theme" [ref=f4e13]
+  - main [ref=f4e20]:
+    - generic [ref=f4e22]:
+      - generic [ref=f4e23]:
+        - heading "Attendance" [level=1] [ref=f4e24]
+        - paragraph [ref=f4e25]: Point the camera at a QR code or enter the code manually.
+      - generic [ref=f4e26]: Camera unavailable. This feature only works on HTTPS or inside the app.
+      - button "Enter code manually" [ref=f4e30]
+  - navigation [ref=f4e31]:
+    - generic [ref=f4e32]:
+      - button "Mock" [ref=f4e33]
+      - link "Lessons" [ref=f4e37] [cursor=pointer]:
+        - /url: /lessons
+      - link "Scan" [ref=f4e41] [cursor=pointer]:
+        - /url: /scan
+      - link "Competition" [ref=f4e49] [cursor=pointer]:
+        - /url: /competition
+      - button "Tools" [ref=f4e58]
+      - link "? Account" [ref=f4e62] [cursor=pointer]:
+        - /url: /account
+        - generic [ref=f4e63]: "?"
+        - generic [ref=f4e64]: Account

@@ -69,15 +69,18 @@ export async function request(path, { method = "GET", body } = {}) {
   });
   if (!res.ok) {
     let detail = `HTTP ${res.status}`;
+    let data = null;
     try {
-      const data = await res.json();
+      data = await res.json();
       if (data.detail) detail = data.detail;
+      else if (data.error) detail = data.error;
       else if (typeof data === "object") detail = Object.values(data).flat().join(" ");
     } catch {
       detail = `HTTP ${res.status}`;
     }
     const err = new Error(detail);
     err.status = res.status;
+    if (data?.code) err.code = data.code;
     throw err;
   }
   if (res.status === 204) return null;

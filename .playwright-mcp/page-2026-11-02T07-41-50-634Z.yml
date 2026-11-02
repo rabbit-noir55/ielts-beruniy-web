@@ -1,0 +1,30 @@
+- generic [ref=f1e4]:
+  - banner [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - link [ref=f1e7] [cursor=pointer]:
+        - /url: /
+        - img "IELTS Beruniy" [ref=f1e8]
+      - generic [ref=f1e9]:
+        - button "I IELTS-1" [ref=f1e10] [cursor=pointer]:
+          - generic [ref=f1e11]: I
+          - generic [ref=f1e12]: IELTS-1
+        - button "Toggle theme" [ref=f1e13]
+  - main [ref=f1e20]:
+    - generic [ref=f1e22]:
+      - heading "My attendance" [level=1] [ref=f1e23]
+      - generic [ref=f1e58]: Failed to fetch
+      - paragraph [ref=f1e24]: No attendance records yet.
+  - navigation [ref=f1e25]:
+    - generic [ref=f1e26]:
+      - button "Mock" [ref=f1e27]
+      - link "Lessons" [ref=f1e31] [cursor=pointer]:
+        - /url: /lessons
+      - link "Scan" [ref=f1e35] [cursor=pointer]:
+        - /url: /scan
+      - link "Competition" [ref=f1e42] [cursor=pointer]:
+        - /url: /competition
+      - button "Tools" [ref=f1e51]
+      - link "? Account" [ref=f1e55] [cursor=pointer]:
+        - /url: /account
+        - generic [ref=f1e56]: "?"
+        - generic [ref=f1e57]: Account

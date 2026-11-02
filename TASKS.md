@@ -27,15 +27,15 @@
 
 ## 3. Davomat
 
-- [ ] `src/utils/attendanceApi.js`: `scanAttendance({code, latitude, longitude, accuracy})`,
+- [x] `src/utils/attendanceApi.js`: `scanAttendance({code, latitude, longitude, accuracy})`,
   `myAttendance()`. Xato `code` bo'yicha o'zbekcha xabar xaritasi.
-- [ ] `/scan` sahifasi: kamera (`jsqr` bilan) + "Kodni qo'lda kiritish" varianti.
+- [x] `/scan` sahifasi: kamera (`jsqr` bilan) + "Kodni qo'lda kiritish" varianti.
   Kamera ruxsati yo'q bo'lsa aniq xabar. `getUserMedia` faqat HTTPS'da ishlashini hisobga ol.
-- [ ] Geolokatsiya: `navigator.geolocation.getCurrentPosition`, aniqligi past bo'lsa qayta urinish.
+- [x] Geolokatsiya: `navigator.geolocation.getCurrentPosition`, aniqligi past bo'lsa qayta urinish.
   Ruxsat rad etilsa tushunarli xabar (uz/ru/en).
-- [ ] `/attendance` sahifasi: o'quvchining yozuvlari (sana ro'yxati). **Foiz yo'q.**
+- [x] `/attendance` sahifasi: o'quvchining yozuvlari (sana ro'yxati). **Foiz yo'q.**
   Faqat `group` bor bo'lsa ko'rinadi; guruhsiz o'quvchiga "Siz guruhga biriktirilmagansiz".
-- [ ] `App.jsx`: `/scan`, `/attendance` routelarini qo'shish, menyuda ko'rsatish.
+- [x] `App.jsx`: `/scan`, `/attendance` routelarini qo'shish, menyuda ko'rsatish.
 - [ ] Capacitor: `npx cap init`, `@capacitor/core`, `@capacitor/cli`, `@capacitor/android`,
   `@capacitor/camera`, `@capacitor/geolocation` o'rnatish, `capacitor.config.json`.
 - [ ] Ilova qobig'i: 2 tab — "Davomat" (`/scan`) va "Sayt" (WebView → `VITE_SITE_URL`).

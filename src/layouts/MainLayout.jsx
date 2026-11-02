@@ -16,6 +16,8 @@ import {
   FileText,
   Mic,
   GraduationCap,
+  ScanLine,
+  ClipboardList,
 } from "lucide-react";
 import logoSvg from "../assets/logo.png";
 import { getBackgroundImage, getUser, hasMockAccess, getUserGroupName, getUserGroupLogo, isIeltsGroup } from "../utils/api";
@@ -151,6 +153,8 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
   }, []);
 
   const navLinks = [
+    { to: "/scan", label: "Davomat", icon: ScanLine },
+    { to: "/attendance", label: "Mening davomatim", icon: ClipboardList },
     { to: "/competition", label: "Competition", icon: Trophy },
     { to: "/games", label: "Games", icon: Gamepad2, shine: true },
     { to: "/lessons", label: "Lessons", icon: Book },
@@ -194,6 +198,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
   const bottomTabs = [
     { id: "mock", label: "Mock", icon: BookOpen },
     { to: "/lessons", label: "Lessons", icon: Book },
+    { to: "/scan", label: "Scan", icon: ScanLine },
     { id: "competition", to: "/competition", label: "Competition", icon: Trophy, center: true },
     { id: "tools", label: "Tools", icon: Wrench },
     { to: "/account", label: "Account", icon: null },

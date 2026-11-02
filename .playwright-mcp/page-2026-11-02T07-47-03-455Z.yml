@@ -1,0 +1,36 @@
+- generic [ref=f4e4]:
+  - banner [ref=f4e5]:
+    - generic [ref=f4e6]:
+      - link [ref=f4e7] [cursor=pointer]:
+        - /url: /
+        - img "IELTS Beruniy" [ref=f4e8]
+      - generic [ref=f4e9]:
+        - button "I IELTS-1" [ref=f4e10] [cursor=pointer]:
+          - generic [ref=f4e11]: I
+          - generic [ref=f4e12]: IELTS-1
+        - button "Toggle theme" [ref=f4e13]
+  - main [ref=f4e20]:
+    - generic [ref=f4e81]:
+      - generic [ref=f4e82]:
+        - heading "Attendance" [level=1] [ref=f4e83]
+        - paragraph [ref=f4e84]: Point the camera at a QR code or enter the code manually.
+      - generic [ref=f4e96]: "Attendance marked: IELTS-1 — 2026-11-01."
+      - generic [ref=f4e91]:
+        - generic [ref=f4e92]: Attendance code
+        - textbox "ENTHUS8X" [ref=f4e93]
+        - button "Check" [ref=f4e94]
+      - button "Attendance" [ref=f4e95]
+  - navigation [ref=f4e31]:
+    - generic [ref=f4e32]:
+      - button "Mock" [ref=f4e33]
+      - link "Lessons" [ref=f4e37] [cursor=pointer]:
+        - /url: /lessons
+      - link "Scan" [ref=f4e41] [cursor=pointer]:
+        - /url: /scan
+      - link "Competition" [ref=f4e49] [cursor=pointer]:
+        - /url: /competition
+      - button "Tools" [ref=f4e58]
+      - link "? Account" [ref=f4e62] [cursor=pointer]:
+        - /url: /account
+        - generic [ref=f4e63]: "?"
+        - generic [ref=f4e64]: Account

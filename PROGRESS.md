@@ -5,8 +5,8 @@
 
 ## Hozirgi holat
 
-- Bosqich: 2-bo'lim (Parolni ko'rish) — 2.1 dan boshlanadi
-- Oxirgi commit: 62390e9
+- Bosqich: 3-bo'lim (Davomat) — 3.1 dan boshlanadi
+- Oxirgi commit: 5e9b456
 - Oxirgi run: 2026-11-02 07:08 UTC
 
 ## Bajarilgan
@@ -16,25 +16,29 @@
 - [x] `src/main.jsx` — ready/expand/setHeaderColor/disableVerticalSwipes
 - [x] `Settings.jsx` — "Telegram bot" kartasi
 - [x] `Login.jsx` / `Register.jsx` — Telegram ichida Google yashirilgan
-- [x] Playwright bilan `/settings` tekshiruvi
-  - Brauzerda (window.Telegram yo'q) karta ko'rinadi
-  - `href` = `https://t.me/ielts_beruniy_bot`, `target="_blank"`, `rel="noopener noreferrer"`
-  - Telegram link balandligi 44px (tap target)
-  - Gorizontal scroll yo'q (scrollWidth = 390)
-  - `window.Telegram` inject qilinganda karta yo'q
-  - Screenshot: `screenshots/settings-telegram.png`
-- [x] `isTelegram()` ga `initData` tekshiruvi qo'shildi — brauzerda skript yuklansa ham karta ko'rinadi
-- [x] `Settings.jsx` Telegram linkiga `min-h-11` (44px) qo'shildi
+- [x] Playwright bilan `/settings` tekshiruvi (Telegram kartasi)
+- [x] `isTelegram()` ga `initData` tekshiruvi qo'shildi
+- [x] `Settings.jsx` Telegram linkiga `min-h-11` qo'shildi
+- [x] `src/utils/api.js` — `revealPassword(credential)`
+- [x] `Settings.jsx` — "Parol" kartasi (`••••••••` → Google → parol + Nusxalash, 60s timer)
+- [x] Playwright: `fetch` mock + Google mock orqali parol ko'rinishi tekshirildi
+  - `Ko'rsatish` tugmasi bosilganda Google test buttoni ko'rindi
+  - Google button bosilganda parol `abc12345` ko'rildi
+  - `Nusxalash` tugmasi ko'rindi
+  - Screenshot: `screenshots/settings-password.png`
 
 ## Keyingi qadam
 
-`TASKS.md` 2-bo'lim — Parolni ko'rish kartasi:
-- `src/utils/api.js`: `revealPassword(credential)`
-- `Settings.jsx`: parol kartasi UI
-- Playwright: API mock + Google + parol ko'rinishi tekshiruvi
+`TASKS.md` 3-bo'lim — Davomat:
+- `src/utils/attendanceApi.js`: `scanAttendance`, `myAttendance`
+- `/scan` sahifasi: kamera + qo'lda kiritish
+- Geolokatsiya + xabarlar
+- `/attendance` sahifasi
+- `App.jsx`: `/scan`, `/attendance` routelari
+- Capacitor sozlash
+- Ilova qobig'i + README-app.md
 
 ## Ma'lum muammolar
 
-- Playwright tekshiruvi vaqtida `index.html` dan Telegram skripti vaqtinchalik o'chirildi va keyin tiklandi.
 - Console'da `127.0.0.1:8000/api/auth/me/` ga ulanish xatolari bor — CI'da backend yo'q, kutilgan.
-- `.playwright-mcp/` loglari commitga tushib qoldi; keyingi run'da ehtiyot bo'lish kerak.
+- `.playwright-mcp/` loglari commitga tushib qoldi; `.gitignore` ga qo'shib o'chirish kerak.
