@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { login, googleLogin, setAuth } from "../utils/api";
-import { isTelegram } from "../utils/telegram.js";
+import { canUseGoogleLogin } from "../utils/telegram.js";
 
 function Login({ theme = "dark" }) {
   const isDark = theme === "dark";
@@ -127,7 +127,7 @@ function Login({ theme = "dark" }) {
         )}
 
         {/* Google Login Button */}
-        {import.meta.env.VITE_GOOGLE_CLIENT_ID && !isTelegram() && (
+        {import.meta.env.VITE_GOOGLE_CLIENT_ID && canUseGoogleLogin() && (
           <>
             <div className="mb-4">
               <div ref={googleBtnRef} className="flex justify-center"></div>

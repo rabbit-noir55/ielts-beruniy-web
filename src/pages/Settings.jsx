@@ -13,7 +13,7 @@ import {
   setSettings,
   updateProfile,
 } from "../utils/api";
-import { isTelegram } from "../utils/telegram.js";
+import { isInApp, isTelegram } from "../utils/telegram.js";
 
 const THEMES = [
   { id: "graphite", label: "Graphite", emoji: "🪨", swatch: "#17171A", darkSwatch: "#FFFFFF" },
@@ -593,7 +593,7 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
       </Section>
 
       {/* Telegram */}
-      {authed && !isTelegram() && (
+      {authed && !isTelegram() && !isInApp() && (
         <Section title="Telegram">
           <Row
             title="Telegram bot"
@@ -636,6 +636,7 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
             </form>
           </Section>
 
+          {user?.role === "student" && (
           <Section title="Parol">
             {revealError && <Notice type="error" text={revealError} />}
             <Row title="Parol" desc="Google orqali tasdiqlang va parolni ko'ring.">
@@ -679,6 +680,7 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
               </div>
             )}
           </Section>
+          )}
 
           <Section title="Security">
             <Notice type={pwMsg.type} text={pwMsg.text} />

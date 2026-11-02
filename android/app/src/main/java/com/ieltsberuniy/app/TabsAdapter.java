@@ -9,18 +9,44 @@ public class TabsAdapter extends FragmentStateAdapter {
 
   private static final int TAB_COUNT = 2;
 
-  public TabsAdapter(@NonNull FragmentActivity fragmentActivity) {
-    super(fragmentActivity);
+  private final TokenStore store;
+  private final Runnable openSite;
+  private SiteFragment siteFragment;
+  private ScannerFragment scannerFragment;
+
+  TabsAdapter(@NonNull FragmentActivity activity, TokenStore store, Runnable openSite) {
+    super(activity);
+    this.store = store;
+    this.openSite = openSite;
   }
 
   @NonNull
   @Override
   public Fragment createFragment(int position) {
-    return WebViewFragment.newInstance(position);
+    if (position == 0) {
+      siteFragment = new SiteFragment();
+      return siteFragment;
+    }
+    scannerFragment = new ScannerFragment(store, openSite);
+    return scannerFragment;
   }
 
   @Override
   public int getItemCount() {
     return TAB_COUNT;
+  }
+
+  SiteFragment getSiteFragment() {
+    return siteFragment;
+  }
+
+  /** Skaner tabiga o'tilganda token yangilangan bo'lishi mumkin — sahifani qayta yuklaymiz. */
+  void refreshScanner() {
+    if (siteFragment != null) {
+      siteFragment.refreshToken();
+    }
+    if (scannerFragment != null) {
+      scannerFragment.reload();
+    }
   }
 }

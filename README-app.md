@@ -13,9 +13,13 @@ Bu loyiha [Capacitor](https://capacitorjs.com/) yordamida Android ilovasiga ayla
 
 ```bash
 npm ci
-npm run build
+npm run build        # sayt
+npm run build:app    # skaner (android/app/src/main/assets/scanner/ ga tushadi)
 npx cap sync android
 ```
+
+> `npm run build:app` — skaner sahifasini yig'adi. Busiz Android ilovada
+> «Davomat» tabi bo'sh ochiladi.
 
 ## Android Studio'da ochish
 

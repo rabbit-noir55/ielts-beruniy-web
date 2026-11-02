@@ -9,3 +9,22 @@ export function isTelegram() {
   // faqat haqiqiy Telegram WebApp ichida beriladi.
   return !!(app && app.initData);
 }
+
+/**
+ * Sayt Android ilovaning WebView'i ichida ochilganmi?
+ *
+ * Ilova User-Agent'ga "IELTSApp" qo'shadi (WebViewFragment.java).
+ * UA har navigatsiyada saqlanadi, query param esa yo'qoladi — shuning uchun UA.
+ *
+ * Nega kerak: Google OAuth embedded WebView'da ishlamaydi
+ * (disallowed_useragent), shuning uchun ilova ichida Google tugmasi yashiriladi.
+ */
+export function isInApp() {
+  if (typeof navigator === "undefined") return false;
+  return /IELTSApp/i.test(navigator.userAgent || "");
+}
+
+/** Google login faqat oddiy brauzerda ishlaydi. */
+export function canUseGoogleLogin() {
+  return !isTelegram() && !isInApp();
+}

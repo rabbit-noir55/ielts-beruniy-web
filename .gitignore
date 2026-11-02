@@ -37,3 +37,6 @@ screenshots/
 
 # Capacitor generated web assets
 android/app/src/main/assets/public/
+
+# Ilova build natijasi (npx vite build --config app/vite.config.js)
+android/app/src/main/assets/scanner/

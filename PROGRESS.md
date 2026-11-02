@@ -1,54 +1,43 @@
 # PROGRESS
 
 > Agent har ish birligidan keyin shu faylni yangilaydi.
-> Qo'lda ham tahrirlash mumkin — keyingi run shu yerdan davom etadi.
 
 ## Hozirgi holat
 
-- Bosqich: TASKS tugadi
-- Oxirgi commit: 588135d
-- Oxirgi run: 2026-11-02
+- Bosqich: arxitektura qayta qurildi — davomat saytdan chiqarildi
+- Oxirgi run: qo'lda (agent emas)
 
 ## Bajarilgan
 
-- [x] ESLint: `android/` build assetlari ignore qilindi
-- [x] `.gitignore` — `.playwright-mcp/` va `android/app/src/main/assets/public/` qo'shildi
-- [x] 3-bo'lim (Davomat) to'liq tugatildi
-- [x] 4.1-bo'lim — mobil responsive audit (35 sahifa screenshot + `MOBILE_AUDIT.md`)
-- [x] 4.2-bo'lim — `/account` va `/tools/ai` overflow muammolari tuzatildi
-- [x] `src/utils/telegram.js` — `tg()`, `isTelegram()`
-- [x] `index.html` — telegram-web-app.js skripti
-- [x] `src/main.jsx` — ready/expand/setHeaderColor/disableVerticalSwipes
-- [x] `Settings.jsx` — "Telegram bot" kartasi
-- [x] `Login.jsx` / `Register.jsx` — Telegram ichida Google yashirilgan
-- [x] Playwright bilan `/settings` tekshiruvi (Telegram kartasi)
-- [x] `isTelegram()` ga `initData` tekshiruvi qo'shildi
-- [x] `Settings.jsx` Telegram linkiga `min-h-11` qo'shildi
-- [x] `src/utils/api.js` — `revealPassword(credential)`
-- [x] `Settings.jsx` — "Parol" kartasi (`••••••••` → Google → parol + Nusxalash, 60s timer)
-- [x] Playwright: `fetch` mock + Google mock orqali parol ko'rinishi tekshirildi
-  - `Ko'rsatish` tugmasi bosilganda Google test buttoni ko'rindi
-  - Google button bosilganda parol `abc12345` ko'rildi
-  - `Nusxalash` tugmasi ko'rindi
-  - Screenshot: `screenshots/settings-password.png`
+### Sayt (public)
+- [x] `Scan.jsx`, `Attendance.jsx`, `attendanceApi.js` **o'chirildi**
+- [x] `App.jsx` dan `/scan`, `/attendance` routelari olib tashlandi
+- [x] `MainLayout` dan menyu va pastki tab olib tashlandi
+- [x] `telegram.js` ga `isInApp()` + `canUseGoogleLogin()` qo'shildi
+- [x] Login/Register: ilova ichida Google tugmasi yashiriladi
+- [x] Settings: parol kartasi faqat `role === "student"` uchun
+- [x] Settings: Telegram kartasi ilova ichida ham yashiriladi
+
+### App (React skaner)
+- [x] `app/` — alohida Vite build (`npm run build:app`)
+- [x] Kamera (jsQR) + GPS + qo'lda kod
+- [x] Xato kodlari backend bilan bir xil
+- [x] Build → `android/app/src/main/assets/scanner/`
+
+### Android
+- [x] `WebChromeClient` — kamera (`onPermissionRequest`) + GPS (`onGeolocationPermissionsShowPrompt`)
+- [x] Runtime ruxsatlar (`MainActivity`)
+- [x] `WebViewAssetLoader` — `https://appassets.androidplatform.net` (fetch ishlaydi)
+- [x] 2 tab: Sayt / Davomat
+- [x] Token ko'prigi: sayt WebView `localStorage` → `TokenStore` → `AndroidBridge.getToken()`
+- [x] Sayt UA'siga `IELTSApp/1.0` qo'shiladi
 
 ## Keyingi qadam
 
-`TASKS.md` 3-bo'lim — Davomat:
-- `src/utils/attendanceApi.js`: `scanAttendance`, `myAttendance`
-- `/scan` sahifasi: kamera + qo'lda kiritish
-- Geolokatsiya + xabarlar
-- `/attendance` sahifasi
-- `App.jsx`: `/scan`, `/attendance` routelari
-- Capacitor sozlash
-- Ilova qobig'i + README-app.md
+- Haqiqiy telefonda sinash: login → Davomat tabi → QR skanerlash
+- Netlify'ni repo'ga ulash
 
 ## Ma'lum muammolar
 
-- Console'da `127.0.0.1:8000/api/auth/me/` ga ulanish xatolari bor — CI'da backend yo'q, kutilgan.
-- `.playwright-mcp/` loglari commitga tushib qoldi; `.gitignore` ga qo'shib o'chirish kerak.
-
-## Xulosa
-
-TASKS tugadi.
-
+- `/attendance` (o'quvchi tarixi) hozircha yo'q — kerak bo'lsa appga qo'shiladi
+- Bot hozircha faqat Mini App'da saytni ochadi
