@@ -34,6 +34,13 @@ jobs:
       - name: Skaner build (assets)
         run: npm run build:app
 
+      # `android/capacitor-cordova-android-plugins` gitignore'da — CI'da generatsiya qilinadi.
+      - name: Sayt build
+        run: npm run build
+
+      - name: Capacitor sync
+        run: npx cap sync android
+
       - name: Java 21
         uses: actions/setup-java@v4
         with:
