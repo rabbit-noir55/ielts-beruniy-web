@@ -1,6 +1,14 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import jsQR from "jsqr";
-import { scan, token, openSiteTab, ERROR_TEXT } from "./api";
+import { ERROR_TEXT, openSiteTab, scan, token } from "./api";
+
+function haptic(pattern) {
+  try {
+    navigator.vibrate?.(pattern);
+  } catch {
+    /* qurilma qo'llamasligi mumkin */
+  }
+}
 
 function getLocation() {
   return new Promise((resolve, reject) => {
@@ -29,6 +37,15 @@ function getLocation() {
     };
     attempt(false);
   });
+}
+
+function Kicker({ children }) {
+  return (
+    <span className="kicker">
+      <span className="dot" />
+      {children}
+    </span>
+  );
 }
 
 export default function App() {
@@ -70,9 +87,11 @@ export default function App() {
           longitude: coords.longitude,
           accuracy: coords.accuracy,
         });
+        haptic([18, 40, 18]);
         setDone(data);
         stopCamera();
       } catch (err) {
+        haptic(90);
         setError(err.message || "Xatolik yuz berdi.");
       } finally {
         busyRef.current = false;
@@ -86,6 +105,28 @@ export default function App() {
   useEffect(() => {
     if (!hasToken || manual || done) return;
     let cancelled = false;
+
+    const tick = () => {
+      const video = videoRef.current;
+      const canvas = canvasRef.current;
+      if (!video || !canvas) return;
+      if (video.readyState === video.HAVE_ENOUGH_DATA) {
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        const ctx = canvas.getContext("2d", { willReadFrequently: true });
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+        const img = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        const qr = jsQR(img.data, canvas.width, canvas.height, {
+          inversionAttempts: "dontInvert",
+        });
+        if (qr?.data) {
+          stopCamera();
+          submit(qr.data);
+          return;
+        }
+      }
+      rafRef.current = requestAnimationFrame(tick);
+    };
 
     const start = async () => {
       try {
@@ -119,28 +160,6 @@ export default function App() {
       }
     };
 
-    const tick = () => {
-      const video = videoRef.current;
-      const canvas = canvasRef.current;
-      if (!video || !canvas) return;
-      if (video.readyState === video.HAVE_ENOUGH_DATA) {
-        canvas.width = video.videoWidth;
-        canvas.height = video.videoHeight;
-        const ctx = canvas.getContext("2d", { willReadFrequently: true });
-        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-        const img = ctx.getImageData(0, 0, canvas.width, canvas.height);
-        const qr = jsQR(img.data, canvas.width, canvas.height, {
-          inversionAttempts: "dontInvert",
-        });
-        if (qr?.data) {
-          stopCamera();
-          submit(qr.data);
-          return;
-        }
-      }
-      rafRef.current = requestAnimationFrame(tick);
-    };
-
     start();
     return () => {
       cancelled = true;
@@ -155,15 +174,24 @@ export default function App() {
     setCameraError("");
   };
 
+  /* ── Tizimga kirilmagan ─────────────────────────────── */
   if (!hasToken) {
     return (
-      <div className="wrap center">
-        <div className="card">
-          <h1>Tizimga kiring</h1>
-          <p className="muted">
+      <div className="app center">
+        <div>
+          <Kicker>Davomat</Kicker>
+          <h1 className="title">Tizimga kiring</h1>
+          <p className="subtitle">
             Davomatni belgilash uchun avval saytga kirishingiz kerak.
           </p>
-          <button className="btn primary" onClick={openSiteTab}>
+        </div>
+        <div className="card">
+          <span className="card-label">Qadam 1</span>
+          <p className="subtitle" style={{ color: "var(--muted-strong)" }}>
+            «Sayt» tabiga o‘tib, o‘z hisobingizga kiring. Keyin bu yerga qaytib
+            QR kodni skanerlang.
+          </p>
+          <button className="btn btn-primary btn-block" onClick={openSiteTab}>
             Saytni ochish
           </button>
         </div>
@@ -172,35 +200,42 @@ export default function App() {
   }
 
   return (
-    <div className="wrap">
-      <header className="head">
+    <div className="app">
+      <div className="head-row">
         <div>
-          <h1>Davomat</h1>
-          <p className="muted">QR kodni kameraga qarating</p>
+          <Kicker>Davomat</Kicker>
+          <h1 className="title">{done ? "Tayyor" : "QR kodni qarating"}</h1>
+          <p className="subtitle">
+            {done
+              ? "Davomat muvaffaqiyatli belgilandi"
+              : "Kod devordagi QR ichida"}
+          </p>
         </div>
-        <button className="btn ghost sm" onClick={openSiteTab}>
+        <button className="btn btn-ghost btn-sm" onClick={openSiteTab}>
           Sayt
         </button>
-      </header>
+      </div>
 
       {done && (
-        <div className="card ok">
-          <div className="tick">✓</div>
+        <div className="card result ok">
+          <div className="badge ok">✓</div>
           <h2>Belgilandi</h2>
-          <p className="muted">
-            {done.group} — {done.date}
+          <p>
+            {done.group} · {done.date}
           </p>
-          <p className="muted">Masofa: {done.distance_m} m</p>
-          <button className="btn primary" onClick={reset}>
+          <div className="chip">📍 {done.distance_m} m</div>
+          <button className="btn btn-primary btn-block" onClick={reset} style={{ marginTop: 8 }}>
             Yana skanerlash
           </button>
         </div>
       )}
 
       {!done && error && (
-        <div className="card err">
-          <p className="err-text">{error}</p>
-          <button className="btn primary" onClick={reset}>
+        <div className="card result err">
+          <div className="badge err">!</div>
+          <h2>Belgilanmadi</h2>
+          <p style={{ color: "rgba(255,255,255,0.75)" }}>{error}</p>
+          <button className="btn btn-primary btn-block" onClick={reset} style={{ marginTop: 8 }}>
             Qayta urinish
           </button>
         </div>
@@ -212,9 +247,18 @@ export default function App() {
             <div className="viewer">
               <video ref={videoRef} autoPlay playsInline muted />
               <canvas ref={canvasRef} hidden />
-              <div className="frame" />
-              {busy && <div className="overlay">Joylashuv aniqlanmoqda…</div>}
-              {cameraError && <div className="overlay err-text">{cameraError}</div>}
+              <span className="frame-corner tl" />
+              <span className="frame-corner tr" />
+              <span className="frame-corner bl" />
+              <span className="frame-corner br" />
+              <span className="scanline" />
+              <div className={`viewer-hint ${cameraError ? "err" : ""}`}>
+                {cameraError
+                  ? cameraError
+                  : busy
+                  ? "Joylashuv aniqlanmoqda…"
+                  : "QR kodni ramka ichiga joylashtiring"}
+              </div>
             </div>
           ) : (
             <form
@@ -224,30 +268,35 @@ export default function App() {
                 if (code.trim()) submit(code);
               }}
             >
-              <label htmlFor="code">Davomat kodi</label>
-              <input
-                id="code"
-                value={code}
-                onChange={(e) => setCode(e.target.value.toUpperCase())}
-                placeholder="KODNI KIRITING"
-                autoComplete="off"
-                autoCapitalize="characters"
-              />
-              <button className="btn primary" disabled={busy || !code.trim()}>
+              <span className="card-label">Qo‘lda kiritish</span>
+              <div className="field">
+                <label htmlFor="code">Davomat kodi</label>
+                <input
+                  id="code"
+                  className="input"
+                  value={code}
+                  onChange={(e) => setCode(e.target.value.toUpperCase())}
+                  placeholder="KODNI KIRITING"
+                  autoComplete="off"
+                  autoCapitalize="characters"
+                  spellCheck={false}
+                />
+              </div>
+              <button className="btn btn-primary btn-block" disabled={busy || !code.trim()}>
                 {busy ? "Tekshirilmoqda…" : "Tekshirish"}
               </button>
             </form>
           )}
 
           <button
-            className="btn ghost wide"
+            className="btn btn-ghost btn-block"
             onClick={() => {
               setManual((m) => !m);
               setCameraError("");
               setError("");
             }}
           >
-            {manual ? "Kamera bilan skanerlash" : "Kodni qo'lda kiritish"}
+            {manual ? "Kamera bilan skanerlash" : "Kodni qo‘lda kiritish"}
           </button>
         </>
       )}
