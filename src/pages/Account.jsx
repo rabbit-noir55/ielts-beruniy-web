@@ -30,7 +30,7 @@ function Account({ theme = "dark" }) {
     <div className={`min-h-[calc(100vh-112px)] pt-28 ${isDark ? "text-[#F5F5F5]" : "text-[#17171A]"}`}>
       <div className="mx-auto max-w-3xl px-4 pb-12">
         <div className={`mb-8 rounded-2xl border p-6 backdrop-blur-xl ${isDark ? "border-white/10 bg-[#141416]" : "border-black/[0.08] bg-white"}`}>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
             <div className={`flex h-16 w-16 items-center justify-center rounded-full text-2xl font-bold ${isDark ? "bg-white/10 text-[#F5F5F5]" : "bg-black/[0.06] text-[#17171A]"}`}>
               {name ? name[0].toUpperCase() : "?"}
             </div>
@@ -41,7 +41,7 @@ function Account({ theme = "dark" }) {
               </p>
             </div>
             {authed ? (
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2">
                 <Link
                   to="/settings"
                   className="rounded-lg border border-black/[0.15] px-4 py-2 text-sm font-semibold text-black/70 transition-colors hover:border-black/30 hover:text-black dark:border-white/20 dark:text-white/80 dark:hover:border-white/40 dark:hover:text-white"

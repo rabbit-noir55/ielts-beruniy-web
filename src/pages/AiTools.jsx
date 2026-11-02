@@ -263,9 +263,9 @@ export default function AiTools({ theme }) {
 
   return (
     <div className={`min-h-screen ${isDark ? "bg-[#0A0A0B] text-[#F5F5F5]" : "bg-[#F6F5F2] text-[#17171A]"}`}>
-      <div className="flex min-h-screen pt-24">
+      <div className="flex min-h-screen flex-col pt-24 lg:flex-row">
         {/* Sidebar — always on left */}
-        <aside className={`w-56 flex-shrink-0 border-r p-3 lg:w-64 ${isDark ? "border-white/10" : "border-black/10"}`}>
+        <aside className={`w-full flex-shrink-0 border-b p-3 lg:w-56 lg:border-r lg:border-b-0 ${isDark ? "border-white/10" : "border-black/10"}`}>
           <div className="mb-4">
             <p className="text-xs font-bold text-black/40 dark:text-white/40">Daily AI Limit</p>
             <p className="mt-1 text-[10px] text-black/30 dark:text-white/30">Shared across all AI tools</p>
@@ -281,12 +281,12 @@ export default function AiTools({ theme }) {
               </span>
             </div>
           </div>
-          <nav className="space-y-1">
+          <nav className="flex flex-wrap gap-1 lg:flex-col">
             {TABS.map((t) => (
               <button
                 key={t.key}
                 onClick={() => setTab(t.key)}
-                className={`flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left text-sm font-semibold transition-colors ${
+                className={`flex w-auto items-center gap-3 rounded-xl px-3 py-2.5 text-left text-sm font-semibold transition-colors lg:w-full ${
                   tab === t.key
                     ? "bg-[var(--accent)] text-[var(--accent-contrast)]"
                     : isDark
@@ -316,7 +316,7 @@ export default function AiTools({ theme }) {
               <p className="text-sm text-black/40 dark:text-white/40">
                 Grade your essay/response against IELTS criteria — get band score, corrections and an optimized version.
               </p>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {WRITING_TASKS.map((t) => (
                   <button
                     key={t.key}
@@ -370,7 +370,7 @@ export default function AiTools({ theme }) {
               <p className="text-sm text-black/40 dark:text-white/40">
                 Generate a Band 9 model answer with AI.
               </p>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {WRITING_TASKS.map((t) => (
                   <button
                     key={t.key}
@@ -419,7 +419,7 @@ export default function AiTools({ theme }) {
               <p className="text-sm text-black/40 dark:text-white/40">
                 Grade your spoken response — fluency, lexical resource, grammar and pronunciation.
               </p>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {SPEAKING_PARTS.map((p) => (
                   <button
                     key={p}
@@ -473,7 +473,7 @@ export default function AiTools({ theme }) {
               <p className="text-sm text-black/40 dark:text-white/40">
                 Generate a Band 9 model spoken response with AI.
               </p>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {SPEAKING_PARTS.map((p) => (
                   <button
                     key={p}

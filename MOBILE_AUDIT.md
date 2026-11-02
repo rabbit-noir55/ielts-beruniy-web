@@ -64,3 +64,12 @@
 1. **`/account`** — "Logout" tugmasi kartadan chiqib ketgan. Profil kartasining action qismini `flex-wrap` yoki kichikroq padding bilan sozlash kerak.
 2. **`/tools/ai`** — AI asboblarining yon paneli mobil ekranda o'ngga chiqib ketgan. Mobil uchun panelni to'liq kenglikka o'tkazish yoki kontentni pastga joylashtirish kerak.
 3. **`/intro`** — animatsiya elementlari katta, lekin foydalanuvchiga ta'sir qilmaydi. Low priority.
+
+## Faza 2 — tuzatilgan
+
+| Sahifa | Tuzatish | Screenshot |
+|---|---|---|
+| `/account` | Profil kartasi `flex-col sm:flex-row`, tugmalar `flex-wrap` qilindi | `screenshots/mobile/account-fixed.png` |
+| `/tools/ai` | Sidebar mobilida `w-full` va tablar `flex-wrap`, kontent `flex-wrap gap-2` | `screenshots/mobile/tools-ai-fixed.png` |
+
+Tuzatishlardan keyin ikkala sahifada ham `scrollWidth == innerWidth` va `overflowCount == 0`.

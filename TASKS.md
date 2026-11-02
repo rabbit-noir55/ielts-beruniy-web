@@ -49,7 +49,7 @@
   Tekshir: gorizontal scroll (`scrollWidth > innerWidth`), ekrandan chiqqan element
   (`rect.right > innerWidth + 1`), tap target `< 44px`, kesilgan matn, console error.
   Natija: `MOBILE_AUDIT.md` — sahifa | muammo | jiddiylik | screenshot.
-- [ ] **Faza 2 — tuzatish.** Eng jiddiydan boshlab, **har sahifa alohida commit**.
+- [x] **Faza 2 — tuzatish.** Eng jiddiydan boshlab, **har sahifa alohida commit**.
   Har tuzatishdan keyin o'sha sahifani qayta screenshot qilib solishtir.
 
 ---
