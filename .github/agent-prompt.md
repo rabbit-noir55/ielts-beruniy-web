@@ -6,28 +6,39 @@ Agar TASKS.md bo'sh bo'lsa — hech narsa qilma, PROGRESS.md ga "TASKS bos" deb 
 
 VAQT BYUDJETI: {{MINUTES}} daqiqa.
 Boshida "date -u" bilan boshlanish vaqtini yozib ol. Vaqtni vaqti-vaqti bilan tekshir.
-Byudjet tugashiga 10 daqiqa qolganda YANGI ISH BOSHLaMA:
-  joriy ishni tugat, lint va build ni o'tkaz, bash scripts/agent-commit.sh bilan commit qil,
-  PROGRESS.md ni yangila va to'xta.
 
-HAR BIR tugallangan kichik ishdan keyin MAJBURIY tartib:
+ENG MUHIM QOIDA — TO'XTAMA:
+  Bitta vazifa tugagach TO'XTAMA. TASKS.md dagi keyingi [ ] belgili vazifaga DARHOL o't.
+  Faqat quyidagi ikki holatda to'xtaysan:
+    1) TASKS.md da bajarilmagan vazifa qolmadi
+    2) vaqt byudjetidan 10 daqiqa qoldi
+  "Vazifa bajarildi" deb javob yozib, ishni tashlab ketish TAQIQLANADI.
+
+HAR BIR tugallangan vazifadan keyin MAJBURIY:
   1) npm run lint
   2) npm run build
-  3) bash scripts/agent-commit.sh "qisqa izoh"
-  4) PROGRESS.md ni yangilash
-Yarim ishni commit qilma. Build yiqilsa tuzatishga urin; tuzata olmasang
-git checkout -- <fayl> bilan qaytar va PROGRESS.md ga yozib qo'y.
+  3) TASKS.md da o'sha vazifani `- [x]` qil
+  4) PROGRESS.md ni yangila (nima qilindi, keyingi qadam)
+  5) bash scripts/agent-commit.sh "<qisqa izoh>"
 
-PLAYWRIGHT — MAJBURIY:
-  Dev server tayyor: http://127.0.0.1:5173
-  Har qanday UI/layout ishini haqiqiy brauzerda ochib ko'r.
-  Mobil tekshiruv: viewport 390x844, deviceScaleFactor 3.
-  Screenshotlarni screenshots/ papkasiga saqla.
-  API kerak bo'lsa page.route() bilan mock qil (CI'da backend yo'q).
-  Ko'rmasdan "tuzatdim" dema — screenshot va natijani PROGRESS.md ga yoz.
+PLAYWRIGHT MCP — MAJBURIY, SKRIPT YOZMA:
+  Sening ixtiyoringda Playwright MCP tool'lari bor:
+    browser_navigate, browser_resize, browser_snapshot, browser_take_screenshot,
+    browser_click, browser_evaluate, browser_console_messages
+  Dev server: http://127.0.0.1:5173
+  Har qanday UI/layout ishida:
+    1) browser_resize(390, 844)
+    2) browser_navigate("http://127.0.0.1:5173/<route>")
+    3) browser_take_screenshot(...) → screenshots/ papkasiga
+    4) browser_evaluate bilan tekshir: scrollWidth, element rect, tap target
+  O'zing CDP/screenshot SKRIPT YOZMA. Faqat MCP tool'larini ishlat.
+  API kerak bo'lsa browser_route/mock yoki sahifadagi bo'sh holat bilan ishlash mumkin.
+  Ko'rmasdan "tuzatdim" dema.
 
 TAQIQLAR: package.json/package-lock.json ni qo'lda tahrirlash (faqat npm install orqali),
 .env, vite.config.js, netlify.toml, git push --force, git reset --hard, rm -rf,
-TASKS.md da yozilmagan yangi paket o'rnatish.
+TASKS.md da yozilmagan yangi paket o'rnatish,
+o'zingning screenshot/scrape skriptlaringni yozish.
 
-Oxirida PROGRESS.md ga qisqa xulosa yoz: nima qilindi, qaysi sahifalar ko'rildi, nima qolmadi, keyingi qadam.
+Oxirida PROGRESS.md ga qisqa xulosa yoz: nima qilindi, qaysi sahifalar Playwright bilan ko'rildi,
+nima qolmadi, keyingi qadam.

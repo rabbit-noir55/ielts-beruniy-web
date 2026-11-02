@@ -8,6 +8,13 @@
       }
     }
   },
+  "mcp": {
+    "playwright": {
+      "type": "local",
+      "command": ["npx", "--yes", "@playwright/mcp@latest", "--headless", "--isolated"],
+      "enabled": true
+    }
+  },
   "compaction": {
     "auto": true,
     "keep": {

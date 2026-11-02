@@ -7,13 +7,13 @@
 
 ## 1. Telegram
 
-- [ ] `src/utils/telegram.js`: `tg()` va `isTelegram()` — `window.Telegram?.WebApp` xavfsiz o'qish.
-- [ ] `index.html`: `https://telegram.org/js/telegram-web-app.js` skriptini qo'shish.
-- [ ] `src/main.jsx`: `isTelegram()` bo'lsa `ready()`, `expand()`, `setHeaderColor?.("secondary_bg_color")`,
+- [x] `src/utils/telegram.js`: `tg()` va `isTelegram()` — `window.Telegram?.WebApp` xavfsiz o'qish.
+- [x] `index.html`: `https://telegram.org/js/telegram-web-app.js` skriptini qo'shish.
+- [x] `src/main.jsx`: `isTelegram()` bo'lsa `ready()`, `expand()`, `setHeaderColor?.("secondary_bg_color")`,
   `disableVerticalSwipes?.()`. Brauzerda hech qanday xato bo'lmasin.
-- [ ] `Settings.jsx`: "Telegram bot" kartasi — `href = import.meta.env.VITE_TELEGRAM_BOT_URL || "https://t.me/ielts_beruniy_bot"`,
+- [x] `Settings.jsx`: "Telegram bot" kartasi — `href = import.meta.env.VITE_TELEGRAM_BOT_URL || "https://t.me/ielts_beruniy_bot"`,
   `target="_blank"`, `rel="noopener noreferrer"`. Telegram ichida karta ko'rsatilmaydi.
-- [ ] `Login.jsx` / `Register.jsx`: `isTelegram()` bo'lsa Google tugmasini yashirish.
+- [x] `Login.jsx` / `Register.jsx`: `isTelegram()` bo'lsa Google tugmasini yashirish.
 - [ ] Playwright: `/settings` da karta bor, `href` to'g'ri, tashqi navigatsiya yo'q, screenshot
   `screenshots/settings-telegram.png`. `window.Telegram` inject qilinganda karta yo'q.
 

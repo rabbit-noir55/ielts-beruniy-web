@@ -20,6 +20,9 @@ Test yo'q — tekshiruv `lint` + `build` + **Playwright**.
 
 ## Ish tartibi (MAJBURIY)
 
+0. **Bitta vazifa tugagach TO'XTAMA** — `TASKS.md` dagi keyingi `[ ]` ga darhol o't.
+   Faqat: (a) vazifalar qolmadi, yoki (b) byudjetdan 10 daqiqa qoldi — shunda to'xta.
+
 1. `TASKS.md` ni o'qi — birinchi `[ ]` belgili ishni ol.
 2. `PROGRESS.md` ni o'qi — oldingi run qayerda to'xtaganini bilish uchun.
 3. `API_CONTRACT.md` ni o'qi — endpoint nomlari va formatlari shu yerda.
@@ -33,15 +36,29 @@ bash scripts/agent-commit.sh "<qisqa izoh>"
 
 5. `PROGRESS.md` ni yangila.
 
-## Playwright — majburiy
+## Playwright MCP — majburiy
 
 Har qanday **UI yoki layout** ishi haqiqiy brauzerda ko'riladi. "Kod to'g'ri yozildi" — yetarli emas.
 
+Sening ixtiyoringda **Playwright MCP** tool'lari bor — faqat shularni ishlat:
+
+```
+browser_navigate       sahifani ochish
+browser_resize         viewport o'lchami
+browser_snapshot       sahifa tuzilishi (matn)
+browser_take_screenshot rasm saqlash
+browser_click          bosish
+browser_evaluate       JS bajarish (o'lchovlar uchun)
+browser_console_messages console xatolarini o'qish
+```
+
+**O'zing CDP/screenshot skript yozma** — MCP yetarli.
+
 - Dev server: `http://127.0.0.1:5173`
-- Mobil tekshiruv: viewport `390x844`, `deviceScaleFactor: 3`
+- Mobil tekshiruv: `browser_resize(390, 844)`
 - Screenshotlar: `screenshots/` papkasiga (`screenshots/mobile/<route>.png`)
-- API kerak bo'lsa — `page.route()` bilan **mock** qil (CI'da backend yo'q)
-- Login kerak bo'lsa — `localStorage` ga token inject qil yoki API'ni mock qil
+- API kerak bo'lsa — mock qil yoki bo'sh holat bilan ishla (CI'da backend yo'q)
+- Login kerak bo'lsa — `browser_evaluate` bilan `localStorage` ga token inject qil
 
 Tekshirish ro'yxati (har sahifa uchun):
 
