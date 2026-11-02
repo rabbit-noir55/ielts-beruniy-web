@@ -40,3 +40,10 @@ android/app/src/main/assets/public/
 
 # Ilova build natijasi (npx vite build --config app/vite.config.js)
 android/app/src/main/assets/scanner/
+
+# Expo mobile
+mobile/node_modules/
+mobile/android/
+mobile/ios/
+mobile/.expo/
+mobile/out/
