@@ -703,25 +703,6 @@ const handleKey = useCallback(
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-5 px-4 py-8 sm:px-6">
-      {/* Sarlavha */}
-      <div className="flex flex-col items-center gap-1 text-center">
-        <div className="flex items-center gap-2 text-[var(--accent)]">
-           <FontAwesomeIcon icon={faKeyboard} size="lg" />
-          <span className="text-sm font-bold uppercase tracking-widest">
-            {t("Tezkor yozuv", "Fast typing")}
-          </span>
-        </div>
-        <h1 className="text-2xl font-extrabold sm:text-3xl">
-          {t("Tez yozish testi", "Typing test")}
-        </h1>
-        <p className={`text-sm ${isDark ? "text-white/50" : "text-black/50"}`}>
-          {t(
-            "Yozish tezligingizni o'lchang va leaderboardda o'rningizni ko'ring.",
-            "Measure your typing speed and see your place on the leaderboard.",
-          )}
-        </p>
-      </div>
-
       {/* Sozlamalar: rejim + vaqt + kalaviatura/reyting */}
       <div className={`${card()} p-3 sm:p-4`}>
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-4">
