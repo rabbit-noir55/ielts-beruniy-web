@@ -22,11 +22,11 @@ const T = {
     hero1: "Tayyorgarlik",
     hero2: "natija bilan o'lchanadi.",
     heroDesc:
-      "IELTS Beruniy — Enthusiastic English loyihasi. 2022 yildan beri ingliz tilini o'rgatamiz va IELTS'ga tayyorlaymiz: kichik guruhlar, haqiqiy formatdagi mock testlar va har hafta o'lchanadigan natija.",
+      "IELTS Beruniy — Enthusiastic English loyihasi. 2020 yildan beri ingliz tilini o'rgatamiz va IELTS'ga tayyorlaymiz: kichik guruhlar, haqiqiy formatdagi mock testlar va har hafta o'lchanadigan natija.",
     cta1: "Ro'yxatdan o'tish",
     cta2: "Markaz bilan tanishish",
     gaugeLabel: "Eng yuqori natija",
-    est: "2022 · Beruniy, O'zbekiston",
+    est: "2020 · Beruniy, O'zbekiston",
     facts: ["Yaroqli IELTS ball", "Eng yuqori natija", "Podkast", "Ta'lim formati"],
 
     s1: "Muammo",
@@ -105,11 +105,11 @@ const T = {
     hero1: "Подготовка",
     hero2: "измеряется результатом.",
     heroDesc:
-      "IELTS Beruniy — проект Enthusiastic English. С 2022 года мы обучаем английскому и готовим к IELTS: небольшие группы, мок-тесты в реальном формате и прогресс, который измеряется каждую неделю.",
+      "IELTS Beruniy — проект Enthusiastic English. С 2020 года мы обучаем английскому и готовим к IELTS: небольшие группы, мок-тесты в реальном формате и прогресс, который измеряется каждую неделю.",
     cta1: "Зарегистрироваться",
     cta2: "Познакомиться с центром",
     gaugeLabel: "Лучший результат",
-    est: "2022 · Беруний, Узбекистан",
+    est: "2020 · Беруний, Узбекистан",
     facts: ["Действительный балл IELTS", "Лучший результат", "Подкасты", "Формата обучения"],
 
     s1: "Проблема",
@@ -188,11 +188,11 @@ const T = {
     hero1: "Preparation",
     hero2: "measured by results.",
     heroDesc:
-      "IELTS Beruniy is a project of Enthusiastic English. Since 2022 we have taught English and prepared students for IELTS: small groups, mocks in the real format, and progress measured every week.",
+      "IELTS Beruniy is a project of Enthusiastic English. Since 2020 we have taught English and prepared students for IELTS: small groups, mocks in the real format, and progress measured every week.",
     cta1: "Create an account",
     cta2: "Explore the centre",
     gaugeLabel: "Highest band",
-    est: "2022 · Beruniy, Uzbekistan",
+    est: "2020 · Beruniy, Uzbekistan",
     facts: ["Valid IELTS results", "Highest band", "Podcasts", "Study formats"],
 
     s1: "The problem",
