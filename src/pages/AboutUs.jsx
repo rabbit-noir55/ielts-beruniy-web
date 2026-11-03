@@ -1,111 +1,133 @@
 import { Link } from "react-router-dom";
 import { useLang } from "../utils/LanguageContext";
 
-const STATS = [
+/**
+ * About Us — Swiss/editorial minimal.
+ * 12-ustunli grid, raqamlangan bo'limlar, ingichka chiziqlar, bitta aksent.
+ * Dekoratsiya yo'q: faqat tipografiya va bo'sh joy.
+ */
+
+const FACTS = [
   { value: "79+", uz: "O'quvchi", en: "Students" },
-  { value: "7.0+", uz: "Eng yuqori natija", en: "Top band" },
+  { value: "7.0+", uz: "Eng yuqori natija", en: "Highest band" },
   { value: "20+", uz: "Podkast", en: "Podcasts" },
-  { value: "4", uz: "Ta'lim yo'nalishi", en: "Study formats" },
+  { value: "4", uz: "Ta'lim formati", en: "Study formats" },
 ];
 
-const REASONS = [
+const PROBLEMS = [
   {
-    icon: "◎",
+    n: "01",
     uz: {
-      title: "Haqiqiy formatdagi mock",
-      desc: "Vaqt chegarasi, baholash mezonlari va imtihon bosimi — hammasi asl IELTS kabi. Listening, Reading, Writing, Speaking.",
+      title: "Tizimsiz tayyorgarlik",
+      desc: "Tasodifiy materiallar, turli manbalar va rejasiz mashqlar — natija baribir o'lchanmaydi.",
     },
     en: {
-      title: "Mocks in the real format",
-      desc: "Time limits, marking criteria and exam pressure — exactly like the real IELTS. Listening, Reading, Writing, Speaking.",
+      title: "Preparation without a system",
+      desc: "Random materials, scattered sources and unplanned practice — progress never gets measured.",
     },
   },
   {
-    icon: "✎",
+    n: "02",
     uz: {
-      title: "AI bilan tezkor fikr-mulohaza",
-      desc: "Yozma ishingiz va speaking javoblaringiz bo'yicha bir necha daqiqada tahlil: band taxmini va aniq tuzatishlar.",
+      title: "Fikr-mulohaza kechikadi",
+      desc: "Yozgan ishni tekshirish uchun haftalar ketadi. Xato takrorlanadi, chunki u ko'rinmaydi.",
     },
     en: {
-      title: "Instant AI feedback",
-      desc: "Analysis of your writing and speaking within minutes: an estimated band and concrete corrections.",
+      title: "Feedback arrives too late",
+      desc: "Checking a piece of writing takes weeks. Mistakes repeat because nobody sees them.",
     },
   },
   {
-    icon: "◍",
+    n: "03",
     uz: {
-      title: "Kichik guruhlar",
-      desc: "Har bir o'quvchi bilan alohida ishlash imkoniyati. Guruh darajasiga moslashgan dastur va uy vazifalari.",
+      title: "Natija ko'rinmaydi",
+      desc: "Qaysi ko'nikma orqada qolgani noma'lum. Har bir urinish noldan boshlanadi.",
     },
     en: {
-      title: "Small groups",
-      desc: "Individual attention for every student. A programme and homework that match the level of the group.",
-    },
-  },
-  {
-    icon: "★",
-    uz: {
-      title: "Haftalik natija nazorati",
-      desc: "Har hafta 5 ta yo'nalish: Writing, Vocabulary, Reading, Speaking va Random speaking. Har biri 20 ball.",
-    },
-    en: {
-      title: "Weekly progress control",
-      desc: "Five areas every week: Writing, Vocabulary, Reading, Speaking and Random speaking. 20 points each.",
+      title: "Progress stays invisible",
+      desc: "You cannot tell which skill is lagging. Every attempt starts from zero.",
     },
   },
 ];
 
-const GROUPS = [
+const PRINCIPLES = [
+  {
+    n: "01",
+    uz: { title: "Haqiqiy formatdagi mock", desc: "Vaqt chegarasi va baholash mezonlari asl imtihon bilan bir xil." },
+    en: { title: "Mocks in the real format", desc: "Time limits and marking criteria match the actual exam." },
+  },
+  {
+    n: "02",
+    uz: { title: "Tezkor AI tahlili", desc: "Writing va Speaking bo'yicha bir necha daqiqada band taxmini va tuzatishlar." },
+    en: { title: "Fast AI analysis", desc: "An estimated band and corrections for Writing and Speaking within minutes." },
+  },
+  {
+    n: "03",
+    uz: { title: "Kichik guruhlar", desc: "Har bir o'quvchiga alohida e'tibor va darajaga mos dastur." },
+    en: { title: "Small groups", desc: "Individual attention for every student and a programme matched to the level." },
+  },
+  {
+    n: "04",
+    uz: { title: "Haftalik nazorat", desc: "Har hafta 5 ta yo'nalish, har biri 20 ball — tayyorgarlik uzluksiz o'lchanadi." },
+    en: { title: "Weekly control", desc: "Five areas every week, 20 points each — preparation is measured continuously." },
+  },
+];
+
+const TRACKS = [
   {
     tag: "IELTS",
     uz: {
       title: "IELTS tayyorgarlik",
-      desc: "Akademik maqsad uchun to'liq tayyorgarlik: 4 ta ko'nikma, mock testlar va individual tahlil. 6.0–7.5+ oralig'ida natija uchun.",
+      desc: "Akademik maqsad uchun to'liq tayyorgarlik: to'rt ko'nikma, mock testlar va individual tahlil.",
+      meta: ["Listening", "Reading", "Writing", "Speaking"],
     },
     en: {
       title: "IELTS preparation",
-      desc: "Full academic preparation: four skills, mock tests and individual analysis. Built for results between 6.0 and 7.5+.",
+      desc: "Full academic preparation: four skills, mock tests and individual analysis.",
+      meta: ["Listening", "Reading", "Writing", "Speaking"],
     },
   },
   {
     tag: "Round Up",
     uz: {
-      title: "Round Up — umumiy ingliz tili",
-      desc: "Grammatika va lug'at asosida tilni mustahkamlash. IELTS'ga hali tayyor bo'lmaganlar uchun mustahkam poydevor.",
+      title: "Umumiy ingliz tili",
+      desc: "Grammatika va lug'at asosida tilni mustahkamlash — IELTS'ga tayyor bo'lmaganlar uchun poydevor.",
+      meta: ["Grammar", "Vocabulary", "Speaking", "Practice"],
     },
     en: {
-      title: "Round Up — general English",
-      desc: "Strengthen the language through grammar and vocabulary. A solid foundation for those not ready for IELTS yet.",
+      title: "General English",
+      desc: "Strengthen the language through grammar and vocabulary — a foundation before IELTS.",
+      meta: ["Grammar", "Vocabulary", "Speaking", "Practice"],
     },
   },
 ];
 
-const FEATURES = [
-  { uz: "Mock testlar", en: "Mock tests" },
-  { uz: "AI Writing feedback", en: "AI Writing feedback" },
-  { uz: "AI Speaking feedback", en: "AI Speaking feedback" },
-  { uz: "Lug'at va Vocabulary quiz", en: "Dictionary & vocabulary quiz" },
-  { uz: "Typing mashqi", en: "Typing practice" },
-  { uz: "Interaktiv o'yinlar", en: "Interactive games" },
-  { uz: "Band calculator", en: "Band calculator" },
-  { uz: "Haftalik league", en: "Weekly league" },
+const PLATFORM = [
+  { uz: { t: "Mock testlar", d: "Haqiqiy format va avtomatik baholash" }, en: { t: "Mock tests", d: "Real format, automatic grading" } },
+  { uz: { t: "Writing feedback", d: "Matn bo'yicha AI tahlili" }, en: { t: "Writing feedback", d: "AI analysis of your text" } },
+  { uz: { t: "Speaking feedback", d: "Nutq bo'yicha AI bahosi" }, en: { t: "Speaking feedback", d: "AI scoring of your speech" } },
+  { uz: { t: "Lug'at va quiz", d: "So'z boyligini mustahkamlash" }, en: { t: "Dictionary & quiz", d: "Build your vocabulary" } },
+  { uz: { t: "Typing", d: "Tez yozish mashqi" }, en: { t: "Typing", d: "Speed typing practice" } },
+  { uz: { t: "O'yinlar", d: "Interaktiv mashqlar" }, en: { t: "Games", d: "Interactive practice" } },
+  { uz: { t: "Band calculator", d: "Natijani hisoblash" }, en: { t: "Band calculator", d: "Convert raw scores" } },
+  { uz: { t: "Haftalik league", d: "Natijalar reytingi" }, en: { t: "Weekly league", d: "Progress leaderboard" } },
 ];
 
 const STEPS = [
   {
     n: "01",
-    uz: { title: "Ro'yxatdan o'ting", desc: "Saytda akkaunt yarating — bu bir daqiqa oladi." },
-    en: { title: "Create an account", desc: "Sign up on the site — it takes a minute." },
+    uz: { title: "Ro'yxatdan o'tish", desc: "Saytda akkaunt yarating — bir daqiqada." },
+    en: { title: "Sign up", desc: "Create an account on the site — takes a minute." },
   },
   {
     n: "02",
-    uz: { title: "Darajani aniqlaymiz", desc: "Qisqa suhbat va test orqali hozirgi darajangizni aniqlaymiz." },
-    en: { title: "We assess your level", desc: "A short interview and test show where you are now." },
+    uz: { title: "Darajani aniqlash", desc: "Qisqa suhbat va test orqali hozirgi darajangizni aniqlaymiz." },
+    en: { title: "Level assessment", desc: "A short interview and test show where you are." },
   },
   {
     n: "03",
-    uz: { title: "Guruhingizga qo'shilasiz", desc: "Daraja va maqsadga mos guruhga biriktiriladi va darslar boshlanadi." },
-    en: { title: "Join your group", desc: "You are placed in a group that fits your level and goal." },
+    uz: { title: "Guruhga qo'shilish", desc: "Maqsadga mos guruhga biriktirilasiz va darslar boshlanadi." },
+    en: { title: "Join a group", desc: "You are placed in a matching group and lessons begin." },
   },
 ];
 
@@ -113,27 +135,27 @@ const FAQ = [
   {
     uz: {
       q: "Markazga kelmasdan foydalana olamanmi?",
-      a: "Ha. Saytdagi mock testlar, AI feedback va asboblar ro'yxatdan o'tgan har bir foydalanuvchi uchun ochiq. Darslar esa faqat guruhga biriktirilgan o'quvchilar uchun.",
+      a: "Ha. Ro'yxatdan o'tgan har bir foydalanuvchi mock testlar, AI feedback va asboblardan foydalana oladi. Darslar esa faqat guruhga biriktirilgan o'quvchilar uchun.",
     },
     en: {
       q: "Can I use the platform without attending?",
-      a: "Yes. Mock tests, AI feedback and the tools are open to every registered user. Lessons are available only to students assigned to a group.",
+      a: "Yes. Every registered user can use mock tests, AI feedback and the tools. Lessons are for students assigned to a group only.",
     },
   },
   {
     uz: {
-      q: "Natijani qanday tekshiraman?",
-      a: "Har bir mock test avtomatik baholanadi va natija profilingizda saqlanadi. Writing va Speaking uchun AI tahlili beriladi.",
+      q: "Natija qanday tekshiriladi?",
+      a: "Mock testlar avtomatik baholanadi va natija profilingizda saqlanadi. Writing va Speaking uchun AI tahlili beriladi.",
     },
     en: {
       q: "How are results checked?",
-      a: "Every mock is graded automatically and saved to your profile. Writing and Speaking come with an AI analysis.",
+      a: "Mocks are graded automatically and saved to your profile. Writing and Speaking come with AI analysis.",
     },
   },
   {
     uz: {
       q: "Guruhga qanday qo'shilaman?",
-      a: "Ro'yxatdan o'tgach darajangiz aniqlanadi va mos guruhga biriktirilasiz. Guruh, dars vaqti va o'qituvchi haqida ma'lumot profilingizda ko'rinadi.",
+      a: "Ro'yxatdan o'tgach darajangiz aniqlanadi va mos guruhga biriktirilasiz. Guruh, jadval va o'qituvchi profilingizda ko'rinadi.",
     },
     en: {
       q: "How do I join a group?",
@@ -142,8 +164,8 @@ const FAQ = [
   },
   {
     uz: {
-      q: "Mock test pullikmi?",
-      a: "Saytda ro'yxatdan o'tish bepul. Markaz o'quvchilari uchun mock va asboblar to'liq ochiq.",
+      q: "Mock testlar pullikmi?",
+      a: "Ro'yxatdan o'tish bepul. Markaz o'quvchilari uchun mock testlar va asboblar to'liq ochiq.",
     },
     en: {
       q: "Are mock tests paid?",
@@ -152,251 +174,287 @@ const FAQ = [
   },
 ];
 
+function SectionLabel({ n, isDark, children }) {
+  return (
+    <div className="flex items-baseline gap-3">
+      <span className={`font-mono text-[11px] ${isDark ? "text-white/30" : "text-black/30"}`}>
+        {n}
+      </span>
+      <span
+        className={`text-[10px] font-bold uppercase tracking-[0.18em] ${
+          isDark ? "text-white/65" : "text-black/65"
+        }`}
+      >
+        {children}
+      </span>
+    </div>
+  );
+}
+
 export default function AboutUs({ theme }) {
   const isDark = theme === "dark";
   const { lang } = useLang();
   const t = (uz, en) => (lang === "uz" ? uz : en);
+  const tr = (o) => (lang === "uz" ? o.uz : o.en);
 
-  const card = `rounded-2xl border ${
-    isDark ? "border-white/10 bg-[#141416]" : "border-black/[0.08] bg-white"
-  }`;
-  const kicker = `mb-3 inline-flex items-center gap-2 rounded-full border px-3.5 py-1 text-[10px] font-bold uppercase tracking-wider ${
-    isDark ? "border-white/15 text-white/50" : "border-black/[0.12] text-black/50"
-  }`;
+  const rule = isDark ? "border-white/10" : "border-black/10";
+  const muted = isDark ? "text-white/45" : "text-black/45";
+  const mutedStrong = isDark ? "text-white/65" : "text-black/65";
 
   return (
-    <div
-      className={`min-h-screen pt-28 pb-20 ${
-        isDark ? "bg-[#0A0A0B] text-[#F5F5F5]" : "bg-[#F6F5F2] text-[#17171A]"
-      }`}
-    >
-      <div className="mx-auto max-w-5xl px-4 sm:px-6">
-        {/* ── Hero ───────────────────────────────────────── */}
-        <section>
-          <span className={kicker}>
-            <span className="relative flex h-1.5 w-1.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-current opacity-60" />
-              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-current" />
-            </span>
-            {t("Biz haqimizda", "About us")}
-          </span>
+    <div className={`min-h-screen pt-28 pb-24 ${isDark ? "bg-[#0A0A0B] text-[#F5F5F5]" : "bg-[#F6F5F2] text-[#17171A]"}`}>
+      <div className="mx-auto max-w-6xl px-5 sm:px-8">
 
-          <h1 className="max-w-3xl text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
-            {t(
-              "IELTS Beruniy — natijaga olib boradigan tayyorgarlik",
-              "IELTS Beruniy — preparation that leads to results",
-            )}
-          </h1>
+        {/* ── 00 · HERO ───────────────────────────────────────── */}
+        <section className="grid gap-10 md:grid-cols-12 md:gap-12">
+          <div className="md:col-span-7">
+            <SectionLabel n="00" isDark={isDark}>{t("Biz haqimizda", "About us")}</SectionLabel>
 
-          <p className={`mt-4 max-w-2xl text-base leading-relaxed ${isDark ? "text-white/55" : "text-black/55"}`}>
-            {t(
-              "Biz ingliz tilini o'rgatamiz va IELTS'ga tayyorlaymiz. Markazda kichik guruhlarda dars o'tamiz, onlayn formatni ham qo'llab-quvvatlaymiz. Har bir o'quvchining natijasini haftalik nazorat qilamiz — shuning uchun tayyorgarlik uzluksiz va o'lchanadigan bo'ladi.",
-              "We teach English and prepare students for IELTS. Lessons run in small groups, with online formats supported as well. Every student's progress is tracked weekly — so preparation stays continuous and measurable.",
-            )}
-          </p>
-
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link
-              to="/register"
-              className="rounded-full bg-[var(--accent)] px-7 py-3.5 text-sm font-bold text-[var(--accent-contrast)] transition hover:opacity-90"
-            >
-              {t("Ro'yxatdan o'tish", "Create an account")}
-            </Link>
-            <Link
-              to="/intro"
-              className={`rounded-full border px-7 py-3.5 text-sm font-bold transition ${
-                isDark
-                  ? "border-white/20 text-white/80 hover:border-white/40"
-                  : "border-black/15 text-black/70 hover:border-black/30"
-              }`}
-            >
-              {t("Markaz bilan tanishish", "Explore the centre")}
-            </Link>
-          </div>
-        </section>
-
-        {/* ── Raqamlar ───────────────────────────────────── */}
-        <section className={`mt-14 grid grid-cols-2 gap-4 sm:grid-cols-4`}>
-          {STATS.map((s) => (
-            <div key={s.value} className={`${card} px-5 py-6 text-center`}>
-              <div className="text-3xl font-extrabold tracking-tight">{s.value}</div>
-              <div className={`mt-1 text-xs ${isDark ? "text-white/40" : "text-black/40"}`}>
-                {t(s.uz, s.en)}
-              </div>
-            </div>
-          ))}
-        </section>
-
-        {/* ── Nima uchun biz ─────────────────────────────── */}
-        <section className="mt-16">
-          <span className={kicker}>{t("Nega biz", "Why us")}</span>
-          <h2 className="text-2xl font-extrabold tracking-tight">
-            {t("To'rt sabab", "Four reasons")}
-          </h2>
-
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {REASONS.map((r) => {
-              const c = lang === "uz" ? r.uz : r.en;
-              return (
-                <div key={c.title} className={`${card} p-6`}>
-                  <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-[var(--accent)]/10 text-lg text-[var(--accent)]">
-                    {r.icon}
-                  </div>
-                  <h3 className="text-base font-bold">{c.title}</h3>
-                  <p className={`mt-2 text-sm leading-relaxed ${isDark ? "text-white/50" : "text-black/50"}`}>
-                    {c.desc}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-
-        {/* ── Guruhlar ───────────────────────────────────── */}
-        <section className="mt-16">
-          <span className={kicker}>{t("Yo'nalishlar", "Programmes")}</span>
-          <h2 className="text-2xl font-extrabold tracking-tight">
-            {t("Ikki yo'nalish", "Two tracks")}
-          </h2>
-
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {GROUPS.map((g) => {
-              const c = lang === "uz" ? g.uz : g.en;
-              return (
-                <div key={g.tag} className={`${card} p-6`}>
-                  <span
-                    className={`inline-block rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-wider ${
-                      isDark ? "bg-white/10 text-white/70" : "bg-black/[0.06] text-black/60"
-                    }`}
-                  >
-                    {g.tag}
-                  </span>
-                  <h3 className="mt-3 text-lg font-bold">{c.title}</h3>
-                  <p className={`mt-2 text-sm leading-relaxed ${isDark ? "text-white/50" : "text-black/50"}`}>
-                    {c.desc}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-
-        {/* ── Platforma ──────────────────────────────────── */}
-        <section className={`mt-16 ${card} p-6 sm:p-8`}>
-          <span className={kicker}>{t("Platforma", "Platform")}</span>
-          <h2 className="text-2xl font-extrabold tracking-tight">
-            {t("Bir joyda hamma narsa", "Everything in one place")}
-          </h2>
-          <p className={`mt-2 max-w-2xl text-sm ${isDark ? "text-white/45" : "text-black/45"}`}>
-            {t(
-              "Darsdan tashqari mashg'ulotlar ham tizimga ulangan — natija tasodifga qolmaydi.",
-              "Practice outside class is part of the system too — so results never depend on chance.",
-            )}
-          </p>
-
-          <div className="mt-5 flex flex-wrap gap-2">
-            {FEATURES.map((f) => (
-              <span
-                key={f.en}
-                className={`rounded-full border px-4 py-2 text-xs font-semibold ${
-                  isDark ? "border-white/12 text-white/65" : "border-black/10 text-black/65"
-                }`}
-              >
-                {t(f.uz, f.en)}
+            <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] tracking-[-0.03em] sm:text-5xl">
+              {t("Tayyorgarlik", "Preparation")}
+              <br />
+              <span className={isDark ? "text-white/40" : "text-black/35"}>
+                {t("natija bilan o'lchanadi.", "measured by results.")}
               </span>
-            ))}
+            </h1>
+
+            <p className={`mt-6 max-w-xl text-[15px] leading-relaxed ${muted}`}>
+              {t(
+                "IELTS Beruniy — Enthusiastic English loyihasi. Ingliz tilini o'rgatamiz va IELTS'ga tayyorlaymiz: kichik guruhlar, haqiqiy formatdagi mock testlar va har hafta o'lchanadigan natija.",
+                "IELTS Beruniy is a project of Enthusiastic English. We teach English and prepare for IELTS: small groups, mocks in the real format, and progress measured every week.",
+              )}
+            </p>
+
+            <div className="mt-9 flex flex-wrap gap-3">
+              <Link
+                to="/register"
+                className="inline-flex min-h-12 items-center rounded-full bg-[var(--accent)] px-7 text-sm font-bold text-[var(--accent-contrast)] transition hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+              >
+                {t("Ro'yxatdan o'tish", "Create an account")}
+              </Link>
+              <Link
+                to="/intro"
+                className={`inline-flex min-h-12 items-center rounded-full border px-7 text-sm font-bold transition ${isDark ? "border-white/20 text-white/80 hover:border-white/45" : "border-black/15 text-black/70 hover:border-black/35"} focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2`}
+              >
+                {t("Markaz bilan tanishish", "Explore the centre")}
+              </Link>
+            </div>
           </div>
+
+          {/* Faktlar varaqasi */}
+          <aside className={`md:col-span-5 md:border-l md:pl-8 ${rule}`}>
+            <div className={`border-t ${rule}`}>
+              {FACTS.map((f) => (
+                <div key={f.value} className={`flex items-baseline justify-between border-b ${rule} py-4`}>
+                  <span className="text-2xl font-extrabold tracking-tight">{f.value}</span>
+                  <span className={`text-xs ${muted}`}>{lang === "uz" ? f.uz : f.en}</span>
+                </div>
+              ))}
+            </div>
+            <p className={`mt-5 font-mono text-[11px] leading-relaxed ${isDark ? "text-white/25" : "text-black/25"}`}>
+              {t("2026 · Beruniy, O'zbekiston", "2026 · Beruniy, Uzbekistan")}
+            </p>
+          </aside>
         </section>
 
-        {/* ── Qadamlar ───────────────────────────────────── */}
-        <section className="mt-16">
-          <span className={kicker}>{t("Qanday boshlanadi", "How it starts")}</span>
-          <h2 className="text-2xl font-extrabold tracking-tight">
-            {t("Uch qadam", "Three steps")}
-          </h2>
+        {/* ── 01 · MUAMMO ─────────────────────────────────────── */}
+        <section className={`mt-24 border-t pt-12 ${rule} grid gap-10 md:grid-cols-12`}>
+          <div className="md:col-span-4">
+            <SectionLabel n="01" isDark={isDark}>{t("Muammo", "The problem")}</SectionLabel>
+            <h2 className="mt-4 text-2xl font-extrabold leading-tight tracking-tight">
+              {t("Nega ko'pchilik maqsadiga yetmaydi", "Why most people fall short")}
+            </h2>
+          </div>
 
-          <div className="mt-6 grid gap-4 sm:grid-cols-3">
-            {STEPS.map((s) => {
-              const c = lang === "uz" ? s.uz : s.en;
+          <div className="md:col-span-8">
+            {PROBLEMS.map((p) => {
+              const c = tr(p);
               return (
-                <div key={s.n} className={`${card} p-6`}>
-                  <div className={`text-xs font-bold ${isDark ? "text-white/30" : "text-black/30"}`}>
-                    {s.n}
+                <div key={p.n} className={`flex gap-6 border-b py-6 first:pt-0 ${rule}`}>
+                  <span className={`font-mono text-xs ${isDark ? "text-white/25" : "text-black/25"}`}>{p.n}</span>
+                  <div>
+                    <h3 className="text-base font-bold">{c.title}</h3>
+                    <p className={`mt-1.5 max-w-lg text-sm leading-relaxed ${muted}`}>{c.desc}</p>
                   </div>
-                  <h3 className="mt-2 text-base font-bold">{c.title}</h3>
-                  <p className={`mt-2 text-sm leading-relaxed ${isDark ? "text-white/50" : "text-black/50"}`}>
-                    {c.desc}
-                  </p>
                 </div>
               );
             })}
           </div>
         </section>
 
-        {/* ── FAQ ────────────────────────────────────────── */}
-        <section className="mt-16">
-          <span className={kicker}>FAQ</span>
-          <h2 className="text-2xl font-extrabold tracking-tight">
-            {t("Ko'p so'raladigan savollar", "Frequently asked")}
-          </h2>
+        {/* ── 02 · YECHIM ─────────────────────────────────────── */}
+        <section className={`mt-24 border-t pt-12 ${rule} grid gap-10 md:grid-cols-12`}>
+          <div className="md:col-span-4">
+            <SectionLabel n="02" isDark={isDark}>{t("Bizning yondashuv", "Our approach")}</SectionLabel>
+            <h2 className="mt-4 text-2xl font-extrabold leading-tight tracking-tight">
+              {t("To'rt tamoyil", "Four principles")}
+            </h2>
+            <p className={`mt-3 max-w-xs text-sm leading-relaxed ${muted}`}>
+              {t(
+                "Har bir dars va mashq shu tamoyillarga bo'ysunadi.",
+                "Every lesson and exercise follows these principles.",
+              )}
+            </p>
+          </div>
 
-          <div className="mt-6 space-y-3">
-            {FAQ.map((item) => {
-              const c = lang === "uz" ? item.uz : item.en;
+          <div className="md:col-span-8 grid gap-x-10 gap-y-8 sm:grid-cols-2">
+            {PRINCIPLES.map((p) => {
+              const c = tr(p);
               return (
-                <details key={c.q} className={`${card} group px-5 py-4`}>
-                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-bold">
+                <div key={p.n}>
+                  <div className={`mb-3 h-px w-10 ${isDark ? "bg-white/25" : "bg-black/25"}`} />
+                  <div className={`font-mono text-[11px] ${isDark ? "text-white/25" : "text-black/25"}`}>{p.n}</div>
+                  <h3 className="mt-1 text-base font-bold">{c.title}</h3>
+                  <p className={`mt-1.5 text-sm leading-relaxed ${muted}`}>{c.desc}</p>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* ── 03 · YO'NALISHLAR ───────────────────────────────── */}
+        <section className={`mt-24 border-t pt-12 ${rule}`}>
+          <SectionLabel n="03" isDark={isDark}>{t("Yo'nalishlar", "Programmes")}</SectionLabel>
+
+          <div className={`mt-6 border-t ${rule}`}>
+            {TRACKS.map((g) => {
+              const c = tr(g);
+              return (
+                <div key={g.tag} className={`grid gap-4 border-b py-8 md:grid-cols-12 md:items-start ${rule}`}>
+                  <div className="md:col-span-3">
+                    <span className={`inline-block font-mono text-[11px] uppercase tracking-[0.16em] ${mutedStrong}`}>
+                      {g.tag}
+                    </span>
+                  </div>
+                  <div className="md:col-span-5">
+                    <h3 className="text-lg font-bold">{c.title}</h3>
+                    <p className={`mt-2 text-sm leading-relaxed ${muted}`}>{c.desc}</p>
+                  </div>
+                  <div className="md:col-span-4 flex flex-wrap gap-x-4 gap-y-1 md:justify-end">
+                    {c.meta.map((m) => (
+                      <span key={m} className={`text-xs ${isDark ? "text-white/35" : "text-black/35"}`}>
+                        {m}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* ── 04 · PLATFORMA ──────────────────────────────────── */}
+        <section className={`mt-24 border-t pt-12 ${rule} grid gap-10 md:grid-cols-12`}>
+          <div className="md:col-span-4">
+            <SectionLabel n="04" isDark={isDark}>{t("Platforma", "Platform")}</SectionLabel>
+            <h2 className="mt-4 text-2xl font-extrabold leading-tight tracking-tight">
+              {t("Darsdan tashqari tizim", "The system outside class")}
+            </h2>
+            <p className={`mt-3 max-w-xs text-sm leading-relaxed ${muted}`}>
+              {t(
+                "Mashq uyda davom etadi — natija tasodifga qolmaydi.",
+                "Practice continues at home — results never depend on chance.",
+              )}
+            </p>
+          </div>
+
+          <div className="md:col-span-8 grid gap-x-10 sm:grid-cols-2">
+            {PLATFORM.map((f) => {
+              const c = tr(f);
+              return (
+                <div key={c.t} className={`flex items-baseline justify-between border-b py-3 ${rule}`}>
+                  <span className="text-sm font-semibold">{c.t}</span>
+                  <span className={`ml-4 text-right text-xs ${muted}`}>{c.d}</span>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* ── 05 · JARAYON ────────────────────────────────────── */}
+        <section className={`mt-24 border-t pt-12 ${rule}`}>
+          <SectionLabel n="05" isDark={isDark}>{t("Qanday boshlanadi", "How it starts")}</SectionLabel>
+
+          <div className="mt-8 grid gap-8 sm:grid-cols-3">
+            {STEPS.map((s) => {
+              const c = tr(s);
+              return (
+                <div key={s.n} className={`border-t pt-4 ${rule}`}>
+                  <div className={`font-mono text-[11px] ${isDark ? "text-white/25" : "text-black/25"}`}>{s.n}</div>
+                  <h3 className="mt-2 text-base font-bold">{c.title}</h3>
+                  <p className={`mt-1.5 text-sm leading-relaxed ${muted}`}>{c.desc}</p>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* ── 06 · FAQ ────────────────────────────────────────── */}
+        <section className={`mt-24 border-t pt-12 ${rule} grid gap-10 md:grid-cols-12`}>
+          <div className="md:col-span-4">
+            <SectionLabel n="06" isDark={isDark}>FAQ</SectionLabel>
+            <h2 className="mt-4 text-2xl font-extrabold leading-tight tracking-tight">
+              {t("Savollar", "Questions")}
+            </h2>
+          </div>
+
+          <div className="md:col-span-8">
+            {FAQ.map((item) => {
+              const c = tr(item);
+              return (
+                <details key={c.q} className={`group border-b ${rule}`}>
+                  <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-6 py-4 text-sm font-bold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
                     {c.q}
-                    <span
-                      className={`text-lg transition-transform group-open:rotate-45 ${
-                        isDark ? "text-white/35" : "text-black/35"
-                      }`}
-                    >
+                    <span className={`text-lg leading-none transition-transform group-open:rotate-45 ${isDark ? "text-white/30" : "text-black/30"}`}>
                       +
                     </span>
                   </summary>
-                  <p className={`mt-3 text-sm leading-relaxed ${isDark ? "text-white/50" : "text-black/50"}`}>
-                    {c.a}
-                  </p>
+                  <p className={`max-w-2xl pb-5 text-sm leading-relaxed ${muted}`}>{c.a}</p>
                 </details>
               );
             })}
           </div>
         </section>
 
-        {/* ── CTA ────────────────────────────────────────── */}
-        <section className={`mt-16 overflow-hidden ${card} p-8 text-center sm:p-12`}>
-          <h2 className="text-2xl font-extrabold tracking-tight sm:text-3xl">
-            {t("Bugun boshlang", "Start today")}
-          </h2>
-          <p className={`mx-auto mt-3 max-w-lg text-sm ${isDark ? "text-white/50" : "text-black/50"}`}>
-            {t(
-              "Bir daqiqada ro'yxatdan o'ting — birinchi mock testingizni bepul sinab ko'ring.",
-              "Sign up in a minute — try your first mock test for free.",
-            )}
-          </p>
+        {/* ── 07 · CTA ────────────────────────────────────────── */}
+        <section className={`mt-24 border-t pt-12 ${rule}`}>
+          <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+            <div>
+              <SectionLabel n="07" isDark={isDark}>{t("Boshlash", "Start")}</SectionLabel>
+              <h2 className="mt-4 max-w-xl text-3xl font-extrabold leading-tight tracking-[-0.02em] sm:text-4xl">
+                {t("Birinchi mock testingizni sinab ko'ring.", "Try your first mock test.")}
+              </h2>
+              <p className={`mt-3 max-w-md text-sm leading-relaxed ${muted}`}>
+                {t(
+                  "Ro'yxatdan o'tish bepul — bir daqiqada.",
+                  "Registration is free — takes a minute.",
+                )}
+              </p>
+            </div>
 
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
-            <Link
-              to="/register"
-              className="rounded-full bg-[var(--accent)] px-7 py-3.5 text-sm font-bold text-[var(--accent-contrast)] transition hover:opacity-90"
-            >
-              {t("Ro'yxatdan o'tish", "Create an account")}
-            </Link>
-            <a
-              href="https://t.me/ielts_beruniy_bot"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`rounded-full border px-7 py-3.5 text-sm font-bold transition ${
-                isDark
-                  ? "border-white/20 text-white/80 hover:border-white/40"
-                  : "border-black/15 text-black/70 hover:border-black/30"
-              }`}
-            >
-              Telegram
-            </a>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                to="/register"
+                className="inline-flex min-h-12 items-center rounded-full bg-[var(--accent)] px-7 text-sm font-bold text-[var(--accent-contrast)] transition hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+              >
+                {t("Ro'yxatdan o'tish", "Create an account")}
+              </Link>
+              <a
+                href="https://t.me/ielts_beruniy_bot"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex min-h-12 items-center rounded-full border px-7 text-sm font-bold transition ${isDark ? "border-white/20 text-white/80 hover:border-white/45" : "border-black/15 text-black/70 hover:border-black/35"} focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2`}
+              >
+                Telegram
+              </a>
+            </div>
           </div>
         </section>
+
+        <footer className={`mt-20 flex flex-wrap items-center justify-between gap-2 border-t pt-6 text-xs ${rule} ${muted}`}>
+          <span>{t("IELTS Beruniy — Enthusiastic English loyihasi", "IELTS Beruniy — a project of Enthusiastic English")}</span>
+          <span className="font-mono">{new Date().getFullYear()}</span>
+        </footer>
       </div>
     </div>
   );
