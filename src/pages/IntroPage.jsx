@@ -998,8 +998,20 @@ function CertificateCard({ cert }) {
   return (
     <div className="aspect-[4/3] w-full shrink-0 overflow-hidden rounded-xl border border-black/[0.08] bg-white shadow-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:rotate-1 dark:border-white/10 dark:bg-[#1c1c1f] dark:shadow-none">
       {broken ? (
-        <div className="flex h-full w-full items-center justify-center text-[10px] text-black/30 dark:text-white/30">
-          #{cert.id}
+        <div className="relative flex h-full w-full flex-col items-center justify-center gap-2 overflow-hidden bg-gradient-to-br from-black/[0.04] via-black/[0.01] to-black/[0.06] text-black/45 dark:from-white/[0.06] dark:via-white/[0.01] dark:to-white/[0.02] dark:text-white/45">
+          <span
+            className="pointer-events-none absolute inset-0 opacity-40"
+            style={{
+              backgroundImage:
+                "linear-gradient(115deg, transparent 35%, rgba(255,255,255,0.18) 50%, transparent 65%)",
+            }}
+          />
+          <span className="relative flex h-10 w-10 items-center justify-center rounded-full border border-current/25 font-mono text-[11px] font-bold">
+            {cert.id}
+          </span>
+          <span className="relative text-[8px] uppercase tracking-[0.22em] opacity-60">
+            IELTS
+          </span>
         </div>
       ) : (
         <img
@@ -1237,6 +1249,8 @@ export default function IntroPage() {
 
       {/* HERO */}
       <section className="relative z-10 flex min-h-[92vh] flex-col items-center justify-center overflow-hidden px-6 pb-16 pt-16 text-center">
+        <div className="intro-orb" style={{ width: 520, height: 320, top: "-4%", right: "-10%" }} />
+        <div className="intro-orb-soft" style={{ width: 420, height: 260, bottom: "-6%", left: "-8%" }} />
         <svg
           viewBox="0 0 400 400"
           className="animate-spin-slow pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[560px] w-[560px] -translate-x-1/2 -translate-y-1/2 text-black/[0.05] dark:text-white/[0.06]"
