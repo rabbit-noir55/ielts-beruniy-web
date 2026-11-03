@@ -1521,7 +1521,7 @@ export default function IntroPage() {
           <SectionHeader
             kicker="Liga"
             title="English Learning League"
-            subtitle="Har hafta 5 ta yo'nalish — jami 100 ball. Natija ochiq: o'quvchi ham, ota-ona ham ko'radi."
+            subtitle="Farzandingiz har hafta 5 ta vazifani bajaradi. Har biri 20 ball — hammasi bo'lsa 100. Quyidagi jadvalda qaysi vazifa bajarilgani ko'rinadi."
           />
         </Tilt3D>
 
@@ -1537,16 +1537,16 @@ export default function IntroPage() {
         <div className="mt-10 grid gap-4 sm:grid-cols-3">
           {[
             {
-              t: "Shaffoflik",
-              d: "Ota-ona farzandining haftalik natijasini ochiq ko'radi. Yashirin baho yo'q.",
+              t: "1 vazifa = 20 ball",
+              d: "Haftada 5 ta vazifa bor: Writing, Vocabulary, Reading, Speaking va Random speaking. Hammasi bajarilsa — 100 ball.",
             },
             {
-              t: "Intizom",
-              d: "Har hafta 5 ta vazifa, har biri 20 ball. Kechiktirilgan ish hisobga olinmaydi.",
+              t: "Jadvalda ko'rinadi",
+              d: "Yashil katak — vazifa bajarilgan. Bo'sh katak — bajarilmagan. Bahoni izohlash shart emas, bir qarashda tushunarli.",
             },
             {
-              t: "Aniq o'lchov",
-              d: "60/100 degani — 3 ta vazifa bajarilgan. Natijani izohlash shart emas.",
+              t: "Muddat muhim",
+              d: "Vazifa hafta ichida bajarilishi kerak. Keyin bajarilgan ish keyingi haftaning balliga qo'shilmaydi.",
             },
           ].map((x) => (
             <ShineCard key={x.t} className="h-full p-5">
