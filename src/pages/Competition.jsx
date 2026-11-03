@@ -183,27 +183,6 @@ export default function Competition({ theme }) {
           </div>
         )}
 
-        {/* Legenda */}
-        <div className={`mt-4 flex flex-wrap items-center gap-2 ${card} px-4 py-3 text-[11px]`}>
-          {SKILLS.map((s) => (
-            <span
-              key={s.key}
-              className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 ${
-                isDark ? "border-white/15" : "border-black/15"
-              }`}
-            >
-              <b className={isDark ? "text-white/80" : "text-black/75"}>{s.short}</b>
-              <span className={isDark ? "text-white/50" : "text-black/50"}>
-                {t(s.uz, s.en)}
-              </span>
-              <span className={isDark ? "text-white/30" : "text-black/30"}>20</span>
-            </span>
-          ))}
-          <span className={`ml-auto font-bold ${isDark ? "text-white/60" : "text-black/60"}`}>
-            {t("Haftada jami 100 ball", "100 points per week")}
-          </span>
-        </div>
-
         {error && (
           <div className="mt-4 rounded-xl border border-red-500/30 bg-red-500/10 p-3 text-sm text-red-500">
             {error}
@@ -278,12 +257,6 @@ export default function Competition({ theme }) {
           </div>
         )}
 
-        <p className={`mt-3 text-[11px] ${isDark ? "text-white/30" : "text-black/30"}`}>
-          {t(
-            "⏰ — kech qo'yilgan, ball hisoblanmaydi",
-            "⏰ — marked late, not counted"
-          )}
-        </p>
       </div>
     </div>
   );
