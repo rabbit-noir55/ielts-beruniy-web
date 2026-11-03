@@ -100,7 +100,7 @@ const EVENTS = [
   {
     tagKey: "Viktorina",
     titleKey: "Bilimlar musobaqasi",
-    descKey: "Til va umumiy bilim bo'yicha qiziqarli kechki viktorina.",
+    descKey: "Til va umumiy bilim bo'yicha jamoaviy viktorina.",
   },
 ];
 
@@ -1521,7 +1521,7 @@ export default function IntroPage() {
           <SectionHeader
             kicker="Liga"
             title="English Learning League"
-            subtitle="Haftalik ball asosidagi reyting."
+            subtitle="Har hafta 5 ta yo'nalish — jami 100 ball. Natija ochiq: o'quvchi ham, ota-ona ham ko'radi."
           />
         </Tilt3D>
 
@@ -1532,6 +1532,33 @@ export default function IntroPage() {
           <LegendDot colorClass="bg-amber-500/70" label="50%" />
           <LegendDot colorClass="bg-red-500/70" label="0%" />
           <LegendDot colorClass="bg-black/10 dark:bg-white/10" label="--" />
+        </div>
+
+        <div className="mt-10 grid gap-4 sm:grid-cols-3">
+          {[
+            {
+              t: "Shaffoflik",
+              d: "Ota-ona farzandining haftalik natijasini ochiq ko'radi. Yashirin baho yo'q.",
+            },
+            {
+              t: "Intizom",
+              d: "Har hafta 5 ta vazifa, har biri 20 ball. Kechiktirilgan ish hisobga olinmaydi.",
+            },
+            {
+              t: "Aniq o'lchov",
+              d: "60/100 degani — 3 ta vazifa bajarilgan. Natijani izohlash shart emas.",
+            },
+          ].map((x) => (
+            <ShineCard key={x.t} className="h-full p-5">
+              <div className="flex items-center gap-2">
+                <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent)]" />
+                <span className="font-display text-sm font-bold">{x.t}</span>
+              </div>
+              <p className="mt-2 text-xs leading-relaxed text-black/50 dark:text-white/45">
+                {x.d}
+              </p>
+            </ShineCard>
+          ))}
         </div>
       </section>
 
