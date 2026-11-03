@@ -76,7 +76,7 @@ function Register({ theme = "dark" }) {
           window.google.accounts.id.renderButton(googleBtnRef.current, {
             theme: isDark ? "filled_black" : "outline",
             size: "large",
-            width: "100%",
+            width: 320,
             text: "signup_with",
           });
         }
