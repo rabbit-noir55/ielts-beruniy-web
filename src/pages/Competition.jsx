@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { getLeaderboard, getWeeks, toggleCheck } from "../utils/competitionApi";
+import { getUser } from "../utils/api";
 import { useLang } from "../utils/LanguageContext";
 
 // 5 ta task × 20 ball = 100
@@ -46,6 +47,7 @@ export default function Competition({ theme }) {
   const t = (uz, en) => (lang === "uz" ? uz : en);
 
   const [weekKey, setWeekKey] = useState("active");
+  const [view, setView] = useState("all");
   const [weeks, setWeeks] = useState([]);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -121,6 +123,14 @@ export default function Competition({ theme }) {
   const rows = data?.rows || [];
   const maxScore = data?.max_score || 100;
 
+  const user = getUser();
+  const isExaminer =
+    user?.role === "student" && rows.some((r) => r.can_edit);
+  const visibleRows =
+    isExaminer && view === "mine" ? rows.filter((r) => r.can_edit) : rows;
+  // Umumiy reytingdagi o'rin (2-bo'limda ham to'g'ri raqam ko'rsatiladi)
+  const rankOf = new Map(rows.map((r, idx) => [r.student_id, idx + 1]));
+
   const card = `rounded-2xl border ${
     isDark ? "border-white/10 bg-[#141416]" : "border-black/[0.08] bg-white"
   }`;
@@ -183,6 +193,34 @@ export default function Competition({ theme }) {
           </div>
         )}
 
+        {isExaminer && (
+          <div className="mt-4 flex gap-2">
+            {[
+              { key: "all", label: t("Umumiy reyting", "Overall ranking") },
+              { key: "mine", label: t("Mening o'quvchilarim", "My students") },
+            ].map((tab) => (
+              <button
+                key={tab.key}
+                onClick={() => setView(tab.key)}
+                className={`rounded-xl px-4 py-2 text-sm font-bold transition ${
+                  view === tab.key
+                    ? "bg-[var(--accent)] text-[var(--accent-contrast)]"
+                    : isDark
+                      ? "border border-white/10 text-white/60 hover:bg-white/5"
+                      : "border border-black/10 text-black/60 hover:bg-black/5"
+                }`}
+              >
+                {tab.label}
+                {tab.key === "mine" && (
+                  <span className={`ml-2 text-xs font-normal ${view === tab.key ? "opacity-70" : "opacity-50"}`}>
+                    {rows.filter((r) => r.can_edit).length}
+                  </span>
+                )}
+              </button>
+            ))}
+          </div>
+        )}
+
         {error && (
           <div className="mt-4 rounded-xl border border-red-500/30 bg-red-500/10 p-3 text-sm text-red-500">
             {error}
@@ -193,7 +231,7 @@ export default function Competition({ theme }) {
           <div className={`mt-4 ${card} p-10 text-center text-sm ${isDark ? "text-white/40" : "text-black/40"}`}>
             {t("Yuklanmoqda...", "Loading...")}
           </div>
-        ) : !rows.length ? (
+        ) : !visibleRows.length ? (
           <div className={`mt-4 ${card} p-10 text-center text-sm ${isDark ? "text-white/40" : "text-black/40"}`}>
             {t("Ma'lumot yo'q.", "No data.")}
           </div>
@@ -213,7 +251,7 @@ export default function Competition({ theme }) {
                 </tr>
               </thead>
               <tbody>
-                {rows.map((row, i) => {
+                {visibleRows.map((row, i) => {
                   const mine = row.is_me;
                   return (
                     <tr
@@ -223,7 +261,7 @@ export default function Competition({ theme }) {
                       } ${mine ? "bg-[var(--accent)]/10" : ""}`}
                     >
                       <td className={`px-3 py-2 text-center text-xs ${isDark ? "text-white/35" : "text-black/35"}`}>
-                        {i + 1}
+                        {rankOf.get(row.student_id) || i + 1}
                       </td>
                       <td className="px-3 py-2">
                         <div className={`font-semibold ${mine ? "text-[var(--accent)]" : ""}`}>
