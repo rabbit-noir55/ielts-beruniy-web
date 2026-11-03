@@ -29,6 +29,24 @@ const T = {
     est: "2020 · Beruniy, O'zbekiston",
     facts: ["Yaroqli IELTS ball", "Eng yuqori natija", "Podkast", "Ta'lim formati"],
 
+    sBrands: "Brendlar",
+    hBrands: "Ikki brend — bitta asoschi",
+    brandsDesc: "Ular bir-biriga bog'liq, lekin vazifalari boshqacha.",
+    owns: "egalik qiladi",
+    brand1: {
+      tag: "O'quv markazi · Asosiy brend",
+      name: "Enthusiastic English",
+      desc: "Ingliz tilini o'rgatuvchi brend. Markazdagi darslar, mock natijalari va barcha yutuqlar shu brendga tegishli. Aynan shu brend boshqa ingliz kurslari bilan raqobat qiladi.",
+      chips: ["Darslar", "Natijalar", "Sertifikatlar"],
+    },
+    brand2: {
+      tag: "Trening platformasi · Neytral",
+      name: "IELTS Beruniy",
+      desc: "Betaraf mashq platformasi. Undan markazimiz o'quvchilari ham, boshqa o'quv markazlari o'quvchilari ham foydalanadi. Bu yerda raqobat yo'q — faqat mashq va o'lchov.",
+      chips: ["Mock testlar", "AI feedback", "Asboblar"],
+    },
+    brandsNote: "IELTS Beruniy — Enthusiastic English egalik qiladigan, lekin mustaqil ishlaydigan platforma.",
+
     s1: "Muammo",
     h1: "Nega ko'pchilik maqsadiga yetmaydi",
     problems: [
@@ -112,6 +130,24 @@ const T = {
     est: "2020 · Беруний, Узбекистан",
     facts: ["Действительный балл IELTS", "Лучший результат", "Подкасты", "Формата обучения"],
 
+    sBrands: "Бренды",
+    hBrands: "Два бренда — один основатель",
+    brandsDesc: "Они связаны, но задачи у них разные.",
+    owns: "владеет",
+    brand1: {
+      tag: "Учебный центр · Основной бренд",
+      name: "Enthusiastic English",
+      desc: "Бренд, который обучает английскому. Занятия в центре, результаты мок-тестов и все достижения принадлежат этому бренду. Именно он конкурирует с другими курсами английского.",
+      chips: ["Занятия", "Результаты", "Сертификаты"],
+    },
+    brand2: {
+      tag: "Тренировочная платформа · Нейтральная",
+      name: "IELTS Beruniy",
+      desc: "Нейтральная платформа для практики. Ею пользуются и наши ученики, и ученики других учебных центров. Здесь нет конкуренции — только практика и измерение.",
+      chips: ["Мок-тесты", "AI feedback", "Инструменты"],
+    },
+    brandsNote: "IELTS Beruniy — платформа, которой владеет Enthusiastic English, но работает она самостоятельно.",
+
     s1: "Проблема",
     h1: "Почему большинство не достигает цели",
     problems: [
@@ -194,6 +230,24 @@ const T = {
     gaugeLabel: "Highest band",
     est: "2020 · Beruniy, Uzbekistan",
     facts: ["Valid IELTS results", "Highest band", "Podcasts", "Study formats"],
+
+    sBrands: "Brands",
+    hBrands: "Two brands — one founder",
+    brandsDesc: "They are connected, but their roles are different.",
+    owns: "owns",
+    brand1: {
+      tag: "Learning centre · Core brand",
+      name: "Enthusiastic English",
+      desc: "The brand that teaches English. Lessons at the centre, mock results and every achievement belong to it. This is the brand that competes with other English courses.",
+      chips: ["Lessons", "Results", "Certificates"],
+    },
+    brand2: {
+      tag: "Training platform · Neutral",
+      name: "IELTS Beruniy",
+      desc: "A neutral practice platform. It is used by our own students and by students of other centres alike. There is no competition here — only practice and measurement.",
+      chips: ["Mock tests", "AI feedback", "Tools"],
+    },
+    brandsNote: "IELTS Beruniy is owned by Enthusiastic English, yet it operates independently.",
 
     s1: "The problem",
     h1: "Why most people fall short",
@@ -441,6 +495,34 @@ function SectionLabel({ n, isDark, children }) {
   );
 }
 
+function BrandCard({ brand, isDark, solid }) {
+  return (
+    <div
+      className={`flex h-full flex-col rounded-xl border p-6 transition-colors ${
+        solid ? "" : "border-dashed"
+      } ${isDark ? "border-white/12 bg-white/[0.02] hover:bg-white/[0.04]" : "border-black/[0.12] bg-white hover:bg-black/[0.01]"}`}
+    >
+      <span className={`font-mono text-[9px] uppercase tracking-[0.16em] ${isDark ? "text-white/35" : "text-black/35"}`}>
+        {brand.tag}
+      </span>
+      <h3 className="mt-3 text-lg font-extrabold tracking-tight">{brand.name}</h3>
+      <p className={`mt-2 flex-1 text-sm leading-relaxed ${isDark ? "text-white/45" : "text-black/45"}`}>
+        {brand.desc}
+      </p>
+      <div className="mt-4 flex flex-wrap gap-1.5">
+        {brand.chips.map((ch) => (
+          <span
+            key={ch}
+            className={`rounded-full border px-2.5 py-0.5 text-[10px] ${isDark ? "border-white/12 text-white/50" : "border-black/10 text-black/50"}`}
+          >
+            {ch}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function LangSwitch({ lang, setLang, isDark }) {
   return (
     <div
@@ -557,10 +639,53 @@ export default function AboutUs({ theme }) {
           </Reveal>
         </section>
 
-        {/* ── 01 · MUAMMO ───────────────────────────── */}
+        {/* ── 01 · BRENDLAR ─────────────────────────── */}
+        <section className={`mt-24 border-t pt-12 ${rule}`}>
+          <Reveal>
+            <SectionLabel n="01" isDark={isDark}>{c.sBrands}</SectionLabel>
+            <h2 className="mt-4 text-2xl font-extrabold leading-tight tracking-tight">{c.hBrands}</h2>
+            <p className={`mt-3 max-w-xl text-sm leading-relaxed ${muted}`}>{c.brandsDesc}</p>
+          </Reveal>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-[1fr_auto_1fr] md:items-stretch">
+            <Reveal>
+              <BrandCard brand={c.brand1} isDark={isDark} solid />
+            </Reveal>
+
+            <div className="flex flex-col items-center justify-center gap-1 py-1 md:px-3">
+              <svg
+                viewBox="0 0 24 24"
+                className={`h-5 w-5 rotate-90 md:rotate-0 ${isDark ? "text-white/30" : "text-black/25"}`}
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M4 12h15M13 6l6 6-6 6" />
+              </svg>
+              <span className={`font-mono text-[9px] uppercase tracking-[0.16em] ${isDark ? "text-white/25" : "text-black/25"}`}>
+                {c.owns}
+              </span>
+            </div>
+
+            <Reveal delay={90}>
+              <BrandCard brand={c.brand2} isDark={isDark} />
+            </Reveal>
+          </div>
+
+          <Reveal delay={160}>
+            <p className={`mt-6 max-w-2xl border-l pl-4 text-xs leading-relaxed ${isDark ? "border-white/15 text-white/30" : "border-black/15 text-black/30"}`}>
+              {c.brandsNote}
+            </p>
+          </Reveal>
+        </section>
+
+        {/* ── 02 · MUAMMO ───────────────────────────── */}
         <section className={`mt-24 border-t pt-12 ${rule} grid gap-10 md:grid-cols-12`}>
           <Reveal className="md:col-span-4">
-            <SectionLabel n="01" isDark={isDark}>{c.s1}</SectionLabel>
+            <SectionLabel n="02" isDark={isDark}>{c.s1}</SectionLabel>
             <h2 className="mt-4 text-2xl font-extrabold leading-tight tracking-tight">{c.h1}</h2>
           </Reveal>
 
@@ -581,10 +706,10 @@ export default function AboutUs({ theme }) {
           </div>
         </section>
 
-        {/* ── 02 · YONDASHUV ────────────────────────── */}
+        {/* ── 03 · YONDASHUV ────────────────────────── */}
         <section className={`mt-24 border-t pt-12 ${rule} grid gap-10 md:grid-cols-12`}>
           <Reveal className="md:col-span-4">
-            <SectionLabel n="02" isDark={isDark}>{c.s2}</SectionLabel>
+            <SectionLabel n="03" isDark={isDark}>{c.s2}</SectionLabel>
             <h2 className="mt-4 text-2xl font-extrabold leading-tight tracking-tight">{c.h2}</h2>
             <p className={`mt-3 max-w-xs text-sm leading-relaxed ${muted}`}>{c.h2desc}</p>
 
@@ -617,10 +742,10 @@ export default function AboutUs({ theme }) {
           </div>
         </section>
 
-        {/* ── 03 · YO'NALISHLAR ─────────────────────── */}
+        {/* ── 04 · YO'NALISHLAR ─────────────────────── */}
         <section className={`mt-24 border-t pt-12 ${rule}`}>
           <Reveal>
-            <SectionLabel n="03" isDark={isDark}>{c.s3}</SectionLabel>
+            <SectionLabel n="04" isDark={isDark}>{c.s3}</SectionLabel>
           </Reveal>
 
           <div className={`mt-6 border-t ${rule}`}>
@@ -647,10 +772,10 @@ export default function AboutUs({ theme }) {
           </div>
         </section>
 
-        {/* ── 04 · PLATFORMA ────────────────────────── */}
+        {/* ── 05 · PLATFORMA ────────────────────────── */}
         <section className={`mt-24 border-t pt-12 ${rule} grid gap-10 md:grid-cols-12`}>
           <Reveal className="md:col-span-4">
-            <SectionLabel n="04" isDark={isDark}>{c.s4}</SectionLabel>
+            <SectionLabel n="05" isDark={isDark}>{c.s4}</SectionLabel>
             <h2 className="mt-4 text-2xl font-extrabold leading-tight tracking-tight">{c.h4}</h2>
             <p className={`mt-3 max-w-xs text-sm leading-relaxed ${muted}`}>{c.h4desc}</p>
           </Reveal>
@@ -667,10 +792,10 @@ export default function AboutUs({ theme }) {
           </div>
         </section>
 
-        {/* ── 05 · JARAYON ──────────────────────────── */}
+        {/* ── 06 · JARAYON ──────────────────────────── */}
         <section className={`mt-24 border-t pt-12 ${rule}`}>
           <Reveal>
-            <SectionLabel n="05" isDark={isDark}>{c.s5}</SectionLabel>
+            <SectionLabel n="06" isDark={isDark}>{c.s5}</SectionLabel>
           </Reveal>
 
           <div className="mt-8 grid gap-8 sm:grid-cols-3">
@@ -688,10 +813,10 @@ export default function AboutUs({ theme }) {
           </div>
         </section>
 
-        {/* ── 06 · FAQ ──────────────────────────────── */}
+        {/* ── 07 · FAQ ──────────────────────────────── */}
         <section className={`mt-24 border-t pt-12 ${rule} grid gap-10 md:grid-cols-12`}>
           <Reveal className="md:col-span-4">
-            <SectionLabel n="06" isDark={isDark}>{c.s6}</SectionLabel>
+            <SectionLabel n="07" isDark={isDark}>{c.s6}</SectionLabel>
             <h2 className="mt-4 text-2xl font-extrabold leading-tight tracking-tight">{c.h6}</h2>
           </Reveal>
 
@@ -712,12 +837,12 @@ export default function AboutUs({ theme }) {
           </div>
         </section>
 
-        {/* ── 07 · BOSHLASH ─────────────────────────── */}
+        {/* ── 08 · BOSHLASH ─────────────────────────── */}
         <section className={`mt-24 border-t pt-12 ${rule}`}>
           <Reveal>
             <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
               <div>
-                <SectionLabel n="07" isDark={isDark}>{c.s7}</SectionLabel>
+                <SectionLabel n="08" isDark={isDark}>{c.s7}</SectionLabel>
                 <h2 className="mt-4 max-w-xl text-3xl font-extrabold leading-tight tracking-[-0.02em] sm:text-4xl">
                   {c.h7}
                 </h2>
