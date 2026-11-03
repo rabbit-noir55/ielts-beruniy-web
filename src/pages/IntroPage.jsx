@@ -1521,7 +1521,7 @@ export default function IntroPage() {
           <SectionHeader
             kicker="Liga"
             title="English Learning League"
-            subtitle="Farzandingiz har hafta 5 ta vazifani bajaradi. Har biri 20 ball — hammasi bo'lsa 100. Quyidagi jadvalda qaysi vazifa bajarilgani ko'rinadi."
+            subtitle="Liga har hafta o'quvchining o'zlashtirishini ota-onaga shaffof ko'rsatadi: qaysi yo'nalishda o'sgan, qayerda orqada qolgan — hammasi ochiq jadvalda."
           />
         </Tilt3D>
 
@@ -1541,8 +1541,8 @@ export default function IntroPage() {
               d: "Haftada 5 ta vazifa bor: Writing, Vocabulary, Reading, Speaking va Random speaking. Hammasi bajarilsa — 100 ball.",
             },
             {
-              t: "Jadvalda ko'rinadi",
-              d: "Yashil katak — vazifa bajarilgan. Bo'sh katak — bajarilmagan. Bahoni izohlash shart emas, bir qarashda tushunarli.",
+              t: "Haftalik o'zlashtirish",
+              d: "Yashil katak — vazifa bajarilgan, ya'ni mavzu o'zlashtirilgan. Bo'sh katak — hali ishlash kerak.",
             },
             {
               t: "Muddat muhim",
