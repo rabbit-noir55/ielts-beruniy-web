@@ -1569,12 +1569,12 @@ export default function IntroPage() {
               label: "Xizmatlar",
             },
             {
-              value: CERTIFICATE_COUNT,
+              value: 100,
               decimals: 0,
               suffix: "+",
-              label: "O'quvchilar",
+              label: "Yaroqli IELTS ball",
             },
-            { value: 7.0, decimals: 1, suffix: "+", label: "Natijalar" },
+            { value: 8.0, decimals: 1, suffix: "+", label: "Eng yuqori natija" },
             {
               value: EPISODE_COUNT,
               decimals: 0,
@@ -1582,10 +1582,10 @@ export default function IntroPage() {
               label: "Podkastlar",
             },
             {
-              value: EVENTS.length * 4,
+              value: CERTIFICATE_COUNT,
               decimals: 0,
               suffix: "+",
-              label: "Natijalar",
+              label: "Sertifikat",
             },
           ].map((s, i) => (
             <Tilt3D key={s.label} delay={i * 80}>
@@ -1614,9 +1614,9 @@ export default function IntroPage() {
       >
         <Tilt3D>
           <SectionHeader
-            kicker="IELTSTEN"
-            title="IELTSTEN loyihasi"
-            subtitle="Bilim, nutq va jamoaviy ruh sinovda."
+            kicker="Tadbirlar"
+            title="Sinfdan tashqari maydon"
+            subtitle="Musobaqalar, debatlar va jonli kechalar."
           />
         </Tilt3D>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
