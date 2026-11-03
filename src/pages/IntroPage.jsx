@@ -1560,7 +1560,7 @@ export default function IntroPage() {
 
       {/* STATS */}
       <section className="relative z-10 mx-auto max-w-5xl px-6 pb-32">
-        <div className="grid grid-cols-2 gap-6 text-center sm:grid-cols-3 md:grid-cols-5">
+        <div className="grid grid-cols-2 gap-6 text-center sm:grid-cols-4">
           {[
             {
               value: SERVICES.length,
@@ -1574,18 +1574,12 @@ export default function IntroPage() {
               suffix: "+",
               label: "Yaroqli IELTS ball",
             },
-            { value: 8.0, decimals: 1, suffix: "+", label: "Eng yuqori natija" },
+            { value: 8, decimals: 0, suffix: "", label: "Eng yuqori natija" },
             {
               value: EPISODE_COUNT,
               decimals: 0,
               suffix: "+",
               label: "Podkastlar",
-            },
-            {
-              value: CERTIFICATE_COUNT,
-              decimals: 0,
-              suffix: "+",
-              label: "Sertifikat",
             },
           ].map((s, i) => (
             <Tilt3D key={s.label} delay={i * 80}>
