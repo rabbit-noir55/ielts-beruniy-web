@@ -26,7 +26,7 @@ const PARTNERS = [
 ];
 
 // Sertifikatlar — public/certificates/cert-1.jpg ... cert-79.jpg
-const CERTIFICATE_COUNT = 79;
+const CERTIFICATE_COUNT = 100;
 const CERTIFICATES = Array.from({ length: CERTIFICATE_COUNT }, (_, i) => ({
   id: i + 1,
   src: `/certificates/cert-${i + 1}.jpg`,
@@ -1547,15 +1547,11 @@ export default function IntroPage() {
               <CountUp value={CERTIFICATE_COUNT} suffix={` ${"sertifikat"}`} />
             </h2>
             <p className="mt-4 text-black/50 dark:text-white/45">
-              {"Kattalashtirish uchun bosing"}
+              {"Har biri — haqiqiy imtihon natijasi"}
             </p>
           </div>
         </Tilt3D>
         <CertificateWall />
-        <p className="mt-3 text-center text-xs text-black/35 dark:text-white/25">
-          public/certificates/ papkasiga cert-1.jpg dan cert-{CERTIFICATE_COUNT}
-          .jpg gacha nomlangan fayllarni joylashtiring
-        </p>
       </section>
 
       {/* STATS */}
@@ -1574,7 +1570,7 @@ export default function IntroPage() {
               suffix: "+",
               label: "Yaroqli IELTS ball",
             },
-            { value: 8, decimals: 0, suffix: "", label: "Eng yuqori natija" },
+            { value: 8.0, decimals: 1, suffix: "", label: "Eng yuqori natija" },
             {
               value: EPISODE_COUNT,
               decimals: 0,
