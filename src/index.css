@@ -546,7 +546,7 @@ body {
   transition: stroke-dashoffset 1.1s cubic-bezier(0.25, 0.1, 0.25, 1) 0.15s;
 }
 .reveal.in .gauge-arc {
-  stroke-dashoffset: 71;
+  stroke-dashoffset: var(--gauge-offset, 71px);
 }
 
 /* Haftalik 5 ta task — ketma-ket chiqadi */
@@ -572,7 +572,7 @@ body {
     transition: none !important;
   }
   .gauge-arc {
-    stroke-dashoffset: 71 !important;
+    stroke-dashoffset: var(--gauge-offset, 71px) !important;
     transition: none !important;
   }
 }

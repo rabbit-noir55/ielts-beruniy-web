@@ -49,10 +49,21 @@ function Reveal({ children, delay = 0, className = "" }) {
 }
 
 /* ── SVG: band ko'rsatkichi ──────────────────────────────────────────── */
-function BandGauge({ isDark, label, value }) {
+function BandGauge({ isDark, label, band }) {
+  // Yoy 0..9 oralig'ini ifodalaydi — band qiymatiga qarab to'ladi.
+  const ARC = 283;
+  const ratio = Math.min(1, Math.max(0, band / 9));
+  const offset = (ARC * (1 - ratio)).toFixed(1);
+
   return (
     <div className="relative">
-      <svg viewBox="0 0 220 132" className="w-full" role="img" aria-label={`${label}: ${value}`}>
+      <svg
+        viewBox="0 0 220 132"
+        className="w-full"
+        role="img"
+        aria-label={`${label}: ${band}`}
+        style={{ "--gauge-offset": `${offset}px` }}
+      >
         <path
           d="M20 116 A 90 90 0 0 1 200 116"
           fill="none"
@@ -91,7 +102,7 @@ function BandGauge({ isDark, label, value }) {
       </svg>
 
       <div className="pointer-events-none absolute inset-x-0 bottom-1 text-center">
-        <div className="text-3xl font-extrabold tracking-tight">{value}</div>
+        <div className="text-3xl font-extrabold tracking-tight">{band}</div>
         <div className={`font-mono text-[10px] uppercase tracking-[0.16em] ${isDark ? "text-white/35" : "text-black/35"}`}>
           {label}
         </div>
@@ -175,7 +186,7 @@ function Icon({ name, className = "" }) {
 /* ── Kontent (o'zbekcha) ─────────────────────────────────────────────── */
 const FACTS = [
   { value: "79+", label: "O'quvchi" },
-  { value: "8.0+", label: "Eng yuqori natija" },
+  { value: "8.5+", label: "Eng yuqori natija" },
   { value: "20+", label: "Podkast" },
   { value: "4", label: "Ta'lim formati" },
 ];
@@ -335,7 +346,7 @@ export default function AboutUs({ theme }) {
 
           <Reveal delay={120} className="md:col-span-5 md:border-l md:pl-8">
             <div className={rule}>
-              <BandGauge isDark={isDark} value="8.0" label="Eng yuqori natija" />
+              <BandGauge isDark={isDark} band={8.5} label="Eng yuqori natija" />
             </div>
             <div className={`mt-6 border-t ${rule}`}>
               {FACTS.map((f) => (
