@@ -145,9 +145,14 @@ export default function AdminGroups({ isDark }) {
                   <h2 className="truncate text-sm font-extrabold">{g.name}</h2>
                   <div className={`mt-0.5 truncate font-mono text-[10px] ${muted}`}>/{g.slug}</div>
                 </div>
-                <Badge isDark={isDark} tone={g.group_type === "ielts" ? "accent" : "neutral"}>
-                  {g.group_type === "ielts" ? "IELTS" : "Round Up"}
-                </Badge>
+                <div className="flex shrink-0 flex-col items-end gap-1">
+                  <Badge isDark={isDark} tone={g.group_type === "ielts" ? "accent" : "neutral"}>
+                    {g.group_type === "ielts" ? "IELTS" : "Round Up"}
+                  </Badge>
+                  {(!g.schedule_time || !g.schedule_type) && (
+                    <Badge isDark={isDark} tone="red">Jadval yo'q</Badge>
+                  )}
+                </div>
               </div>
 
               <dl className={`mt-3 grid grid-cols-2 gap-2 border-t px-4 py-3 text-xs ${rule}`}>
