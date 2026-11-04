@@ -23,6 +23,7 @@ import { listeningBand, saveResult, getCumulativeRaw } from "../utils/ieltsBand"
 import { submitResultSafe } from "../utils/api";
 import { DEFAULT_HIGHLIGHT } from "../utils/highlightColors";
 import { setMockActive } from "../utils/mockMode";
+import { resolveAudioUrl } from "../utils/audioUrl";
 import { normalizeOurMocksListening } from "../utils/normalizeOurMocks";
 
 const IELTSListening = ({ theme, isOurMockRoute }) => {
@@ -34,6 +35,8 @@ const IELTSListening = ({ theme, isOurMockRoute }) => {
 
   // DOM refs
   const audioRef = useRef(null);
+  // Our Mock: bitta audio barcha partlar uchun — part almashganda qayta yuklamaymiz.
+  const ourMockLoadedRef = useRef(null);
   const questionRefs = useRef({});
   const transcriptRef = useRef(null);
   const dragHandleRef = useRef(null);
@@ -159,12 +162,18 @@ const IELTSListening = ({ theme, isOurMockRoute }) => {
   // ── Ma'lumotlarni yuklash ──────────────────────────────────────────────────
   useEffect(() => {
     if (!series || !testNum || !partNum) return;
+    const previewToken = getPreviewToken(searchParams);
+    const cacheKey = `${series}:${testNum}:${previewToken || ""}`;
+
+    // Our Mock'da barcha partlar bitta audiodan foydalanadi. Part almashganda
+    // ma'lumotni qayta yuklamaymiz — aks holda pleer unmount bo'lib, audio
+    // boshidan boshlanib ketadi.
+    if (isOurMock && ourMockLoadedRef.current === cacheKey) return;
+
     setLoading(true);
     setError(null);
     // Skeleton kamida 450ms ko'rinadi (Cambridge'dagi kabi silliq o'tish)
     const startedAt = Date.now();
-
-    const previewToken = getPreviewToken(searchParams);
     const load = isOurMock
       ? fetchOurMock(series, "listening", { previewToken })
       : fetch(`/json/IELTS_${series}_Listening.json`).then(async (r) => {
@@ -180,6 +189,7 @@ const IELTSListening = ({ theme, isOurMockRoute }) => {
       .then((json) => {
         if (isOurMock) {
           setData(normalizeOurMocksListening(json, testNum));
+          ourMockLoadedRef.current = cacheKey;
         } else {
           setData(json);
         }
@@ -244,18 +254,9 @@ const IELTSListening = ({ theme, isOurMockRoute }) => {
     // Eski format: text.test_text.audio_src
     const raw = mockMode
       ? (currentPart?.mock_audio_src || currentPart?.audio_src || textData.mock_audio_src || textData.audio_src)
-      : (currentPart?.audio_src || textData.audio_src);
-    if (!raw) return null;
-    if (raw.startsWith("http")) {
-      // oss.jumpinto.com URL'larini proxy orqali yo'naltirish (CORS uchun)
-      if (raw.includes("oss.jumpinto.com")) {
-        return raw.replace("https://oss.jumpinto.com", "/oss");
-      }
-      return raw;
-    }
-    // Nisbiy yo'llarni proxy orqali (CORS uchun)
-    return `/oss/${raw.replace(/^\//, "")}`;
-  }, [textData, mockMode]);
+      : (currentPart?.audio_src || textData.audio_src || textData.mock_audio_src);
+    return resolveAudioUrl(raw);
+  }, [currentPart, textData, mockMode]);
 
   const rawAudioscript = useMemo(() => textData.audioscript || [], [textData]);
   const hasTranscript = rawAudioscript.length > 0;
@@ -1421,6 +1422,7 @@ const IELTSListening = ({ theme, isOurMockRoute }) => {
         <MockAudioPlayer
           data={data}
           testNum={testNum}
+          partNum={partNum}
           series={series}
           onCheckAnswers={() => checkAnswersRef.current?.()}
           autoScrollEnabled={autoScrollEnabled}

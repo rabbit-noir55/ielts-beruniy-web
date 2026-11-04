@@ -1,2 +1,3 @@
 /favicon.ico /favicon.svg 200
+/dict https://api.datamuse.com/words 200!
 /* /index.html 200

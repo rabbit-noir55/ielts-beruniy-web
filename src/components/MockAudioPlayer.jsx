@@ -1,4 +1,5 @@
 import React, { useState, useRef, useCallback, useEffect } from "react";
+import { resolveAudioUrl } from "../utils/audioUrl";
 import { createPortal } from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -22,6 +23,7 @@ const RATES = [0.75, 1, 1.25, 1.5, 2];
 const MockAudioPlayer = React.memo(function MockAudioPlayer({
   data,
   testNum,
+  partNum,
   series,
   onCheckAnswers,
   autoScrollEnabled,
@@ -62,21 +64,22 @@ const MockAudioPlayer = React.memo(function MockAudioPlayer({
   useEffect(() => { onMockTimeLeftChange?.(mockTimeLeft); }, [mockTimeLeft, onMockTimeLeftChange]);
   useEffect(() => { onPlayStateChange?.(isPlaying); }, [isPlaying, onPlayStateChange]);
 
-  const audioSrcRef = useRef(null);
   const currentTest = data?.tests?.[testNum];
   const firstPart = currentTest?.parts?.["1"];
-  const textData = firstPart?.text?.test_text || firstPart?.text || {};
-  const raw = firstPart?.audio_src || textData.audio_src;
-  if (!audioSrcRef.current && raw) {
-    if (raw.startsWith("http")) {
-      audioSrcRef.current = raw.includes("oss.jumpinto.com")
-        ? raw.replace("https://oss.jumpinto.com", "/oss")
-        : raw;
-    } else {
-      audioSrcRef.current = `/oss/${raw.replace(/^\//, "")}`;
-    }
-  }
-  const audioSrc = audioSrcRef.current;
+  const activePart = currentTest?.parts?.[partNum] || firstPart;
+  const firstText = firstPart?.text?.test_text || firstPart?.text || {};
+  const activeText = activePart?.text?.test_text || activePart?.text || {};
+  // Bitta audio barcha partlarga ulashilgan bo'lsa manzil o'zgarmaydi va
+  // pleer qayta yuklanmaydi. Alohida fayllar bo'lsa — partga mos fayl olinadi.
+  const raw =
+    activePart?.audio_src ||
+    activeText.audio_src ||
+    firstPart?.audio_src ||
+    firstText.audio_src ||
+    activePart?.mock_audio_src ||
+    activeText.mock_audio_src ||
+    firstText.mock_audio_src;
+  const audioSrc = resolveAudioUrl(raw);
 
   useEffect(() => {
     let isActive = false;

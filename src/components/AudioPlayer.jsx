@@ -245,7 +245,7 @@ const AudioPlayer = React.memo(function AudioPlayer({
       </div>
 
       {audioSrc && (
-        <audio ref={audioRef} src={audioSrc} preload="auto" crossOrigin="anonymous" onLoadStart={onAudioLoadStart} onCanPlay={onAudioCanPlay} onError={onAudioError} onEnded={onAudioEnded} />
+        <audio ref={audioRef} src={audioSrc} preload="auto" onLoadStart={onAudioLoadStart} onCanPlay={onAudioCanPlay} onError={onAudioError} onEnded={onAudioEnded} />
       )}
     </>
   );
