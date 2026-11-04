@@ -1,5 +1,11 @@
 import { useCallback, useEffect, useState } from "react";
-import { adminLeague, adminLeagueAction, adminStudents } from "../adminApi";
+import {
+  adminLeague,
+  adminLeagueAction,
+  adminLeagueCheckToggle,
+  adminLeagueChecks,
+  adminStudents,
+} from "../adminApi";
 import { Badge, Btn, Empty, ErrorBox, Panel, Spinner } from "../ui";
 import { inputCls } from "../formStyles";
 
@@ -27,6 +33,8 @@ export default function AdminLeague({ isDark }) {
     end_date: isoPlus(6),
   });
   const [pick, setPick] = useState({});
+  const [checks, setChecks] = useState(null);
+  const [checkBusy, setCheckBusy] = useState("");
 
   const load = useCallback(() => {
     setLoading(true);
@@ -40,9 +48,28 @@ export default function AdminLeague({ isDark }) {
       .finally(() => setLoading(false));
   }, []);
 
+  const loadChecks = useCallback(() => {
+    return adminLeagueChecks()
+      .then((d) => setChecks(d))
+      .catch(() => {});
+  }, []);
+
   useEffect(() => {
     load();
-  }, [load]);
+    loadChecks();
+  }, [load, loadChecks]);
+
+  async function toggleCheck(student, skill) {
+    setCheckBusy(`${student.id}-${skill}`);
+    try {
+      await adminLeagueCheckToggle(student.id, skill);
+      await loadChecks();
+    } catch (e) {
+      setError(e.message || "Ptichkani o'zgartirib bo'lmadi");
+    } finally {
+      setCheckBusy("");
+    }
+  }
 
   async function act(body, key = "") {
     setBusy(key);
@@ -184,6 +211,77 @@ export default function AdminLeague({ isDark }) {
               </div>
             </Panel>
           </div>
+
+          <Panel
+            isDark={isDark}
+            title="Faol hafta ptichkalari"
+            desc={
+              checks?.week
+                ? `${checks.week.label} · har ptichka 20 ball · jami ${checks.max_score}`
+                : "Faol hafta yo'q — avval haftani faollashtiring"
+            }
+          >
+            {!checks?.week ? (
+              <Empty isDark={isDark}>Faol hafta yo'q.</Empty>
+            ) : !checks.students.length ? (
+              <Empty isDark={isDark}>Guruhga biriktirilgan o'quvchilar yo'q.</Empty>
+            ) : (
+              <div className="overflow-x-auto">
+                <table className="w-full min-w-[620px] border-collapse text-sm">
+                  <thead>
+                    <tr className={isDark ? "bg-white/[0.03]" : "bg-black/[0.02]"}>
+                      <th className="px-3 py-2 text-left text-[10px] font-bold uppercase tracking-wider opacity-40">O'quvchi</th>
+                      {checks.skills.map((s) => (
+                        <th key={s.code} className="px-2 py-2 text-center text-[10px] font-bold uppercase tracking-wider opacity-40" title={s.label}>
+                          {s.short}
+                        </th>
+                      ))}
+                      <th className="px-3 py-2 text-right text-[10px] font-bold uppercase tracking-wider opacity-40">Ball</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {checks.students.map((st) => (
+                      <tr key={st.id} className={`border-t ${isDark ? "border-white/[0.07]" : "border-black/[0.07]"}`}>
+                        <td className="px-3 py-2">
+                          <div className="font-semibold">{st.name}</div>
+                          <div className={`text-[11px] ${muted}`}>{st.group}</div>
+                        </td>
+                        {checks.skills.map((sk) => {
+                          const done = st.marks[sk.code];
+                          const key = `${st.id}-${sk.code}`;
+                          return (
+                            <td key={sk.code} className="px-1.5 py-2 text-center">
+                              <button
+                                type="button"
+                                aria-pressed={done}
+                                aria-label={`${st.name} — ${sk.label}`}
+                                title={sk.label}
+                                disabled={checkBusy === key}
+                                onClick={() => toggleCheck(st, sk.code)}
+                                className={`mx-auto flex h-8 w-8 items-center justify-center rounded-full border text-xs font-bold transition disabled:opacity-40 ${
+                                  done
+                                    ? "border-emerald-500/40 bg-emerald-500/15 text-emerald-500"
+                                    : isDark
+                                      ? "border-white/12 text-white/25 hover:border-white/30 hover:text-white/60"
+                                      : "border-black/12 text-black/25 hover:border-black/30 hover:text-black/60"
+                                }`}
+                              >
+                                {done ? "✓" : "·"}
+                              </button>
+                            </td>
+                          );
+                        })}
+                        <td className="px-3 py-2 text-right">
+                          <div className="text-sm font-extrabold">{st.score}</div>
+                          <div className={`text-[10px] ${muted}`}>{st.done}/{checks.skills.length} ptichka</div>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </Panel>
 
           <Panel
             isDark={isDark}

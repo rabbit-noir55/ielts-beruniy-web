@@ -52,3 +52,11 @@ export const adminAttendanceDayOff = () => request("/admin/attendance/day-off/")
 export const adminAttendanceDayOffAction = (body) =>
   request("/admin/attendance/day-off/", { method: "POST", body });
 export const adminStudentDetail = (id) => request(`/admin/students/${id}/detail/`);
+
+export const adminAttendanceScanLog = (date) =>
+  request(`/admin/attendance/scan-log/${qs({ date })}`);
+export const adminAttendanceQr = () => request("/admin/attendance/qr/");
+
+export const adminLeagueChecks = () => request("/admin/league/checks/");
+export const adminLeagueCheckToggle = (student, skill) =>
+  request("/admin/league/checks/", { method: "POST", body: { student, skill } });

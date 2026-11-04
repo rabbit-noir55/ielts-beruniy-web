@@ -4,15 +4,18 @@ import {
   adminAttendanceDayOffAction,
   adminAttendanceMark,
   adminAttendanceMonthly,
+  adminAttendanceQr,
+  adminAttendanceScanLog,
   adminAttendanceToday,
 } from "../adminApi";
 import { inputCls } from "../formStyles";
-import { Badge, Btn, Empty, ErrorBox, Field, Panel, Spinner } from "../ui";
+import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, Spinner, Th } from "../ui";
 
 const TABS = [
   { id: "today", label: "Bugun" },
   { id: "month", label: "Oylik jurnal" },
   { id: "off", label: "Dam olish kunlari" },
+  { id: "scans", label: "Skanlar" },
 ];
 
 function todayIso() {
@@ -30,6 +33,13 @@ export default function AdminAttendance({ isDark }) {
   const [month, setMonth] = useState(() => new Date().toISOString().slice(0, 7));
   const [monthData, setMonthData] = useState(null);
   const [monthLoading, setMonthLoading] = useState(false);
+
+  const [qr, setQr] = useState(null);
+  const [qrLoading, setQrLoading] = useState(false);
+
+  const [scans, setScans] = useState(null);
+  const [scanDate, setScanDate] = useState("");
+  const [scansLoading, setScansLoading] = useState(false);
 
   const [offData, setOffData] = useState(null);
   const [offForm, setOffForm] = useState({ date: todayIso(), group: "", reason: "" });
@@ -79,6 +89,35 @@ export default function AdminAttendance({ isDark }) {
   useEffect(() => {
     if (tab === "off") loadOff();
   }, [tab, loadOff]);
+
+  const loadScans = useCallback(
+    (date = scanDate) => {
+      setScansLoading(true);
+      return adminAttendanceScanLog(date)
+        .then((d) => {
+          setScans(d);
+          setError("");
+        })
+        .catch((e) => setError(e.message || "Skanlar yuklanmadi"))
+        .finally(() => setScansLoading(false));
+    },
+    [scanDate]
+  );
+
+  useEffect(() => {
+    if (tab === "scans") loadScans(scanDate);
+  }, [tab, loadScans, scanDate]);
+
+  async function showQr() {
+    setQrLoading(true);
+    try {
+      setQr(await adminAttendanceQr());
+    } catch (e) {
+      setError(e.message || "QR yuklanmadi");
+    } finally {
+      setQrLoading(false);
+    }
+  }
 
   async function toggle(student) {
     setBusyId(student.id);
@@ -188,9 +227,14 @@ export default function AdminAttendance({ isDark }) {
             ))}
           </select>
           {tab === "today" && (
-            <Btn isDark={isDark} onClick={() => loadToday(group)} disabled={loading}>
-              Yangilash
-            </Btn>
+            <>
+              <Btn isDark={isDark} onClick={() => loadToday(group)} disabled={loading}>
+                Yangilash
+              </Btn>
+              <Btn isDark={isDark} onClick={showQr} disabled={qrLoading}>
+                QR kod
+              </Btn>
+            </>
           )}
         </div>
       </div>
@@ -381,6 +425,63 @@ export default function AdminAttendance({ isDark }) {
         </Panel>
       )}
 
+      {tab === "scans" && (
+        <Panel
+          isDark={isDark}
+          title="Skan jurnali"
+          desc="QR skan urinishlari · oxirgi 200"
+          actions={
+            <>
+              <input
+                type="date"
+                value={scanDate}
+                onChange={(e) => setScanDate(e.target.value)}
+                aria-label="Sana bo'yicha filter"
+                className={`${inputCls(isDark)} w-40 py-1.5`}
+              />
+              <Btn isDark={isDark} onClick={() => loadScans(scanDate)} disabled={scansLoading}>
+                Yangilash
+              </Btn>
+            </>
+          }
+        >
+          {scansLoading ? (
+            <Spinner isDark={isDark} />
+          ) : !scans?.scans?.length ? (
+            <Empty isDark={isDark}>Skan urinishlari yo'q.</Empty>
+          ) : (
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[620px] border-collapse text-xs">
+                <thead>
+                  <tr className={isDark ? "bg-white/[0.03]" : "bg-black/[0.02]"}>
+                    <Th>O'quvchi</Th>
+                    <Th>Guruh</Th>
+                    <Th>Kod</Th>
+                    <Th>Masofa</Th>
+                    <Th>Xato</Th>
+                    <Th>Vaqt</Th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {scans.scans.map((r) => (
+                    <tr key={r.id} className={`border-t ${isDark ? "border-white/[0.07]" : "border-black/[0.07]"}`}>
+                      <td className="px-3 py-2 font-semibold">{r.student}</td>
+                      <td className={`px-3 py-2 ${muted}`}>{r.group || "—"}</td>
+                      <td className="px-3 py-2 font-mono text-[10px]">{r.code}</td>
+                      <td className="px-3 py-2">{r.distance_m == null ? "—" : `${r.distance_m} m`}</td>
+                      <td className="px-3 py-2">
+                        {r.error ? <Badge isDark={isDark} tone="red">{r.error}</Badge> : <span className="text-emerald-500">OK</span>}
+                      </td>
+                      <td className={`whitespace-nowrap px-3 py-2 ${muted}`}>{r.created_at}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </Panel>
+      )}
+
       {tab === "off" && (
         <div className="grid gap-4 lg:grid-cols-5">
           <Panel isDark={isDark} className="lg:col-span-3" title="Dam olish kunlari" desc="Dars bo'lmagan istisno kunlar">
@@ -447,6 +548,29 @@ export default function AdminAttendance({ isDark }) {
           </Panel>
         </div>
       )}
+      <Modal
+        isDark={isDark}
+        open={!!qr}
+        title="Davomat QR kodi"
+        desc="O'quvchilar shu kodni skanerlaydi"
+        onClose={() => setQr(null)}
+      >
+        {qr && (
+          <div className="flex flex-col items-center gap-3 py-2">
+            <img
+              src={qr.qr_data_url}
+              alt={`Davomat QR kodi: ${qr.code}`}
+              className="h-56 w-56 rounded-xl bg-white p-3"
+            />
+            <code className={`rounded-lg px-3 py-1.5 text-sm font-bold tracking-widest ${isDark ? "bg-white/10" : "bg-black/5"}`}>
+              {qr.code}
+            </code>
+            <p className={`text-center text-[11px] ${muted}`}>
+              Kod faqat dars vaqtida (+15 daqiqa) ishlaydi.
+            </p>
+          </div>
+        )}
+      </Modal>
     </div>
   );
 }
