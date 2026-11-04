@@ -30,7 +30,7 @@ function Register({ theme = "dark" }) {
       localStorage.setItem("ielts_registered", "1");
       localStorage.setItem("user_name", data.user.first_name);
       localStorage.setItem("user_surname", data.user.last_name);
-      window.location.href = "/";
+      window.location.href = data.user.role === "teacher" ? "/admin" : "/";
     } catch (err) {
       setError(err.message);
     } finally {
@@ -47,7 +47,7 @@ function Register({ theme = "dark" }) {
       localStorage.setItem("ielts_registered", "1");
       localStorage.setItem("user_name", data.user.first_name);
       localStorage.setItem("user_surname", data.user.last_name);
-      window.location.href = "/";
+      window.location.href = data.user.role === "teacher" ? "/admin" : "/";
     } catch (err) {
       setError(err.message || "Google bilan ro'yxatdan o'tishda xatolik");
     } finally {
