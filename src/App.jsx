@@ -16,6 +16,7 @@ import Lessons from "./pages/Lessons";
 import TestResults from "./pages/TestResults";
 import NotFound from "./pages/NotFound";
 import LeaderboardReveal from "./pages/LeaderboardReveal";
+const AdminApp = lazy(() => import("./admin/AdminApp"));
 import { LanguageProvider } from "./utils/LanguageContext";
 
 const Settings = lazy(() => import("./pages/Settings"));
@@ -197,6 +198,7 @@ export default function App() {
         <BlockedScreen theme={theme} onLogout={handleLogout} />
       ) : (
       <Routes>
+        <Route path="/admin/*" element={<Suspense fallback={<PageLoader theme={theme} />}><AdminApp theme={theme} /></Suspense>} />
         <Route element={<MainLayout theme={theme} toggleTheme={toggleTheme} registered={registered} />}>
           <Route path="/" element={registered ? <RequireAuth><Home theme={theme} /></RequireAuth> : <IntroPage theme={theme} finishRegistration={finishRegistration} />} />
           <Route path="/mocks" element={<RequireAuth><RequireGroup type="mock"><Mocks theme={theme} /></RequireGroup></RequireAuth>} />

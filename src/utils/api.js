@@ -80,6 +80,7 @@ export async function request(path, { method = "GET", body } = {}) {
     }
     const err = new Error(detail);
     err.status = res.status;
+    err.data = data;
     if (data?.code) err.code = data.code;
     throw err;
   }
