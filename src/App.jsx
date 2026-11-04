@@ -1,5 +1,5 @@
 import { useEffect, useState, lazy, Suspense } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import { clearAuth, flushPendingResults, isAuthenticated, refreshUser } from "./utils/api";
 import RequireAuth from "./components/RequireAuth";
@@ -94,6 +94,9 @@ function BlockedScreen({ theme, onLogout }) {
 }
 
 export default function App() {
+  const location = useLocation();
+  // Admin panelda sticky sidebar ishlashi uchun overflow-hidden qo'llanmaydi.
+  const isAdminRoute = location.pathname.startsWith("/admin");
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem("theme") || "light";
   });
@@ -190,9 +193,9 @@ export default function App() {
   return (
     <LanguageProvider>
     <div
-      className={`relative min-h-screen overflow-hidden transition-all duration-500 ${
-        theme === "dark" ? "text-[#F5F5F5]" : "text-[#17171A]"
-      }`}>
+      className={`relative min-h-screen transition-all duration-500 ${
+        isAdminRoute ? "" : "overflow-hidden"
+      } ${theme === "dark" ? "text-[#F5F5F5]" : "text-[#17171A]"}`}>
 
       {blocked ? (
         <BlockedScreen theme={theme} onLogout={handleLogout} />
