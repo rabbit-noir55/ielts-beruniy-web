@@ -133,14 +133,6 @@ Answer ONLY in the following JSON format, do not add any other text:
 }`;
 }
 
-export function requireText(text, fallback) {
-  const t = (text || "").trim();
-  if (!t) {
-    return { ok: false, error: fallback || "Field is empty." };
-  }
-  return { ok: true, value: t };
-}
-
 export function cleanTaskText(text) {
   if (!text) return "";
   return String(text)
@@ -165,64 +157,3 @@ export function cleanTaskText(text) {
     .trim();
 }
 
-export function buildRandomWritingTaskPrompt(taskType) {
-  const labels = {
-    report: "Writing Task 1 Academic (a chart/graph/table/process)",
-    letter: "Writing Task 1 General Training (a letter)",
-    essay: "Writing Task 2 (an essay question)",
-  };
-  const label = labels[taskType] || labels.essay;
-  const seed = Math.random().toString(36).slice(2, 8);
-  const topics = [
-    "technology", "education", "environment", "health", "travel", "work",
-    "culture", "society", "family", "cities", "sports", "media", "food",
-    "transport", "housing", "art", "science", "history", "music", "finance",
-    "communication", "nature", "architecture", "fashion", "agriculture",
-  ];
-  const randomTopic = topics[Math.floor(Math.random() * topics.length)];
-
-  return `[${seed}] You are an expert IELTS test designer. Create a single random IELTS ${label} task.
-IMPORTANT: You MUST pick the topic "${randomTopic}" for this task. Do NOT use any other topic.
-Then write a full ${label} question that looks exactly like a real IELTS exam task.
-The topic must be unique and specific — avoid generic or vague descriptions.
-
-IMPORTANT: Do NOT use any markdown formatting, asterisks, underscores, or bullet symbols in the task text. Return plain clean text only.
-
-Answer ONLY in the following JSON format, do not add any other text:
-{
-  "type": "${taskType}",
-  "title": "<short title of the topic>",
-  "task": "<the full task text, ready to be used in practice>"
-}`;
-}
-
-export function buildRandomSpeakingQuestionPrompt(part) {
-  const partLabel =
-    part === 1
-      ? "Part 1 (Introduction and Interview — 3 short questions on one topic)"
-      : part === 2
-        ? "Part 2 (Individual Long Turn — a cue card with bullet points)"
-        : "Part 3 (Two-way Discussion — 3 follow-up discussion questions)";
-  const seed = Math.random().toString(36).slice(2, 8);
-  const topics = [
-    "technology", "education", "environment", "health", "travel", "work",
-    "culture", "society", "family", "cities", "sports", "media", "food",
-    "transport", "housing", "art", "science", "history", "music", "finance",
-    "communication", "nature", "architecture", "fashion", "agriculture",
-  ];
-  const randomTopic = topics[Math.floor(Math.random() * topics.length)];
-
-  return `[${seed}] You are an expert IELTS test designer. Create a single random IELTS Speaking ${partLabel} task.
-IMPORTANT: You MUST pick the topic "${randomTopic}" for this task. Do NOT use any other topic.
-Then write the full task text that looks exactly like a real IELTS exam speaking part.
-The topic must be unique and specific — avoid generic or vague descriptions.
-
-IMPORTANT: Do NOT use any markdown formatting, asterisks, underscores, or bullet symbols in the task text. Return plain clean text only.
-
-Answer ONLY in the following JSON format, do not add any other text:
-{
-  "type": "speaking-part${part}",
-  "title": "<short title of the topic>",
-  "task": "<the full task text, ready to be used in practice>"
-}`;
-}

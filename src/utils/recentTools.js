@@ -6,7 +6,7 @@
 const KEY = "recent_tools_v1";
 const MAX = 5;
 
-export const TOOL_CATALOG = {
+const TOOL_CATALOG = {
   "/tools/ai": "AI Checker & Generator",
   "/tools/band": "Band Calculator",
   "/tools/vocabulary": "Vocabulary Quiz",

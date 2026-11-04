@@ -3,10 +3,7 @@ import { request } from "./api";
 const BASE_AUDIO_URL =
   "https://oss.jumpinto.com/resource/exam/ielts/speaking-audio";
 
-export const PART_TIMES = { 1: 300, 2: 240, 3: 300 };
-export const MOCK_TOTAL_MS = 14 * 60 * 1000;
-
-export const getAudioUrl = (series, test, part, subtopicIdx, questionIdx) => {
+const getAudioUrl = (series, test, part, subtopicIdx, questionIdx) => {
   if (part === 2) return null;
   return `${BASE_AUDIO_URL}/a${series}t${test}s${part}-${subtopicIdx}-${questionIdx}-en_male_hades_moon_bigtts.mp3`;
 };
@@ -107,10 +104,3 @@ export async function getSpeakingFeedback(prompt) {
     return { success: false, error: err?.message || "AI xizmati ishlamayapti." };
   }
 }
-
-export const CRITERIA = [
-  { key: "fluencyAndCoherence", label: "Fluency & Coherence" },
-  { key: "lexicalResource", label: "Lexical Resource" },
-  { key: "grammaticalRange", label: "Grammatical Range" },
-  { key: "pronunciation", label: "Pronunciation" },
-];

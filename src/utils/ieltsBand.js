@@ -147,10 +147,6 @@ export function loadAllResults() {
   return results.sort((a, b) => b.series - a.series || b.testNum - a.testNum);
 }
 
-export function deleteResult(series, testNum) {
-  localStorage.removeItem(`ielts_result_${series}_${testNum}`);
-}
-
 /**
  * Mavjud natijadan barcha qismlarning xom ballarini yig'adi.
  * Har bir qism (part1, part2, ...) details ichida saqlanadi.

@@ -8,10 +8,6 @@ export function getWeeks() {
   return request("/competition/weeks/");
 }
 
-export function getMyProgress() {
-  return request("/competition/my/");
-}
-
 export function toggleCheck({ student, skill, week }) {
   return request("/competition/toggle/", {
     method: "POST",

@@ -4,7 +4,7 @@
  * O'quvchi rejimni o'zi tanlaydi. `mixed` rejimi barchasini aralashtiradi.
  */
 
-export const GENERAL_WORDS = [
+const GENERAL_WORDS = [
   "the", "and", "for", "with", "that", "this", "from", "they", "have", "were",
   "will", "would", "there", "their", "which", "about", "these", "those", "after",
   "before", "because", "between", "during", "while", "through", "without",
@@ -25,7 +25,7 @@ export const GENERAL_WORDS = [
   "large", "small", "high", "low", "long", "short", "early", "late",
 ];
 
-export const IELTS_WORDS = [
+const IELTS_WORDS = [
   "advantage", "disadvantage", "consequence", "environment", "government",
   "education", "technology", "development", "population", "pollution",
   "climate", "economy", "employment", "unemployment", "infrastructure",
@@ -49,7 +49,7 @@ export const IELTS_WORDS = [
   "perspective", "viewpoint", "aspect", "issue", "concern", "debate",
 ];
 
-export const PHRASAL_WORDS = [
+const PHRASAL_WORDS = [
   "carry out", "find out", "figure out", "come up with", "give up",
   "look up", "look after", "look forward to", "take part in", "take place",
   "take into account", "put off", "put up with", "run out of", "get along with",
@@ -79,7 +79,7 @@ export const PHRASAL_WORDS = [
   "keep fit", "save money", "earn money", "spend money", "waste money",
 ];
 
-export const SENTENCES = [
+const SENTENCES = [
   "Education plays a crucial role in shaping the future of a society.",
   "Many people believe that technology has changed the way we communicate.",
   "It is often said that health is more important than wealth.",
@@ -107,7 +107,7 @@ export const SENTENCES = [
   "Spending time outdoors is beneficial for both physical and mental health.",
 ];
 
-export const MIXED_WORDS = [
+const MIXED_WORDS = [
   ...GENERAL_WORDS.slice(0, 60),
   ...IELTS_WORDS.slice(0, 60),
   ...PHRASAL_WORDS.slice(0, 50),

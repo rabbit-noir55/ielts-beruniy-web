@@ -7,7 +7,7 @@ const USER_KEY = "ielts_user";
 const PENDING_KEY = "ielts_pending_results";
 const BG_IMAGE_KEY = "ielts_bg_image";
 
-export function getToken() {
+function getToken() {
   return localStorage.getItem(TOKEN_KEY);
 }
 
@@ -50,12 +50,6 @@ export async function refreshUser() {
     }
   }
   return null;
-}
-
-export function getFullName() {
-  const user = getUser();
-  if (!user) return "";
-  return user.full_name || [user.first_name, user.last_name].filter(Boolean).join(" ") || user.email;
 }
 
 export async function request(path, { method = "GET", body } = {}) {
@@ -101,10 +95,6 @@ export function login(email, password) {
 
 export function googleLogin(credential) {
   return request("/auth/google/", { method: "POST", body: { credential } });
-}
-
-export function fetchMe() {
-  return request("/auth/me/");
 }
 
 export function updateProfile(payload) {
@@ -173,21 +163,12 @@ export function clearBackgroundImage() {
   localStorage.removeItem(BG_IMAGE_KEY);
 }
 
-export function submitResult(payload) {
+function submitResult(payload) {
   return request("/results/", { method: "POST", body: payload });
-}
-
-export function fetchMyResults() {
-  return request("/results/");
 }
 
 export function saveTypingResult(payload) {
   return request("/typing/results/", { method: "POST", body: payload });
-}
-
-export function fetchTypingResults(mode) {
-  const qs = mode ? `?mode=${mode}` : "";
-  return request(`/typing/results/${qs}`);
 }
 
 export function fetchTypingLeaderboard(mode) {
@@ -206,7 +187,7 @@ function enqueuePending(payload) {
   localStorage.setItem(PENDING_KEY, JSON.stringify(queue));
 }
 
-export function getPendingResults() {
+function getPendingResults() {
   try {
     return JSON.parse(localStorage.getItem(PENDING_KEY)) || [];
   } catch {
@@ -229,11 +210,6 @@ export function hasMockAccess() {
   return true;
 }
 
-export function getUserGroupSlug() {
-  const user = getUser();
-  return user?.group_detail?.slug || '';
-}
-
 export function getUserGroupName() {
   const user = getUser();
   return user?.group_detail?.name || '';
@@ -244,7 +220,7 @@ export function getUserGroupLogo() {
   return user?.group_detail?.logo_url || null;
 }
 
-export function getUserGroupType() {
+function getUserGroupType() {
   const user = getUser();
   return user?.group_detail?.group_type || 'ielts';
 }
