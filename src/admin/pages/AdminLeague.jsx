@@ -4,7 +4,6 @@ import {
   adminLeagueAction,
   adminLeagueCheckToggle,
   adminLeagueChecks,
-  adminStudents,
 } from "../adminApi";
 import { Badge, Btn, Empty, ErrorBox, Panel, Spinner } from "../ui";
 import { inputCls } from "../formStyles";
@@ -23,7 +22,6 @@ function fmt(dateStr) {
 
 export default function AdminLeague({ isDark }) {
   const [data, setData] = useState({ weeks: [], examiners: [] });
-  const [students, setStudents] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [busy, setBusy] = useState("");
@@ -32,20 +30,20 @@ export default function AdminLeague({ isDark }) {
     start_date: isoPlus(0),
     end_date: isoPlus(6),
   });
-  const [pick, setPick] = useState({});
   const [checks, setChecks] = useState(null);
   const [checkBusy, setCheckBusy] = useState("");
 
-  const load = useCallback(() => {
-    setLoading(true);
-    return Promise.all([adminLeague(), adminStudents({})])
-      .then(([league, st]) => {
+  const load = useCallback((silent = false) => {
+    if (!silent) setLoading(true);
+    return adminLeague()
+      .then((league) => {
         setData(league);
-        setStudents(st.students || []);
         setError("");
       })
       .catch((e) => setError(e.message || "Yuklab bo'lmadi"))
-      .finally(() => setLoading(false));
+      .finally(() => {
+        if (!silent) setLoading(false);
+      });
   }, []);
 
   const loadChecks = useCallback(() => {
@@ -84,6 +82,23 @@ export default function AdminLeague({ isDark }) {
     }
   }
 
+  async function toggleLink(examiner, candidate) {
+    setBusy(`link-${candidate.id}`);
+    setError("");
+    try {
+      await adminLeagueAction({
+        action: "link_toggle",
+        examiner: examiner.id,
+        student: candidate.id,
+      });
+      await load(true);
+    } catch (e) {
+      setError(e.message || "Bog'lab bo'lmadi");
+    } finally {
+      setBusy("");
+    }
+  }
+
   async function createWeek() {
     if (!weekForm.label.trim() || !weekForm.start_date || !weekForm.end_date) {
       setError("Nomi va ikkita sana kerak.");
@@ -98,7 +113,6 @@ export default function AdminLeague({ isDark }) {
   }
 
   const muted = isDark ? "text-white/40" : "text-black/40";
-  const rule = isDark ? "border-white/10" : "border-black/10";
   const activeWeek = data.weeks.find((w) => w.is_active);
 
   return (
@@ -286,7 +300,7 @@ export default function AdminLeague({ isDark }) {
           <Panel
             isDark={isDark}
             title="Examinerlar"
-            desc="Har bir examiner o'z o'quvchilariga ptichka qo'yadi"
+            desc="Faqat bir xil guruhdagi o'quvchilar. Ismni bosing — biriktiriladi yoki olib tashlanadi."
           >
             {!data.examiners.length ? (
               <Empty isDark={isDark}>
@@ -295,73 +309,57 @@ export default function AdminLeague({ isDark }) {
             ) : (
               <ul className={`divide-y ${isDark ? "divide-white/[0.07]" : "divide-black/[0.07]"}`}>
                 {data.examiners.map((e) => {
-                  const linkedIds = new Set(e.students.map((s) => s.id));
-                  const available = students.filter((s) => s.id !== e.id && !linkedIds.has(s.id));
+                  const linkedCount = e.candidates.filter((c) => c.linked).length;
                   return (
                     <li key={e.id} className="px-4 py-3.5">
-                      <div className="flex flex-wrap items-center justify-between gap-2">
-                        <div className="flex items-center gap-2">
-                          <span className="text-sm font-bold">{e.name}</span>
-                          <Badge isDark={isDark} tone="accent">{e.students.length} o'quvchi</Badge>
-                        </div>
-                        <div className="flex items-center gap-1.5">
-                          <select
-                            value={pick[e.id] || ""}
-                            onChange={(ev) => setPick((p) => ({ ...p, [e.id]: ev.target.value }))}
-                            aria-label={`${e.name} uchun o'quvchi tanlash`}
-                            className={`${inputCls(isDark)} w-48 py-1.5 text-xs`}
-                          >
-                            <option value="">O'quvchi tanlang…</option>
-                            {available.map((s) => (
-                              <option key={s.id} value={s.id}>
-                                {s.name}
-                              </option>
-                            ))}
-                          </select>
-                          <Btn
-                            isDark={isDark}
-                            disabled={!pick[e.id] || busy === `link-${e.id}`}
-                            onClick={async () => {
-                              await act(
-                                { action: "link_add", examiner: e.id, student: pick[e.id] },
-                                `link-${e.id}`
-                              );
-                              setPick((p) => ({ ...p, [e.id]: "" }));
-                            }}
-                          >
-                            + Qo'shish
-                          </Btn>
-                        </div>
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className="text-sm font-bold">{e.name}</span>
+                        {e.group_id ? (
+                          <Badge isDark={isDark}>{e.group}</Badge>
+                        ) : (
+                          <Badge isDark={isDark} tone="red">Guruhsiz</Badge>
+                        )}
+                        {e.group_id && (
+                          <Badge isDark={isDark} tone="accent">
+                            {linkedCount} bog'langan
+                          </Badge>
+                        )}
                       </div>
 
-                      <div className="mt-2 flex flex-wrap gap-1.5">
-                        {!e.students.length && (
-                          <span className={`text-xs ${muted}`}>Hozircha o'quvchi biriktirilmagan.</span>
-                        )}
-                        {e.students.map((s) => (
-                          <span
-                            key={s.link_id}
-                            className={`inline-flex items-center gap-1 rounded-full border py-1 pl-2.5 pr-1 text-[11px] font-semibold ${rule} ${
-                              isDark ? "text-white/70" : "text-black/70"
-                            }`}
-                          >
-                            {s.name}
+                      {!e.group_id ? (
+                        <p className={`mt-1.5 text-xs ${muted}`}>
+                          Examiner guruhga biriktirilmagan. «O'quvchilar» bo'limida guruh tanlang.
+                        </p>
+                      ) : !e.candidates.length ? (
+                        <p className={`mt-1.5 text-xs ${muted}`}>Bu guruhda boshqa o'quvchi yo'q.</p>
+                      ) : (
+                        <div className="mt-2 flex flex-wrap gap-1.5">
+                          {e.candidates.map((c) => (
                             <button
+                              key={c.id}
                               type="button"
-                              onClick={() =>
-                                act({ action: "link_remove", link: s.link_id }, `rm-${s.link_id}`)
+                              aria-pressed={c.linked}
+                              disabled={busy === `link-${c.id}`}
+                              onClick={() => toggleLink(e, c)}
+                              title={
+                                c.linked
+                                  ? `${c.name} — bog'lanishni olib tashlash`
+                                  : `${c.name} — biriktirish`
                               }
-                              disabled={busy === `rm-${s.link_id}`}
-                              aria-label={`${s.name} birikmasini olib tashlash`}
-                              className={`flex h-6 w-6 items-center justify-center rounded-full text-sm leading-none ${
-                                isDark ? "hover:bg-white/10" : "hover:bg-black/10"
+                              className={`inline-flex min-h-8 items-center gap-1.5 rounded-full border px-3 text-xs font-semibold transition disabled:opacity-40 ${
+                                c.linked
+                                  ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400"
+                                  : isDark
+                                    ? "border-white/12 text-white/55 hover:border-white/25 hover:text-white/85"
+                                    : "border-black/12 text-black/55 hover:border-black/25 hover:text-black/85"
                               }`}
                             >
-                              ×
+                              <span aria-hidden="true">{c.linked ? "✓" : "+"}</span>
+                              {c.name}
                             </button>
-                          </span>
-                        ))}
-                      </div>
+                          ))}
+                        </div>
+                      )}
                     </li>
                   );
                 })}
