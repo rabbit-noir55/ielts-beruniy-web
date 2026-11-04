@@ -113,6 +113,7 @@ export default function AdminLeague({ isDark }) {
   }
 
   const muted = isDark ? "text-white/40" : "text-black/40";
+  const rule = isDark ? "border-white/10" : "border-black/10";
   const activeWeek = data.weeks.find((w) => w.is_active);
 
   return (
@@ -300,8 +301,16 @@ export default function AdminLeague({ isDark }) {
           <Panel
             isDark={isDark}
             title="Examinerlar"
-            desc="Faqat bir xil guruhdagi o'quvchilar. Ismni bosing — biriktiriladi yoki olib tashlanadi."
+            desc="Bir o'quvchi faqat bitta examinerga biriktiriladi. Ismni bosing — biriktiriladi, o'tkaziladi yoki olib tashlanadi."
           >
+            {!!data.examiners.length && (
+              <div className={`flex flex-wrap items-center gap-x-4 gap-y-1 border-b px-4 py-2 text-[11px] ${rule} ${muted}`}>
+                <span><span className="font-bold text-emerald-500">✓</span> shu examinerda</span>
+                <span><span className="font-bold">+</span> biriktirilmagan</span>
+                <span><span className="font-bold text-amber-500">↪</span> boshqa examinerda — bosib o'tkazish</span>
+              </div>
+            )}
+
             {!data.examiners.length ? (
               <Empty isDark={isDark}>
                 Examiner yo'q. O'quvchilar bo'limida «Examiner qilish» tugmasini bosing.
@@ -334,30 +343,44 @@ export default function AdminLeague({ isDark }) {
                         <p className={`mt-1.5 text-xs ${muted}`}>Bu guruhda boshqa o'quvchi yo'q.</p>
                       ) : (
                         <div className="mt-2 flex flex-wrap gap-1.5">
-                          {e.candidates.map((c) => (
-                            <button
-                              key={c.id}
-                              type="button"
-                              aria-pressed={c.linked}
-                              disabled={busy === `link-${c.id}`}
-                              onClick={() => toggleLink(e, c)}
-                              title={
-                                c.linked
-                                  ? `${c.name} — bog'lanishni olib tashlash`
-                                  : `${c.name} — biriktirish`
-                              }
-                              className={`inline-flex min-h-8 items-center gap-1.5 rounded-full border px-3 text-xs font-semibold transition disabled:opacity-40 ${
-                                c.linked
-                                  ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400"
-                                  : isDark
-                                    ? "border-white/12 text-white/55 hover:border-white/25 hover:text-white/85"
-                                    : "border-black/12 text-black/55 hover:border-black/25 hover:text-black/85"
-                              }`}
-                            >
-                              <span aria-hidden="true">{c.linked ? "✓" : "+"}</span>
-                              {c.name}
-                            </button>
-                          ))}
+                          {e.candidates.map((c) => {
+                            const ownedElsewhere = !c.linked && c.owner;
+                            return (
+                              <button
+                                key={c.id}
+                                type="button"
+                                aria-pressed={c.linked}
+                                disabled={busy === `link-${c.id}`}
+                                onClick={() => toggleLink(e, c)}
+                                title={
+                                  c.linked
+                                    ? `${c.name} — bog'lanishni olib tashlash`
+                                    : ownedElsewhere
+                                      ? `Hozir ${c.owner} examinerga biriktirilgan — bosib o'tkazish`
+                                      : `${c.name} — biriktirish`
+                                }
+                                className={`inline-flex min-h-8 items-center gap-1.5 rounded-full border px-3 text-xs font-semibold transition disabled:opacity-40 ${
+                                  c.linked
+                                    ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400"
+                                    : ownedElsewhere
+                                      ? "border-amber-500/35 text-amber-600/80 dark:text-amber-400/80 hover:border-amber-500/60"
+                                      : isDark
+                                        ? "border-white/12 text-white/55 hover:border-white/25 hover:text-white/85"
+                                        : "border-black/12 text-black/55 hover:border-black/25 hover:text-black/85"
+                                }`}
+                              >
+                                <span aria-hidden="true">
+                                  {c.linked ? "✓" : ownedElsewhere ? "↪" : "+"}
+                                </span>
+                                {c.name}
+                                {ownedElsewhere && (
+                                  <span className="font-normal opacity-60">
+                                    · {c.owner.split(" ")[0]}
+                                  </span>
+                                )}
+                              </button>
+                            );
+                          })}
                         </div>
                       )}
                     </li>
