@@ -60,3 +60,11 @@ export const adminAttendanceQr = () => request("/admin/attendance/qr/");
 export const adminLeagueChecks = () => request("/admin/league/checks/");
 export const adminLeagueCheckToggle = (student, skill) =>
   request("/admin/league/checks/", { method: "POST", body: { student, skill } });
+
+export const adminAIProviders = () => request("/admin/ai/providers/");
+export const adminAIProviderSave = (body) =>
+  request("/admin/ai/providers/", { method: "POST", body });
+export const adminAIModels = () => request("/admin/ai/models/");
+export const adminAIModelSave = (body) =>
+  request("/admin/ai/models/", { method: "POST", body });
+export const adminAIUsage = (params) => request(`/admin/ai/usage/${qs(params)}`);

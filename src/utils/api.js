@@ -266,3 +266,14 @@ export async function flushPendingResults() {
   localStorage.setItem(PENDING_KEY, JSON.stringify(remaining));
   return synced;
 }
+
+export function getTelegramStatus() {
+  return request("/telegram/status/");
+}
+
+export function saveTelegramContact({ phone, username }) {
+  return request("/telegram/contact/", {
+    method: "POST",
+    body: { phone, username },
+  });
+}

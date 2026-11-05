@@ -6,9 +6,11 @@ import {
   clearPendingResults,
   getBackgroundImage,
   getSettings,
+  getTelegramStatus,
   getUser,
   isAuthenticated,
   revealPassword,
+  saveTelegramContact,
   setBackgroundImage,
   setSettings,
   updateProfile,
@@ -159,6 +161,13 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
 
   const [bgImage, setBgImage] = useState(() => getBackgroundImage());
 
+  // Telegram bog'lash
+  const [tgStatus, setTgStatus] = useState(null);
+  const [tgPhone, setTgPhone] = useState("");
+  const [tgUsername, setTgUsername] = useState("");
+  const [tgMsg, setTgMsg] = useState({ type: "", text: "" });
+  const [tgBusy, setTgBusy] = useState(false);
+
   // Parolni ko'rsatish
   const [plainPassword, setPlainPassword] = useState("");
   const [showPasswordRevealer, setShowPasswordRevealer] = useState(false);
@@ -212,6 +221,32 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
       if (revealTimerRef.current) clearTimeout(revealTimerRef.current);
     };
   }, []);
+
+  useEffect(() => {
+    if (!authed) return;
+    getTelegramStatus()
+      .then((data) => {
+        setTgStatus(data);
+        setTgPhone(data.telegram_phone || "");
+        setTgUsername(data.telegram_username || "");
+      })
+      .catch(() => {});
+  }, [authed]);
+
+  const saveTelegram = async (e) => {
+    e.preventDefault();
+    setTgBusy(true);
+    setTgMsg({ type: "", text: "" });
+    try {
+      const data = await saveTelegramContact({ phone: tgPhone, username: tgUsername });
+      setTgStatus((prev) => ({ ...(prev || {}), ...data }));
+      setTgMsg({ type: "success", text: data.instructions || "Saqlandi." });
+    } catch (err) {
+      setTgMsg({ type: "error", text: err.message || "Saqlab bo'lmadi." });
+    } finally {
+      setTgBusy(false);
+    }
+  };
 
   useEffect(() => {
     if (!showPasswordRevealer) return;
@@ -595,19 +630,73 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
       {/* Telegram */}
       {authed && !isTelegram() && !isInApp() && (
         <Section title="Telegram">
-          <Row
-            title="Telegram bot"
-            desc="Bot orqali yangiliklar va eslatmalar"
-          >
-            <a
-              href={import.meta.env.VITE_TELEGRAM_BOT_URL || "https://t.me/ielts_beruniy_bot"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex min-h-11 items-center justify-center rounded-full bg-[var(--accent)] px-5 text-sm font-bold text-white transition hover:opacity-90"
-            >
-              Ochish
-            </a>
-          </Row>
+          <Notice type={tgMsg.type} text={tgMsg.text} />
+          <div className={`rounded-2xl border p-4 ${isDark ? "border-white/10 bg-white/[0.02]" : "border-black/[0.08] bg-white"}`}>
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <div>
+                <div className="text-sm font-semibold">Telegram bog'lash</div>
+                <div className={`mt-0.5 text-xs ${isDark ? "text-white/45" : "text-black/45"}`}>
+                  {tgStatus?.linked
+                    ? `Ulangan${tgStatus.telegram_username ? `: @${tgStatus.telegram_username}` : ""}`
+                    : "Raqam yoki username kiriting, keyin botda /start bosing."}
+                </div>
+              </div>
+              <span className={`rounded-full border px-3 py-1 text-[11px] font-bold ${
+                tgStatus?.linked
+                  ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400"
+                  : isDark ? "border-white/15 text-white/50" : "border-black/15 text-black/50"
+              }`}>
+                {tgStatus?.linked ? "✓ Ulangan" : "Ulanmagan"}
+              </span>
+            </div>
+
+            {!tgStatus?.linked && (
+              <form onSubmit={saveTelegram} className="mt-3 flex flex-col gap-3">
+                <input
+                  type="tel"
+                  value={tgPhone}
+                  onChange={(e) => setTgPhone(e.target.value)}
+                  placeholder="+998 90 123 45 67"
+                  aria-label="Telegram telefon raqami"
+                  className="w-full rounded-xl border border-black/[0.12] bg-white px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-black dark:border-white/10 dark:bg-[#0A0A0B] dark:text-white dark:focus:ring-white"
+                />
+                <input
+                  type="text"
+                  value={tgUsername}
+                  onChange={(e) => setTgUsername(e.target.value)}
+                  placeholder="@telegram_username (ixtiyoriy)"
+                  aria-label="Telegram username"
+                  className="w-full rounded-xl border border-black/[0.12] bg-white px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-black dark:border-white/10 dark:bg-[#0A0A0B] dark:text-white dark:focus:ring-white"
+                />
+                <div className="flex flex-wrap gap-2">
+                  <button type="submit" disabled={tgBusy} className={submitBtnCls}>
+                    {tgBusy ? "Saqlanmoqda…" : "Saqlash"}
+                  </button>
+                  <a
+                    href={tgStatus?.bot_url || import.meta.env.VITE_TELEGRAM_BOT_URL || "https://t.me/ielts_beruniy_bot"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`inline-flex min-h-11 items-center rounded-full border px-5 text-sm font-bold ${
+                      isDark ? "border-white/15 text-white/75" : "border-black/15 text-black/70"
+                    }`}
+                  >
+                    Botni ochish
+                  </a>
+                </div>
+              </form>
+            )}
+
+            {tgStatus?.linked && (
+              <a
+                href={tgStatus?.bot_url || import.meta.env.VITE_TELEGRAM_BOT_URL || "https://t.me/ielts_beruniy_bot"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex min-h-10 items-center rounded-full bg-[var(--accent)] px-5 text-sm font-bold text-white"
+              >
+                Botni ochish
+              </a>
+            )}
+          </div>
         </Section>
       )}
 

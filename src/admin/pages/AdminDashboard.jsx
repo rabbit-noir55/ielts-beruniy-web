@@ -106,6 +106,7 @@ export default function AdminDashboard({ isDark }) {
               <Link to="/admin/mocks" className="rounded-full border border-black/15 px-3 py-1.5 dark:border-white/15 dark:text-white/70">Mock testlar</Link>
               <Link to="/admin/games" className="rounded-full border border-black/15 px-3 py-1.5 dark:border-white/15 dark:text-white/70">O'yinlar</Link>
               <Link to="/admin/tools" className="rounded-full border border-black/15 px-3 py-1.5 dark:border-white/15 dark:text-white/70">Tool'lar</Link>
+              <Link to="/admin/ai" className="rounded-full border border-black/15 px-3 py-1.5 dark:border-white/15 dark:text-white/70">AI boshqaruv</Link>
               <a href="https://ieltsberuniy.onrender.com/api/panel/" target="_blank" rel="noopener noreferrer" className="rounded-full border border-black/15 px-3 py-1.5 dark:border-white/15 dark:text-white/70">
                 Eski panel ↗
               </a>

@@ -8,6 +8,7 @@ import AdminLeague from "./pages/AdminLeague";
 import AdminMocks from "./pages/AdminMocks";
 import AdminGames from "./pages/AdminGames";
 import AdminTools from "./pages/AdminTools";
+import AdminAI from "./pages/AdminAI";
 
 const NAV = [
   { to: "/admin", label: "Umumiy", end: true },
@@ -18,6 +19,7 @@ const NAV = [
   { to: "/admin/mocks", label: "Mock testlar" },
   { to: "/admin/games", label: "O'yinlar" },
   { to: "/admin/tools", label: "Tool'lar" },
+  { to: "/admin/ai", label: "AI boshqaruv" },
 ];
 
 function AccessDenied({ isDark }) {
@@ -146,6 +148,7 @@ export default function AdminApp({ theme }) {
               <Route path="mocks" element={<AdminMocks isDark={isDark} />} />
               <Route path="games" element={<AdminGames isDark={isDark} />} />
               <Route path="tools" element={<AdminTools isDark={isDark} />} />
+              <Route path="ai" element={<AdminAI isDark={isDark} />} />
               <Route path="*" element={<Navigate to="/admin" replace />} />
             </Routes>
           </main>
