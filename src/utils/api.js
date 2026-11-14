@@ -277,3 +277,18 @@ export function saveTelegramContact({ phone, username }) {
     body: { phone, username },
   });
 }
+
+export function telegramWebappLogin(initData) {
+  return request("/telegram/webapp-login/", {
+    method: "POST",
+    body: { init_data: initData },
+  });
+}
+
+export function startTelegramDevice() {
+  return request("/telegram/device/start/", { method: "POST", body: {} });
+}
+
+export function pollTelegramDevice(code) {
+  return request(`/telegram/device/poll/${encodeURIComponent(code)}/`);
+}

@@ -57,19 +57,15 @@ const AudioPlayer = React.memo(function AudioPlayer({
   const progressPercent = duration > 0 ? (currentTime / duration) * 100 : 0;
 
   // Toggle button — always visible
-  const ToggleBtn = (
+  const ToggleBtn = !visible ? (
     <button
-      onClick={() => setVisible((v) => !v)}
-      className={`fixed z-[1000] md:hidden flex items-center justify-center w-10 h-10 rounded-full shadow-lg transition-all active:scale-90 ${
-        visible
-          ? "top-28 md:top-auto bg-red-500/90 text-white"
-          : "top-28 md:top-auto bg-black/80 dark:bg-white/15 text-white dark:text-white/80"
-      }`}
-      style={{ right: "12px" }}
+      onClick={() => setVisible(true)}
+      className="fixed z-[1000] md:hidden bottom-20 right-3 flex h-10 w-10 items-center justify-center rounded-full bg-black/80 text-white shadow-lg transition-all active:scale-90 dark:bg-white/15"
+      aria-label="Audio pleerni ochish"
     >
-      <FontAwesomeIcon icon={visible ? faXmark : faHeadphones} size="sm" />
+      <FontAwesomeIcon icon={faHeadphones} size="sm" />
     </button>
-  );
+  ) : null;
 
   // ── Mock mode ──────────────────────────────────────────────────────────
   if (mockMode) {
@@ -87,6 +83,9 @@ const AudioPlayer = React.memo(function AudioPlayer({
                 </div>
               </div>
               <button onClick={exitMockMode} className="bg-red-600 text-white px-2 py-0.5 rounded text-[10px] font-semibold shrink-0">Exit</button>
+              <button onClick={() => setVisible(false)} aria-label="Pleerni yopish" className="text-white/50 hover:text-white p-1 shrink-0">
+                <FontAwesomeIcon icon={faXmark} size="sm" />
+              </button>
             </div>
             <div className="flex items-center justify-center gap-1">
               <button onClick={() => skip(-10)} className="text-white/50 hover:text-white p-1"><FontAwesomeIcon icon={faBackwardStep} size="xs" /></button>
@@ -169,6 +168,9 @@ const AudioPlayer = React.memo(function AudioPlayer({
               <button onClick={cycleRate} className="text-[10px] font-semibold bg-white/10 hover:bg-white/20 rounded px-1.5 py-0.5">{playbackRate}x</button>
               <button onClick={() => setAutoScrollEnabled((p) => !p)} className={autoScrollEnabled ? "text-green-400 p-1" : "text-white/40 p-1"}>
                 <FontAwesomeIcon icon={faArrowsRotate} size="xs" />
+              </button>
+              <button onClick={() => setVisible(false)} aria-label="Pleerni yopish" className="text-white/50 hover:text-white p-1">
+                <FontAwesomeIcon icon={faXmark} size="xs" />
               </button>
             </div>
           </div>

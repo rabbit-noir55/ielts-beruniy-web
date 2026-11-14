@@ -18,7 +18,7 @@ import {
   GraduationCap,
 } from "lucide-react";
 import logoSvg from "../assets/logo.png";
-import { getBackgroundImage, getUser, hasMockAccess, getUserGroupName, getUserGroupLogo, isIeltsGroup } from "../utils/api";
+import { getBackgroundImage, getUser, hasMockAccess, getUserGroupName, getUserGroupLogo, isIeltsGroup, isAuthenticated } from "../utils/api";
 import { getMockActive, onMockChange } from "../utils/mockMode";
 import { getRecentTools, recordRecentTool, toolLabelForPath, isCustomToolPath } from "../utils/recentTools";
 
@@ -52,6 +52,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
   const canAccessMocks = hasMockAccess();
   const userGroupName = getUserGroupName();
   const userGroupLogo = getUserGroupLogo();
+  const authed = isAuthenticated();
   const userGroupSlug = user?.group_detail?.slug || '';
   const isIelts = isIeltsGroup();
   const showGroupHeader = userGroupName && isIelts && (user?.group_detail?.parameters?.show_logo ?? true);
@@ -196,7 +197,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
     { to: "/lessons", label: "Lessons", icon: Book },
     { id: "competition", to: "/competition", label: "Competition", icon: Trophy, center: true },
     { id: "tools", label: "Tools", icon: Wrench },
-    { to: "/account", label: "Account", icon: null },
+    { to: authed ? "/account" : "/login", label: authed ? "Account" : "Kirish", icon: null },
   ];
 
   return (
@@ -372,9 +373,15 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                 <Sun size={14} className="group-hover:text-[var(--accent)]" />
               </span>
             </button>
-            <Link to="/account" className={`flex h-9 w-9 items-center justify-center rounded-full text-xs font-bold text-white transition-all duration-200 hover:scale-105 hover:-translate-y-0.5 ${bgColor}`} aria-label="Account">
-              {initial || "?"}
-            </Link>
+            {authed ? (
+              <Link to="/account" className={`flex h-9 w-9 items-center justify-center rounded-full text-xs font-bold text-white transition-all duration-200 hover:scale-105 hover:-translate-y-0.5 ${bgColor}`} aria-label="Account">
+                {initial || "?"}
+              </Link>
+            ) : (
+              <Link to="/login" className="inline-flex min-h-9 items-center rounded-full border border-black/[0.15] px-3 text-xs font-bold text-black/75 dark:border-white/20 dark:text-white/80">
+                Kirish
+              </Link>
+            )}
           </div>
         </div>
 
@@ -395,6 +402,14 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                 )}
                 <span className="max-w-[70px] truncate">{userGroupName}</span>
               </button>
+            )}
+            {!authed && (
+              <Link
+                to="/login"
+                className="inline-flex min-h-9 items-center rounded-full bg-[var(--accent)] px-3.5 text-xs font-bold text-[var(--accent-contrast)]"
+              >
+                Kirish
+              </Link>
             )}
             <button onClick={toggleTheme} className={`flex h-8 w-8 items-center justify-center rounded-lg text-sm transition-all active:scale-90 ${isDark ? "text-white/50" : "text-black/50"}`} aria-label="Toggle theme">
               {isDark ? <Moon size={15} /> : <Sun size={15} />}

@@ -111,9 +111,11 @@ const IELTSReading = ({ theme, isOurMockRoute }) => {
 
   // YANGI: suzib yuruvchi boshqaruv panelining ekrandagi joylashuvi —
   // AudioPlayer.jsx bilan bir xil drag mexanizmi.
-  const [controlPosition, setControlPosition] = useState({
-    x: 20,
-    y: HEADER_SAFE_Y,
+  const [controlPosition, setControlPosition] = useState(() => {
+    if (typeof window !== "undefined" && window.innerWidth < 768) {
+      return { x: 12, y: Math.max(HEADER_SAFE_Y, window.innerHeight - 170) };
+    }
+    return { x: 20, y: HEADER_SAFE_Y };
   });
   const [isDraggingControl, setIsDraggingControl] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
@@ -1201,7 +1203,7 @@ const IELTSReading = ({ theme, isOurMockRoute }) => {
         }`}
       >
         <span>{"Reading · Passage"} {partNum}</span>
-        <span>
+        <span className="hidden md:inline">
           {"Drag the control panel anywhere"}
         </span>
       </div>

@@ -55,6 +55,13 @@ function Register({ theme = "dark" }) {
     }
   };
 
+  // Google tugmasi kartochka ichiga sig'ishi uchun kenglikni moslaymiz
+  const googleButtonWidth = () => {
+    const el = googleBtnRef.current;
+    const w = el ? Math.floor(el.getBoundingClientRect().width) : 320;
+    return Math.max(200, Math.min(320, w || 320));
+  };
+
   // Google Identity Services initialize
   useEffect(() => {
     const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
@@ -76,7 +83,7 @@ function Register({ theme = "dark" }) {
           window.google.accounts.id.renderButton(googleBtnRef.current, {
             theme: isDark ? "filled_black" : "outline",
             size: "large",
-            width: 320,
+            width: googleButtonWidth(),
             text: "signup_with",
           });
         }

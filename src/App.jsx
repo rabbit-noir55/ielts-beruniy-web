@@ -1,7 +1,8 @@
 import { useEffect, useState, lazy, Suspense } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
-import { clearAuth, flushPendingResults, isAuthenticated, refreshUser } from "./utils/api";
+import { clearAuth, flushPendingResults, isAuthenticated, refreshUser, setAuth, telegramWebappLogin } from "./utils/api";
+import { isTelegram, tg } from "./utils/telegram.js";
 import RequireAuth from "./components/RequireAuth";
 import RequireGroup from "./components/RequireGroup";
 import Home from "./pages/Home";
@@ -125,6 +126,52 @@ export default function App() {
   const [, setIsTransitioning] = useState(false);
 
   const [blocked, setBlocked] = useState(false);
+  const [tgAuthPending, setTgAuthPending] = useState(
+    () => isTelegram() && !isAuthenticated()
+  );
+
+  // Telegram Mini App: initData orqali bir bosishda kirish.
+  useEffect(() => {
+    if (!isTelegram() || isAuthenticated()) {
+      setTgAuthPending(false);
+      return;
+    }
+    let cancelled = false;
+    let timer = null;
+    let attempts = 0;
+
+    const attempt = () => {
+      if (cancelled) return;
+      const initData = tg()?.initData;
+      // Telegram skripti kechikib yuklanishi mumkin — 5 soniya kutamiz.
+      if (!initData) {
+        attempts += 1;
+        if (attempts < 20) timer = setTimeout(attempt, 250);
+        else setTgAuthPending(false);
+        return;
+      }
+      telegramWebappLogin(initData)
+        .then((data) => {
+          if (cancelled || !data?.token) return;
+          setAuth(data.token, data.user);
+          localStorage.setItem("ielts_registered", "1");
+          localStorage.setItem("user_name", data.user.first_name || "");
+          localStorage.setItem("user_surname", data.user.last_name || "");
+          setRegistered(true);
+          setTgAuthPending(false);
+        })
+        .catch((err) => {
+          console.warn("Telegram login failed:", err?.message || err);
+          if (!cancelled) setTgAuthPending(false);
+        });
+    };
+
+    attempt();
+    return () => {
+      cancelled = true;
+      if (timer) clearTimeout(timer);
+    };
+  }, []);
 
   useEffect(() => {
     if (!isAuthenticated()) return;
@@ -189,6 +236,17 @@ export default function App() {
       setIsTransitioning(false);
     }, 180);
   };
+
+  if (tgAuthPending) {
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-[#F6F5F2] px-6 text-center text-[#17171A] dark:bg-[#0A0A0B] dark:text-white">
+        <div className="h-10 w-10 animate-spin rounded-full border-4 border-[var(--accent)] border-t-transparent" />
+        <p className="text-sm font-semibold opacity-70">
+          Telegram orqali kirilmoqda…
+        </p>
+      </div>
+    );
+  }
 
   return (
     <LanguageProvider>

@@ -15,7 +15,7 @@ const ListeningTranscriptPanel = ({
 
   return (
     <div
-      className="w-full md:w-1/2 overflow-y-auto md:border-r p-4 md:p-6 qz-anim-fade-in md:transition-[width] duration-300 ease-in-out"
+      className="w-full md:w-1/2 overflow-y-auto md:border-r p-4 pb-24 md:p-6 qz-anim-fade-in md:transition-[width] duration-300 ease-in-out"
       style={{ borderRightColor: isDark ? "#334155" : "#e5e7eb" }}
       ref={transcriptRef}
       onMouseUp={handleTextSelection}

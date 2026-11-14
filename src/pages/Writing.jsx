@@ -78,9 +78,11 @@ const IELTSWriting = ({ theme }) => {
     [essayText],
   );
 
-  const [controlPosition, setControlPosition] = useState({
-    x: 20,
-    y: HEADER_SAFE_Y,
+  const [controlPosition, setControlPosition] = useState(() => {
+    if (typeof window !== "undefined" && window.innerWidth < 768) {
+      return { x: 12, y: Math.max(HEADER_SAFE_Y, window.innerHeight - 170) };
+    }
+    return { x: 20, y: HEADER_SAFE_Y };
   });
   const [isDraggingControl, setIsDraggingControl] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
@@ -376,7 +378,7 @@ const IELTSWriting = ({ theme }) => {
       <main className="flex flex-col md:flex-row md:flex-1 md:overflow-hidden overflow-y-auto">
         {/* Chap panel — topshiriq matni + rasm + namuna javob */}
         <div
-          className="w-full md:w-1/2 overflow-y-auto md:border-r p-4 md:p-6"
+          className="w-full md:w-1/2 overflow-y-auto md:border-r p-4 pb-24 md:p-6"
           style={{ borderRightColor: isDark ? "#334155" : "#e5e7eb" }}
         >
           <h1 className="text-2xl font-bold mb-1">{"TASK"} {taskPart}</h1>
@@ -452,7 +454,7 @@ const IELTSWriting = ({ theme }) => {
         </div>
 
         {/* O'ng panel — yozish maydoni + pastida AI Feedback */}
-        <div className="w-full md:w-1/2 overflow-y-auto p-4 md:p-6">
+        <div className="w-full md:w-1/2 overflow-y-auto p-4 pb-24 md:p-6">
           <textarea
             value={essayText}
             onChange={(e) => setEssayText(e.target.value)}

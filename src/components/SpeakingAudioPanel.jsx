@@ -34,7 +34,7 @@ const SpeakingAudioPanel = ({
   const textNote = isDark ? "text-white/40" : "text-black/35";
 
   return (
-    <div className="w-1/2 overflow-y-auto p-6 flex flex-col">
+    <div className="w-full md:w-1/2 overflow-y-auto p-4 md:p-6 flex flex-col">
       {recordedCount > 0 && (
         <div className="mb-3 flex justify-end">
           <button

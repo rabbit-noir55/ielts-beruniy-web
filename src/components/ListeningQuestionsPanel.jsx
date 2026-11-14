@@ -66,7 +66,7 @@ const ListeningQuestionsPanel = ({
       onClick={onClick}
       className={`${
         transcriptVisible ? "w-full md:w-1/2" : "w-full"
-      } overflow-y-auto p-4 md:p-6 select-text bg-white dark:bg-[#0A0A0B] transition-colors duration-300`}
+      } overflow-y-auto p-4 pb-24 md:p-6 select-text bg-white dark:bg-[#0A0A0B] transition-colors duration-300`}
     >
       {(onClearAnswers || onClearAnnotations) && (
         <div className="w-full flex justify-end gap-2 mb-4">

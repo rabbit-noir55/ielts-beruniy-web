@@ -9,7 +9,7 @@ import SpeakingFeedbackPanel from "./SpeakingFeedbackPanel";
 const SpeakingQuestionPanel = ({ currentPart, topics, title, isDark, feedbackResult }) => {
   return (
     <div
-      className="w-1/2 overflow-y-auto border-r p-6"
+      className="w-full md:w-1/2 overflow-y-auto border-b md:border-b-0 md:border-r p-4 md:p-6"
       style={{ borderRightColor: isDark ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.08)" }}
     >
       <h1 className="text-2xl font-bold mb-1">{"Speaking"} Part {currentPart}</h1>

@@ -1,7 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { login, googleLogin, setAuth } from "../utils/api";
-import { canUseGoogleLogin } from "../utils/telegram.js";
+import { googleLogin, login, pollTelegramDevice, setAuth, startTelegramDevice } from "../utils/api";
+import { canUseGoogleLogin, isTelegram } from "../utils/telegram.js";
+
+const TG_CODE_KEY = "tg_login_code";
+const TG_BOT_KEY = "tg_login_bot";
 
 function Login({ theme = "dark" }) {
   const isDark = theme === "dark";
@@ -13,6 +16,19 @@ function Login({ theme = "dark" }) {
   const [loading, setLoading] = useState(false);
   const [googleLoading, setGoogleLoading] = useState(false);
   const googleBtnRef = useRef(null);
+  const [tgFlow, setTgFlow] = useState(null);
+  const [tgStatus, setTgStatus] = useState("idle");
+  const [tgError, setTgError] = useState("");
+
+  // WebView/Telegramga o'tib qaytganda kodni tiklab, pollingni davom ettiramiz.
+  useEffect(() => {
+    const code = sessionStorage.getItem(TG_CODE_KEY);
+    const botUrl = sessionStorage.getItem(TG_BOT_KEY);
+    if (code && botUrl) {
+      setTgFlow({ code, bot_url: botUrl });
+      setTgStatus("waiting");
+    }
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -51,6 +67,92 @@ function Login({ theme = "dark" }) {
     }
   };
 
+  // Google tugmasi kartochka ichiga sig'ishi uchun kenglikni moslaymiz
+  const googleButtonWidth = () => {
+    const el = googleBtnRef.current;
+    const w = el ? Math.floor(el.getBoundingClientRect().width) : 320;
+    return Math.max(200, Math.min(320, w || 320));
+  };
+
+  const startTelegramLogin = async () => {
+    setTgError("");
+    setTgStatus("starting");
+    try {
+      const data = await startTelegramDevice();
+      sessionStorage.setItem(TG_CODE_KEY, data.code);
+      sessionStorage.setItem(TG_BOT_KEY, data.bot_url);
+      setTgFlow(data);
+      setTgStatus("waiting");
+      try {
+        window.open(data.bot_url, "_blank", "noopener,noreferrer");
+      } catch {
+        /* WebView ochmasa — modalda havola bor */
+      }
+    } catch (err) {
+      setTgStatus("error");
+      setTgError(err.message || "Telegram kirishni boshlab bo'lmadi.");
+    }
+  };
+
+  const finishTelegramLogin = (data) => {
+    sessionStorage.removeItem(TG_CODE_KEY);
+    sessionStorage.removeItem(TG_BOT_KEY);
+    setAuth(data.token, data.user);
+    localStorage.setItem("ielts_registered", "1");
+    localStorage.setItem("user_name", data.user.first_name || "");
+    localStorage.setItem("user_surname", data.user.last_name || "");
+    const target =
+      data.user.role === "teacher" && (!from || from === "/") ? "/admin" : from;
+    window.location.href = target;
+  };
+
+  useEffect(() => {
+    if (!tgFlow?.code || tgStatus !== "waiting") return;
+    let stopped = false;
+    let attempts = 0;
+    let timer = null;
+
+    const tick = async () => {
+      try {
+        const data = await pollTelegramDevice(tgFlow.code);
+        if (stopped) return;
+        if (data?.token) {
+          stopped = true;
+          finishTelegramLogin(data);
+          return;
+        }
+      } catch (err) {
+        if (stopped) return;
+        if (err.status === 410 || err.status === 404) {
+          sessionStorage.removeItem(TG_CODE_KEY);
+          sessionStorage.removeItem(TG_BOT_KEY);
+          setTgStatus("expired");
+          setTgError(err.message || "Kod muddati tugagan.");
+          return;
+        }
+      }
+      attempts += 1;
+      if (attempts >= 150) {
+        setTgStatus("expired");
+        setTgError("Vaqt tugadi. Qayta urinib ko'ring.");
+        return;
+      }
+      timer = setTimeout(tick, 2000);
+    };
+
+    tick();
+    const onVisible = () => {
+      if (document.visibilityState === "visible" && !stopped) tick();
+    };
+    document.addEventListener("visibilitychange", onVisible);
+    return () => {
+      stopped = true;
+      if (timer) clearTimeout(timer);
+      document.removeEventListener("visibilitychange", onVisible);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tgFlow?.code, tgStatus]);
+
   // Google Identity Services initialize
   useEffect(() => {
     const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
@@ -62,7 +164,7 @@ function Login({ theme = "dark" }) {
         window.google.accounts.id.renderButton(googleBtnRef.current, {
           theme: isDark ? "filled_black" : "outline",
           size: "large",
-          width: 320,
+          width: googleButtonWidth(),
           text: "signin_with",
         });
       }
@@ -85,7 +187,7 @@ function Login({ theme = "dark" }) {
           window.google.accounts.id.renderButton(googleBtnRef.current, {
             theme: isDark ? "filled_black" : "outline",
             size: "large",
-            width: 320,
+            width: googleButtonWidth(),
             text: "signin_with",
           });
         }
@@ -125,6 +227,28 @@ function Login({ theme = "dark" }) {
         {error && (
           <div className="mb-4 rounded-lg border border-red-500/30 bg-red-500/10 px-4 py-2.5 text-sm text-red-500">
             {error}
+          </div>
+        )}
+
+        {/* Telegram Login */}
+        {!isTelegram() && (
+          <div className="mb-4">
+            <button
+              type="button"
+              onClick={startTelegramLogin}
+              disabled={tgStatus === "starting" || tgStatus === "waiting"}
+              className={`flex min-h-11 w-full items-center justify-center gap-2 rounded-lg border text-sm font-bold transition disabled:opacity-50 ${
+                isDark
+                  ? "border-white/15 bg-white/[0.04] text-white hover:bg-white/[0.08]"
+                  : "border-black/15 bg-black/[0.03] text-black hover:bg-black/[0.06]"
+              }`}
+            >
+              <span aria-hidden="true">✈️</span>
+              {tgStatus === "starting" ? "Ulanmoqda…" : "Telegram bilan kirish"}
+            </button>
+            <p className={`mt-1.5 text-center text-[11px] ${isDark ? "text-white/35" : "text-black/35"}`}>
+              Telegramni ochib «Start» bosing — avtomatik kirasiz.
+            </p>
           </div>
         )}
 
@@ -183,6 +307,66 @@ function Login({ theme = "dark" }) {
           </Link>
         </p>
       </form>
+
+      {tgFlow && ["waiting", "expired", "error"].includes(tgStatus) && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/55 p-4 backdrop-blur-sm">
+          <div
+            className={`w-full max-w-sm rounded-2xl border p-5 text-center shadow-2xl ${
+              isDark ? "border-white/10 bg-[#141416] text-white" : "border-black/10 bg-white text-black"
+            }`}
+            role="dialog"
+            aria-modal="true"
+            aria-label="Telegram bilan kirish"
+          >
+            <h2 className="text-lg font-bold">Telegram bilan kirish</h2>
+            {tgStatus === "waiting" ? (
+              <>
+                <div className="mx-auto my-5 h-9 w-9 animate-spin rounded-full border-4 border-[var(--accent)] border-t-transparent" />
+                <p className={`text-sm ${isDark ? "text-white/55" : "text-black/55"}`}>
+                  Telegram botda <b>Start</b> tugmasini bosing. Tasdiqlangach bu oyna
+                  avtomatik yopiladi.
+                </p>
+                <a
+                  href={tgFlow.bot_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex min-h-11 w-full items-center justify-center rounded-full bg-[var(--accent)] px-5 text-sm font-bold text-[var(--accent-contrast)]"
+                >
+                  Telegramni ochish
+                </a>
+              </>
+            ) : (
+              <>
+                <p className={`mt-3 text-sm ${isDark ? "text-white/55" : "text-black/55"}`}>
+                  {tgError || "Kirish tasdiqlanmadi."}
+                </p>
+                <button
+                  type="button"
+                  onClick={startTelegramLogin}
+                  className="mt-4 inline-flex min-h-11 w-full items-center justify-center rounded-full bg-[var(--accent)] px-5 text-sm font-bold text-[var(--accent-contrast)]"
+                >
+                  Qayta urinish
+                </button>
+              </>
+            )}
+            <button
+              type="button"
+              onClick={() => {
+                sessionStorage.removeItem(TG_CODE_KEY);
+                sessionStorage.removeItem(TG_BOT_KEY);
+                setTgFlow(null);
+                setTgStatus("idle");
+                setTgError("");
+              }}
+              className={`mt-3 inline-flex min-h-10 w-full items-center justify-center rounded-full border px-5 text-sm font-semibold ${
+                isDark ? "border-white/15 text-white/60" : "border-black/15 text-black/60"
+              }`}
+            >
+              Bekor qilish
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

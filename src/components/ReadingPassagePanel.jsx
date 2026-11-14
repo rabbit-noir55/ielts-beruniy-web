@@ -115,7 +115,7 @@ const ReadingPassagePanel = ({
 
   return (
     <div
-      className={`relative md:overflow-y-auto md:border-r p-4 md:p-6 qz-anim-fade-in w-full md:h-full`}
+      className={`relative md:overflow-y-auto md:border-r p-4 pb-24 md:p-6 qz-anim-fade-in w-full md:h-full`}
       style={{
         width: isMobile ? "100%" : `${widthPercent}%`,
         borderRightColor: isDark ? "#334155" : "#e5e7eb",

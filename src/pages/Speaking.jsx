@@ -508,7 +508,7 @@ const IELTSSpeaking = ({ theme }) => {
         )}
       </div>
 
-      <main className="flex flex-1 overflow-hidden">
+      <main className="flex flex-col md:flex-row flex-1 md:overflow-hidden overflow-y-auto">
         <SpeakingQuestionPanel
           currentPart={currentPart}
           topics={topics}

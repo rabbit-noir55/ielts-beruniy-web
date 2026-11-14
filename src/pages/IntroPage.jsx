@@ -1242,6 +1242,7 @@ export default function IntroPage() {
       `}</style>
 
       <ScrollProgress />
+
       <div
         ref={glowRef}
         className="pointer-events-none fixed left-0 top-0 z-0 hidden h-[520px] w-[520px] rounded-full bg-[var(--accent)] opacity-[0.03] blur-[130px] md:block dark:bg-[var(--accent)] dark:opacity-[0.05]"
@@ -1302,10 +1303,18 @@ export default function IntroPage() {
           </p>
         </Reveal>
         <div className="mt-9 flex flex-wrap justify-center gap-4">
-          <MagneticButton className="animate-pulse-glow rounded-full bg-[var(--accent)] px-8 py-4 text-sm font-bold text-white transition-colors hover:bg-black dark:bg-[var(--accent)] dark:text-[var(--accent-contrast)] dark:hover:opacity-90">
+          <MagneticButton
+            as={Link}
+            to="/register"
+            className="animate-pulse-glow rounded-full bg-[var(--accent)] px-8 py-4 text-sm font-bold text-white transition-colors hover:bg-black dark:bg-[var(--accent)] dark:text-[var(--accent-contrast)] dark:hover:opacity-90"
+          >
             {"Darslarga yozilish"}
           </MagneticButton>
-          <MagneticButton className="rounded-full border border-black/[0.15] px-8 py-4 text-sm font-bold text-black/70 transition-colors hover:border-black/30 dark:border-white/20 dark:text-white/80 dark:hover:border-white/40">
+          <MagneticButton
+            as={Link}
+            to="/mocks"
+            className="rounded-full border border-black/[0.15] px-8 py-4 text-sm font-bold text-black/70 transition-colors hover:border-black/30 dark:border-white/20 dark:text-white/80 dark:hover:border-white/40"
+          >
             {"Mock testni sinab ko'ring"}
           </MagneticButton>
         </div>
