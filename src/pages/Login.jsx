@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { googleLogin, login, pollTelegramDevice, setAuth, startTelegramDevice } from "../utils/api";
 import { canUseGoogleLogin, isTelegram } from "../utils/telegram.js";
+import logoSvg from "../assets/logo.png";
 
 const TG_CODE_KEY = "tg_login_code";
 const TG_BOT_KEY = "tg_login_bot";
@@ -207,20 +208,29 @@ function Login({ theme = "dark" }) {
 
   return (
     <div
-      className={`flex min-h-[calc(100vh-112px)] items-center justify-center px-4 pt-28 ${
+      className={`relative flex min-h-[calc(100vh-112px)] items-center justify-center overflow-hidden px-4 pb-10 pt-24 ${
         isDark ? "text-[#F5F5F5]" : "text-[#17171A]"
       }`}
     >
+      {/* yumshoq fon bezaklari */}
+      <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+        <div className="absolute -top-24 left-1/2 h-80 w-80 -translate-x-1/2 rounded-full bg-[var(--accent)]/10 blur-3xl" />
+        <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-purple-500/10 blur-3xl" />
+      </div>
+
       <form
         onSubmit={handleSubmit}
-        className={`w-full max-w-md rounded-2xl border p-8 shadow-lg backdrop-blur-xl ${
+        className={`relative w-full max-w-md rounded-3xl border p-8 shadow-xl backdrop-blur-xl ${
           isDark
             ? "border-white/10 bg-[#141416]"
             : "border-black/[0.08] bg-white"
         }`}
       >
-        <h1 className="mb-2 text-center text-2xl font-bold">{"Login"}</h1>
-        <p className="mb-6 text-center text-sm text-black/40 dark:text-white/40">
+        <div className="mb-6 flex justify-center">
+          <img src={logoSvg} alt="IELTS Beruniy" className="h-16 dark:brightness-0 dark:invert" />
+        </div>
+        <h1 className="text-center text-2xl font-bold">{"Login"}</h1>
+        <p className="mb-6 mt-1 text-center text-sm text-black/40 dark:text-white/40">
           {"Welcome back! Sign in to continue"}
         </p>
 
@@ -237,13 +247,11 @@ function Login({ theme = "dark" }) {
               type="button"
               onClick={startTelegramLogin}
               disabled={tgStatus === "starting" || tgStatus === "waiting"}
-              className={`flex min-h-11 w-full items-center justify-center gap-2 rounded-lg border text-sm font-bold transition disabled:opacity-50 ${
-                isDark
-                  ? "border-white/15 bg-white/[0.04] text-white hover:bg-white/[0.08]"
-                  : "border-black/15 bg-black/[0.03] text-black hover:bg-black/[0.06]"
-              }`}
+              className="flex min-h-11 w-full items-center justify-center gap-2 rounded-xl bg-[#229ED9] text-sm font-bold text-white shadow-lg shadow-[#229ED9]/25 transition hover:bg-[#1d8ec4] disabled:opacity-50"
             >
-              <span aria-hidden="true">✈️</span>
+              <svg viewBox="0 0 24 24" className="h-[18px] w-[18px]" fill="currentColor" aria-hidden="true">
+                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+              </svg>
               {tgStatus === "starting" ? "Ulanmoqda…" : "Telegram bilan kirish"}
             </button>
             <p className={`mt-1.5 text-center text-[11px] ${isDark ? "text-white/35" : "text-black/35"}`}>
