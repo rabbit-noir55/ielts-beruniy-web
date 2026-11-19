@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   changePassword,
   clearAuth,
@@ -9,9 +9,9 @@ import {
   getTelegramStatus,
   getUser,
   isAuthenticated,
-  revealPassword,
   saveTelegramContact,
   setBackgroundImage,
+  setPin,
   setSettings,
   updateProfile,
 } from "../utils/api";
@@ -158,6 +158,16 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
   const [newPw, setNewPw] = useState("");
   const [pwMsg, setPwMsg] = useState({ type: "", text: "" });
   const [pwBusy, setPwBusy] = useState(false);
+  // Joriy parolni bilmaydigan (eski Google) foydalanuvchi uchun tasdiqlash.
+  const [showGoogleVerify, setShowGoogleVerify] = useState(false);
+  const [googleCredential, setGoogleCredential] = useState("");
+  const googleBtnRef = useRef(null);
+
+  const [pinValue, setPinValue] = useState("");
+  const [oldPin, setOldPin] = useState("");
+  const [pinBusy, setPinBusy] = useState(false);
+  const [pinMsg, setPinMsg] = useState({ type: "", text: "" });
+  const [hasPin, setHasPin] = useState(Boolean(getUser()?.has_pin));
 
   const [bgImage, setBgImage] = useState(() => getBackgroundImage());
 
@@ -167,60 +177,6 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
   const [tgUsername, setTgUsername] = useState("");
   const [tgMsg, setTgMsg] = useState({ type: "", text: "" });
   const [tgBusy, setTgBusy] = useState(false);
-
-  // Parolni ko'rsatish
-  const [plainPassword, setPlainPassword] = useState("");
-  const [showPasswordRevealer, setShowPasswordRevealer] = useState(false);
-  const [revealError, setRevealError] = useState("");
-  const [revealBusy, setRevealBusy] = useState(false);
-  const revealTimerRef = useRef(null);
-  const googleRevealBtnRef = useRef(null);
-
-  const clearRevealedPassword = () => {
-    setPlainPassword("");
-    setShowPasswordRevealer(false);
-    if (revealTimerRef.current) clearTimeout(revealTimerRef.current);
-    revealTimerRef.current = null;
-  };
-
-  const startRevealTimer = () => {
-    if (revealTimerRef.current) clearTimeout(revealTimerRef.current);
-    revealTimerRef.current = setTimeout(clearRevealedPassword, 60000);
-  };
-
-  const handleRevealCredential = useCallback(async (credential) => {
-    setRevealBusy(true);
-    setRevealError("");
-    try {
-      const data = await revealPassword(credential);
-      if (!data.password) {
-        setRevealError("Parol o'qituvchi tomonidan o'rnatilmagan.");
-        return;
-      }
-      setPlainPassword(data.password);
-      setShowPasswordRevealer(false);
-      startRevealTimer();
-    } catch (err) {
-      setRevealError(err.message || "Parolni ko'rsatib bo'lmadi.");
-    } finally {
-      setRevealBusy(false);
-    }
-  }, []);
-
-  const handleCopyPassword = async () => {
-    if (!plainPassword) return;
-    try {
-      await navigator.clipboard.writeText(plainPassword);
-    } catch {
-      // ignore
-    }
-  };
-
-  useEffect(() => {
-    return () => {
-      if (revealTimerRef.current) clearTimeout(revealTimerRef.current);
-    };
-  }, []);
 
   useEffect(() => {
     if (!authed) return;
@@ -232,6 +188,60 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
       })
       .catch(() => {});
   }, [authed]);
+
+  // Joriy parolni bilmaydigan (eski Google) foydalanuvchi Google hisobi
+  // bilan tasdiqlab, yangi parol o'rnatadi.
+  useEffect(() => {
+    if (!showGoogleVerify) return;
+    const clientId =
+      import.meta.env.VITE_GOOGLE_CLIENT_ID || window.__VITE_GOOGLE_CLIENT_ID__;
+    if (!clientId) return;
+    let cancelled = false;
+
+    const init = () => {
+      if (cancelled || !window.google?.accounts?.id) return;
+      window.google.accounts.id.initialize({
+        client_id: clientId,
+        callback: (response) => {
+          if (cancelled) return;
+          setGoogleCredential(response.credential);
+          setShowGoogleVerify(false);
+          setPwMsg({
+            type: "ok",
+            text: "Google tasdiqlandi. Endi yangi parolni saqlang.",
+          });
+        },
+      });
+      if (googleBtnRef.current) {
+        googleBtnRef.current.innerHTML = "";
+        window.google.accounts.id.renderButton(googleBtnRef.current, {
+          theme: isDark ? "filled_black" : "outline",
+          size: "large",
+          width: 320,
+          text: "continue_with",
+        });
+      }
+    };
+
+    if (window.google?.accounts?.id) {
+      init();
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    const script = document.createElement("script");
+    script.src = "https://accounts.google.com/gsi/client";
+    script.async = true;
+    script.defer = true;
+    script.onload = init;
+    document.head.appendChild(script);
+
+    return () => {
+      cancelled = true;
+      if (script.parentNode) script.parentNode.removeChild(script);
+    };
+  }, [showGoogleVerify, isDark]);
 
   const saveTelegram = async (e) => {
     e.preventDefault();
@@ -247,53 +257,6 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
       setTgBusy(false);
     }
   };
-
-  useEffect(() => {
-    if (!showPasswordRevealer) return;
-    const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID || window.__VITE_GOOGLE_CLIENT_ID__;
-    if (!clientId) return;
-
-    const render = () => {
-      if (googleRevealBtnRef.current && window.google?.accounts?.id) {
-        googleRevealBtnRef.current.innerHTML = "";
-        window.google.accounts.id.renderButton(googleRevealBtnRef.current, {
-          theme: isDark ? "filled_black" : "outline",
-          size: "large",
-          width: 320,
-          text: "continue_with",
-        });
-      }
-    };
-
-    if (window.google?.accounts?.id) {
-      window.google.accounts.id.initialize({
-        client_id: clientId,
-        callback: (response) => handleRevealCredential(response.credential),
-      });
-      render();
-      return;
-    }
-
-    const script = document.createElement("script");
-    script.src = "https://accounts.google.com/gsi/client";
-    script.async = true;
-    script.defer = true;
-    document.head.appendChild(script);
-
-    script.onload = () => {
-      if (window.google?.accounts?.id) {
-        window.google.accounts.id.initialize({
-          client_id: clientId,
-          callback: (response) => handleRevealCredential(response.credential),
-        });
-        render();
-      }
-    };
-
-    return () => {
-      if (script.parentNode) script.parentNode.removeChild(script);
-    };
-  }, [showPasswordRevealer, isDark]);
 
   const update = (patch) => {
     const s = setSettings(patch);
@@ -371,14 +334,41 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
     }
     setPwBusy(true);
     try {
-      await changePassword(oldPw, newPw);
+      await changePassword(oldPw, newPw, googleCredential || undefined);
       setOldPw("");
       setNewPw("");
+      setGoogleCredential("");
+      setShowGoogleVerify(false);
       setPwMsg({ type: "ok", text: "Password changed successfully." });
     } catch (err) {
       setPwMsg({ type: "error", text: err.message });
     } finally {
       setPwBusy(false);
+    }
+  };
+
+  const savePin = async (e) => {
+    e.preventDefault();
+    setPinMsg({ type: "", text: "" });
+    if (!/^\d{4}$/.test(pinValue)) {
+      setPinMsg({ type: "error", text: "PIN 4 xonali son bo'lishi kerak." });
+      return;
+    }
+    if (hasPin && !/^\d{4}$/.test(oldPin)) {
+      setPinMsg({ type: "error", text: "Joriy PINni kiriting." });
+      return;
+    }
+    setPinBusy(true);
+    try {
+      await setPin(pinValue, hasPin ? oldPin : undefined);
+      setHasPin(true);
+      setPinValue("");
+      setOldPin("");
+      setPinMsg({ type: "ok", text: "PIN saqlandi." });
+    } catch (err) {
+      setPinMsg({ type: "error", text: err.message || "PIN saqlab bo'lmadi." });
+    } finally {
+      setPinBusy(false);
     }
   };
 
@@ -725,52 +715,6 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
             </form>
           </Section>
 
-          {user?.role === "student" && (
-          <Section title="Parol">
-            {revealError && <Notice type="error" text={revealError} />}
-            <Row title="Parol" desc="Google orqali tasdiqlang va parolni ko'ring.">
-              <div className="flex items-center gap-3">
-                {plainPassword ? (
-                  <>
-                    <span className="font-mono text-sm font-semibold">{plainPassword}</span>
-                    <button
-                      onClick={handleCopyPassword}
-                      className="inline-flex min-h-11 items-center justify-center rounded-full border border-[var(--accent)]/40 px-4 text-sm font-bold text-[var(--accent)] transition hover:bg-[var(--accent)]/10"
-                    >
-                      Nusxalash
-                    </button>
-                  </>
-                ) : (
-                  <>
-                    <span className="font-mono text-lg tracking-widest">••••••••</span>
-                    {!showPasswordRevealer && (
-                      <button
-                        onClick={() => {
-                          setRevealError("");
-                          setShowPasswordRevealer(true);
-                        }}
-                        className="inline-flex min-h-11 items-center justify-center rounded-full bg-[var(--accent)] px-5 text-sm font-bold text-white transition hover:opacity-90"
-                      >
-                        Ko'rsatish
-                      </button>
-                    )}
-                  </>
-                )}
-              </div>
-            </Row>
-            {showPasswordRevealer && !plainPassword && (
-              <div className="mt-3">
-                <div ref={googleRevealBtnRef} className="flex justify-center"></div>
-                {revealBusy && (
-                  <p className={`mt-2 text-center text-xs ${isDark ? "text-white/40" : "text-black/40"}`}>
-                    Tekshirilmoqda...
-                  </p>
-                )}
-              </div>
-            )}
-          </Section>
-          )}
-
           <Section title="Security">
             <Notice type={pwMsg.type} text={pwMsg.text} />
             <form onSubmit={savePassword}>
@@ -778,21 +722,89 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
                 type="password"
                 value={oldPw}
                 onChange={(e) => setOldPw(e.target.value)}
-                placeholder="Current password"
+                placeholder="Joriy parol (bo'lmasa bo'sh qoldiring)"
                 className={inputCls(isDark)}
               />
               <input
                 type="password"
                 value={newPw}
                 onChange={(e) => setNewPw(e.target.value)}
-                placeholder="New password (min 6 characters)"
+                placeholder="Yangi parol (kamida 6 belgi)"
                 className={inputCls(isDark)}
               />
+              <p className={`mb-3 text-xs ${isDark ? "text-white/40" : "text-black/40"}`}>
+                Telegram orqali kirgan bo'lsangiz parolingiz yo'q — joriy parolni bo'sh qoldiring.
+                Joriy parolni bilmasangiz, Google hisobingiz bilan tasdiqlang.
+              </p>
+              {googleCredential ? (
+                <p className="mb-3 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
+                  ✓ Google tasdiqlandi
+                </p>
+              ) : showGoogleVerify ? (
+                <div className="mb-3">
+                  <div ref={googleBtnRef} className="flex justify-center"></div>
+                </div>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setPwMsg({ type: "", text: "" });
+                    setShowGoogleVerify(true);
+                  }}
+                  className="mb-3 text-xs font-bold underline opacity-70 transition hover:opacity-100"
+                >
+                  Joriy parolni bilmayman — Google bilan tasdiqlash
+                </button>
+              )}
               <button type="submit" disabled={pwBusy} className={submitBtnCls}>
-                {pwBusy ? "Saving..." : "Change password"}
+                {pwBusy ? "Saqlanmoqda…" : "Parolni o'rnatish"}
               </button>
             </form>
           </Section>
+
+          {user?.is_examiner && (
+          <Section title="Examiner PIN">
+            <Notice type={pinMsg.type} text={pinMsg.text} />
+            <Row title="4 xonali PIN" desc="Har baho qo'yishda tasdiqlash uchun. Faqat raqamlar.">
+              <span
+                className={`rounded-full border px-3 py-1 text-[11px] font-bold ${
+                  hasPin
+                    ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400"
+                    : isDark
+                      ? "border-white/15 text-white/50"
+                      : "border-black/15 text-black/50"
+                }`}
+              >
+                {hasPin ? "✓ O'rnatilgan" : "O'rnatilmagan"}
+              </span>
+            </Row>
+            <form onSubmit={savePin} className="mt-3">
+              {hasPin && (
+                <input
+                  type="password"
+                  inputMode="numeric"
+                  maxLength={4}
+                  value={oldPin}
+                  onChange={(e) => setOldPin(e.target.value.replace(/\D/g, "").slice(0, 4))}
+                  placeholder="Joriy PIN"
+                  className={inputCls(isDark)}
+                />
+              )}
+              <input
+                type="password"
+                inputMode="numeric"
+                maxLength={4}
+                value={pinValue}
+                onChange={(e) => setPinValue(e.target.value.replace(/\D/g, "").slice(0, 4))}
+                placeholder="Yangi 4 xonali PIN"
+                className={inputCls(isDark)}
+              />
+              <button type="submit" disabled={pinBusy} className={submitBtnCls}>
+                {pinBusy ? "Saqlanmoqda…" : hasPin ? "PINni yangilash" : "PIN o'rnatish"}
+              </button>
+            </form>
+          </Section>
+          )}
         </>
       )}
     </div>

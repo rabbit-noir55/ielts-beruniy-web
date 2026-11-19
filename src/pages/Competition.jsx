@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { getLeaderboard, getWeeks, toggleCheck } from "../utils/competitionApi";
-import { getUser } from "../utils/api";
 import { useLang } from "../utils/LanguageContext";
 
 // 5 ta task × 20 ball = 100
@@ -53,6 +53,10 @@ export default function Competition({ theme }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [busyKey, setBusyKey] = useState("");
+  const [pinPrompt, setPinPrompt] = useState(null); // { row, skill }
+  const [pinInput, setPinInput] = useState("");
+  const [pinError, setPinError] = useState("");
+  const [pinBusy, setPinBusy] = useState(false);
 
   const loadWeeks = useCallback(async () => {
     try {
@@ -87,14 +91,16 @@ export default function Competition({ theme }) {
     loadBoard(weekKey);
   }, [loadBoard, weekKey]);
 
-  const onToggle = async (row, skill) => {
+  const doToggle = async (row, skill, pin) => {
     const key = `${row.student_id}-${skill}`;
     setBusyKey(key);
+    setError("");
     try {
       const res = await toggleCheck({
         student: row.student_id,
         skill,
         week: data?.week?.id,
+        pin,
       });
       const state = res.checked ? (res.is_late ? "late" : "done") : null;
       setData((prev) => {
@@ -112,20 +118,67 @@ export default function Competition({ theme }) {
         rows.sort((a, b) => b.score - a.score || a.name.localeCompare(b.name));
         return { ...prev, rows };
       });
+      setPinPrompt(null);
+      setPinInput("");
+      setPinError("");
     } catch (err) {
-      setError(err.message || "Ptichkani o'zgartirib bo'lmadi.");
+      if (pin) {
+        setPinError(err.message || "PIN noto'g'ri.");
+      } else {
+        setError(err.message || "Ptichkani o'zgartirib bo'lmadi.");
+      }
     } finally {
       setBusyKey("");
     }
+  };
+
+  const onToggle = (row, skill) => {
+    if (!activeWeek) {
+      setError(
+        t(
+          "Faol hafta yo'q. Baho qo'yish uchun haftani tanlang yoki faollashtiring.",
+          "No active week. Select or activate a week to grade."
+        )
+      );
+      return;
+    }
+    // O'quvchi-examiner → PIN talab qilinadi; o'qituvchi → PINsiz.
+    if (data?.is_examiner) {
+      if (!data?.has_pin) {
+        setError(
+          t(
+            "Avval 4 xonali PIN o'rnating: Sozlamalar → Examiner PIN.",
+            "Set your 4-digit PIN first: Settings → Examiner PIN."
+          )
+        );
+        return;
+      }
+      setPinPrompt({ row, skill });
+      setPinInput("");
+      setPinError("");
+      setError("");
+      return;
+    }
+    doToggle(row, skill);
+  };
+
+  const submitPin = () => {
+    if (!pinPrompt) return;
+    if (!/^\d{4}$/.test(pinInput)) {
+      setPinError("PIN 4 xonali son bo'lishi kerak.");
+      return;
+    }
+    setPinError("");
+    setPinBusy(true);
+    doToggle(pinPrompt.row, pinPrompt.skill, pinInput).finally(() => setPinBusy(false));
   };
 
   const activeWeek = data?.week;
   const rows = data?.rows || [];
   const maxScore = data?.max_score || 100;
 
-  const user = getUser();
-  const isExaminer =
-    user?.role === "student" && rows.some((r) => r.can_edit);
+  const isExaminer = !!data?.is_examiner && rows.some((r) => r.can_edit);
+  const needsPin = !!data?.is_examiner && rows.some((r) => r.can_edit) && !data?.has_pin;
   const visibleRows =
     isExaminer && view === "mine" ? rows.filter((r) => r.can_edit) : rows;
   // Umumiy reytingdagi o'rin (2-bo'limda ham to'g'ri raqam ko'rsatiladi)
@@ -221,6 +274,43 @@ export default function Competition({ theme }) {
           </div>
         )}
 
+        {!loading && !activeWeek && (
+          <div className="mt-4 rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-sm text-amber-600 dark:text-amber-400">
+            <p className="font-semibold">{t("Faol hafta yo'q", "No active week")}</p>
+            <p className="mt-1 text-[13px] opacity-90">
+              {data?.is_teacher
+                ? t(
+                    "Baho qo'yish uchun avval Liga bo'limida haftani faollashtiring.",
+                    "Activate a week in League before grading."
+                  )
+                : t(
+                    "Hafta faollashtirilgach baho qo'yish mumkin bo'ladi.",
+                    "Grading opens once a week is activated."
+                  )}
+            </p>
+            {data?.is_teacher && (
+              <Link
+                to="/admin/league"
+                className="mt-2 inline-flex rounded-full bg-amber-500 px-3 py-1 text-[11px] font-bold text-black"
+              >
+                {t("Liga bo'limiga o'tish", "Go to League")}
+              </Link>
+            )}
+          </div>
+        )}
+
+        {!loading && needsPin && (
+          <div className="mt-4 rounded-xl border border-sky-500/30 bg-sky-500/10 p-3 text-sm text-sky-600 dark:text-sky-400">
+            {t(
+              "Baho qo'yishdan oldin 4 xonali PIN o'rnating:",
+              "Before grading, set your 4-digit PIN:"
+            )}{" "}
+            <Link to="/settings" className="font-bold underline">
+              {t("Sozlamalar → Examiner PIN", "Settings → Examiner PIN")}
+            </Link>
+          </div>
+        )}
+
         {error && (
           <div className="mt-4 rounded-xl border border-red-500/30 bg-red-500/10 p-3 text-sm text-red-500">
             {error}
@@ -228,8 +318,46 @@ export default function Competition({ theme }) {
         )}
 
         {loading ? (
-          <div className={`mt-4 ${card} p-10 text-center text-sm ${isDark ? "text-white/40" : "text-black/40"}`}>
-            {t("Yuklanmoqda...", "Loading...")}
+          <div className={`mt-4 overflow-hidden ${card}`} aria-busy="true">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <div
+                key={i}
+                className={`flex items-center gap-3 border-b px-4 py-3 last:border-0 ${
+                  isDark ? "border-white/5" : "border-black/5"
+                }`}
+              >
+                <div
+                  className={`h-3 w-4 animate-pulse rounded ${
+                    isDark ? "bg-white/[0.07]" : "bg-black/[0.06]"
+                  }`}
+                />
+                <div className="flex-1">
+                  <div
+                    className={`h-3 w-32 max-w-[60%] animate-pulse rounded ${
+                      isDark ? "bg-white/[0.07]" : "bg-black/[0.06]"
+                    }`}
+                  />
+                  <div
+                    className={`mt-2 h-2 w-14 animate-pulse rounded ${
+                      isDark ? "bg-white/[0.05]" : "bg-black/[0.04]"
+                    }`}
+                  />
+                </div>
+                {Array.from({ length: 5 }).map((__, j) => (
+                  <div
+                    key={j}
+                    className={`h-7 w-7 animate-pulse rounded-lg ${
+                      isDark ? "bg-white/[0.06]" : "bg-black/[0.05]"
+                    }`}
+                  />
+                ))}
+                <div
+                  className={`h-3 w-10 animate-pulse rounded ${
+                    isDark ? "bg-white/[0.07]" : "bg-black/[0.06]"
+                  }`}
+                />
+              </div>
+            ))}
           </div>
         ) : !visibleRows.length ? (
           <div className={`mt-4 ${card} p-10 text-center text-sm ${isDark ? "text-white/40" : "text-black/40"}`}>
@@ -296,6 +424,52 @@ export default function Competition({ theme }) {
         )}
 
       </div>
+
+      {pinPrompt && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/55 p-4 backdrop-blur-sm">
+          <div className={`w-full max-w-sm rounded-2xl border p-5 ${isDark ? "border-white/10 bg-[#141416] text-white" : "border-black/10 bg-white text-black"}`}>
+            <h2 className="text-lg font-bold">PIN tasdiqlash</h2>
+            <p className={`mt-1 text-sm ${isDark ? "text-white/50" : "text-black/50"}`}>
+              {pinPrompt.row.name} · baho qo'yish uchun PINingizni kiriting.
+            </p>
+            <input
+              type="password"
+              inputMode="numeric"
+              maxLength={4}
+              autoFocus
+              value={pinInput}
+              onChange={(e) => setPinInput(e.target.value.replace(/\D/g, "").slice(0, 4))}
+              placeholder="4 xonali PIN"
+              className="mt-3 w-full rounded-xl border border-black/12 bg-white px-4 py-2.5 text-center text-lg tracking-[0.5em] outline-none dark:border-white/10 dark:bg-[#0A0A0B] dark:text-white"
+            />
+            {pinError && (
+              <p className="mt-2 text-sm text-red-500" role="alert">
+                {pinError}
+              </p>
+            )}
+            <div className="mt-4 flex justify-end gap-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setPinPrompt(null);
+                  setPinError("");
+                }}
+                className={`rounded-full border px-5 py-2 text-sm font-bold ${isDark ? "border-white/15 text-white/70" : "border-black/15 text-black/70"}`}
+              >
+                Bekor qilish
+              </button>
+              <button
+                type="button"
+                disabled={pinBusy}
+                onClick={submitPin}
+                className="rounded-full bg-[var(--accent)] px-5 py-2 text-sm font-bold text-[var(--accent-contrast)] disabled:opacity-40"
+              >
+                {pinBusy ? "Tekshirilmoqda…" : "Tasdiqlash"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

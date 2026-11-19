@@ -8,9 +8,9 @@ export function getWeeks() {
   return request("/competition/weeks/");
 }
 
-export function toggleCheck({ student, skill, week }) {
+export function toggleCheck({ student, skill, week, pin }) {
   return request("/competition/toggle/", {
     method: "POST",
-    body: { student, skill, week },
+    body: { student, skill, week, pin },
   });
 }
