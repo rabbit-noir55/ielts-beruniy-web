@@ -31,7 +31,7 @@ Test yo'q — tekshiruv `lint` + `build` + **Playwright**.
 ```bash
 npm run lint
 npm run build
-bash scripts/agent-commit.sh "<qisqa izoh>"
+git add -A && git commit -m "<qisqa izoh>"
 ```
 
 5. `PROGRESS.md` ni yangila.
