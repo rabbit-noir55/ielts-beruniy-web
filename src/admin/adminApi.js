@@ -58,8 +58,8 @@ export const adminAttendanceScanLog = (date) =>
 export const adminAttendanceQr = () => request("/admin/attendance/qr/");
 
 export const adminLeagueChecks = () => request("/admin/league/checks/");
-export const adminLeagueCheckToggle = (student, skill) =>
-  request("/admin/league/checks/", { method: "POST", body: { student, skill } });
+export const adminLeagueCheckToggle = (student, skill, pin) =>
+  request("/admin/league/checks/", { method: "POST", body: { student, skill, pin } });
 
 export const adminAIProviders = () => request("/admin/ai/providers/");
 export const adminAIProviderSave = (body) =>

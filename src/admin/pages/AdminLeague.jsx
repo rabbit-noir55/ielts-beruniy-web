@@ -5,7 +5,7 @@ import {
   adminLeagueCheckToggle,
   adminLeagueChecks,
 } from "../adminApi";
-import { Badge, Btn, Empty, ErrorBox, Panel, Spinner } from "../ui";
+import { Badge, Btn, Empty, ErrorBox, Panel, SkeletonRows } from "../ui";
 import { inputCls } from "../formStyles";
 
 function isoPlus(days) {
@@ -31,7 +31,7 @@ export default function AdminLeague({ isDark }) {
     end_date: isoPlus(6),
   });
   const [checks, setChecks] = useState(null);
-  const [checkBusy, setCheckBusy] = useState("");
+  const [toggling, setToggling] = useState("");
 
   const load = useCallback((silent = false) => {
     if (!silent) setLoading(true);
@@ -58,14 +58,15 @@ export default function AdminLeague({ isDark }) {
   }, [load, loadChecks]);
 
   async function toggleCheck(student, skill) {
-    setCheckBusy(`${student.id}-${skill}`);
+    setToggling(`${student.id}-${skill}`);
+    setError("");
     try {
       await adminLeagueCheckToggle(student.id, skill);
       await loadChecks();
     } catch (e) {
-      setError(e.message || "Ptichkani o'zgartirib bo'lmadi");
+      setError(e.message || "Ptichkani o'zgartirib bo'lmadi.");
     } finally {
-      setCheckBusy("");
+      setToggling("");
     }
   }
 
@@ -74,7 +75,8 @@ export default function AdminLeague({ isDark }) {
     setError("");
     try {
       await adminLeagueAction(body);
-      await load();
+      // Hafta holati o'zgarganda ptichkalar jadvali ham yangilanishi kerak.
+      await Promise.all([load(), loadChecks()]);
     } catch (e) {
       setError(e.message || "Amal bajarilmadi");
     } finally {
@@ -129,7 +131,7 @@ export default function AdminLeague({ isDark }) {
 
       {loading ? (
         <Panel isDark={isDark}>
-          <Spinner isDark={isDark} />
+          <SkeletonRows isDark={isDark} />
         </Panel>
       ) : (
         <>
@@ -263,7 +265,6 @@ export default function AdminLeague({ isDark }) {
                         </td>
                         {checks.skills.map((sk) => {
                           const done = st.marks[sk.code];
-                          const key = `${st.id}-${sk.code}`;
                           return (
                             <td key={sk.code} className="px-1.5 py-2 text-center">
                               <button
@@ -271,7 +272,7 @@ export default function AdminLeague({ isDark }) {
                                 aria-pressed={done}
                                 aria-label={`${st.name} — ${sk.label}`}
                                 title={sk.label}
-                                disabled={checkBusy === key}
+                                disabled={toggling === `${st.id}-${sk.code}`}
                                 onClick={() => toggleCheck(st, sk.code)}
                                 className={`mx-auto flex h-8 w-8 items-center justify-center rounded-full border text-xs font-bold transition disabled:opacity-40 ${
                                   done
@@ -303,90 +304,89 @@ export default function AdminLeague({ isDark }) {
             title="Examinerlar"
             desc="Bir o'quvchi faqat bitta examinerga biriktiriladi. Ismni bosing — biriktiriladi, o'tkaziladi yoki olib tashlanadi."
           >
-            {!!data.examiners.length && (
-              <div className={`flex flex-wrap items-center gap-x-4 gap-y-1 border-b px-4 py-2 text-[11px] ${rule} ${muted}`}>
-                <span><span className="font-bold text-emerald-500">✓</span> shu examinerda</span>
-                <span><span className="font-bold">+</span> biriktirilmagan</span>
-                <span><span className="font-bold text-amber-500">↪</span> boshqa examinerda — bosib o'tkazish</span>
-              </div>
-            )}
-
             {!data.examiners.length ? (
               <Empty isDark={isDark}>
                 Examiner yo'q. O'quvchilar bo'limida «Examiner qilish» tugmasini bosing.
               </Empty>
             ) : (
-              <ul className={`divide-y ${isDark ? "divide-white/[0.07]" : "divide-black/[0.07]"}`}>
-                {data.examiners.map((e) => {
-                  const linkedCount = e.candidates.filter((c) => c.linked).length;
-                  return (
-                    <li key={e.id} className="px-4 py-3.5">
-                      <div className="flex flex-wrap items-center gap-2">
-                        <span className="text-sm font-bold">{e.name}</span>
-                        {e.group_id ? (
-                          <Badge isDark={isDark}>{e.group}</Badge>
-                        ) : (
-                          <Badge isDark={isDark} tone="red">Guruhsiz</Badge>
-                        )}
-                        {e.group_id && (
-                          <Badge isDark={isDark} tone="accent">
-                            {linkedCount} bog'langan
-                          </Badge>
-                        )}
-                      </div>
-
-                      {!e.group_id ? (
-                        <p className={`mt-1.5 text-xs ${muted}`}>
-                          Examiner guruhga biriktirilmagan. «O'quvchilar» bo'limida guruh tanlang.
-                        </p>
-                      ) : !e.candidates.length ? (
-                        <p className={`mt-1.5 text-xs ${muted}`}>Bu guruhda boshqa o'quvchi yo'q.</p>
-                      ) : (
-                        <div className="mt-2 flex flex-wrap gap-1.5">
-                          {e.candidates.map((c) => {
-                            const ownedElsewhere = !c.linked && c.owner;
-                            return (
-                              <button
-                                key={c.id}
-                                type="button"
-                                aria-pressed={c.linked}
-                                disabled={busy === `link-${c.id}`}
-                                onClick={() => toggleLink(e, c)}
-                                title={
-                                  c.linked
-                                    ? `${c.name} — bog'lanishni olib tashlash`
-                                    : ownedElsewhere
-                                      ? `Hozir ${c.owner} examinerga biriktirilgan — bosib o'tkazish`
-                                      : `${c.name} — biriktirish`
-                                }
-                                className={`inline-flex min-h-8 items-center gap-1.5 rounded-full border px-3 text-xs font-semibold transition disabled:opacity-40 ${
-                                  c.linked
-                                    ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400"
-                                    : ownedElsewhere
-                                      ? "border-amber-500/35 text-amber-600/80 dark:text-amber-400/80 hover:border-amber-500/60"
-                                      : isDark
-                                        ? "border-white/12 text-white/55 hover:border-white/25 hover:text-white/85"
-                                        : "border-black/12 text-black/55 hover:border-black/25 hover:text-black/85"
-                                }`}
-                              >
-                                <span aria-hidden="true">
-                                  {c.linked ? "✓" : ownedElsewhere ? "↪" : "+"}
-                                </span>
-                                {c.name}
-                                {ownedElsewhere && (
-                                  <span className="font-normal opacity-60">
-                                    · {c.owner.split(" ")[0]}
-                                  </span>
-                                )}
-                              </button>
-                            );
-                          })}
-                        </div>
-                      )}
-                    </li>
-                  );
-                })}
-              </ul>
+              <div className="overflow-x-auto">
+                <table className="w-full min-w-[720px] border-collapse text-sm">
+                  <thead>
+                    <tr className={isDark ? "bg-white/[0.03]" : "bg-black/[0.02]"}>
+                      {data.examiners.map((e) => {
+                        const linkedCount = e.candidates.filter((c) => c.linked).length;
+                        return (
+                          <th key={e.id} className={`px-3 py-2.5 text-left align-top ${rule}`}>
+                            <div className="font-bold">{e.name}</div>
+                            <div className={`text-[10px] font-normal ${e.group_id ? muted : "text-red-500"}`}>
+                              {e.group_id ? `${e.group} · ${linkedCount} bog'langan` : "Guruhsiz"}
+                            </div>
+                          </th>
+                        );
+                      })}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="align-top">
+                      {data.examiners.map((e) => {
+                        const sorted = [...e.candidates].sort((a, b) =>
+                          a.linked === b.linked ? 0 : a.linked ? -1 : 1
+                        );
+                        return (
+                          <td key={e.id} className={`px-3 py-2 align-top ${rule}`}>
+                            {!e.group_id ? (
+                              <p className={`text-xs ${muted}`}>Examiner guruhga biriktirilmagan.</p>
+                            ) : !e.candidates.length ? (
+                              <p className={`text-xs ${muted}`}>Bu guruhda o'quvchi yo'q.</p>
+                            ) : (
+                              <div className="flex flex-col gap-1">
+                                {sorted.map((c) => {
+                                  const ownedElsewhere = !c.linked && c.owner;
+                                  return (
+                                    <button
+                                      key={c.id}
+                                      type="button"
+                                      aria-pressed={c.linked}
+                                      disabled={busy === `link-${c.id}`}
+                                      onClick={() => toggleLink(e, c)}
+                                      title={
+                                        c.linked
+                                          ? `${c.name} — bog'lanishni olib tashlash`
+                                          : ownedElsewhere
+                                            ? `Hozir ${c.owner} examinerga biriktirilgan — bosib o'tkazish`
+                                            : `${c.name} — biriktirish`
+                                      }
+                                      className={`inline-flex min-h-8 items-center gap-1.5 rounded-full border px-3 text-xs font-semibold transition disabled:opacity-40 ${
+                                        c.linked
+                                          ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400"
+                                          : ownedElsewhere
+                                            ? "border-amber-500/35 text-amber-600/80 dark:text-amber-400/80 hover:border-amber-500/60"
+                                            : isDark
+                                              ? "border-white/12 text-white/55 hover:border-white/25 hover:text-white/85"
+                                              : "border-black/12 text-black/55 hover:border-black/25 hover:text-black/85"
+                                      }`}
+                                    >
+                                      <span aria-hidden="true">
+                                        {c.linked ? "✓" : ownedElsewhere ? "↪" : "+"}
+                                      </span>
+                                      {c.name}
+                                      {ownedElsewhere && (
+                                        <span className="font-normal opacity-60">
+                                          · {c.owner.split(" ")[0]}
+                                        </span>
+                                      )}
+                                    </button>
+                                  );
+                                })}
+                              </div>
+                            )}
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             )}
           </Panel>
         </>

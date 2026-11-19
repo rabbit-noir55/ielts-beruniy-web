@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { adminGroupDelete, adminGroupSave, adminGroups } from "../adminApi";
-import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, Spinner } from "../ui";
+import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, SkeletonRows } from "../ui";
 import { inputCls } from "../formStyles";
 
 const EMPTY_FORM = {
@@ -125,7 +125,7 @@ export default function AdminGroups({ isDark }) {
 
       {loading ? (
         <Panel isDark={isDark}>
-          <Spinner isDark={isDark} />
+          <SkeletonRows isDark={isDark} />
         </Panel>
       ) : !groups.length ? (
         <Panel isDark={isDark}>

@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { adminGroups, adminStudentAction, adminStudentDetail, adminStudents } from "../adminApi";
-import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, Spinner, Th } from "../ui";
+import { Badge, Btn, Empty, ErrorBox, Modal, Panel, SkeletonRows, Spinner, Th } from "../ui";
 import { inputCls } from "../formStyles";
 
 export default function AdminStudents({ isDark }) {
@@ -12,9 +12,10 @@ export default function AdminStudents({ isDark }) {
   const [error, setError] = useState("");
   const [busyId, setBusyId] = useState(null);
 
-  const [pwd, setPwd] = useState({ open: false, student: null, value: "" });
   const [del, setDel] = useState(null);
   const [detail, setDetail] = useState(null);
+
+  const [view, setView] = useState("mine"); // "mine" (guruhli) | "unassigned" (guruhsiz)
 
   const load = useCallback(() => {
     setLoading(true);
@@ -62,15 +63,6 @@ export default function AdminStudents({ isDark }) {
     }
   }
 
-  async function savePassword() {
-    if (pwd.value.trim().length < 6) {
-      setError("Parol kamida 6 belgidan iborat bo'lsin.");
-      return;
-    }
-    await act(pwd.student, { action: "password", password: pwd.value.trim() });
-    setPwd({ open: false, student: null, value: "" });
-  }
-
   async function confirmDelete() {
     const student = del;
     setDel(null);
@@ -79,13 +71,29 @@ export default function AdminStudents({ isDark }) {
 
   const muted = isDark ? "text-white/40" : "text-black/40";
 
+  const filteredStudents = useMemo(
+    () =>
+      view === "mine"
+        ? data.students.filter((s) => s.group_id)
+        : data.students.filter((s) => !s.group_id),
+    [data.students, view]
+  );
+  const groupedCount = useMemo(
+    () => data.students.filter((s) => s.group_id).length,
+    [data.students]
+  );
+  const unassignedCount = useMemo(
+    () => data.students.filter((s) => !s.group_id).length,
+    [data.students]
+  );
+
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <h1 className="text-xl font-extrabold tracking-tight">O'quvchilar</h1>
           <p className={`mt-1 text-xs ${muted}`}>
-            {data.total} ta o'quvchi · guruh, parol va bloklashni boshqaring
+            {data.total} ta o'quvchi · guruh, examiner va bloklashni boshqaring
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
@@ -115,11 +123,76 @@ export default function AdminStudents({ isDark }) {
 
       <ErrorBox>{error}</ErrorBox>
 
+      {/* Barcha / Mening o'quvchilarim */}
+      <div className="flex flex-wrap items-center gap-2" role="tablist" aria-label="O'quvchilar ko'rinishi">
+        {[
+          { key: "mine", label: "Mening o'quvchilarim", count: groupedCount },
+          { key: "unassigned", label: "Guruhsizlar", count: unassignedCount },
+        ].map((t) => (
+          <button
+            key={t.key}
+            type="button"
+            role="tab"
+            aria-selected={view === t.key}
+            onClick={() => setView(t.key)}
+            className={`inline-flex min-h-9 items-center gap-2 rounded-full px-4 text-xs font-bold transition ${
+              view === t.key
+                ? "bg-[var(--accent)] text-[var(--accent-contrast)]"
+                : isDark
+                  ? "bg-white/[0.06] text-white/55 hover:bg-white/[0.1]"
+                  : "bg-black/[0.05] text-black/55 hover:bg-black/[0.09]"
+            }`}
+          >
+            {t.label}
+            <span className={`rounded-full px-1.5 text-[10px] tabular-nums ${view === t.key ? "bg-white/20" : isDark ? "bg-white/10" : "bg-black/10"}`}>
+              {t.count}
+            </span>
+          </button>
+        ))}
+      </div>
+
       <Panel isDark={isDark}>
         {loading ? (
-          <Spinner isDark={isDark} />
-        ) : !data.students.length ? (
-          <Empty isDark={isDark}>O'quvchi topilmadi.</Empty>
+          <SkeletonRows isDark={isDark} />
+        ) : !filteredStudents.length ? (
+          <Empty isDark={isDark}>
+            {view === "mine" ? "Guruhga biriktirilgan o'quvchi yo'q." : "Guruhsiz o'quvchi yo'q."}
+          </Empty>
+        ) : view === "unassigned" ? (
+          <ul className={`divide-y ${isDark ? "divide-white/[0.07]" : "divide-black/[0.07]"}`}>
+            {filteredStudents.map((s) => (
+              <li key={s.id} className="flex flex-wrap items-center justify-between gap-3 px-4 py-2.5">
+                <div className="min-w-0">
+                  <div className="flex items-center gap-2 font-semibold">
+                    {s.name}
+                    {s.is_blocked && <Badge isDark={isDark} tone="red">Bloklangan</Badge>}
+                  </div>
+                  <div className={`text-[11px] ${muted}`}>{s.email}</div>
+                </div>
+                <div className="flex flex-wrap items-center gap-1.5">
+                  <select
+                    value=""
+                    onChange={(e) => {
+                      if (e.target.value) act(s, { action: "group", group: e.target.value });
+                    }}
+                    aria-label={`${s.name}ni guruhga qo'shish`}
+                    className={`${inputCls(isDark)} min-w-[150px] py-1.5 text-xs`}
+                  >
+                    <option value="">Guruhga qo'shish…</option>
+                    {groups.map((g) => (
+                      <option key={g.id} value={g.id}>{g.name}</option>
+                    ))}
+                  </select>
+                  <Btn isDark={isDark} disabled={busyId === s.id} onClick={() => act(s, { action: s.is_blocked ? "unblock" : "block" })}>
+                    {s.is_blocked ? "Blokdan chiqarish" : "Bloklash"}
+                  </Btn>
+                  <Btn isDark={isDark} variant="danger" disabled={busyId === s.id} onClick={() => setDel(s)}>
+                    O'chirish
+                  </Btn>
+                </div>
+              </li>
+            ))}
+          </ul>
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full min-w-[720px] border-collapse text-sm">
@@ -132,7 +205,7 @@ export default function AdminStudents({ isDark }) {
                 </tr>
               </thead>
               <tbody>
-                {data.students.map((s) => (
+                {filteredStudents.map((s) => (
                   <tr
                     key={s.id}
                     className={`border-t transition ${
@@ -189,19 +262,21 @@ export default function AdminStudents({ isDark }) {
                         <Btn
                           isDark={isDark}
                           disabled={busyId === s.id}
-                          onClick={() => setPwd({ open: true, student: s, value: "" })}
-                        >
-                          Parol
-                        </Btn>
-                        <Btn
-                          isDark={isDark}
-                          disabled={busyId === s.id}
                           onClick={() =>
                             act(s, { action: "examiner", value: !s.is_examiner })
                           }
                         >
                           {s.is_examiner ? "Examinerni o'chirish" : "Examiner qilish"}
                         </Btn>
+                        {s.is_examiner && (
+                          <Btn
+                            isDark={isDark}
+                            disabled={busyId === s.id}
+                            onClick={() => act(s, { action: "reset_pin" })}
+                          >
+                            PINni tozalash
+                          </Btn>
+                        )}
                         <Btn
                           isDark={isDark}
                           variant="danger"
@@ -219,38 +294,6 @@ export default function AdminStudents({ isDark }) {
           </div>
         )}
       </Panel>
-
-      <Modal
-        isDark={isDark}
-        open={pwd.open}
-        title="Parolni yangilash"
-        desc={pwd.student ? `${pwd.student.name} · ${pwd.student.email}` : ""}
-        onClose={() => setPwd({ open: false, student: null, value: "" })}
-        footer={
-          <>
-            <Btn isDark={isDark} onClick={() => setPwd({ open: false, student: null, value: "" })}>
-              Bekor qilish
-            </Btn>
-            <Btn isDark={isDark} variant="primary" onClick={savePassword}>
-              Saqlash
-            </Btn>
-          </>
-        }
-      >
-        <Field isDark={isDark} label="Yangi parol">
-          <input
-            type="text"
-            autoFocus
-            value={pwd.value}
-            onChange={(e) => setPwd((p) => ({ ...p, value: e.target.value }))}
-            placeholder="kamida 6 belgi"
-            className={inputCls(isDark)}
-          />
-        </Field>
-        <p className={`mt-2 text-[11px] ${muted}`}>
-          O'quvchi yangi parol bilan saytga kirishi mumkin.
-        </p>
-      </Modal>
 
       <Modal
         isDark={isDark}

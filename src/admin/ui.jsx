@@ -18,9 +18,9 @@ export function Panel({ isDark, title, desc, actions, children, className = "" }
   );
 }
 
-export function Btn({ isDark, variant = "ghost", className = "", ...props }) {
+export function Btn({ isDark, variant = "ghost", loading = false, disabled, className = "", children, ...props }) {
   const base =
-    "inline-flex min-h-9 items-center justify-center rounded-lg px-3 text-xs font-bold transition disabled:opacity-40";
+    "inline-flex min-h-9 items-center justify-center gap-2 rounded-lg px-3 text-xs font-bold transition active:scale-95 disabled:opacity-40 disabled:pointer-events-none";
   const styles =
     variant === "primary"
       ? "bg-[var(--accent)] text-[var(--accent-contrast)] hover:opacity-90"
@@ -29,7 +29,14 @@ export function Btn({ isDark, variant = "ghost", className = "", ...props }) {
         : isDark
           ? "border border-white/15 text-white/70 hover:bg-white/5 hover:text-white"
           : "border border-black/15 text-black/65 hover:bg-black/5 hover:text-black";
-  return <button className={`${base} ${styles} ${className}`} {...props} />;
+  return (
+    <button className={`${base} ${styles} ${className}`} disabled={loading || disabled} {...props}>
+      {loading && (
+        <span className="h-3.5 w-3.5 animate-spin rounded-full border-2 border-current border-t-transparent" aria-hidden="true" />
+      )}
+      {children}
+    </button>
+  );
 }
 
 export function Field({ isDark, label, children }) {
@@ -51,10 +58,36 @@ export function Empty({ isDark, children }) {
   );
 }
 
-export function Spinner({ isDark }) {
+export function Spinner({ isDark, label = "Yuklanmoqda…" }) {
   return (
-    <div className={`px-4 py-10 text-center text-sm ${isDark ? "text-white/35" : "text-black/35"}`}>
-      Yuklanmoqda…
+    <div className="flex flex-col items-center justify-center gap-3 px-4 py-10">
+      <span
+        className={`h-6 w-6 animate-spin rounded-full border-2 border-t-transparent ${
+          isDark ? "border-white/30" : "border-black/20"
+        }`}
+        aria-hidden="true"
+      />
+      <span className={`text-sm ${isDark ? "text-white/35" : "text-black/35"}`}>{label}</span>
+    </div>
+  );
+}
+
+// Jadval yuklanayotganda skeleton qatorlar.
+export function SkeletonRows({ isDark, rows = 5, cols = 4 }) {
+  const rule = isDark ? "border-white/[0.07]" : "border-black/[0.07]";
+  return (
+    <div>
+      {Array.from({ length: rows }).map((_, i) => (
+        <div key={i} className={`flex items-center gap-4 px-4 py-3 ${i > 0 ? `border-t ${rule}` : ""}`}>
+          {Array.from({ length: cols }).map((__, j) => (
+            <div
+              key={j}
+              className={`h-4 animate-pulse rounded ${isDark ? "bg-white/10" : "bg-black/10"}`}
+              style={{ width: j === 0 ? 160 : j === cols - 1 ? 90 : 120 }}
+            />
+          ))}
+        </div>
+      ))}
     </div>
   );
 }

@@ -136,6 +136,22 @@ export default function AdminApp({ theme }) {
                 {item.label}
               </NavLink>
             ))}
+            <a
+              href="/"
+              className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-bold ${isDark ? "text-white/55" : "text-black/55"}`}
+            >
+              ← Sayt
+            </a>
+            <button
+              type="button"
+              onClick={() => {
+                clearAuth();
+                navigate("/login");
+              }}
+              className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-bold ${isDark ? "text-red-400/80" : "text-red-600/80"}`}
+            >
+              Chiqish
+            </button>
           </div>
 
           <main className="p-4 sm:p-6">

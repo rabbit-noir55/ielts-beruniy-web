@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { adminToolAction, adminToolDetail, adminTools } from "../adminApi";
 import { inputCls } from "../formStyles";
-import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, Spinner } from "../ui";
+import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, SkeletonRows } from "../ui";
 
 function ToolIcon({ icon, isDark }) {
   const raw = (icon || "").trim();
@@ -154,7 +154,7 @@ export default function AdminTools({ isDark }) {
 
       {loading ? (
         <Panel isDark={isDark}>
-          <Spinner isDark={isDark} />
+          <SkeletonRows isDark={isDark} />
         </Panel>
       ) : !tools.length ? (
         <Panel isDark={isDark}>

@@ -49,6 +49,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
   const { pathname } = useLocation();
   const navigate = useNavigate();
   const user = getUser();
+  const isTeacher = user?.role === "teacher";
   const canAccessMocks = hasMockAccess();
   const userGroupName = getUserGroupName();
   const userGroupLogo = getUserGroupLogo();
@@ -365,6 +366,14 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                 {userGroupName}
               </button>
             )}
+            {isTeacher && (
+              <Link
+                to="/admin"
+                className="hidden sm:inline-flex h-9 items-center rounded-full bg-[var(--accent)] px-3.5 text-xs font-bold text-[var(--accent-contrast)] transition hover:opacity-90"
+              >
+                Admin
+              </Link>
+            )}
             <button onClick={toggleTheme} className={`group relative flex h-9 w-9 items-center justify-center rounded-lg text-base transition-all duration-200 hover:scale-105 ${isDark ? "text-white/50 hover:text-white hover:bg-white/[0.06]" : "text-black/50 hover:text-[#17171A] hover:bg-black/[0.03]"}`} aria-label="Toggle theme">
               <span className={`absolute inset-0 flex items-center justify-center transition-all duration-500 ${isDark ? "opacity-100 rotate-0 scale-100" : "opacity-0 -rotate-90 scale-75"}`}>
                 <Moon size={14} className="group-hover:text-[var(--accent)]" />
@@ -409,6 +418,14 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                 className="inline-flex min-h-9 items-center rounded-full bg-[var(--accent)] px-3.5 text-xs font-bold text-[var(--accent-contrast)]"
               >
                 Kirish
+              </Link>
+            )}
+            {isTeacher && (
+              <Link
+                to="/admin"
+                className="inline-flex min-h-9 items-center rounded-full bg-[var(--accent)] px-3 text-xs font-bold text-[var(--accent-contrast)] transition active:scale-95"
+              >
+                Admin
               </Link>
             )}
             <button onClick={toggleTheme} className={`flex h-8 w-8 items-center justify-center rounded-lg text-sm transition-all active:scale-90 ${isDark ? "text-white/50" : "text-black/50"}`} aria-label="Toggle theme">

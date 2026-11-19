@@ -6,7 +6,7 @@ import {
   adminGames,
 } from "../adminApi";
 import { inputCls } from "../formStyles";
-import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, Spinner, Th } from "../ui";
+import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, Spinner, Th, SkeletonRows } from "../ui";
 
 function GameIcon({ icon, isDark }) {
   const raw = (icon || "").trim();
@@ -171,7 +171,7 @@ export default function AdminGames({ isDark }) {
 
       {loading ? (
         <Panel isDark={isDark}>
-          <Spinner isDark={isDark} />
+          <SkeletonRows isDark={isDark} />
         </Panel>
       ) : !games.length ? (
         <Panel isDark={isDark}>

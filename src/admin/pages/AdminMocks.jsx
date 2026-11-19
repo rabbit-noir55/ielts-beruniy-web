@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { adminMockAction, adminMockDetail, adminMocks } from "../adminApi";
 import { inputCls } from "../formStyles";
-import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, Spinner } from "../ui";
+import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, SkeletonRows } from "../ui";
 
 const TEMPLATE = {
   schema: "ourmock/v2",
@@ -215,7 +215,7 @@ export default function AdminMocks({ isDark }) {
 
       {loading ? (
         <Panel isDark={isDark}>
-          <Spinner isDark={isDark} />
+          <SkeletonRows isDark={isDark} />
         </Panel>
       ) : !rows.length ? (
         <Panel isDark={isDark}>

@@ -31,6 +31,20 @@ function BandCalculatorPage({ theme }) {
       : "border-black/10 bg-white text-[#17171A]"
   }`;
 
+  // Noto'g'ri qiymatlar (55, -3, 12) kiritilmasin — darhol chegaraga keltiramiz.
+  const clampInt = (raw, max) => {
+    if (raw === "") return "";
+    const n = Number(raw);
+    if (!Number.isFinite(n)) return "";
+    return String(Math.min(max, Math.max(0, Math.round(n))));
+  };
+  const clampBand = (raw) => {
+    if (raw === "") return "";
+    const n = Number(raw);
+    if (!Number.isFinite(n)) return "";
+    return String(Math.min(9, Math.max(0, Math.round(n * 2) / 2)));
+  };
+
   const sectionTitle = (icon, text) => (
     <div className="lib-fly-down mb-5 flex items-center gap-3">
       <div className={`h-px flex-1 ${isDark ? "bg-white/10" : "bg-black/10"}`} />
@@ -66,7 +80,7 @@ function BandCalculatorPage({ theme }) {
                   min="0"
                   max="40"
                   value={listening}
-                  onChange={(e) => setListening(e.target.value)}
+                  onChange={(e) => setListening(clampInt(e.target.value, 40))}
                   className={inputCls}
                   placeholder="0–40"
                 />
@@ -86,7 +100,7 @@ function BandCalculatorPage({ theme }) {
                     min="0"
                     max="40"
                     value={reading}
-                    onChange={(e) => setReading(e.target.value)}
+                    onChange={(e) => setReading(clampInt(e.target.value, 40))}
                     className={inputCls}
                     placeholder="0–40"
                   />
@@ -122,7 +136,7 @@ function BandCalculatorPage({ theme }) {
                   max="9"
                   step="0.5"
                   value={task1}
-                  onChange={(e) => setTask1(e.target.value)}
+                  onChange={(e) => setTask1(clampBand(e.target.value))}
                   className={inputCls}
                   placeholder="0–9"
                 />
@@ -137,7 +151,7 @@ function BandCalculatorPage({ theme }) {
                   max="9"
                   step="0.5"
                   value={task2}
-                  onChange={(e) => setTask2(e.target.value)}
+                  onChange={(e) => setTask2(clampBand(e.target.value))}
                   className={inputCls}
                   placeholder="0–9"
                 />

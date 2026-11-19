@@ -16,7 +16,7 @@ export default function RequireGroup({ type, children }) {
             Mock testlarga kirish yo'q
           </h2>
           <p className="max-w-sm text-sm text-black/50 dark:text-white/40">
-            `"${group.name}" guruhingizda mock testlarga kirish ruxsati yo'q. O'qituvchingiz bilan bog'laning.`
+            {`"${group.name}" guruhingizda mock testlarga kirish ruxsati yo'q. O'qituvchingiz bilan bog'laning.`}
           </p>
         </div>
       );

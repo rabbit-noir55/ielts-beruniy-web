@@ -46,7 +46,7 @@ export default function AdminDashboard({ isDark }) {
       ) : data ? (
         <>
           <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
-            <Stat isDark={isDark} label="O'quvchilar" value={data.students} hint={`${data.students_with_group} guruhda`} />
+            <Stat isDark={isDark} label="O'quvchilar" value={data.students} hint={`${data.students_with_group} nafari guruhda`} />
             <Stat isDark={isDark} label="Guruhlar" value={data.groups} />
             <Stat isDark={isDark} label="Bugun keldi" value={data.attended_today} hint={data.today} />
             <Stat isDark={isDark} label="Liga ptichkalari" value={data.week_checked} hint={data.active_week?.label || "faol hafta yo'q"} />
