@@ -751,7 +751,7 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
                     setPwMsg({ type: "", text: "" });
                     setShowGoogleVerify(true);
                   }}
-                  className="mb-3 text-xs font-bold underline opacity-70 transition hover:opacity-100"
+                  className="mb-4 block text-left text-xs font-bold underline opacity-70 transition hover:opacity-100"
                 >
                   Joriy parolni bilmayman — Google bilan tasdiqlash
                 </button>
