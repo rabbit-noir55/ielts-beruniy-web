@@ -4,10 +4,17 @@
 
 ## Hozirgi holat
 
-- Bosqich: arxitektura qayta qurildi — davomat saytdan chiqarildi
-- Oxirgi run: qo'lda (agent emas)
+- Bosqich: auth/PIN tuzatishlari (2026-11-19)
+- Oxirgi run: qo'lda tuzatishlar (Claude Code, 2026-11-19)
 
 ## Bajarilgan
+
+### 2026-11-19 — auth/PIN tuzatishlari
+
+- [x] `Settings`: PIN mavjud bo'lsa `Joriy PIN` maydoni; `setPin(pin, oldPin)`
+- [x] `Settings`: joriy parolni bilmasa Google bilan tasdiqlash (GSI) → `changePassword(..., credential)`
+- [x] `Competition`: noto'g'ri PIN xatosi endi modal ichida ko'rinadi
+- [x] Tekshiruv: lint 0 error, build ✓, Playwright mobil 390x844 — `screenshots/ui-check/`
 
 ### Sayt (public)
 - [x] `Scan.jsx`, `Attendance.jsx`, `attendanceApi.js` **o'chirildi**

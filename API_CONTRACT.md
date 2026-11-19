@@ -24,26 +24,44 @@ Auth: `Authorization: Token <key>` (DRF Token).
   "id": 1, "email": "a@b.com", "first_name": "Ali", "last_name": "Valiyev",
   "full_name": "Ali Valiyev", "role": "student", "group": 3,
   "group_detail": {"id": 3, "name": "IELTS-1", "slug": "ielts-1", "group_type": "ielts"},
-  "is_blocked": false
+  "is_blocked": false, "has_pin": false, "is_examiner": false
 }
 ```
 
 ---
 
-## 2. Parolni ko'rish (yangi)
+## 2. Parol va PIN
 
-`POST /auth/reveal-password/` — auth talab qilinadi
+### `POST /auth/change-password/` — auth talab qilinadi
 
 ```json
-{ "credential": "<Google ID token>" }
+{ "old_password": "...", "new_password": "...", "credential": "<Google ID token> (ixtiyoriy)" }
 ```
+
+Paroli yo'q (Telegram/Google) foydalanuvchi `old_password`ni bo'sh qoldiradi.
+Joriy parolni bilmaydigan foydalanuvchi `credential` bilan Google hisobini tasdiqlaydi.
 
 | Holat | HTTP | Body |
 |---|---|---|
-| OK | 200 | `{"password": "abc12345"}` |
+| OK | 200 | `{"detail": "Parol muvaffaqiyatli ozgartirildi."}` |
+| Eski parol xato | 400 | `{"detail": "Eski parol notogri."}` |
 | Google hisobi mos emas | 403 | `{"detail": "Google hisobi mos kelmadi."}` |
-| Parol yo'q | 404 | `{"detail": "Parol o'qituvchi tomonidan o'rnatilmagan."}` |
-| Student emas | 403 | `{"detail": "Faqat o'quvchi uchun."}` |
+| Yangi parol qisqa | 400 | `{"detail": "Yangi parol kamida 6 belgidan iborat bolishi kerak."}` |
+
+### `POST /auth/set-pin/` — auth talab qilinadi
+
+```json
+{ "pin": "1234", "old_pin": "1234" }
+```
+
+PIN birinchi marta o'rnatilganda `old_pin` kerak emas; mavjud PINni
+almashtirishda **talab qilinadi**. PIN `make_password` bilan hash qilinadi.
+
+| Holat | HTTP | Body |
+|---|---|---|
+| OK | 200 | `{"ok": true, "has_pin": true}` |
+| Format xato | 400 | `{"detail": "PIN 4 xonali son bo'lishi kerak."}` |
+| Joriy PIN xato | 403 | `{"detail": "Joriy PIN noto'g'ri."}` |
 
 ---
 
