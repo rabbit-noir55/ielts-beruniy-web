@@ -119,6 +119,27 @@ export function setPin(pin, oldPin) {
   });
 }
 
+// ── Biometrik tasdiqlash (WebAuthn) ─────────────────────────────────────────
+
+export function getBiometricRegisterOptions() {
+  return request("/auth/webauthn/register/options/", { method: "POST", body: {} });
+}
+
+export function registerBiometricCredential(payload) {
+  return request("/auth/webauthn/register/", { method: "POST", body: payload });
+}
+
+export function getBiometricAuthOptions() {
+  return request("/auth/webauthn/options/", { method: "POST", body: {} });
+}
+
+export function removeBiometricCredential(credentialId) {
+  return request("/auth/webauthn/remove/", {
+    method: "POST",
+    body: credentialId ? { credential_id: credentialId } : {},
+  });
+}
+
 export function getSettings() {
   const settings = { autoSync: true };
   try {

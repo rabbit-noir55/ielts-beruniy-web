@@ -2,6 +2,12 @@ import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getLeaderboard, getWeeks, toggleCheck } from "../utils/competitionApi";
 import { useLang } from "../utils/LanguageContext";
+import {
+  biometricErrorMessage,
+  clearBiometricProof,
+  getBiometricProof,
+  isBiometricAvailable,
+} from "../utils/webauthn";
 
 // 5 ta task × 20 ball = 100
 const SKILLS = [
@@ -57,6 +63,7 @@ export default function Competition({ theme }) {
   const [pinInput, setPinInput] = useState("");
   const [pinError, setPinError] = useState("");
   const [pinBusy, setPinBusy] = useState(false);
+  const [bioBusy, setBioBusy] = useState(false);
 
   const loadWeeks = useCallback(async () => {
     try {
@@ -91,7 +98,7 @@ export default function Competition({ theme }) {
     loadBoard(weekKey);
   }, [loadBoard, weekKey]);
 
-  const doToggle = async (row, skill, pin) => {
+  const doToggle = async (row, skill, pin, proof) => {
     const key = `${row.student_id}-${skill}`;
     setBusyKey(key);
     setError("");
@@ -101,6 +108,7 @@ export default function Competition({ theme }) {
         skill,
         week: data?.week?.id,
         pin,
+        webauthn: proof,
       });
       const state = res.checked ? (res.is_late ? "late" : "done") : null;
       setData((prev) => {
@@ -124,6 +132,9 @@ export default function Competition({ theme }) {
     } catch (err) {
       if (pin) {
         setPinError(err.message || "PIN noto'g'ri.");
+      } else if (proof) {
+        clearBiometricProof();
+        setError(err.message || "Biometrik tasdiqlash amalga oshmadi.");
       } else {
         setError(err.message || "Ptichkani o'zgartirib bo'lmadi.");
       }
@@ -132,7 +143,7 @@ export default function Competition({ theme }) {
     }
   };
 
-  const onToggle = (row, skill) => {
+  const onToggle = async (row, skill) => {
     if (!activeWeek) {
       setError(
         t(
@@ -142,13 +153,33 @@ export default function Competition({ theme }) {
       );
       return;
     }
-    // O'quvchi-examiner → PIN talab qilinadi; o'qituvchi → PINsiz.
+    // Examiner: avval biometrik, qurilma qo'llamasa yoki xato bo'lsa — PIN.
     if (data?.is_examiner) {
+      if (data?.has_biometric) {
+        setBioBusy(true);
+        try {
+          if (await isBiometricAvailable()) {
+            const proof = await getBiometricProof();
+            await doToggle(row, skill, undefined, proof);
+            return;
+          }
+        } catch (err) {
+          clearBiometricProof();
+          setError(
+            t(
+              `Biometrik tasdiqlash ishlamadi (${biometricErrorMessage(err)}). PIN bilan tasdiqlang.`,
+              `Biometric verification failed (${biometricErrorMessage(err)}). Confirm with PIN.`
+            )
+          );
+        } finally {
+          setBioBusy(false);
+        }
+      }
       if (!data?.has_pin) {
         setError(
           t(
-            "Avval 4 xonali PIN o'rnating: Sozlamalar → Examiner PIN.",
-            "Set your 4-digit PIN first: Settings → Examiner PIN."
+            "PIN o'rnating yoki biometrik tasdiqlashni yoqing: Sozlamalar.",
+            "Set a PIN or enable biometric verification: Settings."
           )
         );
         return;
@@ -156,7 +187,6 @@ export default function Competition({ theme }) {
       setPinPrompt({ row, skill });
       setPinInput("");
       setPinError("");
-      setError("");
       return;
     }
     doToggle(row, skill);
@@ -178,7 +208,11 @@ export default function Competition({ theme }) {
   const maxScore = data?.max_score || 100;
 
   const isExaminer = !!data?.is_examiner && rows.some((r) => r.can_edit);
-  const needsPin = !!data?.is_examiner && rows.some((r) => r.can_edit) && !data?.has_pin;
+  const needsPin =
+    !!data?.is_examiner &&
+    rows.some((r) => r.can_edit) &&
+    !data?.has_pin &&
+    !data?.has_biometric;
   const visibleRows =
     isExaminer && view === "mine" ? rows.filter((r) => r.can_edit) : rows;
   // Umumiy reytingdagi o'rin (2-bo'limda ham to'g'ri raqam ko'rsatiladi)
@@ -302,12 +336,21 @@ export default function Competition({ theme }) {
         {!loading && needsPin && (
           <div className="mt-4 rounded-xl border border-sky-500/30 bg-sky-500/10 p-3 text-sm text-sky-600 dark:text-sky-400">
             {t(
-              "Baho qo'yishdan oldin 4 xonali PIN o'rnating:",
-              "Before grading, set your 4-digit PIN:"
+              "Baho qo'yishdan oldin PIN o'rnating yoki biometrik tasdiqlashni yoqing:",
+              "Before grading, set a PIN or enable biometric verification:"
             )}{" "}
             <Link to="/settings" className="font-bold underline">
-              {t("Sozlamalar → Examiner PIN", "Settings → Examiner PIN")}
+              {t("Sozlamalar", "Settings")}
             </Link>
+          </div>
+        )}
+
+        {!loading && bioBusy && (
+          <div className="mt-4 rounded-xl border border-sky-500/30 bg-sky-500/10 p-3 text-sm text-sky-600 dark:text-sky-400">
+            {t(
+              "Biometrik tasdiqlash kutilmoqda…",
+              "Waiting for biometric verification…"
+            )}
           </div>
         )}
 

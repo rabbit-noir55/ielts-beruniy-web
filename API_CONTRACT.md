@@ -63,6 +63,24 @@ almashtirishda **talab qilinadi**. PIN `make_password` bilan hash qilinadi.
 | Format xato | 400 | `{"detail": "PIN 4 xonali son bo'lishi kerak."}` |
 | Joriy PIN xato | 403 | `{"detail": "Joriy PIN noto'g'ri."}` |
 
+### Biometrik tasdiqlash (WebAuthn) — auth talab qilinadi
+
+`POST /auth/webauthn/register/options/` → `navigator.credentials.create()` uchun parametrlar.
+`POST /auth/webauthn/register/` → `{credential_id, client_data_json, attestation_object, transports}`.
+`POST /auth/webauthn/options/` → `navigator.credentials.get()` uchun challenge.
+`POST /auth/webauthn/remove/` → `{credential_id}` (bo'sh bo'lsa hammasi).
+
+`user` obyektida `has_biometric` maydoni bor. Baho qo'yishda:
+
+```json
+{
+  "student": 12, "skill": "writing", "auth_method": "biometric",
+  "webauthn": {"credential_id": "...", "client_data_json": "...", "authenticator_data": "...", "signature": "..."}
+}
+```
+
+Biometrik mavjud bo'lmasa `auth_method: "pin"` va `pin` ishlatiladi.
+
 ---
 
 ## 3. Telegram (yangi)

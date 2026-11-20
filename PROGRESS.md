@@ -9,6 +9,13 @@
 
 ## Bajarilgan
 
+### 2026-11-20 — biometrik tasdiqlash UI
+
+- [x] `src/utils/webauthn.js`: base64url, platforma autentifikatori, 60 soniyalik proof cache
+- [x] Settings: "Biometrik tasdiqlash" kartasi (yoqish / qayta ulash / o'chirish, qo'llab-quvvatlash tekshiruvi)
+- [x] Competition: avval biometrik, qurilma qo'llamasa yoki xato bo'lsa PIN modaliga fallback
+- [x] Playwright: Settings kartasi va PIN fallback tekshirildi (`screenshots/ui-check/`)
+
 ### 2026-11-19 — auth/PIN tuzatishlari
 
 - [x] `Settings`: PIN mavjud bo'lsa `Joriy PIN` maydoni; `setPin(pin, oldPin)`

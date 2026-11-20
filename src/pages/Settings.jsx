@@ -9,12 +9,19 @@ import {
   getTelegramStatus,
   getUser,
   isAuthenticated,
+  refreshUser,
   saveTelegramContact,
   setBackgroundImage,
   setPin,
   setSettings,
   updateProfile,
 } from "../utils/api";
+import {
+  biometricErrorMessage,
+  isBiometricAvailable,
+  registerBiometricDevice,
+  removeBiometricDevice,
+} from "../utils/webauthn";
 import { isInApp, isTelegram } from "../utils/telegram.js";
 
 const THEMES = [
@@ -169,6 +176,11 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
   const [pinMsg, setPinMsg] = useState({ type: "", text: "" });
   const [hasPin, setHasPin] = useState(Boolean(getUser()?.has_pin));
 
+  const [bioSupported, setBioSupported] = useState(false);
+  const [hasBiometric, setHasBiometric] = useState(Boolean(user?.has_biometric));
+  const [bioBusy, setBioBusy] = useState(false);
+  const [bioMsg, setBioMsg] = useState({ type: "", text: "" });
+
   const [bgImage, setBgImage] = useState(() => getBackgroundImage());
 
   // Telegram bog'lash
@@ -187,6 +199,13 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
         setTgUsername(data.telegram_username || "");
       })
       .catch(() => {});
+  }, [authed]);
+
+  useEffect(() => {
+    if (!authed) return;
+    isBiometricAvailable()
+      .then(setBioSupported)
+      .catch(() => setBioSupported(false));
   }, [authed]);
 
   // Joriy parolni bilmaydigan (eski Google) foydalanuvchi Google hisobi
@@ -369,6 +388,36 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
       setPinMsg({ type: "error", text: err.message || "PIN saqlab bo'lmadi." });
     } finally {
       setPinBusy(false);
+    }
+  };
+
+  const enableBiometric = async () => {
+    setBioBusy(true);
+    setBioMsg({ type: "", text: "" });
+    try {
+      await registerBiometricDevice();
+      setHasBiometric(true);
+      await refreshUser();
+      setBioMsg({ type: "ok", text: "Biometrik tasdiqlash yoqildi." });
+    } catch (err) {
+      setBioMsg({ type: "error", text: biometricErrorMessage(err) });
+    } finally {
+      setBioBusy(false);
+    }
+  };
+
+  const disableBiometric = async () => {
+    setBioBusy(true);
+    setBioMsg({ type: "", text: "" });
+    try {
+      await removeBiometricDevice();
+      setHasBiometric(false);
+      await refreshUser();
+      setBioMsg({ type: "ok", text: "Biometrik tasdiqlash o'chirildi." });
+    } catch (err) {
+      setBioMsg({ type: "error", text: err.message || "O'chirib bo'lmadi." });
+    } finally {
+      setBioBusy(false);
     }
   };
 
@@ -803,6 +852,62 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
                 {pinBusy ? "Saqlanmoqda…" : hasPin ? "PINni yangilash" : "PIN o'rnatish"}
               </button>
             </form>
+          </Section>
+          )}
+
+          {user?.is_examiner && (
+          <Section title="Biometrik tasdiqlash">
+            <Notice type={bioMsg.type} text={bioMsg.text} />
+            <Row
+              title="Qurilma biometrikasi"
+              desc="Barmoq izi, yuz yoki Windows Hello. PIN o'rniga ishlatiladi."
+            >
+              <span
+                className={`rounded-full border px-3 py-1 text-[11px] font-bold ${
+                  hasBiometric
+                    ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400"
+                    : isDark
+                      ? "border-white/15 text-white/50"
+                      : "border-black/15 text-black/50"
+                }`}
+              >
+                {hasBiometric ? "✓ Ulangan" : "Ulanmagan"}
+              </span>
+            </Row>
+            {!bioSupported ? (
+              <p
+                className={`mt-3 text-xs ${
+                  isDark ? "text-white/40" : "text-black/40"
+                }`}
+              >
+                Bu qurilma yoki brauzer biometrik tasdiqlashni qo'llab-quvvatlamaydi — PIN ishlatiladi.
+              </p>
+            ) : (
+              <div className="mt-3 flex flex-wrap gap-2">
+                <button
+                  type="button"
+                  onClick={enableBiometric}
+                  disabled={bioBusy}
+                  className={submitBtnCls}
+                >
+                  {bioBusy
+                    ? "Kutilmoqda…"
+                    : hasBiometric
+                      ? "Qayta ulash"
+                      : "Biometrikani yoqish"}
+                </button>
+                {hasBiometric && (
+                  <button
+                    type="button"
+                    onClick={disableBiometric}
+                    disabled={bioBusy}
+                    className="rounded-full border border-red-500/40 px-5 py-2.5 text-sm font-bold text-red-500 transition hover:bg-red-500/10 disabled:opacity-40"
+                  >
+                    O'chirish
+                  </button>
+                )}
+              </div>
+            )}
           </Section>
           )}
         </>
