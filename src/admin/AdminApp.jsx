@@ -1,5 +1,6 @@
 import { NavLink, Navigate, Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import { clearAuth, isAuthenticated, getUser } from "../utils/api";
+import logoSvg from "../assets/logo.png";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminStudents from "./pages/AdminStudents";
 import AdminGroups from "./pages/AdminGroups";
@@ -94,15 +95,14 @@ export default function AdminApp({ theme }) {
         {/* Sidebar */}
         <aside className={`hidden w-64 shrink-0 border-r md:block ${rule}`}>
           <div className="sticky top-0 flex h-screen flex-col overflow-y-auto p-4">
-            <NavLink to="/admin" className="flex items-center gap-3 px-2 py-3">
-              <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-[var(--accent)] text-sm font-black text-[var(--accent-contrast)]">
-                IB
-              </span>
-              <span>
-                <span className="block font-mono text-[9px] uppercase tracking-[0.22em] opacity-40">
-                  Ustoz paneli
-                </span>
-                <span className="block text-sm font-extrabold">IELTS Beruniy</span>
+            <NavLink to="/admin" className="flex flex-col items-start gap-1 px-2 py-3">
+              <img
+                src={logoSvg}
+                alt="IELTS Beruniy"
+                className="h-11 w-auto dark:brightness-0 dark:invert"
+              />
+              <span className="pl-0.5 font-mono text-[9px] uppercase tracking-[0.22em] opacity-40">
+                Ustoz paneli
               </span>
             </NavLink>
 
@@ -167,10 +167,14 @@ export default function AdminApp({ theme }) {
           <div className={`sticky top-0 z-20 border-b backdrop-blur md:hidden ${rule} ${isDark ? "bg-[#0A0A0B]/90" : "bg-[#F6F5F2]/90"}`}>
             <div className="flex items-center justify-between px-4 py-2.5">
               <span className="flex items-center gap-2">
-                <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--accent)] text-[11px] font-black text-[var(--accent-contrast)]">
-                  IB
+                <img
+                  src={logoSvg}
+                  alt="IELTS Beruniy"
+                  className="h-7 w-auto dark:brightness-0 dark:invert"
+                />
+                <span className="font-mono text-[9px] uppercase tracking-[0.16em] opacity-40">
+                  Ustoz
                 </span>
-                <span className="text-xs font-extrabold">Ustoz paneli</span>
               </span>
               <span className="flex items-center gap-2">
                 <a href="/" className={`text-[11px] font-bold ${isDark ? "text-white/50" : "text-black/50"}`}>
