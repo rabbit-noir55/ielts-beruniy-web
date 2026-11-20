@@ -166,3 +166,26 @@ Mavjud auth API: `{"detail": "..."}`
 Yangi davomat API: `{"error": "<odam o'qiydigan matn>", "code": "<mashina kodi>"}`
 
 Frontend **`code`** bo'yicha xabar tanlaydi, `error` ni to'g'ridan-to'g'ri ko'rsatmaydi (tarjima uchun).
+
+---
+
+## 6. Onlayn darslar
+
+| Endpoint | Method | Izoh |
+|---|---|---|
+| `/lessons/overview/` | GET | `{group, group_type, is_teacher, playlists[], resources[]}` |
+| `/lessons/playlists/` | GET | guruhga mos pleylistlar |
+| `/lessons/playlists/<id>/` | GET | pleylist + videolar |
+| `/lessons/videos/<id>/` | GET | video + playlist + siblings |
+| `/lessons/videos/<id>/like/` | POST | `{liked, likes}` |
+| `/lessons/videos/<id>/comments/` | GET/POST | `{enabled, comments[]}` / `{comment}` |
+| `/lessons/comments/<id>/delete/` | POST | muallif yoki ustoz |
+| `/lessons/comments/<id>/hide/` | POST | ustoz |
+| `/lessons/resources/` | GET | PDF/mock materiallar |
+| `/cambridge-mocks/` | GET | Cambridge ro'yxati |
+| `/cambridge-mocks/<series>/<skill>/` | GET | payload |
+| `/mocks/<series>/<skill>/?source=cambridge` | GET | Cambridge payloadi |
+
+Admin kontent: `/admin/lessons/`, `/admin/lessons/<id>/`, `/admin/resources/`,
+`/admin/resources/upload/` (multipart). Qurilma filtri: `/games/?device=desktop|mobile`,
+`/tools/?device=...`.

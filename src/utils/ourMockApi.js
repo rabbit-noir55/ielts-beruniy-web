@@ -52,11 +52,21 @@ export async function fetchOurMockList() {
  * @param {object} opts
  * @param {string} [opts.previewToken] — preview uchun token (series o'rniga)
  */
-export async function fetchOurMock(series, skill, { previewToken } = {}) {
+export async function fetchOurMock(series, skill, { previewToken, source } = {}) {
   if (previewToken) {
     const res = await fetch(`${BASE_URL}/mocks/preview/${previewToken}/`);
     if (!res.ok) {
       throw new Error("Preview topilmadi yoki muddati tugagan.");
+    }
+    return readJson(res);
+  }
+
+  if (source) {
+    const res = await fetch(
+      `${BASE_URL}/mocks/${series}/${skill}/?source=${encodeURIComponent(source)}`
+    );
+    if (!res.ok) {
+      throw new Error("Cambridge mock ma'lumotlari topilmadi.");
     }
     return readJson(res);
   }

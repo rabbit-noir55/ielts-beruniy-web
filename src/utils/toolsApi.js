@@ -2,8 +2,8 @@ import { request } from "./api";
 import { buildSandboxDoc } from "./gamesApi";
 
 /** Ustoz qo'shgan tools (vositalar). */
-export function fetchTools() {
-  return request("/tools/");
+export function fetchTools(device) {
+  return request(`/tools/${device ? `?device=${encodeURIComponent(device)}` : ""}`);
 }
 
 export function fetchTool(toolId) {

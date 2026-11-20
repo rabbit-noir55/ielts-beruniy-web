@@ -15,6 +15,7 @@ import { rateGame } from "../utils/toolsApi";
 import { getRecentGames, recordRecentGame } from "../utils/recentGames";
 import { useLang } from "../utils/LanguageContext";
 import { BUILTIN_GAMES } from "../games/registry";
+import { deviceType } from "../utils/device";
 
 // Saytning o'z o'yinlari: Typing + canvas/React o'yinlari
 const BUILTIN = [
@@ -53,7 +54,7 @@ export default function Games({ theme }) {
 
   useEffect(() => {
     let alive = true;
-    fetchGames()
+    fetchGames(deviceType())
       .then((res) => {
         if (!alive) return;
         const items = Array.isArray(res?.items) ? res.items : [];

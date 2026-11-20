@@ -36,6 +36,8 @@ const GroupDetail = lazy(() => import("./pages/GroupDetail"));
 const Games = lazy(() => import("./pages/Games"));
 const GamePlay = lazy(() => import("./pages/GamePlay"));
 const BuiltinGame = lazy(() => import("./pages/BuiltinGame"));
+const LessonPlaylist = lazy(() => import("./pages/LessonPlaylist"));
+const LessonVideo = lazy(() => import("./pages/LessonVideo"));
 const ToolPlay = lazy(() => import("./pages/ToolPlay"));
 const AiTools = lazy(() => import("./pages/AiTools"));
 
@@ -325,6 +327,8 @@ export default function App() {
             }
           />
           <Route path="/lessons" element={<RequireAuth><Lessons theme={theme} /></RequireAuth>} />
+          <Route path="/lessons/playlist/:id" element={<RequireAuth><Suspense fallback={<PageLoader theme={theme} />}><LessonPlaylist theme={theme} /></Suspense></RequireAuth>} />
+          <Route path="/lessons/video/:id" element={<RequireAuth><Suspense fallback={<PageLoader theme={theme} />}><LessonVideo theme={theme} /></Suspense></RequireAuth>} />
           <Route path="/results/:series/:testNum" element={<RequireAuth><TestResults theme={theme} /></RequireAuth>} />
           <Route path="/experiment" element={<LeaderboardReveal />} />
           <Route path="*" element={<NotFound theme={theme} />} />

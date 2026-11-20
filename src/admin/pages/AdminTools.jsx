@@ -54,6 +54,7 @@ export default function AdminTools({ isDark }) {
       html_code: "",
       is_active: true,
       order: tools.length,
+      device_type: "both",
       fileName: "",
     });
   }
@@ -69,6 +70,7 @@ export default function AdminTools({ isDark }) {
         html_code: d.html_code,
         is_active: d.is_active,
         order: d.order,
+        device_type: d.device_type || "both",
         fileName: "",
       });
     } catch (e) {
@@ -98,6 +100,7 @@ export default function AdminTools({ isDark }) {
         html_code: form.html_code,
         is_active: form.is_active,
         order: form.order,
+        device_type: form.device_type,
       });
       setForm(null);
       await load();
@@ -177,6 +180,9 @@ export default function AdminTools({ isDark }) {
                 </div>
                 <Badge isDark={isDark} tone={t.is_active ? "green" : "neutral"}>
                   {t.is_active ? "Faol" : "Yashirin"}
+                </Badge>
+                <Badge isDark={isDark} tone="blue">
+                  {t.device_type === "desktop" ? "Desktop" : t.device_type === "mobile" ? "Mobil" : "Barchasi"}
                 </Badge>
               </div>
 
@@ -271,6 +277,17 @@ export default function AdminTools({ isDark }) {
                 Faol
               </label>
             </div>
+            <Field isDark={isDark} label="Qurilma">
+              <select
+                value={form.device_type || "both"}
+                onChange={(e) => setForm((f) => ({ ...f, device_type: e.target.value }))}
+                className={inputCls(isDark)}
+              >
+                <option value="both">Barcha qurilmalar</option>
+                <option value="desktop">Faqat kompyuter</option>
+                <option value="mobile">Faqat mobil</option>
+              </select>
+            </Field>
             <Field isDark={isDark} label="HTML kod">
               <textarea
                 rows={10}

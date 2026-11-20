@@ -174,8 +174,9 @@ const IELTSReading = ({ theme, isOurMockRoute }) => {
     const startedAt = Date.now();
 
     const previewToken = getPreviewToken(searchParams);
+    const mockSource = searchParams.get("source") || undefined;
     const load = isOurMock
-      ? fetchOurMock(series, "reading", { previewToken })
+      ? fetchOurMock(series, "reading", { previewToken, source: mockSource })
       : fetch(`/json/IELTS_${series}_Reading.json`).then(async (r) => {
           if (!r.ok) throw new Error(`HTTP ${r.status}`);
           const contentType = r.headers.get("content-type") || "";

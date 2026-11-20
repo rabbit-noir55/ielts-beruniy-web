@@ -9,6 +9,18 @@
 
 ## Bajarilgan
 
+### 2026-11-20 — onlayn darslar, yangi admin va qurilma filtri
+
+- [x] Lessons: guruhga mos pleylistlar, mocklar/PDF tablari, Cambridge va materiallar
+- [x] `/lessons/playlist/:id`, `/lessons/video/:id`: pleyer (MP4 + YouTube), layk, izohlar
+- [x] Admin shell: guruhlangan navigatsiya, yangi primitivlar (PageHeader, Tabs, StatCard, Modal)
+- [x] AdminLessons: pleylist/video CRUD, izoh moderatsiyasi, muqova/thumbnail yuklash
+- [x] AdminResources: PDF/mock/havola, fayl yuklash, guruh filtri
+- [x] AdminGames/AdminTools: qurilma tanlash + badge; AdminMocks: Our/Cambridge tablari
+- [x] Games/Tools: `?device=mobile|desktop` filtri (`utils/device.js`)
+- [x] Settings: yon navigatsiya, profil kartasi, bo'lim anchorlari (mobil: chip nav)
+- [x] Playwright: Lessons, playlist, video (layk/izoh), admin, qurilma filtri, Settings — overflow yo'q
+
 ### 2026-11-20 — birinchi kirish uchun qo'llanma (onboarding)
 
 - [x] `OnboardingTour`: spotlight, 8 qadam, Keyingi/Orqaga/O'tkazish, progress dots

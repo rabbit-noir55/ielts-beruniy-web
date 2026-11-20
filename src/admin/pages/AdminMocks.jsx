@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { adminMockAction, adminMockDetail, adminMocks } from "../adminApi";
 import { inputCls } from "../formStyles";
-import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, SkeletonRows } from "../ui";
+import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, SkeletonRows, Tabs } from "../ui";
 
 const TEMPLATE = {
   schema: "ourmock/v2",
@@ -25,6 +25,8 @@ function newForm(series, skill = "listening") {
 
 export default function AdminMocks({ isDark }) {
   const [rows, setRows] = useState([]);
+  const [cambridgeRows, setCambridgeRows] = useState([]);
+  const [source, setSource] = useState("our");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [form, setForm] = useState(null);
@@ -39,6 +41,7 @@ export default function AdminMocks({ isDark }) {
     return adminMocks()
       .then((d) => {
         setRows(d.series || []);
+        setCambridgeRows(d.cambridge_series || []);
         setError("");
       })
       .catch((e) => setError(e.message || "Yuklab bo'lmadi"))
@@ -50,16 +53,17 @@ export default function AdminMocks({ isDark }) {
   }, [load]);
 
   function openNew(skill = "listening") {
-    const next = rows.length ? Math.max(...rows.map((r) => r.series)) + 1 : 1;
+    const active = source === "cambridge" ? cambridgeRows : rows;
+    const next = active.length ? Math.max(...active.map((r) => r.series)) + 1 : 1;
     setFeedback({ errors: [], warnings: [], stats: null });
-    setForm(newForm(next, skill));
+    setForm({ ...newForm(next, skill), source });
   }
 
   async function openEdit(mock) {
     setFeedback({ errors: [], warnings: [], stats: null });
-    setForm({ ...newForm(mock.series, mock.skill), id: mock.id, busy: true });
+    setForm({ ...newForm(mock.series, mock.skill), id: mock.id, source, busy: true });
     try {
-      const d = await adminMockDetail(mock.id);
+      const d = await adminMockDetail(mock.id, source);
       setForm({
         id: d.id,
         skill: d.skill,
@@ -67,6 +71,7 @@ export default function AdminMocks({ isDark }) {
         test_num: d.test_num,
         title: d.title,
         is_published: d.is_published,
+        source,
         text: JSON.stringify(d.payload, null, 2),
       });
     } catch (e) {
@@ -86,6 +91,7 @@ export default function AdminMocks({ isDark }) {
     return {
       action,
       id: form.id || undefined,
+      source: form.source || source,
       skill: form.skill,
       series: form.series,
       test_num: form.test_num,
@@ -178,7 +184,7 @@ export default function AdminMocks({ isDark }) {
   async function remove(mock) {
     if (!window.confirm(`Mock ${mock.series} (${mock.skill}) o'chirilsinmi?`)) return;
     try {
-      await adminMockAction({ action: "delete", id: mock.id });
+      await adminMockAction({ action: "delete", id: mock.id, source });
       await load();
     } catch (e) {
       setError(e.message || "O'chirib bo'lmadi");
@@ -187,7 +193,7 @@ export default function AdminMocks({ isDark }) {
 
   async function togglePublish(mock) {
     try {
-      await adminMockAction({ action: "publish", id: mock.id, value: !mock.is_published });
+      await adminMockAction({ action: "publish", id: mock.id, value: !mock.is_published, source });
       await load();
     } catch (e) {
       setError(e.message || "O'zgartirib bo'lmadi");
@@ -196,6 +202,7 @@ export default function AdminMocks({ isDark }) {
 
   const muted = isDark ? "text-white/40" : "text-black/40";
   const origin = typeof window !== "undefined" ? window.location.origin : "";
+  const activeRows = source === "cambridge" ? cambridgeRows : rows;
 
   return (
     <div className="flex flex-col gap-4">
@@ -203,7 +210,7 @@ export default function AdminMocks({ isDark }) {
         <div>
           <h1 className="text-xl font-extrabold tracking-tight">Mock testlar</h1>
           <p className={`mt-1 text-xs ${muted}`}>
-            {rows.length} seriya · listening va reading testlari
+            {activeRows.length} seriya · {source === "cambridge" ? "Cambridge" : "Our Mock"} listening va reading
           </p>
         </div>
         <Btn isDark={isDark} variant="primary" onClick={() => openNew("listening")}>
@@ -211,19 +218,34 @@ export default function AdminMocks({ isDark }) {
         </Btn>
       </div>
 
+      <Tabs
+        isDark={isDark}
+        value={source}
+        onChange={setSource}
+        label="Mock manbasi"
+        tabs={[
+          { key: "our", label: "Our Mock", count: rows.length },
+          { key: "cambridge", label: "Cambridge", count: cambridgeRows.length },
+        ]}
+      />
+
       <ErrorBox>{error}</ErrorBox>
 
       {loading ? (
         <Panel isDark={isDark}>
           <SkeletonRows isDark={isDark} />
         </Panel>
-      ) : !rows.length ? (
+      ) : !activeRows.length ? (
         <Panel isDark={isDark}>
-          <Empty isDark={isDark}>Hozircha mock yo'q.</Empty>
+          <Empty isDark={isDark}>
+            {source === "cambridge"
+              ? "Cambridge mocklari hali yuklanmagan."
+              : "Hozircha mock yo'q."}
+          </Empty>
         </Panel>
       ) : (
         <div className="grid gap-3 lg:grid-cols-2">
-          {rows.map((row) => (
+          {activeRows.map((row) => (
             <Panel
               key={row.series}
               isDark={isDark}
@@ -258,7 +280,7 @@ export default function AdminMocks({ isDark }) {
                         {m && (
                           <>
                             <a
-                              href={`${origin}/mock/${m.series}/1/${skill}/1`}
+                              href={`${origin}/mock/${m.series}/1/${skill}/1${source === "cambridge" ? "?source=cambridge" : ""}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className={`inline-flex min-h-9 items-center rounded-lg border px-3 text-xs font-bold ${

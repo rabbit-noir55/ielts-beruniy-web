@@ -163,7 +163,8 @@ const IELTSListening = ({ theme, isOurMockRoute }) => {
   useEffect(() => {
     if (!series || !testNum || !partNum) return;
     const previewToken = getPreviewToken(searchParams);
-    const cacheKey = `${series}:${testNum}:${previewToken || ""}`;
+    const mockSource = searchParams.get("source") || undefined;
+    const cacheKey = `${series}:${testNum}:${previewToken || ""}:${mockSource || ""}`;
 
     // Our Mock'da barcha partlar bitta audiodan foydalanadi. Part almashganda
     // ma'lumotni qayta yuklamaymiz — aks holda pleer unmount bo'lib, audio
@@ -175,7 +176,7 @@ const IELTSListening = ({ theme, isOurMockRoute }) => {
     // Skeleton kamida 450ms ko'rinadi (Cambridge'dagi kabi silliq o'tish)
     const startedAt = Date.now();
     const load = isOurMock
-      ? fetchOurMock(series, "listening", { previewToken })
+      ? fetchOurMock(series, "listening", { previewToken, source: mockSource })
       : fetch(`/json/IELTS_${series}_Listening.json`).then(async (r) => {
           if (!r.ok) throw new Error(`HTTP ${r.status}`);
           const contentType = r.headers.get("content-type") || "";

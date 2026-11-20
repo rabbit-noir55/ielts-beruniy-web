@@ -14,6 +14,7 @@ import {
   faSpinner,
 } from "@fortawesome/free-solid-svg-icons";
 import { fetchTools } from "../utils/toolsApi";
+import { deviceType } from "../utils/device";
 
 const BUILTIN_TOOLS = [
   {
@@ -168,7 +169,7 @@ export default function Tools({ theme = "dark" }) {
 
   useEffect(() => {
     let alive = true;
-    fetchTools()
+    fetchTools(deviceType())
       .then((res) => {
         if (alive) setCustomTools(Array.isArray(res?.items) ? res.items : []);
       })

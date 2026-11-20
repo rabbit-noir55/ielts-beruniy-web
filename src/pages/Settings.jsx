@@ -23,6 +23,16 @@ import {
   removeBiometricDevice,
 } from "../utils/webauthn";
 import { restartOnboarding } from "../utils/onboarding";
+import {
+  Database,
+  Fingerprint,
+  KeyRound,
+  LifeBuoy,
+  Palette,
+  Send,
+  ShieldCheck,
+  User,
+} from "lucide-react";
 import { isInApp, isTelegram } from "../utils/telegram.js";
 
 const THEMES = [
@@ -61,15 +71,82 @@ const FONT_OPTIONS = [
   { id: "noto-serif", label: "Noto Serif", desc: "Kitob uslubi", sample: "Aa" },
 ];
 
-function Kicker({ children }) {
+const SECTION_SLUGS = {
+  "Telegram bog'lash": "telegram",
+  "Preset Themes": "preset-themes",
+};
+
+const SECTION_ICONS = {
+  Profile: User,
+  Security: ShieldCheck,
+  "Examiner PIN": KeyRound,
+  "Biometrik tasdiqlash": Fingerprint,
+  "Telegram bog'lash": Send,
+  "Preset Themes": Palette,
+  "Accent Rang": Palette,
+  "Qirra Radiusi": Palette,
+  "Font Family": Palette,
+  Data: Database,
+  Yordam: LifeBuoy,
+};
+
+function Kicker({ children, icon: Icon }) {
   return (
     <span className="mb-3 inline-flex items-center gap-2 rounded-full border border-black/[0.12] px-3.5 py-1 text-[10px] font-bold uppercase tracking-wider text-black/50 dark:border-white/15 dark:text-white/50">
-      <span className="relative flex h-1.5 w-1.5">
-        <span className="animate-soft-ping absolute inline-flex h-full w-full rounded-full bg-current opacity-70" />
-        <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-current" />
-      </span>
+      {Icon ? (
+        <Icon size={11} className="opacity-70" aria-hidden="true" />
+      ) : (
+        <span className="relative flex h-1.5 w-1.5">
+          <span className="animate-soft-ping absolute inline-flex h-full w-full rounded-full bg-current opacity-70" />
+          <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-current" />
+        </span>
+      )}
       {children}
     </span>
+  );
+}
+
+function SettingsHero({ user, isDark }) {
+  const name =
+    user?.full_name ||
+    [user?.first_name, user?.last_name].filter(Boolean).join(" ") ||
+    "Mehmon";
+  const initial = name.trim().charAt(0).toUpperCase() || "?";
+  return (
+    <div
+      className={`rounded-2xl border p-4 ${
+        isDark ? "border-white/10 bg-white/[0.03]" : "border-black/[0.08] bg-white"
+      }`}
+    >
+      <div className="flex items-center gap-3">
+        <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[var(--accent)] text-lg font-black text-[var(--accent-contrast)]">
+          {initial}
+        </span>
+        <div className="min-w-0">
+          <div className="truncate text-sm font-extrabold">{name}</div>
+          <div className={`truncate text-[11px] ${isDark ? "text-white/40" : "text-black/40"}`}>
+            {user?.email || "Hisobga kiring"}
+          </div>
+        </div>
+      </div>
+      <div className="mt-3 flex flex-wrap gap-1.5">
+        {user?.role && (
+          <span className={`rounded-full px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide ${isDark ? "bg-white/[0.07] text-white/55" : "bg-black/[0.05] text-black/50"}`}>
+            {user.role === "teacher" ? "Ustoz" : "O'quvchi"}
+          </span>
+        )}
+        {user?.group_detail?.name && (
+          <span className={`rounded-full px-2 py-0.5 text-[9px] font-bold ${isDark ? "bg-white/[0.07] text-white/55" : "bg-black/[0.05] text-black/50"}`}>
+            {user.group_detail.name}
+          </span>
+        )}
+        {user?.is_examiner && (
+          <span className="rounded-full bg-[var(--accent)]/12 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide text-[var(--accent)]">
+            Examiner
+          </span>
+        )}
+      </div>
+    </div>
   );
 }
 
@@ -95,11 +172,19 @@ function Toggle({ checked, onChange }) {
   );
 }
 
-function Section({ title, children }) {
+function Section({ title, children, id }) {
+  const slug =
+    id ||
+    SECTION_SLUGS[title] ||
+    String(title)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+  const Icon = SECTION_ICONS[title];
   return (
-    <section className="mb-6">
-      <Kicker>{title}</Kicker>
-      <div className="rounded-2xl border border-black/[0.08] bg-white p-5 dark:border-white/10 dark:bg-[#141416]">
+    <section id={`settings-${slug}`} className="mb-6 scroll-mt-28">
+      <Kicker icon={Icon}>{title}</Kicker>
+      <div className="rounded-2xl border border-black/[0.08] bg-white p-5 shadow-sm dark:border-white/10 dark:bg-[#141416]">
         {children}
       </div>
     </section>
@@ -458,15 +543,88 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
     setBgImage("");
   };
 
+  const scrollToSection = (id) => {
+    document
+      .getElementById(`settings-${id}`)
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  const navItems = [
+    { id: "preset-themes", label: "Ko'rinish", icon: Palette },
+    { id: "profile", label: "Profil", icon: User },
+    { id: "security", label: "Xavfsizlik", icon: ShieldCheck },
+    ...(user?.is_examiner
+      ? [
+          { id: "examiner-pin", label: "Examiner PIN", icon: KeyRound },
+          { id: "biometrik-tasdiqlash", label: "Biometrika", icon: Fingerprint },
+        ]
+      : []),
+    ...(authed && !isTelegram() && !isInApp()
+      ? [{ id: "telegram", label: "Telegram", icon: Send }]
+      : []),
+    { id: "data", label: "Ma'lumot", icon: Database },
+    { id: "yordam", label: "Yordam", icon: LifeBuoy },
+  ];
+
   return (
-    <div className="mx-auto max-w-3xl px-6 py-10">
-      <div className="mb-8">
-        <Kicker>Customize</Kicker>
-        <h1 className="font-display text-3xl font-bold sm:text-4xl">Customize</h1>
-        <p className={`mt-2 text-sm ${isDark ? "text-white/40" : "text-black/40"}`}>
-          Saytning ko'rinishini o'zgartiring.
-        </p>
-      </div>
+    <div className="px-4 pb-16 pt-24">
+      <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-[230px_minmax(0,1fr)]">
+        <aside className="hidden lg:block">
+          <div className="sticky top-24 flex flex-col gap-4">
+            <SettingsHero user={user} isDark={isDark} />
+            <nav className="flex flex-col gap-0.5" aria-label="Sozlamalar bo'limlari">
+              {navItems.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <button
+                    key={item.id}
+                    type="button"
+                    onClick={() => scrollToSection(item.id)}
+                    className={`flex min-h-10 items-center gap-2.5 rounded-xl px-3 text-left text-xs font-bold transition ${
+                      isDark
+                        ? "text-white/55 hover:bg-white/[0.05] hover:text-white"
+                        : "text-black/55 hover:bg-black/[0.04] hover:text-black"
+                    }`}
+                  >
+                    <Icon size={14} className="opacity-60" aria-hidden="true" />
+                    {item.label}
+                  </button>
+                );
+              })}
+            </nav>
+          </div>
+        </aside>
+
+        <div className="min-w-0">
+          <div className="mb-6">
+            <h1 className="text-2xl font-extrabold tracking-tight sm:text-3xl">Sozlamalar</h1>
+            <p className={`mt-1 text-sm ${isDark ? "text-white/40" : "text-black/40"}`}>
+              Ko'rinish, hisob va xavfsizlik — barchasi bir joyda.
+            </p>
+          </div>
+
+          <div className="mb-5 lg:hidden">
+            <SettingsHero user={user} isDark={isDark} />
+          </div>
+          <nav
+            className="mb-5 flex gap-1.5 overflow-x-auto pb-1 lg:hidden [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            aria-label="Sozlamalar bo'limlari"
+          >
+            {navItems.map((item) => (
+              <button
+                key={item.id}
+                type="button"
+                onClick={() => scrollToSection(item.id)}
+                className={`shrink-0 rounded-full px-3 py-1.5 text-[11px] font-bold transition ${
+                  isDark
+                    ? "bg-white/[0.06] text-white/55 hover:bg-white/[0.1]"
+                    : "bg-black/[0.05] text-black/55 hover:bg-black/[0.08]"
+                }`}
+              >
+                {item.label}
+              </button>
+            ))}
+          </nav>
 
       {/* Preset Themes */}
       <Section title="Preset Themes">
@@ -927,6 +1085,8 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
           </Section>
         </>
       )}
+        </div>
+      </div>
     </div>
   );
 }

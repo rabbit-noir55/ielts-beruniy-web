@@ -7,8 +7,8 @@ import { request } from "./api";
  * ko'rinishida yuboriladi; leaderboard har o'yin uchun alohida.
  */
 
-export function fetchGames() {
-  return request("/games/");
+export function fetchGames(device) {
+  return request(`/games/${device ? `?device=${encodeURIComponent(device)}` : ""}`);
 }
 
 export function fetchGame(gameId) {

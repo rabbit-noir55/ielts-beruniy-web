@@ -1,4 +1,4 @@
-import { request } from "../utils/api";
+import { BASE_URL, request } from "../utils/api";
 
 function qs(params = {}) {
   const p = new URLSearchParams();
@@ -31,7 +31,8 @@ export const adminLeagueAction = (body) =>
   request("/admin/league/", { method: "POST", body });
 
 export const adminMocks = () => request("/admin/mocks/");
-export const adminMockDetail = (id) => request(`/admin/mocks/${id}/`);
+export const adminMockDetail = (id, source) =>
+  request(`/admin/mocks/${id}/${qs({ source })}`);
 export const adminMockAction = (body) =>
   request("/admin/mocks/", { method: "POST", body });
 
@@ -68,3 +69,45 @@ export const adminAIModels = () => request("/admin/ai/models/");
 export const adminAIModelSave = (body) =>
   request("/admin/ai/models/", { method: "POST", body });
 export const adminAIUsage = (params) => request(`/admin/ai/usage/${qs(params)}`);
+
+// ── Onlayn darslar ──────────────────────────────────────────────────────────
+
+export const adminLessons = (group) => request(`/admin/lessons/${qs({ group })}`);
+export const adminLessonDetail = (id) => request(`/admin/lessons/${id}/`);
+export const adminLessonAction = (body) =>
+  request("/admin/lessons/", { method: "POST", body });
+export const adminLessonComments = (videoId) =>
+  request(`/admin/lessons/videos/${videoId}/comments/`);
+
+// ── Guruh materiallari ──────────────────────────────────────────────────────
+
+export const adminResources = (group) =>
+  request(`/admin/resources/${qs({ group })}`);
+export const adminResourceAction = (body) =>
+  request("/admin/resources/", { method: "POST", body });
+
+/** Multipart yuklash: rasm → data URL, PDF/video → storage URL. */
+export async function adminUpload(file, kind) {
+  const token = localStorage.getItem("ielts_token");
+  const form = new FormData();
+  form.append("file", file);
+  form.append("kind", kind);
+  const response = await fetch(`${BASE_URL}/admin/resources/upload/`, {
+    method: "POST",
+    headers: { Authorization: `Token ${token}` },
+    body: form,
+  });
+  let data;
+  try {
+    data = await response.json();
+  } catch {
+    data = null;
+  }
+  if (!response.ok) {
+    const error = new Error(data?.detail || "Faylni yuklab bo'lmadi.");
+    error.status = response.status;
+    error.data = data;
+    throw error;
+  }
+  return data;
+}
