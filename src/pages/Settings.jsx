@@ -22,6 +22,7 @@ import {
   registerBiometricDevice,
   removeBiometricDevice,
 } from "../utils/webauthn";
+import { restartOnboarding } from "../utils/onboarding";
 import { isInApp, isTelegram } from "../utils/telegram.js";
 
 const THEMES = [
@@ -910,6 +911,20 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
             )}
           </Section>
           )}
+          <Section title="Yordam">
+            <Row
+              title="Sayt qo'llanmasi"
+              desc="Asosiy bo'limlar va tugmalar bo'yicha qisqa tur."
+            >
+              <button
+                type="button"
+                onClick={() => restartOnboarding()}
+                className="inline-flex min-h-11 items-center rounded-full border border-[var(--accent)]/40 px-4 text-sm font-bold text-[var(--accent)] transition hover:bg-[var(--accent)]/10"
+              >
+                Qo'llanmani ko'rish
+              </button>
+            </Row>
+          </Section>
         </>
       )}
     </div>

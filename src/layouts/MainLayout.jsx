@@ -21,6 +21,7 @@ import logoSvg from "../assets/logo.png";
 import { getBackgroundImage, getUser, hasMockAccess, getUserGroupName, getUserGroupLogo, isIeltsGroup, isAuthenticated } from "../utils/api";
 import { getMockActive, onMockChange } from "../utils/mockMode";
 import { getRecentTools, recordRecentTool, toolLabelForPath, isCustomToolPath } from "../utils/recentTools";
+import OnboardingTour from "../components/OnboardingTour";
 
 // Recent bo'lmasa ko'rsatiladigan foydali tool'lar
 const DEFAULT_TOOLS = [
@@ -253,7 +254,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
 
         {/* Desktop header */}
         <div className="hidden md:flex mx-auto max-w-7xl items-center justify-between px-6 py-3 lg:px-8">
-          <Link to="/" className="flex items-center shrink-0">
+          <Link to="/" className="flex items-center shrink-0" data-tour="logo">
             <img src={logoSvg} alt="IELTS Beruniy Logo" className="h-20 dark:brightness-0 dark:invert" />
           </Link>
           <nav className="hidden md:flex items-center gap-1 lg:gap-2">
@@ -263,7 +264,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                   isActive("/") || isActive("/mocks")
                     ? isDark ? "text-[var(--accent)] bg-white/[0.08]" : "text-[var(--accent)] bg-black/[0.05]"
                     : isDark ? "text-white/50 hover:text-white hover:bg-white/[0.06]" : "text-black/50 hover:text-[#17171A] hover:bg-black/[0.03]"
-                }`}>
+                }`} data-tour="mocks">
                   <Home size={14} className={`text-xs transition-all duration-200 group-hover:scale-110 group-hover:rotate-3 group-hover:text-[var(--accent)] ${isActive("/") || isActive("/mocks") ? "text-[var(--accent)]" : ""}`} />
                   <span className="relative">
                     Mocktest
@@ -292,7 +293,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                   isActive("/tools") || isActive("/typing")
                     ? isDark ? "text-[var(--accent)] bg-white/[0.08]" : "text-[var(--accent)] bg-black/[0.05]"
                     : isDark ? "text-white/50 hover:text-white hover:bg-white/[0.06]" : "text-black/50 hover:text-[#17171A] hover:bg-black/[0.03]"
-                }`}>
+                }`} data-tour="tools">
                   <Wrench size={14} className={`text-xs transition-all duration-200 group-hover:scale-110 group-hover:rotate-3 group-hover:text-[var(--accent)] ${isActive("/tools") || isActive("/typing") ? "text-[var(--accent)]" : ""}`} />
                   <span className="relative">
                     Tools
@@ -338,7 +339,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
               </div>
             )}
             {navLinks.map((link) => (
-              <Link key={link.to} to={link.to} className={`group flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:scale-105 hover:-translate-y-0.5 active:scale-95 ${
+              <Link key={link.to} to={link.to} data-tour={`nav-${link.to}`} className={`group flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:scale-105 hover:-translate-y-0.5 active:scale-95 ${
                 isActive(link.to)
                   ? isDark ? "text-[var(--accent)] bg-white/[0.08]" : "text-[var(--accent)] bg-black/[0.05]"
                   : isDark ? "text-white/50 hover:text-white hover:bg-white/[0.06]" : "text-black/50 hover:text-[#17171A] hover:bg-black/[0.03]"
@@ -374,7 +375,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                 Admin
               </Link>
             )}
-            <button onClick={toggleTheme} className={`group relative flex h-9 w-9 items-center justify-center rounded-lg text-base transition-all duration-200 hover:scale-105 ${isDark ? "text-white/50 hover:text-white hover:bg-white/[0.06]" : "text-black/50 hover:text-[#17171A] hover:bg-black/[0.03]"}`} aria-label="Toggle theme">
+            <button onClick={toggleTheme} data-tour="theme" className={`group relative flex h-9 w-9 items-center justify-center rounded-lg text-base transition-all duration-200 hover:scale-105 ${isDark ? "text-white/50 hover:text-white hover:bg-white/[0.06]" : "text-black/50 hover:text-[#17171A] hover:bg-black/[0.03]"}`} aria-label="Toggle theme">
               <span className={`absolute inset-0 flex items-center justify-center transition-all duration-500 ${isDark ? "opacity-100 rotate-0 scale-100" : "opacity-0 -rotate-90 scale-75"}`}>
                 <Moon size={14} className="group-hover:text-[var(--accent)]" />
               </span>
@@ -383,11 +384,11 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
               </span>
             </button>
             {authed ? (
-              <Link to="/account" className={`flex h-9 w-9 items-center justify-center rounded-full text-xs font-bold text-white transition-all duration-200 hover:scale-105 hover:-translate-y-0.5 ${bgColor}`} aria-label="Account">
+              <Link to="/account" data-tour="account" className={`flex h-9 w-9 items-center justify-center rounded-full text-xs font-bold text-white transition-all duration-200 hover:scale-105 hover:-translate-y-0.5 ${bgColor}`} aria-label="Account">
                 {initial || "?"}
               </Link>
             ) : (
-              <Link to="/login" className="inline-flex min-h-9 items-center rounded-full border border-black/[0.15] px-3 text-xs font-bold text-black/75 dark:border-white/20 dark:text-white/80">
+              <Link to="/login" data-tour="account" className="inline-flex min-h-9 items-center rounded-full border border-black/[0.15] px-3 text-xs font-bold text-black/75 dark:border-white/20 dark:text-white/80">
                 Kirish
               </Link>
             )}
@@ -396,7 +397,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
 
         {/* Mobile header — compact app-style */}
         <div className="md:hidden flex items-center justify-between px-4 py-2.5">
-          <Link to="/" className="flex items-center shrink-0">
+          <Link to="/" className="flex items-center shrink-0" data-tour="mobile-logo">
             <img src={logoSvg} alt="IELTS Beruniy" className="h-10 dark:brightness-0 dark:invert" />
           </Link>
           <div className="flex items-center gap-1.5">
@@ -428,7 +429,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                 Admin
               </Link>
             )}
-            <button onClick={toggleTheme} className={`flex h-8 w-8 items-center justify-center rounded-lg text-sm transition-all active:scale-90 ${isDark ? "text-white/50" : "text-black/50"}`} aria-label="Toggle theme">
+            <button onClick={toggleTheme} data-tour="mobile-theme" className={`flex h-8 w-8 items-center justify-center rounded-lg text-sm transition-all active:scale-90 ${isDark ? "text-white/50" : "text-black/50"}`} aria-label="Toggle theme">
               {isDark ? <Moon size={15} /> : <Sun size={15} />}
             </button>
           </div>
@@ -476,6 +477,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                   <Link
                     key={tab.id}
                     to={tab.to}
+                    data-tour="mobile-competition"
                     className="flex flex-col items-center -mt-4 min-w-[56px]"
                   >
                     <span className={`flex h-12 w-12 items-center justify-center rounded-full shadow-lg transition-all duration-200 active:scale-90 ${
@@ -501,6 +503,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                   <button
                     key={tab.id}
                     onClick={() => setToolsSheetOpen(true)}
+                    data-tour="mobile-tools"
                     className={`flex flex-col items-center gap-0.5 px-3 py-1 rounded-xl transition-all duration-200 active:scale-90 min-w-[56px] ${
                       isDark ? "text-white/40" : "text-black/40"
                     }`}
@@ -517,6 +520,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                   <button
                     key={tab.id}
                     onClick={() => setMockSheetOpen(true)}
+                    data-tour="mobile-mock"
                     className={`flex flex-col items-center gap-0.5 px-3 py-1 rounded-xl transition-all duration-200 active:scale-90 min-w-[56px] ${
                       mockActive
                         ? "text-[var(--accent)]"
@@ -537,6 +541,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
                 <Link
                   key={tab.id || tab.to}
                   to={tab.to}
+                  data-tour={tab.to === "/lessons" ? "mobile-lessons" : "mobile-account"}
                   className={`flex flex-col items-center gap-0.5 px-3 py-1 rounded-xl transition-all duration-200 active:scale-90 min-w-[56px] ${
                     active
                       ? "text-[var(--accent)]"
@@ -627,6 +632,11 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
           </div>
         </div>
       )}
+
+      <OnboardingTour
+        isDark={isDark}
+        disabled={immersive || ["/intro", "/login", "/register"].includes(pathname)}
+      />
     </div>
   );
 }

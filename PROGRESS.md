@@ -9,6 +9,14 @@
 
 ## Bajarilgan
 
+### 2026-11-20 — birinchi kirish uchun qo'llanma (onboarding)
+
+- [x] `OnboardingTour`: spotlight, 8 qadam, Keyingi/Orqaga/O'tkazish, progress dots
+- [x] Klaviatura: ← →, Escape, Tab focus trap; 44px tugmalar; reduced-motion
+- [x] Desktop va mobil targetlar (`data-tour`); target yo'q bo'lsa markazlashgan qadam
+- [x] Settings → Yordam: «Qo'llanmani ko'rish» (qayta ochish)
+- [x] Playwright: desktop spotlight aniq mos, mobil bottom-nav ustida karta, overflow yo'q
+
 ### 2026-11-20 — o'yinlar: dvigatel va 14 ta ichki o'yin
 
 - [x] `src/games/`: canvas dvigateli, sprite'lar (vektor), WebAudio ovozlar, lug'at (book.js)
