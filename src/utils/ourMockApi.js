@@ -52,7 +52,7 @@ export async function fetchOurMockList() {
  * @param {object} opts
  * @param {string} [opts.previewToken] — preview uchun token (series o'rniga)
  */
-export async function fetchOurMock(series, skill, { previewToken, source } = {}) {
+export async function fetchOurMock(series, skill, { previewToken, source, test } = {}) {
   if (previewToken) {
     const res = await fetch(`${BASE_URL}/mocks/preview/${previewToken}/`);
     if (!res.ok) {
@@ -62,11 +62,17 @@ export async function fetchOurMock(series, skill, { previewToken, source } = {})
   }
 
   if (source) {
+    const params = new URLSearchParams({ source });
+    if (test) params.set("test", String(test));
     const res = await fetch(
-      `${BASE_URL}/mocks/${series}/${skill}/?source=${encodeURIComponent(source)}`
+      `${BASE_URL}/mocks/${series}/${skill}/?${params.toString()}`
     );
     if (!res.ok) {
-      throw new Error("Cambridge mock ma'lumotlari topilmadi.");
+      throw new Error(
+        source === "cambridge"
+          ? "Cambridge mock ma'lumotlari topilmadi."
+          : "Test ma'lumotlari topilmadi."
+      );
     }
     return readJson(res);
   }

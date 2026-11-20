@@ -211,13 +211,38 @@ export default function AdminResources({ isDark }) {
           </>
         }
       >
-        {form && (
+        {form && (() => {
+          const selectedType = data.groups.find(
+            (group) => String(group.id) === String(form.group)
+          )?.group_type;
+          const kindOptions =
+            selectedType === "roundup"
+              ? [["pdf", "PDF kitob"], ["link", "Havola"]]
+              : selectedType === "ielts"
+                ? [["mock", "Mock"], ["link", "Havola"], ["video", "Video"]]
+                : [
+                    ["pdf", "PDF kitob"],
+                    ["mock", "Mock"],
+                    ["link", "Havola"],
+                    ["video", "Video"],
+                  ];
+          return (
           <div className="flex flex-col gap-3">
             <div className="grid grid-cols-2 gap-3">
               <Field isDark={isDark} label="Guruh">
                 <select
                   value={form.group}
-                  onChange={(event) => setForm({ ...form, group: event.target.value })}
+                  onChange={(event) => {
+                    const nextGroup = event.target.value;
+                    const nextType = data.groups.find(
+                      (group) => String(group.id) === String(nextGroup)
+                    )?.group_type;
+                    setForm({
+                      ...form,
+                      group: nextGroup,
+                      kind: nextType === "roundup" ? "pdf" : nextType === "ielts" ? "mock" : form.kind,
+                    });
+                  }}
                   className={inputCls(isDark)}
                 >
                   <option value="">Tanlang…</option>
@@ -234,10 +259,9 @@ export default function AdminResources({ isDark }) {
                   onChange={(event) => setForm({ ...form, kind: event.target.value })}
                   className={inputCls(isDark)}
                 >
-                  <option value="pdf">PDF kitob</option>
-                  <option value="mock">Mock</option>
-                  <option value="link">Havola</option>
-                  <option value="video">Video</option>
+                  {kindOptions.map(([value, label]) => (
+                    <option key={value} value={value}>{label}</option>
+                  ))}
                 </select>
               </Field>
             </div>
@@ -298,7 +322,8 @@ export default function AdminResources({ isDark }) {
               </label>
             </div>
           </div>
-        )}
+          );
+        })()}
       </Modal>
     </div>
   );

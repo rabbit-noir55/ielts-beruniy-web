@@ -176,19 +176,25 @@ const IELTSReading = ({ theme, isOurMockRoute }) => {
     const previewToken = getPreviewToken(searchParams);
     const mockSource = searchParams.get("source") || undefined;
     const load = isOurMock
-      ? fetchOurMock(series, "reading", { previewToken, source: mockSource })
-      : fetch(`/json/IELTS_${series}_Reading.json`).then(async (r) => {
-          if (!r.ok) throw new Error(`HTTP ${r.status}`);
-          const contentType = r.headers.get("content-type") || "";
-          if (!contentType.includes("json")) {
-            throw new Error(`Test ma'lumotlari topilmadi (IELTS_${series}_Reading.json)`);
-          }
-          return r.json();
-        });
+      ? fetchOurMock(series, "reading", { previewToken, source: mockSource }).then(
+          (json) => ({ json, normalized: true })
+        )
+      : fetchOurMock(series, "reading", { source: "cambridge", test: testNum })
+          .then((json) => ({ json, normalized: true }))
+          .catch(() =>
+            fetch(`/json/IELTS_${series}_Reading.json`).then(async (r) => {
+              if (!r.ok) throw new Error(`HTTP ${r.status}`);
+              const contentType = r.headers.get("content-type") || "";
+              if (!contentType.includes("json")) {
+                throw new Error(`Test ma'lumotlari topilmadi (IELTS_${series}_Reading.json)`);
+              }
+              return { json: await r.json(), normalized: false };
+            })
+          );
 
     load
-      .then((json) => {
-        if (isOurMock) {
+      .then(({ json, normalized }) => {
+        if (isOurMock || normalized) {
           setData(normalizeOurMocksReading(json, testNum));
         } else {
           setData(json);

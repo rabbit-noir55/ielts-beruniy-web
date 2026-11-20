@@ -189,3 +189,9 @@ Frontend **`code`** bo'yicha xabar tanlaydi, `error` ni to'g'ridan-to'g'ri ko'rs
 Admin kontent: `/admin/lessons/`, `/admin/lessons/<id>/`, `/admin/resources/`,
 `/admin/resources/upload/` (multipart). Qurilma filtri: `/games/?device=desktop|mobile`,
 `/tools/?device=...`.
+
+**Qoidalar:** video darslar barcha guruhlarga ochiq. Materiallar: IELTS → mock,
+Round Up → PDF, guruhsiz → ikkisi ham. Ustoz yuklagan Cambridge mocklari
+**Mocktest (Home) bo'limida** ko'rinadi; Reading/Listening avval
+`/mocks/<series>/<skill>/?source=cambridge&test=N` ni so'raydi, 404 bo'lsa statik
+JSON'ga tushadi.

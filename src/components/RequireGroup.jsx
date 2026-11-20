@@ -8,15 +8,20 @@ export default function RequireGroup({ type, children }) {
     // External user (guruh yo'q) — ruxsat
     // IELTS guruh + mock_access — ruxsat
     // Round Up yoki mock_access yo'q — rad
-    if (group && !hasMockAccess()) {
+    const roundUp = Boolean(group) && isRoundUpGroup();
+    if (group && (roundUp || !hasMockAccess())) {
       return (
         <div className="flex min-h-[50vh] flex-col items-center justify-center gap-4 text-center">
           <div className="text-5xl opacity-30">🔒</div>
           <h2 className="text-xl font-bold text-balance dark:text-white/80">
-            Mock testlarga kirish yo'q
+            {roundUp
+              ? "Mocklar faqat IELTS guruhlari uchun"
+              : "Mock testlarga kirish yo'q"}
           </h2>
           <p className="max-w-sm text-sm text-black/50 dark:text-white/40">
-            {`"${group.name}" guruhingizda mock testlarga kirish ruxsati yo'q. O'qituvchingiz bilan bog'laning.`}
+            {roundUp
+              ? `"${group.name}" — Round Up guruhi. Bu guruh uchun PDF kitoblar Lessons bo'limida.`
+              : `"${group.name}" guruhingizda mock testlarga kirish ruxsati yo'q. O'qituvchingiz bilan bog'laning.`}
           </p>
         </div>
       );

@@ -11,7 +11,7 @@ import {
   Settings2,
   Video,
 } from "lucide-react";
-import { fetchCambridgeMocks, fetchLessonsOverview } from "../utils/lessonsApi";
+import { fetchLessonsOverview } from "../utils/lessonsApi";
 
 const KIND_META = {
   pdf: { label: "PDF", icon: FileText, tone: "text-rose-500" },
@@ -130,7 +130,6 @@ function ResourceCard({ resource, isDark }) {
 export default function Lessons({ theme }) {
   const isDark = theme === "dark";
   const [data, setData] = useState(null);
-  const [cambridge, setCambridge] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [tab, setTab] = useState("videos");
@@ -140,17 +139,7 @@ export default function Lessons({ theme }) {
     setLoading(true);
     fetchLessonsOverview()
       .then((response) => {
-        if (!alive) return;
-        setData(response);
-        if ((response.group_type || "ielts") !== "roundup") {
-          fetchCambridgeMocks()
-            .then((result) => {
-              if (alive) setCambridge(result.items || []);
-            })
-            .catch(() => {
-              if (alive) setCambridge([]);
-            });
-        }
+        if (alive) setData(response);
       })
       .catch((err) => {
         if (alive) setError(err.message || "Darslarni yuklab bo'lmadi.");
@@ -164,6 +153,11 @@ export default function Lessons({ theme }) {
   }, []);
 
   const isRoundUp = (data?.group_type || "ielts") === "roundup";
+  // Guruhsiz foydalanuvchi ikkalasini ham ko'radi.
+  const hasGroup = Boolean(data?.group);
+  const showMocks = !hasGroup || !isRoundUp;
+  const showPdfs = !hasGroup || isRoundUp;
+
   const playlists = data?.playlists || [];
   const resources = data?.resources || [];
   const pdfResources = resources.filter((item) => ["pdf", "link"].includes(item.kind));
@@ -171,14 +165,26 @@ export default function Lessons({ theme }) {
 
   const tabs = [
     { key: "videos", label: "Video darslar", count: playlists.length, icon: Play },
-    isRoundUp
-      ? { key: "resources", label: "PDF kitoblar", count: pdfResources.length, icon: BookOpen }
-      : {
-          key: "mocks",
-          label: "Mock testlar",
-          count: mockResources.length + cambridge.length,
-          icon: GraduationCap,
-        },
+    ...(showMocks
+      ? [
+          {
+            key: "mocks",
+            label: "Mock testlar",
+            count: mockResources.length,
+            icon: GraduationCap,
+          },
+        ]
+      : []),
+    ...(showPdfs
+      ? [
+          {
+            key: "pdfs",
+            label: "PDF kitoblar",
+            count: pdfResources.length,
+            icon: BookOpen,
+          },
+        ]
+      : []),
   ];
 
   const muted = isDark ? "text-white/45" : "text-black/45";
@@ -298,83 +304,51 @@ export default function Lessons({ theme }) {
               </p>
             </div>
           )
-        ) : isRoundUp ? (
-          pdfResources.length ? (
-            <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
-              {pdfResources.map((resource) => (
-                <ResourceCard key={resource.id} resource={resource} isDark={isDark} />
-              ))}
-            </div>
-          ) : (
-            <div className={`mt-6 rounded-2xl border px-6 py-14 text-center ${card}`}>
-              <BookOpen size={30} className={`mx-auto ${isDark ? "text-white/25" : "text-black/25"}`} />
-              <h2 className="mt-3 text-base font-bold">PDF kitoblar hali qo'shilmagan</h2>
-              <p className={`mt-1 text-sm ${muted}`}>
-                Round Up kitoblaringiz ustoz tomonidan shu bo'limga yuklanadi.
-              </p>
-            </div>
-          )
-        ) : (
-          <div className="mt-6 space-y-5">
-            {cambridge.length > 0 && (
-              <section>
-                <h2 className="text-sm font-extrabold uppercase tracking-wider opacity-50">
-                  Cambridge (yuklangan)
-                </h2>
-                <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                  {cambridge.map((item) => (
-                    <div key={item.series} className={`rounded-2xl border p-4 ${card}`}>
-                      <div className="flex items-center gap-2">
-                        <GraduationCap size={16} className="text-[var(--accent)]" />
-                        <h3 className="text-sm font-extrabold">Cambridge {item.series}</h3>
-                      </div>
-                      <div className="mt-3 flex flex-wrap gap-2">
-                        {item.skills.map((skill) => (
-                          <Link
-                            key={skill}
-                            to={`/mock/${item.series}/1/${skill}/1?source=cambridge`}
-                            className={`inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3 text-[11px] font-bold capitalize transition hover:border-[var(--accent)]/50 hover:text-[var(--accent)] ${
-                              isDark ? "border-white/12 text-white/60" : "border-black/10 text-black/60"
-                            }`}
-                          >
-                            <Play size={11} /> {skill === "reading" ? "Reading" : "Listening"}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {mockResources.length > 0 && (
-              <section>
-                <h2 className="text-sm font-extrabold uppercase tracking-wider opacity-50">
-                  Qo'shimcha mocklar
-                </h2>
-                <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
-                  {mockResources.map((resource) => (
-                    <ResourceCard key={resource.id} resource={resource} isDark={isDark} />
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {!cambridge.length && !mockResources.length && (
+        ) : tab === "mocks" ? (
+          <div className="mt-6 space-y-4">
+            {mockResources.length > 0 ? (
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                {mockResources.map((resource) => (
+                  <ResourceCard key={resource.id} resource={resource} isDark={isDark} />
+                ))}
+              </div>
+            ) : (
               <div className={`rounded-2xl border px-6 py-14 text-center ${card}`}>
                 <GraduationCap size={30} className={`mx-auto ${isDark ? "text-white/25" : "text-black/25"}`} />
                 <h2 className="mt-3 text-base font-bold">Mocklar hali qo'shilmagan</h2>
                 <p className={`mt-1 text-sm ${muted}`}>
-                  Cambridge mocklarini yuqoridagi Mocktest bo'limidan boshlashingiz mumkin.
+                  Ustoz mock qo'shgach, shu yerda ko'rinadi.
                 </p>
-                <Link
-                  to="/"
-                  className="mt-4 inline-flex min-h-10 items-center rounded-full bg-[var(--accent)] px-5 text-xs font-bold text-[var(--accent-contrast)]"
-                >
-                  Mocktestlarga o'tish
-                </Link>
               </div>
             )}
+            <div className={`flex flex-wrap items-center justify-between gap-3 rounded-2xl border px-5 py-4 ${card}`}>
+              <div>
+                <h3 className="text-sm font-extrabold">Cambridge mock testlari</h3>
+                <p className={`text-xs ${muted}`}>
+                  Cambridge kitoblari va yuklangan mocklar — Mocktest bo'limida.
+                </p>
+              </div>
+              <Link
+                to="/"
+                className="inline-flex min-h-10 items-center rounded-full bg-[var(--accent)] px-5 text-xs font-bold text-[var(--accent-contrast)]"
+              >
+                Mocktestga o'tish
+              </Link>
+            </div>
+          </div>
+        ) : pdfResources.length ? (
+          <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {pdfResources.map((resource) => (
+              <ResourceCard key={resource.id} resource={resource} isDark={isDark} />
+            ))}
+          </div>
+        ) : (
+          <div className={`mt-6 rounded-2xl border px-6 py-14 text-center ${card}`}>
+            <BookOpen size={30} className={`mx-auto ${isDark ? "text-white/25" : "text-black/25"}`} />
+            <h2 className="mt-3 text-base font-bold">PDF kitoblar hali qo'shilmagan</h2>
+            <p className={`mt-1 text-sm ${muted}`}>
+              Round Up kitoblaringiz ustoz tomonidan shu bo'limga yuklanadi.
+            </p>
           </div>
         )}
       </div>

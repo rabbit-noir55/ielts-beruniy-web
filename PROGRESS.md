@@ -20,6 +20,10 @@
 - [x] Games/Tools: `?device=mobile|desktop` filtri (`utils/device.js`)
 - [x] Settings: yon navigatsiya, profil kartasi, bo'lim anchorlari (mobil: chip nav)
 - [x] Playwright: Lessons, playlist, video (layk/izoh), admin, qurilma filtri, Settings — overflow yo'q
+- [x] Lessons qoidalari: video darslar hamma uchun; IELTS → Mock, Round Up → PDF,
+      guruhsiz → ikkisi ham; Cambridge bo'limi Lessons'dan olib tashlandi
+- [x] Home: ustoz yuklagan Cambridge mocklar bo'limi; Reading/Listening avval yuklangan
+      Cambridge payloadini oladi (`source=cambridge&test=N`), keyin statik fayl
 
 ### 2026-11-20 — birinchi kirish uchun qo'llanma (onboarding)
 

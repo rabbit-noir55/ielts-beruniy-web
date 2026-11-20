@@ -176,21 +176,29 @@ const IELTSListening = ({ theme, isOurMockRoute }) => {
     // Skeleton kamida 450ms ko'rinadi (Cambridge'dagi kabi silliq o'tish)
     const startedAt = Date.now();
     const load = isOurMock
-      ? fetchOurMock(series, "listening", { previewToken, source: mockSource })
-      : fetch(`/json/IELTS_${series}_Listening.json`).then(async (r) => {
-          if (!r.ok) throw new Error(`HTTP ${r.status}`);
-          const contentType = r.headers.get("content-type") || "";
-          if (!contentType.includes("json")) {
-            throw new Error(`Test ma'lumotlari topilmadi (IELTS_${series}_Listening.json)`);
-          }
-          return r.json();
-        });
+      ? fetchOurMock(series, "listening", { previewToken, source: mockSource }).then(
+          (json) => ({ json, normalized: true })
+        )
+      : fetchOurMock(series, "listening", { source: "cambridge", test: testNum })
+          .then((json) => ({ json, normalized: true }))
+          .catch(() =>
+            fetch(`/json/IELTS_${series}_Listening.json`).then(async (r) => {
+              if (!r.ok) throw new Error(`HTTP ${r.status}`);
+              const contentType = r.headers.get("content-type") || "";
+              if (!contentType.includes("json")) {
+                throw new Error(`Test ma'lumotlari topilmadi (IELTS_${series}_Listening.json)`);
+              }
+              return { json: await r.json(), normalized: false };
+            })
+          );
 
     load
-      .then((json) => {
+      .then(({ json, normalized }) => {
         if (isOurMock) {
           setData(normalizeOurMocksListening(json, testNum));
           ourMockLoadedRef.current = cacheKey;
+        } else if (normalized) {
+          setData(normalizeOurMocksListening(json, testNum));
         } else {
           setData(json);
         }
