@@ -35,6 +35,7 @@ const SpeakingDraw = lazy(() => import("./pages/SpeakingDraw"));
 const GroupDetail = lazy(() => import("./pages/GroupDetail"));
 const Games = lazy(() => import("./pages/Games"));
 const GamePlay = lazy(() => import("./pages/GamePlay"));
+const BuiltinGame = lazy(() => import("./pages/BuiltinGame"));
 const ToolPlay = lazy(() => import("./pages/ToolPlay"));
 const AiTools = lazy(() => import("./pages/AiTools"));
 
@@ -294,6 +295,7 @@ export default function App() {
           <Route path="/typing" element={<RequireAuth><Suspense fallback={<PageLoader theme={theme} />}><Typing theme={theme} /></Suspense></RequireAuth>} />
           <Route path="/games" element={<RequireAuth><Suspense fallback={<PageLoader theme={theme} />}><Games theme={theme} /></Suspense></RequireAuth>} />
           <Route path="/games/play/:id" element={<RequireAuth><Suspense fallback={<PageLoader theme={theme} />}><GamePlay theme={theme} /></Suspense></RequireAuth>} />
+          <Route path="/games/builtin/:key" element={<RequireAuth><Suspense fallback={<PageLoader theme={theme} />}><BuiltinGame theme={theme} /></Suspense></RequireAuth>} />
           <Route path="/group/:slug" element={<RequireAuth><Suspense fallback={<PageLoader theme={theme} />}><GroupDetail theme={theme} /></Suspense></RequireAuth>} />
           <Route
             path="/academic/:series/:testNum/listening/:partNum"

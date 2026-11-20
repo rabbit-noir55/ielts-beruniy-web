@@ -14,8 +14,9 @@ import { fetchGames } from "../utils/gamesApi";
 import { rateGame } from "../utils/toolsApi";
 import { getRecentGames, recordRecentGame } from "../utils/recentGames";
 import { useLang } from "../utils/LanguageContext";
+import { BUILTIN_GAMES } from "../games/registry";
 
-// Saytning o'z o'yinlari (hozircha faqat Typing)
+// Saytning o'z o'yinlari: Typing + canvas/React o'yinlari
 const BUILTIN = [
   {
     key: "typing",
@@ -28,6 +29,13 @@ const BUILTIN = [
         "Type fast and accurately — improve your WPM and accuracy.",
       ),
   },
+  ...BUILTIN_GAMES.map((game) => ({
+    key: game.key,
+    icon: game.icon,
+    to: `/games/builtin/${game.key}`,
+    title: () => game.title,
+    desc: () => game.desc,
+  })),
 ];
 
 export default function Games({ theme }) {

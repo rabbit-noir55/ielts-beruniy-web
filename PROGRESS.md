@@ -9,6 +9,16 @@
 
 ## Bajarilgan
 
+### 2026-11-20 — o'yinlar: dvigatel va 14 ta ichki o'yin
+
+- [x] `src/games/`: canvas dvigateli, sprite'lar (vektor), WebAudio ovozlar, lug'at (book.js)
+- [x] Canvas o'yinlar: Word Shooter, Falling Words, Word Snake, Bubble Pop
+- [x] React o'yinlar: Memory Match, Spell Rush, Word Scramble, Quiz Rush, Word Chain,
+      Hangman, Missing Letter, Typing Race, Word Ladder, Word Search
+- [x] `/games/builtin/:key` route; Games hub'da Typing bilan jami 15 ta karta
+- [x] HTML o'yinlar (ustoz qo'shgan) o'zgartirilmasdan ishlayveradi
+- [x] Playwright: barcha o'yinlar ochiladi, canvas chiziladi, mobil overflow yo'q
+
 ### 2026-11-20 — biometrik tasdiqlash UI
 
 - [x] `src/utils/webauthn.js`: base64url, platforma autentifikatori, 60 soniyalik proof cache
