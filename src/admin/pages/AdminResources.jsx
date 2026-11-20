@@ -219,10 +219,9 @@ export default function AdminResources({ isDark }) {
             selectedType === "roundup"
               ? [["pdf", "PDF kitob"], ["link", "Havola"]]
               : selectedType === "ielts"
-                ? [["mock", "Mock"], ["link", "Havola"], ["video", "Video"]]
+                ? [["pdf", "PDF kitob"], ["link", "Havola"], ["video", "Video"]]
                 : [
                     ["pdf", "PDF kitob"],
-                    ["mock", "Mock"],
                     ["link", "Havola"],
                     ["video", "Video"],
                   ];
@@ -240,7 +239,7 @@ export default function AdminResources({ isDark }) {
                     setForm({
                       ...form,
                       group: nextGroup,
-                      kind: nextType === "roundup" ? "pdf" : nextType === "ielts" ? "mock" : form.kind,
+                      kind: nextType === "roundup" ? "pdf" : "pdf",
                     });
                   }}
                   className={inputCls(isDark)}

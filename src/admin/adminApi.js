@@ -33,6 +33,8 @@ export const adminLeagueAction = (body) =>
 export const adminMocks = () => request("/admin/mocks/");
 export const adminMockDetail = (id, source) =>
   request(`/admin/mocks/${id}/${qs({ source })}`);
+export const adminCambridgeBook = (series) =>
+  request(`/admin/mocks/book/${series}/`);
 export const adminMockAction = (body) =>
   request("/admin/mocks/", { method: "POST", body });
 

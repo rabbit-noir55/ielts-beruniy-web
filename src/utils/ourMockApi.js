@@ -106,3 +106,12 @@ export async function fetchOurMock(series, skill, { previewToken, source, test }
 export function getPreviewToken(searchParams) {
   return searchParams?.get?.("preview") || null;
 }
+
+/** Cambridge kitobining bitta skill payload'i (statik format). */
+export async function fetchCambridgeBook(series, skill) {
+  const res = await fetch(`${BASE_URL}/cambridge-books/${series}/${skill}/`);
+  if (!res.ok) {
+    throw new Error("Cambridge kitobi topilmadi.");
+  }
+  return readJson(res);
+}

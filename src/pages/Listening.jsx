@@ -12,7 +12,7 @@ import ListeningHighlightPopup from "../components/ListeningHighlightPopup";
 import ListeningTranscriptPanel from "../components/ListeningTranscriptPanel";
 import ListeningQuestionsPanel from "../components/ListeningQuestionsPanel";
 import ListeningResultsModal from "../components/ListeningResultsModal";
-import { fetchOurMock, getPreviewToken } from "../utils/ourMockApi";
+import { fetchCambridgeBook, fetchOurMock, getPreviewToken } from "../utils/ourMockApi";
 import {
   parseAnswers,
   splitAlternatives,
@@ -179,8 +179,8 @@ const IELTSListening = ({ theme, isOurMockRoute }) => {
       ? fetchOurMock(series, "listening", { previewToken, source: mockSource }).then(
           (json) => ({ json, normalized: true })
         )
-      : fetchOurMock(series, "listening", { source: "cambridge", test: testNum })
-          .then((json) => ({ json, normalized: true }))
+      : fetchCambridgeBook(series, "listening")
+          .then((json) => ({ json, normalized: false }))
           .catch(() =>
             fetch(`/json/IELTS_${series}_Listening.json`).then(async (r) => {
               if (!r.ok) throw new Error(`HTTP ${r.status}`);

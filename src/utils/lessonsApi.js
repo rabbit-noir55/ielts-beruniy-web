@@ -56,3 +56,8 @@ export function fetchLessonResources(params = {}) {
 export function fetchCambridgeMocks() {
   return request("/cambridge-mocks/");
 }
+
+/** Ustoz yuklagan Cambridge kitoblari (series + year + skills). */
+export function fetchCambridgeBooks() {
+  return request("/cambridge-books/");
+}

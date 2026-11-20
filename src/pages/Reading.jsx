@@ -8,7 +8,7 @@ import ListeningTextSelectionMenu from "../components/ListeningTextSelectionMenu
 import ListeningNoteEditor from "../components/ListeningNoteEditor";
 import ListeningHighlightPopup from "../components/ListeningHighlightPopup";
 import ListeningResultsModal from "../components/ListeningResultsModal";
-import { fetchOurMock, getPreviewToken } from "../utils/ourMockApi";
+import { fetchCambridgeBook, fetchOurMock, getPreviewToken } from "../utils/ourMockApi";
 import ReadingPassagePanel from "../components/ReadingPassagePanel";
 import ReadingQuestionsPanel from "../components/ReadingQuestionsPanel";
 import ReadingControlPanel from "../components/ReadingControlPanel";
@@ -179,8 +179,8 @@ const IELTSReading = ({ theme, isOurMockRoute }) => {
       ? fetchOurMock(series, "reading", { previewToken, source: mockSource }).then(
           (json) => ({ json, normalized: true })
         )
-      : fetchOurMock(series, "reading", { source: "cambridge", test: testNum })
-          .then((json) => ({ json, normalized: true }))
+      : fetchCambridgeBook(series, "reading")
+          .then((json) => ({ json, normalized: false }))
           .catch(() =>
             fetch(`/json/IELTS_${series}_Reading.json`).then(async (r) => {
               if (!r.ok) throw new Error(`HTTP ${r.status}`);

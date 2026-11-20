@@ -1,15 +1,15 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import BookSection from "../components/BookSection";
 import BookSectionSkeleton from "../components/BookSectionSkeleton";
 import LibraryAnimations from "../components/LibraryAnimations";
-import { fetchCambridgeMocks } from "../utils/lessonsApi";
+import { fetchCambridgeBooks } from "../utils/lessonsApi";
 import { isRoundUpGroup } from "../utils/api";
 
 function Home({ theme = "dark" }) {
   const isDark = theme === "dark";
-  const [books, setBooks] = useState(null);
-  const [uploads, setUploads] = useState([]);
+  const [baseBooks, setBaseBooks] = useState(null);
+  const [uploadedBooks, setUploadedBooks] = useState([]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -17,7 +17,7 @@ function Home({ theme = "dark" }) {
       for (let id = 20; id >= 10; id--) {
         all.push({ id, year: 2005 + id });
       }
-      setBooks(all);
+      setBaseBooks(all);
     }, 500);
 
     return () => clearTimeout(timer);
@@ -25,17 +25,33 @@ function Home({ theme = "dark" }) {
 
   useEffect(() => {
     let alive = true;
-    fetchCambridgeMocks()
+    fetchCambridgeBooks()
       .then((response) => {
-        if (alive) setUploads(Array.isArray(response?.items) ? response.items : []);
+        if (alive) setUploadedBooks(Array.isArray(response?.items) ? response.items : []);
       })
       .catch(() => {
-        if (alive) setUploads([]);
+        if (alive) setUploadedBooks([]);
       });
     return () => {
       alive = false;
     };
   }, []);
+
+  const books = useMemo(() => {
+    if (baseBooks === null) return null;
+    const map = new Map(baseBooks.map((book) => [book.id, { ...book }]));
+    uploadedBooks.forEach((item) => {
+      const id = Number(item.series);
+      if (!id) return;
+      const year = Number(item.year) || 2005 + id;
+      if (map.has(id)) {
+        map.set(id, { ...map.get(id), year, title: item.title });
+      } else {
+        map.set(id, { id, year, title: item.title, uploaded: true });
+      }
+    });
+    return [...map.values()].sort((a, b) => b.id - a.id);
+  }, [baseBooks, uploadedBooks]);
 
   const isLoading = books === null;
 
@@ -61,45 +77,6 @@ function Home({ theme = "dark" }) {
     <>
       <div data-ai="home-page" data-ai-label="Cambridge Mock Tests sahifasi" className="mx-auto flex max-w-7xl flex-col gap-4 sm:gap-6 px-3 py-4 sm:px-6 sm:py-10">
         <LibraryAnimations />
-
-        {uploads.length > 0 && (
-          <section
-            className={`rounded-2xl border p-4 sm:p-5 ${
-              isDark ? "border-white/10 bg-white/[0.03]" : "border-black/[0.08] bg-white"
-            }`}
-          >
-            <div className="flex flex-wrap items-center justify-between gap-2">
-              <div>
-                <h2 className="text-sm font-extrabold sm:text-base">
-                  Ustoz yuklagan Cambridge mocklar
-                </h2>
-                <p className={`mt-0.5 text-[11px] ${isDark ? "text-white/40" : "text-black/40"}`}>
-                  Ushbu testlar Cambridge bo'limida ochiladi.
-                </p>
-              </div>
-              <span
-                className={`rounded-full px-2.5 py-0.5 text-[10px] font-bold ${
-                  isDark ? "bg-white/[0.06] text-white/50" : "bg-black/[0.05] text-black/45"
-                }`}
-              >
-                {uploads.length} ta
-              </span>
-            </div>
-            <div className="mt-3 flex flex-wrap gap-1.5">
-              {uploads.map((item) => (
-                <Link
-                  key={`${item.id}-${item.skill}`}
-                  to={`/academic/${item.series}/${item.test_num}/${item.skill}/1`}
-                  className={`inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3 text-[11px] font-bold capitalize transition hover:border-[var(--accent)]/50 hover:text-[var(--accent)] ${
-                    isDark ? "border-white/12 text-white/65" : "border-black/10 text-black/60"
-                  }`}
-                >
-                  Cambridge {item.series} · Test {item.test_num} · {item.skill}
-                </Link>
-              ))}
-            </div>
-          </section>
-        )}
 
         {isLoading ? (
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">

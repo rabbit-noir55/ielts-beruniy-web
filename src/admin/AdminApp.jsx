@@ -6,6 +6,7 @@ import AdminGroups from "./pages/AdminGroups";
 import AdminAttendance from "./pages/AdminAttendance";
 import AdminLeague from "./pages/AdminLeague";
 import AdminMocks from "./pages/AdminMocks";
+import AdminCambridgeBooks from "./pages/AdminCambridgeBooks";
 import AdminGames from "./pages/AdminGames";
 import AdminTools from "./pages/AdminTools";
 import AdminAI from "./pages/AdminAI";
@@ -28,6 +29,7 @@ const NAV_GROUPS = [
       { to: "/admin/lessons", label: "Onlayn darslar" },
       { to: "/admin/resources", label: "Materiallar" },
       { to: "/admin/mocks", label: "Mock testlar" },
+      { to: "/admin/cambridge", label: "Cambridge kitoblar" },
       { to: "/admin/games", label: "O'yinlar" },
       { to: "/admin/tools", label: "Tool'lar" },
     ],
@@ -219,6 +221,7 @@ export default function AdminApp({ theme }) {
                 <Route path="lessons" element={<AdminLessons isDark={isDark} />} />
                 <Route path="resources" element={<AdminResources isDark={isDark} />} />
                 <Route path="mocks" element={<AdminMocks isDark={isDark} />} />
+                <Route path="cambridge" element={<AdminCambridgeBooks isDark={isDark} />} />
                 <Route path="games" element={<AdminGames isDark={isDark} />} />
                 <Route path="tools" element={<AdminTools isDark={isDark} />} />
                 <Route path="ai" element={<AdminAI isDark={isDark} />} />

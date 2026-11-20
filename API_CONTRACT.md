@@ -184,6 +184,12 @@ Frontend **`code`** bo'yicha xabar tanlaydi, `error` ni to'g'ridan-to'g'ri ko'rs
 | `/lessons/resources/` | GET | PDF/mock materiallar |
 | `/cambridge-mocks/` | GET | Cambridge ro'yxati |
 | `/cambridge-mocks/<series>/<skill>/` | GET | payload |
+| `/cambridge-books/` | GET | `{count, items[]}` — `{series, year, title, skills}` |
+| `/cambridge-books/<series>/<skill>/` | GET | kitob skill payload'i |
+
+Ustoz Cambridge kitobini bitta JSON sipida qo'shadi: `{book, type, series_id, tests}`.
+Admin: `GET /admin/mocks/book/<series>/`, `POST /admin/mocks/` →
+`action: "save_book" | "delete_book" | "publish_book"`.
 | `/mocks/<series>/<skill>/?source=cambridge` | GET | Cambridge payloadi |
 
 Admin kontent: `/admin/lessons/`, `/admin/lessons/<id>/`, `/admin/resources/`,
@@ -191,7 +197,6 @@ Admin kontent: `/admin/lessons/`, `/admin/lessons/<id>/`, `/admin/resources/`,
 `/tools/?device=...`.
 
 **Qoidalar:** video darslar barcha guruhlarga ochiq. Materiallar: IELTS → mock,
-Round Up → PDF, guruhsiz → ikkisi ham. Ustoz yuklagan Cambridge mocklari
-**Mocktest (Home) bo'limida** ko'rinadi; Reading/Listening avval
-`/mocks/<series>/<skill>/?source=cambridge&test=N` ni so'raydi, 404 bo'lsa statik
-JSON'ga tushadi.
+Round Up → PDF, guruhsiz → ikkisi ham. **Mocklar Lessons'da ko'rinmaydi** — ular
+Mocktest (Our Mock) va Cambridge kitoblar bo'limlarida. Reading/Listening avval
+`/cambridge-books/<series>/<skill>/` ni so'raydi, 404 bo'lsa statik JSON'ga tushadi.

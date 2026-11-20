@@ -24,6 +24,10 @@
       guruhsiz → ikkisi ham; Cambridge bo'limi Lessons'dan olib tashlandi
 - [x] Home: ustoz yuklagan Cambridge mocklar bo'limi; Reading/Listening avval yuklangan
       Cambridge payloadini oladi (`source=cambridge&test=N`), keyin statik fayl
+- [x] Cambridge **kitoblar**: Home'da "IELTS 21 2026" kartasi; Reading/Listening
+      `/cambridge-books/<series>/<skill>/` ni birinchi so'raydi, 404 bo'lsa statik JSON
+- [x] Admin: yangi «Cambridge kitoblar» sahifasi (bitta JSON = butun kitob),
+      Lessons'dan mock tabi olib tashlandi
 
 ### 2026-11-20 — birinchi kirish uchun qo'llanma (onboarding)
 

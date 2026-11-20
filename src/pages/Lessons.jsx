@@ -153,28 +153,16 @@ export default function Lessons({ theme }) {
   }, []);
 
   const isRoundUp = (data?.group_type || "ielts") === "roundup";
-  // Guruhsiz foydalanuvchi ikkalasini ham ko'radi.
+  // Guruhsiz foydalanuvchi PDF kitoblarni ham ko'radi.
   const hasGroup = Boolean(data?.group);
-  const showMocks = !hasGroup || !isRoundUp;
   const showPdfs = !hasGroup || isRoundUp;
 
   const playlists = data?.playlists || [];
   const resources = data?.resources || [];
   const pdfResources = resources.filter((item) => ["pdf", "link"].includes(item.kind));
-  const mockResources = resources.filter((item) => ["mock", "link"].includes(item.kind));
 
   const tabs = [
     { key: "videos", label: "Video darslar", count: playlists.length, icon: Play },
-    ...(showMocks
-      ? [
-          {
-            key: "mocks",
-            label: "Mock testlar",
-            count: mockResources.length,
-            icon: GraduationCap,
-          },
-        ]
-      : []),
     ...(showPdfs
       ? [
           {
@@ -219,9 +207,9 @@ export default function Lessons({ theme }) {
               Onlayn darslar
             </h1>
             <p className={`mt-1 max-w-2xl text-sm ${muted}`}>
-              {isRoundUp
+              {showPdfs
                 ? "Video darslar va PDF kitoblar — guruhingiz uchun yig'ilgan materiallar."
-                : "Video darslar, mock testlar va qo'shimcha materiallar — guruhingiz uchun."}
+                : "Video darslar — guruhingiz uchun yig'ilgan darslar."}
             </p>
           </div>
           {data?.is_teacher && (
@@ -234,6 +222,7 @@ export default function Lessons({ theme }) {
           )}
         </div>
 
+        {tabs.length > 1 && (
         <div className="mt-6 flex flex-wrap items-center gap-2" role="tablist" aria-label="Dars bo'limlari">
           {tabs.map((item) => {
             const Icon = item.icon;
@@ -266,6 +255,7 @@ export default function Lessons({ theme }) {
             );
           })}
         </div>
+        )}
 
         {error && (
           <div
@@ -304,38 +294,6 @@ export default function Lessons({ theme }) {
               </p>
             </div>
           )
-        ) : tab === "mocks" ? (
-          <div className="mt-6 space-y-4">
-            {mockResources.length > 0 ? (
-              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-                {mockResources.map((resource) => (
-                  <ResourceCard key={resource.id} resource={resource} isDark={isDark} />
-                ))}
-              </div>
-            ) : (
-              <div className={`rounded-2xl border px-6 py-14 text-center ${card}`}>
-                <GraduationCap size={30} className={`mx-auto ${isDark ? "text-white/25" : "text-black/25"}`} />
-                <h2 className="mt-3 text-base font-bold">Mocklar hali qo'shilmagan</h2>
-                <p className={`mt-1 text-sm ${muted}`}>
-                  Ustoz mock qo'shgach, shu yerda ko'rinadi.
-                </p>
-              </div>
-            )}
-            <div className={`flex flex-wrap items-center justify-between gap-3 rounded-2xl border px-5 py-4 ${card}`}>
-              <div>
-                <h3 className="text-sm font-extrabold">Cambridge mock testlari</h3>
-                <p className={`text-xs ${muted}`}>
-                  Cambridge kitoblari va yuklangan mocklar — Mocktest bo'limida.
-                </p>
-              </div>
-              <Link
-                to="/"
-                className="inline-flex min-h-10 items-center rounded-full bg-[var(--accent)] px-5 text-xs font-bold text-[var(--accent-contrast)]"
-              >
-                Mocktestga o'tish
-              </Link>
-            </div>
-          </div>
         ) : pdfResources.length ? (
           <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
             {pdfResources.map((resource) => (
