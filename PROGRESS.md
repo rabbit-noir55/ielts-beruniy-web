@@ -9,6 +9,21 @@
 
 ## Bajarilgan
 
+### 2026-11-21 — Reading Challenge 1–3 materiallari
+
+- [x] `Reading Challenge 1–3` PDFlari `public/books/`ga qo'shildi (Netlify statik:
+      `https://ieltsberuniy.uz/books/reading-challenge-N.pdf`)
+- [x] Round Up 3 guruhi uchun `GroupResource` yozuvlari (kind=pdf, order 10–12)
+      production admin API orqali qo'shildi
+- [x] Lessons → «PDF kitoblar» tabida 3 ta kitob ko'rinadi (desktop/mobil,
+      gorizontal overflow yo'q); havolalar 200 + `application/pdf`
+- [ ] Admin paneldagi fayl yuklash hozir Supabase `ee-images` bucket'ida 540
+      (`PutObject`) xatosi beradi — storage alohida tuzatilishi kerak
+- [x] Domen: `ieltsberuniy.uz` Netlify DNS'ga o'tdi, Let's Encrypt sertifikati
+      chiqdi (2026-11-21); apex A `75.2.60.5`, www Netlify, MX/SPF/DKIM/DMARC saqlandi
+- [ ] Lokal router DNS'i eski SERVFAIL'ni keshlagan — boshqa tarmoqda domen
+      ishlayapti; router qayta ishga tushirilsa lokalda ham ochiladi
+
 ### 2026-11-21 — Telegram guruhi va bir qurilma bir hisob (UI)
 
 - [x] `AdminTelegram` sahifasi: webhook holati, guruh qo'shish, bog'lash, sync,
