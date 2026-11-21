@@ -9,6 +9,13 @@
 
 ## Bajarilgan
 
+### 2026-11-21 — Onboarding faqat login qilgan foydalanuvchilarga
+
+- [x] `OnboardingTour` endi `getUser().id` bo'lmaganda umuman ochilmaydi
+      (avtomatik ko'rsatish ham, `ielts:onboarding` eventi ham)
+- [x] Guest holatda tekshirildi: tour chiqmaydi; login qilgan foydalanuvchida
+      1/8 qadam bilan chiqadi (Playwright)
+
 ### 2026-11-21 — Reading Challenge 1–3 materiallari
 
 - [x] `Reading Challenge 1–3` PDFlari `public/books/`ga qo'shildi (Netlify statik:

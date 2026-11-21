@@ -106,25 +106,26 @@ export default function OnboardingTour({ isDark, disabled = false }) {
   }, []);
 
   useEffect(() => {
-    if (disabled || isOnboardingDone()) return undefined;
+    // Qo'llanma faqat tizimga kirgan foydalanuvchilarga ko'rsatiladi.
+    if (disabled || !authed || isOnboardingDone()) return undefined;
     const timer = window.setTimeout(() => {
       previousFocusRef.current = document.activeElement;
       setIndex(0);
       setOpen(true);
     }, 900);
     return () => window.clearTimeout(timer);
-  }, [disabled]);
+  }, [disabled, authed]);
 
   useEffect(() => {
     const handler = () => {
-      if (disabled) return;
+      if (disabled || !authed) return;
       previousFocusRef.current = document.activeElement;
       setIndex(0);
       setOpen(true);
     };
     window.addEventListener("ielts:onboarding", handler);
     return () => window.removeEventListener("ielts:onboarding", handler);
-  }, [disabled]);
+  }, [disabled, authed]);
 
   useEffect(() => {
     const onResize = () => setIsMobile(window.innerWidth < 768);
