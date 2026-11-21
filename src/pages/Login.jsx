@@ -42,7 +42,11 @@ function Login({ theme = "dark" }) {
       localStorage.setItem("ielts_registered", "1");
       localStorage.setItem("user_name", data.user.first_name);
       localStorage.setItem("user_surname", data.user.last_name);
-      const target = data.user.role === "teacher" && (!from || from === "/") ? "/admin" : from;
+      const target = data.user.needs_name
+        ? "/complete-profile"
+        : data.user.role === "teacher" && (!from || from === "/")
+          ? "/admin"
+          : from;
       window.location.href = target;
     } catch (err) {
       setError(err.message);
@@ -60,7 +64,11 @@ function Login({ theme = "dark" }) {
       localStorage.setItem("ielts_registered", "1");
       localStorage.setItem("user_name", data.user.first_name);
       localStorage.setItem("user_surname", data.user.last_name);
-      const target = data.user.role === "teacher" && (!from || from === "/") ? "/admin" : from;
+      const target = data.user.needs_name
+        ? "/complete-profile"
+        : data.user.role === "teacher" && (!from || from === "/")
+          ? "/admin"
+          : from;
       window.location.href = target;
     } catch (err) {
       setError(err.message || "Google bilan kirishda xatolik");

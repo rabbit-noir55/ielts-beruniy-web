@@ -112,7 +112,11 @@ export default function AdminTelegram({ isDark }) {
         setNotice(
           `Sinxron: ${result.stats.assigned} biriktirildi, ` +
             `${result.stats.moved} ko'chirildi, ` +
-            `${result.stats.unassigned} chiqarildi.`
+            `${result.stats.unassigned} chiqarildi` +
+            (result.stats.created
+              ? `, ${result.stats.created} yangi hisob yaratildi`
+              : '') +
+            '.'
         );
       }
       await load();
@@ -458,11 +462,18 @@ export default function AdminTelegram({ isDark }) {
                       {!member.is_active && (
                         <Badge isDark={isDark} tone="neutral">{member.status}</Badge>
                       )}
+                      {member.site_user?.needs_name && (
+                        <Badge isDark={isDark} tone="amber">ISM KUTILMOQDA</Badge>
+                      )}
                     </div>
                     <div className={`mt-0.5 text-[10px] ${muted}`}>
-                      {member.site_user?.email
-                        ? `${member.site_user.email} · ${member.site_user.group_name || "guruhsiz"}`
-                        : "Sayt hisobi yo'q — saytga Telegram orqali kirsin"}
+                      {member.site_user?.is_placeholder
+                        ? `Telegram hisobi · ${member.site_user.group_name || "guruhsiz"}${
+                            member.site_user.needs_name ? " · ism kutilmoqda" : ""
+                          }`
+                        : member.site_user?.email
+                          ? `${member.site_user.email} · ${member.site_user.group_name || "guruhsiz"}`
+                          : "Sayt hisobi yo'q — saytga Telegram orqali kirsin"}
                     </div>
                   </div>
                   {member.site_user && (

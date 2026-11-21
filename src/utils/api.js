@@ -26,6 +26,10 @@ export function setAuth(token, user) {
   localStorage.setItem(USER_KEY, JSON.stringify(user));
 }
 
+export function saveUser(user) {
+  if (user) localStorage.setItem(USER_KEY, JSON.stringify(user));
+}
+
 export function clearAuth() {
   localStorage.removeItem(TOKEN_KEY);
   localStorage.removeItem(USER_KEY);
@@ -118,6 +122,13 @@ export function releaseDevice() {
 
 export function updateProfile(payload) {
   return request("/auth/me/", { method: "PATCH", body: payload });
+}
+
+export function completeName(first_name, last_name) {
+  return request("/auth/complete-name/", {
+    method: "POST",
+    body: { first_name, last_name },
+  });
 }
 
 export function changePassword(old_password, new_password, credential) {

@@ -180,8 +180,7 @@ Frontend **`code`** bo'yicha xabar tanlaydi, `error` ni to'g'ridan-to'g'ri ko'rs
 | `/lessons/videos/<id>/like/` | POST | `{liked, likes}` |
 | `/lessons/videos/<id>/comments/` | GET/POST | `{enabled, comments[]}` / `{comment}` |
 | `/lessons/comments/<id>/delete/` | POST | muallif yoki ustoz |
-| `/lessons/comments/<id>/hide/` | POST | ustoz |
-| `/lessons/resources/` | GET | PDF/mock materiallar |
+| `/lessons/comments/<id>/hide/` | POST | ustoz || `/lessons/resources/` | GET | PDF/mock materiallar |
 | `/cambridge-mocks/` | GET | Cambridge ro'yxati |
 | `/cambridge-mocks/<series>/<skill>/` | GET | payload |
 | `/cambridge-books/` | GET | `{count, items[]}` — `{series, year, title, skills}` |
@@ -218,3 +217,9 @@ Auth endpointlari boshqa hisob bog'langan qurilmada `409` + `code:
 "device_linked"` qaytaradi — `request()` `ielts:device-conflict` eventini
 yuboradi, `DeviceConflictModal` tasdiqlash bilan uzadi. Login/Register'da
 `DeviceLinkNotice`, Settings'da «Qurilma» kartasi.
+
+Telegram a'zolari uchun sayt hisobi avtomatik yaratiladi (bog'langan guruhda).
+`user.needs_name === true` bo'lsa `RequireAuth` `/complete-profile`ga
+yo'naltiradi; sahifa `POST /auth/complete-name/` orqali ism-familiyani saqlaydi
+va keyin kerakli sahifaga qaytaradi. Admin Telegram a'zolar ro'yxatida
+«ISM KUTILMOQDA» va «Telegram hisobi» ko'rsatiladi.

@@ -23,8 +23,19 @@
 - [x] Playwright: login (desktop/mobil), conflict modal, Settings kartasi,
       admin Telegram (desktop/mobil), a'zolar modali, AdminGroups TG —
       gorizontal overflow yo'q; screenshotlar `screenshots/`da
-- [ ] Backend `0040`/`0041` migratsiyalari qo'llanmaguncha device endpointlari 404
-      qaytaradi (frontend xatoni yutadi); deploy oldidan `migrate` shart
+- [x] Backend `0040`/`0041`/`0042` migratsiyalari Neon bazasiga qo'llandi;
+      device endpointlari ishlayapti
+
+### 2026-11-21 — TG ism-familiya majburiy qadami
+
+- [x] `RequireAuth` `needs_name` bo'lsa `/complete-profile`ga yo'naltiradi
+- [x] `CompleteProfile` sahifasi: ism/familiya (kamida 2 harf, raqamsiz), Telegram
+      username ko'rsatiladi, saqlashdan keyin kerakli sahifaga qaytadi
+- [x] Login/Google javobida `needs_name` bo'lsa to'g'ridan-to'g'ri shu sahifaga
+- [x] Admin Telegram a'zolarida «ISM KUTILMOQDA» badge va «Telegram hisobi» yozuvi
+- [x] Sinxron natijasida «N yangi hisob yaratildi» ko'rsatiladi
+- [x] Playwright: `/` → `/complete-profile` gate, saqlash → `/`, mobil 390 overflow yo'q
+- [x] `npm run lint` 0 error, `npm run build` OK
 
 ### 2026-11-20 — onlayn darslar, yangi admin va qurilma filtri
 

@@ -39,6 +39,7 @@ const GamePlay = lazy(() => import("./pages/GamePlay"));
 const BuiltinGame = lazy(() => import("./pages/BuiltinGame"));
 const LessonPlaylist = lazy(() => import("./pages/LessonPlaylist"));
 const LessonVideo = lazy(() => import("./pages/LessonVideo"));
+const CompleteProfile = lazy(() => import("./pages/CompleteProfile"));
 const ToolPlay = lazy(() => import("./pages/ToolPlay"));
 const AiTools = lazy(() => import("./pages/AiTools"));
 
@@ -318,6 +319,7 @@ export default function App() {
           <Route path="/intro" element={<IntroPage theme={theme} />} />
           <Route path="/register" element={<Register theme={theme} />} />
           <Route path="/login" element={<Login theme={theme} />} />
+          <Route path="/complete-profile" element={<RequireAuth skipNameCheck><Suspense fallback={<PageLoader theme={theme} />}><CompleteProfile theme={theme} /></Suspense></RequireAuth>} />
           <Route path="/account" element={<RequireAuth><Account theme={theme} /></RequireAuth>} />
           <Route
             path="/settings"
