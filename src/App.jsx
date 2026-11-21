@@ -188,6 +188,14 @@ export default function App() {
         if (!cancelled) {
           if (freshUser) {
             setBlocked(!!freshUser.is_blocked);
+            // Eski keshlangan user'da `needs_name` bo'lmasligi mumkin —
+            // serverdan kelgach majburiy sahifaga o'tkazamiz.
+            if (
+              freshUser.needs_name &&
+              window.location.pathname !== "/complete-profile"
+            ) {
+              window.location.assign("/complete-profile");
+            }
           }
         }
       } catch {
