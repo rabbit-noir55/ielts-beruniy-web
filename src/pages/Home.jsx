@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import BookSection from "../components/BookSection";
 import BookSectionSkeleton from "../components/BookSectionSkeleton";
 import LibraryAnimations from "../components/LibraryAnimations";
@@ -56,21 +56,7 @@ function Home({ theme = "dark" }) {
   const isLoading = books === null;
 
   if (isRoundUpGroup()) {
-    return (
-      <div className="mx-auto flex min-h-[60vh] max-w-lg flex-col items-center justify-center gap-4 px-6 text-center">
-        <div className="text-5xl opacity-25">🔒</div>
-        <h1 className="text-xl font-extrabold">Mocklar faqat IELTS guruhlari uchun</h1>
-        <p className={`text-sm ${isDark ? "text-white/45" : "text-black/45"}`}>
-          Round Up guruhi uchun PDF kitoblar va video darslar Lessons bo'limida.
-        </p>
-        <Link
-          to="/lessons"
-          className="mt-2 inline-flex min-h-11 items-center rounded-full bg-[var(--accent)] px-6 text-sm font-bold text-[var(--accent-contrast)]"
-        >
-          Lessons'ga o'tish
-        </Link>
-      </div>
-    );
+    return <Navigate to="/lessons" replace />;
   }
 
   return (

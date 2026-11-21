@@ -18,7 +18,7 @@ import {
   GraduationCap,
 } from "lucide-react";
 import logoSvg from "../assets/logo.png";
-import { getBackgroundImage, getUser, hasMockAccess, getUserGroupName, getUserGroupLogo, isIeltsGroup, isAuthenticated } from "../utils/api";
+import { getBackgroundImage, getUser, hasMockAccess, getUserGroupName, getUserGroupLogo, isIeltsGroup, isRoundUpGroup, isAuthenticated } from "../utils/api";
 import { getMockActive, onMockChange } from "../utils/mockMode";
 import { getRecentTools, recordRecentTool, toolLabelForPath, isCustomToolPath } from "../utils/recentTools";
 import OnboardingTour from "../components/OnboardingTour";
@@ -52,6 +52,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
   const user = getUser();
   const isTeacher = user?.role === "teacher";
   const canAccessMocks = hasMockAccess();
+  const isRoundUp = isRoundUpGroup();
   const userGroupName = getUserGroupName();
   const userGroupLogo = getUserGroupLogo();
   const authed = isAuthenticated();
@@ -195,7 +196,7 @@ export default function MainLayout({ theme, toggleTheme, registered }) {
   };
 
   const bottomTabs = [
-    { id: "mock", label: "Mock", icon: BookOpen },
+    ...(!isRoundUp ? [{ id: "mock", label: "Mock", icon: BookOpen }] : []),
     { to: "/lessons", label: "Lessons", icon: Book },
     { id: "competition", to: "/competition", label: "Competition", icon: Trophy, center: true },
     { id: "tools", label: "Tools", icon: Wrench },
