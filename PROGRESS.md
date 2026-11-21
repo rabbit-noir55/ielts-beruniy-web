@@ -9,6 +9,23 @@
 
 ## Bajarilgan
 
+### 2026-11-21 — Telegram guruhi va bir qurilma bir hisob (UI)
+
+- [x] `AdminTelegram` sahifasi: webhook holati, guruh qo'shish, bog'lash, sync,
+      a'zolar modali (filtrlar, biriktirish/chiqarish); nav + route
+- [x] `AdminGroups`: «Telegram guruhi» select, avto-biriktirish checkbox, kartada `TG:` badge
+- [x] `src/utils/deviceIdentity.js`: `device_id`, fingerprint, platforma; barcha API
+      so'rovlariga headerlar (`api.js`)
+- [x] 409 `device_linked` → `ielts:device-conflict` event; `DeviceConflictModal` (App'da)
+- [x] `DeviceLinkNotice` Login va Register sahifalarida (bog'langan hisob + uzish tasdiqi)
+- [x] Settings: «Qurilma» kartasi (platforma, qisqa ID, bog'langan hisob, almashtirish)
+- [x] `npm run lint` — 0 error; `npm run build` — OK
+- [x] Playwright: login (desktop/mobil), conflict modal, Settings kartasi,
+      admin Telegram (desktop/mobil), a'zolar modali, AdminGroups TG —
+      gorizontal overflow yo'q; screenshotlar `screenshots/`da
+- [ ] Backend `0040`/`0041` migratsiyalari qo'llanmaguncha device endpointlari 404
+      qaytaradi (frontend xatoni yutadi); deploy oldidan `migrate` shart
+
 ### 2026-11-20 — onlayn darslar, yangi admin va qurilma filtri
 
 - [x] Lessons: guruhga mos pleylistlar, mocklar/PDF tablari, Cambridge va materiallar

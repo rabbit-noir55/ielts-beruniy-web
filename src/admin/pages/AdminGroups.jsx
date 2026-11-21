@@ -1,6 +1,11 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { adminGroupDelete, adminGroupSave, adminGroups } from "../adminApi";
+import {
+  adminGroupDelete,
+  adminGroupSave,
+  adminGroups,
+  adminTelegramChats,
+} from "../adminApi";
 import { Badge, Btn, Empty, ErrorBox, Field, Modal, Panel, SkeletonRows } from "../ui";
 import { inputCls } from "../formStyles";
 
@@ -12,6 +17,8 @@ const EMPTY_FORM = {
   schedule_type: "",
   schedule_time: "",
   description: "",
+  telegram_chat: "",
+  telegram_auto_sync: true,
 };
 
 function slugify(value) {
@@ -31,6 +38,7 @@ export default function AdminGroups({ isDark }) {
   const [form, setForm] = useState(null);
   const [saving, setSaving] = useState(false);
   const [del, setDel] = useState(null);
+  const [tgChats, setTgChats] = useState([]);
 
   const load = useCallback(() => {
     setLoading(true);
@@ -47,6 +55,12 @@ export default function AdminGroups({ isDark }) {
     load();
   }, [load]);
 
+  useEffect(() => {
+    adminTelegramChats()
+      .then((data) => setTgChats(data.chats || []))
+      .catch(() => setTgChats([]));
+  }, []);
+
   function openNew() {
     setForm({ ...EMPTY_FORM });
   }
@@ -60,6 +74,8 @@ export default function AdminGroups({ isDark }) {
       schedule_type: g.schedule_type || "",
       schedule_time: g.schedule_time || "",
       description: g.description || "",
+      telegram_chat: g.telegram_chats?.[0]?.id || "",
+      telegram_auto_sync: g.telegram_chats?.[0]?.auto_sync ?? true,
     });
   }
 
@@ -83,6 +99,7 @@ export default function AdminGroups({ isDark }) {
         ...form,
         slug: form.slug || slugify(form.name),
         schedule_time: form.schedule_time || null,
+        telegram_chat: form.telegram_chat || "",
       });
       setForm(null);
       await load();
@@ -151,6 +168,11 @@ export default function AdminGroups({ isDark }) {
                   </Badge>
                   {(!g.schedule_time || !g.schedule_type) && (
                     <Badge isDark={isDark} tone="red">Jadval yo'q</Badge>
+                  )}
+                  {g.telegram_chats?.length > 0 && (
+                    <Badge isDark={isDark} tone="blue">
+                      TG: {g.telegram_chats[0].title || g.telegram_chats[0].chat_id}
+                    </Badge>
                   )}
                 </div>
               </div>
@@ -271,6 +293,36 @@ export default function AdminGroups({ isDark }) {
                 className={inputCls(isDark)}
               />
             </Field>
+            <Field
+              isDark={isDark}
+              label="Telegram guruhi"
+              hint="Bot a'zo bo'lgan guruh. A'zolar saytga Telegram orqali kirganda avtomatik biriktiriladi."
+            >
+              <select
+                value={form.telegram_chat}
+                onChange={(e) => set("telegram_chat", e.target.value)}
+                className={inputCls(isDark)}
+              >
+                <option value="">— Tanlanmagan —</option>
+                {tgChats.map((chat) => (
+                  <option key={chat.id} value={chat.id}>
+                    {chat.title || chat.chat_id}
+                    {chat.group_id && chat.group_id !== form.id ? " (boshqa guruhda)" : ""}
+                  </option>
+                ))}
+              </select>
+            </Field>
+            {form.telegram_chat && (
+              <label className="flex items-center gap-2 text-xs font-semibold">
+                <input
+                  type="checkbox"
+                  checked={form.telegram_auto_sync}
+                  onChange={(e) => set("telegram_auto_sync", e.target.checked)}
+                  className="h-4 w-4 accent-[var(--accent)]"
+                />
+                Saytga avtomatik biriktirish
+              </label>
+            )}
             <Field isDark={isDark} label="Tavsif">
               <textarea
                 rows={3}

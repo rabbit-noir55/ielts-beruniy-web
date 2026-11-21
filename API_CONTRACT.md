@@ -200,3 +200,21 @@ Admin kontent: `/admin/lessons/`, `/admin/lessons/<id>/`, `/admin/resources/`,
 Round Up → PDF, guruhsiz → ikkisi ham. **Mocklar Lessons'da ko'rinmaydi** — ular
 Mocktest (Our Mock) va Cambridge kitoblar bo'limlarida. Reading/Listening avval
 `/cambridge-books/<series>/<skill>/` ni so'raydi, 404 bo'lsa statik JSON'ga tushadi.
+
+---
+
+## 7. Telegram guruh va qurilma
+
+Admin: `/admin/telegram/` (webhook holati, `set_webhook`/`delete_webhook`/
+`set_commands`), `/admin/telegram/chats/` (`add`, `link`, `unlink`, `auto_sync`,
+`sync`, `refresh`, `delete`, `assign`, `unassign`), `/admin/telegram/chats/<id>/`
+(a'zolar + `status`/`site`/`q` filtrlari). `/admin/groups/` `save` da
+`telegram_chat`, `telegram_auto_sync`; ro'yxatda `telegram_chats[]`.
+
+Qurilma: `src/utils/deviceIdentity.js` barcha so'rovlarga `X-Device-Id`,
+`X-Device-Fingerprint`, `X-Device-Platform` qo'shadi. `GET /auth/device/status/`
+→ `{linked, platform, can_switch, account}`; `POST /auth/device/release/`.
+Auth endpointlari boshqa hisob bog'langan qurilmada `409` + `code:
+"device_linked"` qaytaradi — `request()` `ielts:device-conflict` eventini
+yuboradi, `DeviceConflictModal` tasdiqlash bilan uzadi. Login/Register'da
+`DeviceLinkNotice`, Settings'da «Qurilma» kartasi.

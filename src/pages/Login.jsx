@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { googleLogin, login, pollTelegramDevice, setAuth, startTelegramDevice } from "../utils/api";
 import { canUseGoogleLogin, isTelegram } from "../utils/telegram.js";
+import DeviceLinkNotice from "../components/DeviceLinkNotice";
 import logoSvg from "../assets/logo.png";
 
 const TG_CODE_KEY = "tg_login_code";
@@ -239,6 +240,8 @@ function Login({ theme = "dark" }) {
             {error}
           </div>
         )}
+
+        <DeviceLinkNotice mode="login" />
 
         {/* Telegram Login */}
         {!isTelegram() && (

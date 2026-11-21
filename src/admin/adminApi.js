@@ -72,6 +72,20 @@ export const adminAIModelSave = (body) =>
   request("/admin/ai/models/", { method: "POST", body });
 export const adminAIUsage = (params) => request(`/admin/ai/usage/${qs(params)}`);
 
+// ── Telegram guruhlari ──────────────────────────────────────────────────────
+
+export const adminTelegramControl = (body) =>
+  body
+    ? request("/admin/telegram/", { method: "POST", body })
+    : request("/admin/telegram/");
+export const adminTelegramChats = () => request("/admin/telegram/chats/");
+export const adminTelegramChatAdd = (body) =>
+  request("/admin/telegram/chats/", { method: "POST", body });
+export const adminTelegramChatDetail = (id, params) =>
+  request(`/admin/telegram/chats/${id}/${qs(params)}`);
+export const adminTelegramChatAction = (id, body) =>
+  request(`/admin/telegram/chats/${id}/`, { method: "POST", body });
+
 // ── Onlayn darslar ──────────────────────────────────────────────────────────
 
 export const adminLessons = (group) => request(`/admin/lessons/${qs({ group })}`);

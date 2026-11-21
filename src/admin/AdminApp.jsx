@@ -13,6 +13,7 @@ import AdminTools from "./pages/AdminTools";
 import AdminAI from "./pages/AdminAI";
 import AdminLessons from "./pages/AdminLessons";
 import AdminResources from "./pages/AdminResources";
+import AdminTelegram from "./pages/AdminTelegram";
 
 const NAV_GROUPS = [
   {
@@ -39,6 +40,7 @@ const NAV_GROUPS = [
     label: "Tizim",
     items: [
       { to: "/admin/league", label: "Liga" },
+      { to: "/admin/telegram", label: "Telegram" },
       { to: "/admin/ai", label: "AI boshqaruv" },
     ],
   },
@@ -222,6 +224,7 @@ export default function AdminApp({ theme }) {
                 <Route path="groups" element={<AdminGroups isDark={isDark} />} />
                 <Route path="attendance" element={<AdminAttendance isDark={isDark} />} />
                 <Route path="league" element={<AdminLeague isDark={isDark} />} />
+                <Route path="telegram" element={<AdminTelegram isDark={isDark} />} />
                 <Route path="lessons" element={<AdminLessons isDark={isDark} />} />
                 <Route path="resources" element={<AdminResources isDark={isDark} />} />
                 <Route path="mocks" element={<AdminMocks isDark={isDark} />} />

@@ -5,6 +5,7 @@ import { clearAuth, flushPendingResults, isAuthenticated, refreshUser, setAuth, 
 import { isTelegram, tg } from "./utils/telegram.js";
 import RequireAuth from "./components/RequireAuth";
 import RequireGroup from "./components/RequireGroup";
+import DeviceConflictModal from "./components/DeviceConflictModal";
 import Home from "./pages/Home";
 import Mocks from "./pages/Mocks";
 import Tools from "./pages/Tools";
@@ -335,6 +336,7 @@ export default function App() {
         </Route>
       </Routes>
       )}
+      <DeviceConflictModal />
     </div>
     </LanguageProvider>
   );

@@ -5,11 +5,13 @@ import {
   clearBackgroundImage,
   clearPendingResults,
   getBackgroundImage,
+  getDeviceStatus,
   getSettings,
   getTelegramStatus,
   getUser,
   isAuthenticated,
   refreshUser,
+  releaseDevice,
   saveTelegramContact,
   setBackgroundImage,
   setPin,
@@ -31,9 +33,11 @@ import {
   Palette,
   Send,
   ShieldCheck,
+  Smartphone,
   User,
 } from "lucide-react";
 import { isInApp, isTelegram } from "../utils/telegram.js";
+import { getDeviceId, getPlatform } from "../utils/deviceIdentity";
 
 const THEMES = [
   { id: "graphite", label: "Graphite", emoji: "🪨", swatch: "#17171A", darkSwatch: "#FFFFFF" },
@@ -79,6 +83,7 @@ const SECTION_SLUGS = {
 const SECTION_ICONS = {
   Profile: User,
   Security: ShieldCheck,
+  Qurilma: Smartphone,
   "Examiner PIN": KeyRound,
   "Biometrik tasdiqlash": Fingerprint,
   "Telegram bog'lash": Send,
@@ -269,6 +274,12 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
 
   const [bgImage, setBgImage] = useState(() => getBackgroundImage());
 
+  // Qurilma (bir qurilma — bir hisob)
+  const [deviceStatus, setDeviceStatus] = useState(null);
+  const [deviceAsk, setDeviceAsk] = useState(false);
+  const [deviceBusy, setDeviceBusy] = useState(false);
+  const [deviceMsg, setDeviceMsg] = useState({ type: "", text: "" });
+
   // Telegram bog'lash
   const [tgStatus, setTgStatus] = useState(null);
   const [tgPhone, setTgPhone] = useState("");
@@ -293,6 +304,29 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
       .then(setBioSupported)
       .catch(() => setBioSupported(false));
   }, [authed]);
+
+  useEffect(() => {
+    if (!authed) return;
+    getDeviceStatus()
+      .then(setDeviceStatus)
+      .catch(() => {});
+  }, [authed]);
+
+  const switchDeviceAccount = async () => {
+    setDeviceBusy(true);
+    setDeviceMsg({ type: "", text: "" });
+    try {
+      await releaseDevice();
+      clearAuth();
+      window.location.href = "/login";
+    } catch (err) {
+      setDeviceMsg({
+        type: "error",
+        text: err.message || "Qurilma bog'lanishini uzib bo'lmadi.",
+      });
+      setDeviceBusy(false);
+    }
+  };
 
   // Joriy parolni bilmaydigan (eski Google) foydalanuvchi Google hisobi
   // bilan tasdiqlab, yangi parol o'rnatadi.
@@ -553,6 +587,7 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
     { id: "preset-themes", label: "Ko'rinish", icon: Palette },
     { id: "profile", label: "Profil", icon: User },
     { id: "security", label: "Xavfsizlik", icon: ShieldCheck },
+    { id: "qurilma", label: "Qurilma", icon: Smartphone },
     ...(user?.is_examiner
       ? [
           { id: "examiner-pin", label: "Examiner PIN", icon: KeyRound },
@@ -968,6 +1003,97 @@ export default function Settings({ theme, toggleTheme, themeId, setThemeId, radi
                 {pwBusy ? "Saqlanmoqda…" : "Parolni o'rnatish"}
               </button>
             </form>
+          </Section>
+
+          <Section title="Qurilma">
+            <Notice type={deviceMsg.type} text={deviceMsg.text} />
+            <p className={`mb-3 text-xs leading-relaxed ${isDark ? "text-white/40" : "text-black/40"}`}>
+              Bir qurilmada bitta hisob saqlanadi — bu hisoblarning qayta-qayta
+              yaratilishini oldini oladi. Chiqish qilganingizda bog'lanish
+              saqlanadi. Boshqa hisobga o'tish uchun avval shu qurilma
+              bog'lanishini uzasiz.
+            </p>
+            {(() => {
+              const platform = deviceStatus?.platform || getPlatform();
+              const platformLabel =
+                platform === "android"
+                  ? "Android ilova"
+                  : platform === "telegram"
+                    ? "Telegram Mini App"
+                    : "Brauzer";
+              const deviceId = getDeviceId();
+              const account = deviceStatus?.account;
+              return (
+                <>
+                  <div className={`divide-y ${isDark ? "divide-white/8" : "divide-black/[0.06]"}`}>
+                    <Row title="Platforma" desc="Qurilma turi" isDark={isDark}>
+                      <span
+                        className={`rounded-full px-2.5 py-1 text-[10px] font-bold ${
+                          isDark ? "bg-white/[0.07] text-white/60" : "bg-black/[0.05] text-black/55"
+                        }`}
+                      >
+                        {platformLabel}
+                      </span>
+                    </Row>
+                    <Row title="Qurilma ID" desc="Brauzer va ilova uchun bir xil" isDark={isDark}>
+                      <code
+                        title={deviceId}
+                        className={`rounded-lg px-2 py-1 text-[10px] font-semibold ${
+                          isDark ? "bg-white/[0.06] text-white/55" : "bg-black/[0.04] text-black/55"
+                        }`}
+                      >
+                        {deviceId.slice(0, 8)}…
+                      </code>
+                    </Row>
+                    <Row title="Bog'langan hisob" desc="Hozir shu qurilmaga biriktirilgan" isDark={isDark}>
+                      <span className="max-w-[55%] truncate text-right text-xs font-semibold">
+                        {deviceStatus == null
+                          ? "Tekshirilmoqda…"
+                          : account
+                            ? `${account.name || "Hisob"}${account.email_masked ? ` · ${account.email_masked}` : ""}`
+                            : "Bog'lanmagan"}
+                      </span>
+                    </Row>
+                  </div>
+                  <div className="mt-4">
+                    {deviceAsk ? (
+                      <div className="flex flex-wrap items-center gap-2">
+                        <button
+                          type="button"
+                          disabled={deviceBusy}
+                          onClick={switchDeviceAccount}
+                          className="inline-flex min-h-11 items-center rounded-full bg-red-500 px-4 text-xs font-bold text-white transition hover:bg-red-600 disabled:opacity-50"
+                        >
+                          {deviceBusy ? "Uzilmoqda…" : "Ha, uzish va chiqish"}
+                        </button>
+                        <button
+                          type="button"
+                          disabled={deviceBusy}
+                          onClick={() => setDeviceAsk(false)}
+                          className={`inline-flex min-h-11 items-center rounded-full border px-4 text-xs font-bold ${
+                            isDark ? "border-white/15 text-white/60" : "border-black/15 text-black/60"
+                          }`}
+                        >
+                          Bekor qilish
+                        </button>
+                      </div>
+                    ) : (
+                      <button
+                        type="button"
+                        onClick={() => setDeviceAsk(true)}
+                        className={`inline-flex min-h-11 items-center rounded-full border px-4 text-xs font-bold transition ${
+                          isDark
+                            ? "border-white/15 text-white/65 hover:bg-white/5"
+                            : "border-black/15 text-black/65 hover:bg-black/[0.04]"
+                        }`}
+                      >
+                        Hisobni almashtirish
+                      </button>
+                    )}
+                  </div>
+                </>
+              );
+            })()}
           </Section>
 
           {user?.is_examiner && (

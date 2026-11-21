@@ -1,3 +1,5 @@
+import { deviceHeaders } from "./deviceIdentity";
+
 export const BASE_URL =
   (typeof import.meta !== "undefined" && import.meta.env?.VITE_API_URL) ||
   "http://127.0.0.1:8000/api";
@@ -53,7 +55,7 @@ export async function refreshUser() {
 }
 
 export async function request(path, { method = "GET", body } = {}) {
-  const headers = { "Content-Type": "application/json" };
+  const headers = { "Content-Type": "application/json", ...deviceHeaders() };
   const token = getToken();
   if (token) headers.Authorization = `Token ${token}`;
   const res = await fetch(`${BASE_URL}${path}`, {
@@ -76,6 +78,15 @@ export async function request(path, { method = "GET", body } = {}) {
     err.status = res.status;
     err.data = data;
     if (data?.code) err.code = data.code;
+    if (
+      err.code === "device_linked" &&
+      typeof window !== "undefined" &&
+      typeof window.dispatchEvent === "function"
+    ) {
+      window.dispatchEvent(
+        new CustomEvent("ielts:device-conflict", { detail: data })
+      );
+    }
     throw err;
   }
   if (res.status === 204) return null;
@@ -95,6 +106,14 @@ export function login(email, password) {
 
 export function googleLogin(credential) {
   return request("/auth/google/", { method: "POST", body: { credential } });
+}
+
+export function getDeviceStatus() {
+  return request("/auth/device/status/");
+}
+
+export function releaseDevice() {
+  return request("/auth/device/release/", { method: "POST", body: {} });
 }
 
 export function updateProfile(payload) {
